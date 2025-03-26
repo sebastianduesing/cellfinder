@@ -42,6 +42,7 @@ imports/obi_imports.owl: sources/obi.owl inputs/obi_input.txt imports/uberon_imp
 	--term BFO:0000050 \
 	--term BFO:0000051 \
 	--term RO:0001000 \
+	--term OBI:9991118 \
 	--output $@
 	robot export --input $@ \
 	--header IRI \
@@ -123,7 +124,7 @@ merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.o
 	reduce \
 	--reasoner ELK \
 	remove \
-	--term_file removed_terms.txt \
+	--term-file removed_terms.txt \
 	reduce \
 	--reasoner ELK \
 	--output merged.owl

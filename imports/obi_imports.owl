@@ -277,6 +277,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An alternative term used by the IEDB.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
