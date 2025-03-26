@@ -133,7 +133,7 @@ merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.o
 build/merged_template.tsv: merged.owl
 	robot export \
 	--input $< \
-	--header "ID|LABEL|SubClass Of|Equivalent Class|definition|part of|derives from|has part" \
+	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part" \
 	--export $@
 
 
