@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/OBI_0100060
+http://purl.obolibrary.org/obo/OBI_0100067
+http://purl.obolibrary.org/obo/OBI_1110041
+http://purl.obolibrary.org/obo/OBI_1110043
+http://purl.obolibrary.org/obo/OBI_1110050
+http://purl.obolibrary.org/obo/OBI_1110051
+http://purl.obolibrary.org/obo/OBI_1110052

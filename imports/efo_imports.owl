@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ebi.ac.uk/efo/efo.owl#"
+     xml:base="http://www.ebi.ac.uk/efo/efo.owl"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sssom="https://w3id.org/sssom/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo/efo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0040042 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_URI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+        <rdfs:label>definition_citation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>seeAlso</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <rdfs:label>see also</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/sssom/mapping_justification -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/mapping_justification"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115>For continuants: C part_of C&apos; if and only if: given any c that instantiates C at a time t, there is some c&apos; such that c&apos; instantiates C&apos; at time t, and c *part_of* c&apos; at t. For processes: P part_of P&apos; if and only if: given any p that instantiates P at a time t, there is some p&apos; such that p&apos; instantiates P&apos; at time t, and p *part_of* p&apos; at t. (Here *part_of* is the instance-level part-relation.)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <efo:EFO_URI>http://www.ebi.ac.uk/efo/part_of</efo:EFO_URI>
+        <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>part of</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>part_of</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_gp2term"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
+        <rdfs:comment>EFO_0000822</rdfs:comment>
+        <rdfs:label>part of</rdfs:label>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:label>part_of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://wiki.geneontology.org/Part_of</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <efo:EFO_URI>http://www.ebi.ac.uk/efo/has_part</efo:EFO_URI>
+        <oboInOwl:hasDbXref>BFO:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:shorthand>has_part</oboInOwl:shorthand>
+        <rdfs:label>has part</rdfs:label>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115>Derivation as a relation between instances. The temporal relation of derivation is more complex. Transformation, on the instance level, is just the relation of identity: each adult is identical to some child existing at some earlier time. Derivation on the instance-level is a relation holding between non-identicals. More precisely, it holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. Thus we will have axioms to the effect that from c derives_from c1 we can infer that c and c1 are not identical and that there is some instant of time t such that c1 exists only prior to and c only subsequent to t. We will also be able to infer that the spatial region occupied by c as it begins to exist at t overlaps with the spatial region occupied by c1 as it ceases to exist in the same instant.</obo:IAO_0000115>
+        <efo:EFO_URI>http://www.ebi.ac.uk/efo/derives_from</efo:EFO_URI>
+        <rdfs:label>derives_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <obo:IAO_0000115>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CALOHA:TS-2035</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2035
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00007002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:68646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:68646
+ </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005623
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KUPO:0000002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KUPO:0000002
+
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C12508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C48694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001533
+
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0004017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0004017
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003012
+
+</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009000</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
+        <rdfs:comment>The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).</rdfs:comment>
+        <rdfs:label>cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CARO:mah</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>FBbt:00007002</owl:annotatedTarget>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>ZFA:0009000</owl:annotatedTarget>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell in vitro that is or has been maintained or propagated as part of a cell culture.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D002478</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MO:562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D002460</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16403</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <rdfs:comment>Note that this class was re-labeled to &apos;cultured cell&apos; instead of &apos;cell line cell&apos;, as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture.</rdfs:comment>
+        <rdfs:label>cultured cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell in vitro that is or has been maintained or propagated as part of a cell culture.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ReO:mhb</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006306 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+        <obo:IAO_0000115>TUBO cells are a cloned line established in vitro from a BALB-neuT mouse mammary carcinoma. They display membrane class I H-2dMHC glycoproteins and rp185neu proteins. In BALB/c mice, r-p185 is a xenogeneic Ag that differs from mouse rp185 in &lt;6% of the amino residues. Despite these differences, a challenge of 1 x 105 TUBO cells grew progressively in all BALB/c mice and gave rise to lobular carcinomas histologically similar to those that appear in BALB-neuT-transgenic mice. The reactive cell infiltrate associated with TUBO cell growth was marginal. No anti-TUBO cell CTL, nor IFN-gama, nor GM-CSF release were found when Spc from BALB/c mice bearing 3- or 10-mm mean TUBO tumors were tested immediately or after 6 days in in vitro restimulation with TUBO cells. Moreover, no anti-rp185 Ab were detected in the sera of tumor bearing mice. Despite their high membrane expression of the xenogeneic rp185, growing TUBO cells appear to trigger a marginal or no immune reaction in BALB/c mice.</obo:IAO_0000115>
+        <efo:definition_citation>https://cancermodels.nci.nih.gov/camod/ViewModelAction.do?unprotected_method=populateCellLines&amp;aModelID=448</efo:definition_citation>
+        <rdfs:label>TUBO</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

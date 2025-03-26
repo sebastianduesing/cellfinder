@@ -1,0 +1,497 @@
+ID	LABEL	IEDB alternative term	remove?	SubClass Of	Equivalent Class	definition	part of	derives from	has part
+CL:0000000	cell			anatomical structure		A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.			
+CL:0000003	native cell			cell		"A cell that is found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)."			
+CL:0000010	cultured cell			cell		A cell in vitro that is or has been maintained or propagated as part of a cell culture.			
+CL:0000017	spermatocyte	Sperm cell		germ cell		A male germ cell that develops from spermatogonia. The euploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids.			
+CL:0000023	oocyte	Oocyte		eukaryotic cell|germ cell		A female germ cell that has entered meiosis.			
+CL:0000031	neuroblast (sensu Vertebrata)	Neuroblast		eukaryotic cell|non-terminally differentiated cell		A cell that will develop into a neuron often after a migration phase.			
+CL:0000034	stem cell	Stem cell		eukaryotic cell|precursor cell		A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells.			
+CL:0000055	non-terminally differentiated cell			precursor cell		A precursor cell with a limited number of potential fates.			
+CL:0000057	fibroblast	Fibroblast		connective tissue cell		A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.			
+CL:0000062	osteoblast	Osteoblast		connective tissue cell|non-terminally differentiated cell|progenitor cell		"Skeletogenic cell that secretes osteoid, is capable of producing mineralized (hydroxyapatite) matrix, is located adjacent to or within osteoid tissue, and arises from the transformation of a preosteoblast cell."			
+CL:0000066	epithelial cell	Epithelial cell		eukaryotic cell|part_of some tissue		A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.	tissue		
+CL:0000081	blood cell			hematopoietic cell		A cell found predominately in the blood.			
+CL:0000084	T cell	T cell		lymphocyte		A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.			
+CL:0000094	granulocyte			blood cell|has_part some 'anatomical structure'|myeloid leukocyte		A leukocyte with abundant granules in the cytoplasm.			anatomical structure
+CL:0000097	mast cell	Mast cell		biogenic amine secreting cell|has_part some 'anatomical structure'|myeloid leukocyte		"A cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation. Progenitors leave bone marrow and mature in connective and mucosal tissue. Mature mast cells are found in all tissues, except the bloodstream. Their phenotype is CD117-high, CD123-negative, CD193-positive, CD200R3-positive, and FceRI-high. Stem-cell factor (KIT-ligand; SCF) is the main controlling signal of their survival and development."			anatomical structure
+CL:0000113	mononuclear phagocyte			mononuclear cell|stuff accumulating cell		A vertebrate phagocyte with a single nucleus.			
+CL:0000115	endothelial cell	Endothelial cell		eukaryotic cell		"An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm."			
+CL:0000125	glial cell	Glial cell		neural cell		"A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons."			
+CL:0000127	astrocyte	Astrocyte		glial cell		"A class of large neuroglial (macroglial) cells in the central nervous system - the largest and most numerous neuroglial cells in the brain and spinal cord. Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with 'end feet' which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier. They regulate the extracellular ionic and chemical environment, and 'reactive astrocytes' (along with microglia) respond to injury."			
+CL:0000145	professional antigen presenting cell			leukocyte		A cell capable of processing and presenting lipid and protein antigens to T cells in order to initiate an immune response.			
+CL:0000148	melanocyte	Melanocyte		eukaryotic cell|has_part some 'anatomical structure'|stuff accumulating cell		"A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance."			anatomical structure
+CL:0000151	secretory cell			cell		A cell that specializes in controlled release of one or more substances.			
+CL:0000163	endocrine cell			eukaryotic cell|part_of some 'material anatomical entity'|secretory cell		"A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions."	material anatomical entity		
+CL:0000164	enteroendocrine cell			endocrine cell|epithelial cell		An endocrine cell that is located in the epithelium of the gastrointestinal tract or in the pancreas.			
+CL:0000169	type B pancreatic cell	Pancreatic beta cell		enteroendocrine cell|part_of some 'compound organ'|part_of some 'multi-tissue structure'|part_of some pancreas		A cell that secretes insulin and is located towards the center of the islets of Langerhans.	compound organ|multi-tissue structure|pancreas		
+CL:0000182	hepatocyte	Hepatocyte		epithelial cell|part_of some liver		"The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated."	liver		
+CL:0000187	muscle cell	Muscle cell		electrically responsive cell|eukaryotic cell		"A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns."			
+CL:0000211	electrically active cell			cell		A cell whose function is determined by the generation or the reception of an electric signal.			
+CL:0000219	motile cell			cell		A cell that moves by its own activities.			
+CL:0000221	ectodermal cell	Ectodermal cell		embryonic cell (metazoa)|eukaryotic cell|part_of some embryo|part_of some tissue		A cell of the outer of the three germ layers of the embryo.	embryo|tissue		
+CL:0000232	erythrocyte	Erythrocyte		blood cell|myeloid cell		"A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen."			
+CL:0000233	platelet	Platelet		biogenic amine secreting cell|blood cell|myeloid cell		"A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation."			
+CL:0000235	macrophage	Macrophage		mononuclear phagocyte|myeloid leukocyte|professional antigen presenting cell		"A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells."			
+CL:0000236	B cell	B cell		lymphocyte of B lineage		A lymphocyte of B lineage that is capable of B cell mediated immunity.			
+CL:0000255	eukaryotic cell			cell		Any cell that in taxon some Eukaryota.			
+CL:0000325	stuff accumulating cell			cell		A cell that is specialised to accumulate a particular substance(s).			
+CL:0000393	electrically responsive cell			electrically active cell		A cell whose function is determined by its response to an electric signal.			
+CL:0000451	dendritic cell	Dendritic cell		mononuclear phagocyte|professional antigen presenting cell		"A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)."			
+CL:0000457	biogenic amine secreting cell			secretory cell					
+CL:0000540	neuron	Neuron		electrically responsive cell|neural cell		"The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system."			
+CL:0000542	lymphocyte	Lymphocyte		mononuclear cell		"A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin."			
+CL:0000576	monocyte	Monocyte		mononuclear phagocyte|myeloid leukocyte|progenitor cell		"Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells."			
+CL:0000586	germ cell			cell		The reproductive cell in multicellular organisms.			
+CL:0000623	natural killer cell	Natural killer cell		lymphocyte		A lymphocyte that can spontaneously kill a variety of target cells without prior antigenic activation via germline encoded activation receptors and also regulate immune responses via cytokine release and direct contact with other cells.			
+CL:0000624	"CD4-positive, alpha-beta T cell"	T cell CD4+		mature alpha-beta T cell		A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.			
+CL:0000625	"CD8-positive, alpha-beta T cell"	T cell CD8+		mature alpha-beta T cell		A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.			
+CL:0000738	leukocyte			eukaryotic cell|hematopoietic cell|motile cell|nucleate cell|part_of some 'material anatomical entity'		"An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue."	material anatomical entity		
+CL:0000763	myeloid cell	Myeloid cell		eukaryotic cell|hematopoietic cell		"A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage."			
+CL:0000766	myeloid leukocyte			leukocyte|myeloid cell		"A cell of the monocyte, granulocyte, or mast cell lineage."			
+CL:0000767	basophil	Basophil		granulocyte		"Any of the immature or mature forms of a granular leukocyte that in its mature form has an irregularly shaped, pale-staining nucleus that is partially constricted into two lobes, and with cytoplasm that contains coarse, bluish-black granules of variable size. Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation. A basophil is CD123-positive, CD193-positive, CD203c-positive, and FceRIa-positive."			
+CL:0000775	neutrophil	Neutrophil		granulocyte		"Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes."			
+CL:0000786	plasma cell	Plasma cell		lymphocyte of B lineage		"A terminally differentiated, post-mitotic, antibody secreting cell of the B cell lineage with the phenotype CD138-positive, surface immunonoglobulin-negative, and MHC Class II-negative. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern and are devoted to producing large amounts of immunoglobulin."			
+CL:0000791	mature alpha-beta T cell			T cell		A alpha-beta T cell that has a mature phenotype.			
+CL:0000798	gamma-delta T cell	T cell Î³Î´		T cell		A T cell that expresses a gamma-delta T cell receptor complex.			
+CL:0000814	mature NK T cell	NKT cells		mature alpha-beta T cell		A mature alpha-beta T cell of a distinct lineage that bears natural killer markers and a T cell receptor specific for a limited set of ligands. NK T cells have activation and regulatory roles particularly early in an immune response.			
+CL:0000835	myeloblast	Myeloblast		has_part some 'anatomical structure'|myeloid cell|progenitor cell		"The most primitive precursor in the granulocytic series, having fine, evenly distributed chromatin, several nucleoli, a high nuclear-to-cytoplasmic ration (5:1-7:1), and a nongranular basophilic cytoplasm. They reside in the bone marrow."			anatomical structure
+CL:0000842	mononuclear cell	Mononuclear cell		has_part some 'anatomical structure'|leukocyte		A leukocyte with a single non-segmented nucleus in the mature form.			anatomical structure
+CL:0000893	thymocyte	Thymocyte		T cell|part_of some thymus		An immature T cell located in the thymus.	thymus		
+CL:0000945	lymphocyte of B lineage			lymphocyte		A lymphocyte of B lineage with the commitment to express an immunoglobulin complex.			
+CL:0000988	hematopoietic cell			cell		A cell of a hematopoietic lineage.			
+CL:0002242	nucleate cell			cell		A cell containing at least one nucleus.			
+CL:0002319	neural cell			eukaryotic cell		A cell that is part of the nervous system.			
+CL:0002320	connective tissue cell			eukaryotic cell|part_of some 'connective tissue'	cell and (part_of some 'connective tissue')	"A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone."	connective tissue|connective tissue		
+CL:0002321	embryonic cell (metazoa)			cell		A cell of the embryo.			
+CL:0011012	neural crest cell	Neural crest cell		embryonic cell (metazoa)|stem cell		"A cell of the neural crest. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesynchymal transition and delamination to form migratory neural crest cells."			
+CL:0011026	progenitor cell			eukaryotic cell|precursor cell		"A precursor cell that has a tendency to differentiate into a specific type of cell. They are descendants of stem cells, only they are more constrained in their differentiation potential or capacity for self-renewal, and are often more limited in both senses."			
+CL:0011115	precursor cell			cell		"A cell that, by division or terminal differentiation, can give rise to other cell types."			
+CL:2000001	peripheral blood mononuclear cell	PBMC		mononuclear cell|part_of some blood	'mononuclear cell' and (part_of some blood)	A leukocyte with a single non-segmented nucleus in the mature form found in the circulatory pool of blood.	blood|blood		
+CL:2000074	splenocyte	Splenocyte		leukocyte|part_of some spleen	leukocyte and (part_of some spleen)	Any leukocyte that is part of a spleen.	spleen|spleen		
+CLO:0000001	cell line cell			cultured cell|derives_from some 'cultured cell'		A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture|A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture			
+		cultured cell							
+CLO:0000019	immortal cell line cell			cell line cell		"A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line."			
+CLO:0000020	immortal human cell line cell			immortal human cell line cell					
+CLO:0000042	immortal mouse cell line cell			immortal cell line cell		a immortal cell line that is dervied from mouse tissue.			
+CLO:0000079	immortal electrically active cell line cell			derives_from some 'native cell'|immortal cell line cell		an immortal cell line cell that is derived from electrically active cell		native cell	
+CLO:0000080	immortal electrically responsive cell line cell			immortal electrically active cell line cell		a immortal electrically active cell line cell that is derived from electrically responsive cell			
+CLO:0000102	immortal leukocyte cell line cell			immortal hematopoietic cell line cell		a immortal motile cell line that is derived from leukocyte			
+CLO:0000105	immortal myeloid leukocyte cell line cell			immortal leukocyte cell line cell		a immortal leukocyte cell line that is derived from myeloid leukocyte			
+CLO:0000106	immortal monocyte cell line cell			immortal myeloid leukocyte cell line cell|immortal nongranular leukocyte cell line cell		a immortal myeloid leukocyte cell line that is derived from monocyte			
+CLO:0000107	immortal nongranular leukocyte cell line cell			immortal leukocyte cell line cell		a immortal leukocyte cell line that is derived from nongranular leukocyte			
+CLO:0000108	immortal lymphocyte cell line cell			immortal nongranular leukocyte cell line cell|immortal nucleate cell line cell		a immortal nongranular leukocyte cell line that is derived from lymphocyte			
+CLO:0000109	immortal T cell line cell			immortal lymphocyte cell line cell		a immortal lymphocyte cell line that is derived from T cell			
+CLO:0000119	immortal B cell line cell			immortal lymphocyte cell line cell		a immortal lymphocyte cell line that is derived from B cell			
+CLO:0000128	immortal animal cell line cell			derives_from some 'native cell'|immortal cell line cell		a immortal eukaryotic cell line that is derived from animal cell		native cell	
+CLO:0000129	immortal epithelial cell line cell			immortal animal cell line cell		a immortal animal cell line that is derived from epithelial cell			
+CLO:0000147	immortal hematopoietic cell line cell			immortal animal cell line cell|immortal somatic cell line cell		a immortal animal cell line that is derived from hematopoietic cell			
+CLO:0000149	immortal blood cell line cell			immortal hematopoietic cell line cell		a immortal hematopoietic cell line that is derived from blood cell			
+CLO:0000160	immortal connective tissue cell line cell			immortal animal cell line cell|immortal somatic cell line cell		a immortal animal cell line that is derived from connective tissue cell			
+CLO:0000161	immortal fibroblast cell line cell			immortal connective tissue cell line cell		a immortal connective tissue cell line that is derived from fibroblast			
+CLO:0000165	immortal nucleate cell line cell			derives_from some 'native cell'|immortal cell line cell		a cell line that is derived from nucleate cell		native cell	
+CLO:0000166	immortal somatic cell line cell			derives_from some 'native cell'|immortal cell line cell		a cell line that is derived from somatic cell		native cell	
+CLO:0000169	hybridoma cell line cell	T cell hybridoma		immortal cell line cell		an immortal cell line cell that is established by fusing a specific antibody-producing B cell with a myeloma (B cell cancer) cell that is selected for its ability to produce a monoclonal antibody.			
+CLO:0000197	immortal skin-derived cell line cell			derives_from some (part_of some 'skin of body')|immortal cell line cell		An immortal cell line cell that derives from skin.		(part_of some 'skin of body')	
+CLO:0000219	immortal lung-derived cell line cell			derives_from some (part_of some 'pair of lungs')|immortal cell line cell		An immortal cell line cell that derives from pair of lungs.		(part_of some 'pair of lungs')	
+CLO:0000220	immortal kidney-derived cell line cell			derives_from some (part_of some kidney)|immortal cell line cell		An immortal cell line cell that derives from kidney.		(part_of some kidney)	
+CLO:0000228	immortal prostate gland-derived cell line cell			derives_from some (part_of some 'prostate gland')|immortal cell line cell		An immortal cell line cell that derives from prostate gland.		(part_of some 'prostate gland')	
+CLO:0000236	immortal colon-derived cell line cell			derives_from some (part_of some colon)|derives_from some colon|immortal cell line cell		An immortal cell line cell that derives from colon.		(part_of some colon)|colon	
+CLO:0000238	immortal pancreas-derived cell line cell			derives_from some (part_of some pancreas)|immortal cell line cell		An immortal cell line cell that derives from pancreas.		(part_of some pancreas)	
+CLO:0000253	immortal bone element-derived cell line cell			derives_from some (part_of some 'bone element')|immortal cell line cell		An immortal cell line cell that derives from bone element.		(part_of some 'bone element')	
+CLO:0000305	immortal rectum-derived cell line cell			derives_from some (part_of some rectum)|immortal cell line cell		An immortal cell line cell that derives from rectum.		(part_of some rectum)	
+CLO:0000374	immortal human peripheral vein-derived B cell line cell			immortal human B cell line cell		An immortal peripheral vein-derived B cell line cell that derives from human.			
+CLO:0000438	immortal human skin-derived cell line cell			immortal human cell line cell|immortal skin-derived cell line cell		An immortal skin-derived cell line cell that derives from human.			
+CLO:0000468	immortal human lymphocyte cell line cell			immortal human cell line cell|immortal lymphocyte cell line cell		An immortal lymphocyte cell line cell that derives from human.			
+CLO:0000493	immortal human lung-derived cell line cell			immortal human cell line cell|immortal lung-derived cell line cell		An immortal lung-derived cell line cell that derives from human.			
+CLO:0000494	immortal mouse pair of lungs-derived cell line cell			immortal lung-derived cell line cell|immortal mouse cell line cell		An immortal pair of lungs-derived cell line cell that derives from mouse.			
+CLO:0000511	immortal human cell line cell			immortal cell line cell		An immortal cell line cell that derives from human.			
+CLO:0000513	immortal human colon-derived cell line cell			immortal colon-derived cell line cell|immortal human cell line cell		An immortal colon-derived cell line cell that derives from human.			
+CLO:0000517	immortal human brain-derived cell line cell			immortal human cell line cell		An immortal brain-derived cell line cell that derives from human.			
+CLO:0000520	immortal mouse skin-derived cell line cell			immortal human skin-derived cell line cell|immortal mouse cell line cell		An immortal skin-derived cell line cell that derives from mouse.			
+CLO:0000523	immortal human peripheral neuron cell line cell			immortal animal cell line cell|immortal electrically responsive cell line cell|immortal human cell line cell|immortal somatic cell line cell		An immortal peripheral neuron cell line cell that derives from human.			
+CLO:0000549	immortal human stomach-derived cell line cell			immortal human cell line cell		An immortal stomach-derived cell line cell that derives from human.			
+CLO:0000551	immortal human pancreas-derived cell line cell			immortal human cell line cell|immortal pancreas-derived cell line cell		An immortal pancreas-derived cell line cell that derives from human.			
+CLO:0000560	immortal human bone element-derived cell line cell			immortal bone element-derived cell line cell|immortal human cell line cell		An immortal bone element-derived cell line cell that derives from human.			
+CLO:0000563	immortal human epithelial cell line cell			immortal epithelial cell line cell|immortal human cell line cell		An immortal epithelial cell line cell that derives from human.			
+CLO:0000564	immortal human urinary bladder-derived cell line cell			immortal human cell line cell		An immortal urinary bladder-derived cell line cell that derives from human.			
+CLO:0000565	immortal human liver-derived cell line cell			immortal human cell line cell		An immortal liver-derived cell line cell that derives from human.			
+CLO:0000578	immortal human breast-derived cell line cell			derives_from some breast|immortal human cell line cell		An immortal breast-derived cell line cell that derives from human.		breast	
+CLO:0000587	immortal human kidney-derived cell line cell			immortal human cell line cell|immortal kidney-derived cell line cell		An immortal kidney-derived cell line cell that derives from human.			
+CLO:0000606	immortal human female gonad-derived cell line cell			immortal human cell line cell		An immortal female gonad-derived cell line cell that derives from human.			
+CLO:0000617	immortal human blood cell line cell			immortal blood cell line cell|immortal human cell line cell		An immortal blood cell line cell that derives from human.			
+CLO:0000652	immortal human B cell line cell			immortal B cell line cell|immortal human lymphocyte cell line cell		An immortal B cell line cell that derives from human.			
+CLO:0000656	immortal human esophagus-derived cell line cell			immortal human cell line cell		An immortal esophagus-derived cell line cell that derives from human.			
+CLO:0000680	immortal human intestine-derived cell line cell			immortal human cell line cell		An immortal intestine-derived cell line cell that derives from human.			
+CLO:0000766	immortal human prostate epithelium-derived cell line cell			immortal human cell line cell		An immortal prostate epithelium-derived cell line cell that derives from human.			
+CLO:0000871	immortal human bone marrow-derived cell line cell			immortal human cell line cell		An immortal bone marrow-derived cell line cell that derives from human.			
+CLO:0000901	immortal human tongue-derived cell line cell			immortal human cell line cell		An immortal tongue-derived cell line cell that derives from human.			
+CLO:0000936	immortal human monocyte cell line cell			immortal human cell line cell|immortal monocyte cell line cell		An immortal monocyte cell line cell that derives from human.			
+CLO:0000957	immortal mouse prostate gland-derived cell line cell			immortal mouse cell line cell|immortal prostate gland-derived cell line cell		An immortal prostate gland-derived cell line cell that derives from mouse.			
+CLO:0001008	697 cell	697-B cell		immortal human cell line cell					
+CLO:0001056	1205Lu cell	1205Lu-Melanocyte		immortal human skin-derived cell line cell					
+CLO:0001137	184A1 cell	184A1-Epithelial Cell		immortal cell line cell					
+CLO:0001176	2.2.15 cell	Hep-G2/2.2.15-Hepatocyte		immortal cell line cell					
+CLO:0001199	22RV1 cell	22Rv1-Epithelial cell		derives_from some 'prostate gland'|immortal human cell line cell				prostate gland	
+CLO:0001230	HEK293	HEK293-Epithelial cell		immortal human kidney-derived epithelial cell line cell					
+CLO:0001400	4MBr-5 cell	4MBr-5-Epithelial cell		immortal cell line cell					
+CLO:0001401	4T1 cell	4T1-Epithelial cell		immortal cell line cell					
+CLO:0001421	5637 cell	5637-Epithelial cell		immortal human cell line cell|immortal human urinary bladder-derived cell line cell					
+CLO:0001560	A172 cell	A-172-Glial cell		immortal human brain-derived cell line cell					
+CLO:0001566	A2058 cell	A2058-Epithelial cell		derives_from some 'skin of body'|immortal human skin-derived cell line cell				skin of body	
+CLO:0001582	A-375 cell	A-375-Epithelial cell		immortal human cell line cell|immortal human skin-derived cell line cell					
+CLO:0001592	A-431 cell	A-431-Epithelial cell		immortal cell line cell					
+CLO:0001601	A549 cell	A549-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0001606	A-673 cell	A-673-Neural crest cell		immortal cell line cell					
+CLO:0001686	AGS cell	AGS-Epithelial cell 		immortal human cell line cell|immortal human stomach-derived cell line cell					
+CLO:0001756	AsPC-1 cell	AsPC1-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0001769	AU565 cell	AU565-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0001793	B16-F1 cell	B16-F1-Epithelial cell		immortal mouse skin-derived cell line cell					
+CLO:0001794	B16-F10 cell	B16-F10-Epithelial cell		immortal mouse skin-derived cell line cell					
+CLO:0001842	BA/F3 cell	Ba/F3-B cell		immortal cell line cell					
+CLO:0001925	BEAS-2B cell	BEAS-2B-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0001987	BL-41 cell	BL-41-Lymphocyte		immortal human lymphocyte cell line cell					
+CLO:0002041	BT-20 cell	BT20-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0002042	BT-474 cell	BT-474-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0002043	BT-483 cell	BT-483-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0002044	BT-549 cell	BT-549-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0002052	BV-173 cell	BV-173-Myeloblast		immortal human peripheral neuron cell line cell					
+CLO:0002065	BxPC-3 cell	BxPC-3-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0002115	C-33 A cell	C-33A-Epithelial cell		derives_from some 'uterine cervix'|immortal human cell line cell				uterine cervix	
+CLO:0002165	Ca Ski cell	CaSki-Epithelial cell		derives_from some 'uterine cervix'|derives_from some uterus|immortal human cell line cell				uterine cervix|uterus	
+CLO:0002168	CA46 cell	CA46-Lymphoblast		immortal human lymphocyte cell line cell					
+CLO:0002172	Caco-2 cell	Caco-2-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0002175	CAKI-1 cell	Caki-1-Epithelial cell		immortal human kidney-derived cell line cell					
+CLO:0002179	CAL-120 cell	CAL-120-Epithelial cell		immortal human breast-derived cell line cell|immortal human cell line cell					
+CLO:0002191	Calu-1 cell	Calu-1-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0002192	Calu-3 cell	Calu-3-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0002195	Caov-3 cell	Caov-3-Epithelial cell		immortal human cell line cell					
+CLO:0002197	Capan-1 cell	Capan-1-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0002198	Capan-2 cell	Capan-2-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0002395	CFPAC-1 cell	CFPAC-1-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0002531	CMT64/61 cell	CMT64-Epithelial cell		immortal mouse pair of lungs-derived cell line cell					
+CLO:0002544	COLO 205 cell	COLO 205-Epithelial cell		immortal human colon-derived cell line cell					
+CLO:0002571	COLO-320 cell	COLO320-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0002597	COS-7 cell	Cos-7-Fibroblast		immortal kidney-derived cell line cell					
+CLO:0002631	CT26.WT cell	CT26.WT-Fibroblast		immortal colon-derived cell line cell|immortal mouse cell line cell					
+CLO:0002708	Daudi cell	Daudi-Lymphoblast		immortal human lymphocyte cell line cell					
+CLO:0002709	DB cell	DB-B cell		immortal human cell line cell					
+CLO:0002723	DBTRG-05MG cell	DBTRG05-MG-Glial cell		immortal human brain-derived cell line cell|immortal human cell line cell					
+CLO:0002767	DG-75 cell	DG-75-B cell		immortal human lymphocyte cell line cell					
+CLO:0002785	DLD-1 cell	DLD-1-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0002797	DMS 273 cell	DMS273-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0002798	DMS 454 cell	DMS 454-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0002799	DMS 53 cell	DMS 53-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0002805	DOHH2 cell	DoHH2-B cell		immortal cell line cell					
+CLO:0002840	DU 145 cell	DU145-Epithelial cell		immortal human prostate epithelium-derived cell line cell					
+CLO:0002889	EFM-192A cell	EFM192A-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0002913	EL4 cell	EL-4 cells-Lymphoblast		immortal T cell line cell|immortal mouse cell line cell		immortal T cell line cell that is derived from blood T cells from mouse C57BL/6 inbred strain that has disease mouse lymphoma.			
+CLO:0003433	G-361 cell	G-361-Melanocyte		immortal human cell line cell|immortal human skin-derived cell line cell					
+CLO:0003434	G-401 cell	G-401-Epithelial cell		immortal human cell line cell|immortal human kidney-derived cell line cell					
+CLO:0003630	HCC1143 cell	HCC1143-Epithelial cell		immortal human breast epithelial cell line cell|immortal human cell line cell		immortal epithelial cell line cell that is derived from some breast epithelial cell from a human patient who had invasive ductal carcinoma.			
+CLO:0003632	HCC1187 cell	HCC1187-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0003634	HCC1395 cell	HCC1395-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0003636	HCC1419 cell	HCC1419-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0003637	HCC1428 cell	HCC1428-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0003639	HCC1500 cell	HCC1500-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0003640	HCC1569 cell	HCC1569-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0003644	HCC1806 cell	HCC1806-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0003658	HCC70 cell	HCC70-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0003659	HCC827 cell	HCC827-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0003665	HCT 116 cell	HCT 116-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell|immortal human epithelial cell line cell		immortal human epithelial cell line cell that was derived from some colon epithelial cell from a human patient with the disease colon carcinoma			
+CLO:0003666	HCT-15 cell	HCT 15-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0003667	HCT-8 cell	HCT 8-Epithelial cell		derives_from some 'subdivision of digestive tract'|immortal human cell line cell				subdivision of digestive tract	
+CLO:0003684	HeLa cell	HeLa cells-Epithelial cell		immortal human cell line cell|immortal human epithelial cell line cell		"an immortal human uterine cervix-derived epithelial cell line that was derived from cervical adenocarcinoma cancer cells taken on February 8, 1951 from Henrietta Lacks, a patient who died of her cancer on October 4, 1951."			
+CLO:0003704	Hep G2 cell	HepG2-Hepatocyte		immortal human liver-derived cell line cell					
+CLO:0003744	HH cell	HH-T cell		immortal human cell line cell					
+CLO:0003787	HMy2.CIR cell	C1R cells-B cell		immortal human B cell line cell		immortal human B cell line cell that derives from some B cell from a human blood sample			
+CLO:0003795	HOS cell	HOS-Epithelial cell		immortal human bone element-derived cell line cell					
+CLO:0004009	Hs 578T cell	Hs 578T-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0004245	Hs 940.T cell	Hs 940.T-Fibroblast		immortal human cell line cell|immortal human skin-derived cell line cell					
+CLO:0004278	HT-1197 cell	HT1197-Epithelial cell		immortal human cell line cell|immortal human urinary bladder-derived cell line cell					
+CLO:0004283	HT-29 cell	HT-29-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0006961	IPC-298 cell	IPC-298-Melanocyte		derives_from some 'skin of body'|immortal human cell line cell				skin of body	
+CLO:0007012	JAWSII cell	JAWS II-Dendritic cell		immortal monocyte cell line cell|immortal mouse cell line cell		immortal mouse  monocyte cell  line cell that derives from some monocyte immature dendritic cell from the bone marrow of mouse C57BL/6 inbred strain.			
+CLO:0007043	JURKAT cell	Jurkat-T cell		immortal human cell line cell|immortal human peripheral neuron cell line cell		an immortalized human T lymphocyte cell that was derived in the late 1970s from the peripheral blood of a 14-year-old boy with T cell leukemia			
+CLO:0007050	K 562 cell	K562-Myeloid cell		immortal human cell line cell					
+CLO:0007073	KATO III cell	KATO III-Epithelial cell		immortal human stomach-derived cell line cell					
+CLO:0007189	L-428 cell	L-428-Lymphocyte		immortal cell line cell					
+CLO:0007201	L-540 cell	L-540-Lymphocyte		immortal cell line cell					
+CLO:0007325	LL/2 (LLC1) cell	LL/2 (LLC1)-Epithelial cell		immortal mouse pair of lungs-derived cell line cell					
+CLO:0007336	L-M cell	L cells-Fibroblast		immortal fibroblast cell line cell|immortal mouse cell line cell		immortal mouse fibroblast cell line cell that was derived from some fibroblasts from a C3H/An mouse connective tissue			
+CLO:0007365	LNCAP cell	LNCa-Epithelial cell		immortal human cell line cell|immortal prostate gland-derived cell line cell					
+CLO:0007587	MC57G cell	MC57G-Fibroblast cell		immortal cell line cell					
+CLO:0007606	MCF7 cell	MCF-7/LY2-Epithelial cell		derives_from some 'native cell'|immortal human breast-derived cell line cell|immortal human cell line cell		an immortal breast cancer cell line cell isolated in 1970 from a 69-year-old Caucasian woman.		native cell	
+CLO:0007629	MDA PCa 2b cell	MDA-PCa-2b-Epithelial cell		immortal human prostate epithelium-derived cell line cell					
+CLO:0007634	MDA-MB-231 cell	MDA-MB-231-Epithelial cell		derives_from some 'native cell'|immortal human breast-derived cell line cell|immortal human cell line cell		an immortal breast cancer cell line cell derived from a human patient with breast adenocarcinoma		native cell	
+CLO:0007636	MDA-MB-361 cell	MDA-MB-361-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0007641	MDA-MB-468 cell	MDA-MB-468-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0007668	MEG-01 cell	MEG-01-Lymphoblast		derives_from some 'native cell'|immortal human cell line cell				native cell	
+CLO:0007680	MeT-5A cell	Met-5A-Epithelial cell		immortal human cell line cell					
+CLO:0007688	MeWo cell	MeWo-Fibroblast		immortal human skin-derived cell line cell					
+CLO:0007726	MIA PaCa-2 cell	MIA PaCa-2-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0007733	MKN-45 cell	MKN45-Epithelial cell		immortal human cell line cell|immortal human stomach-derived cell line cell					
+CLO:0007825	MOLT-4 cell	MOLT-4-Lymphocyte		immortal cell line cell					
+CLO:0007830	MOPC 315 cell	MOPC315-B cell		immortal cell line cell					
+CLO:0007906	MV-4-11 cell	MV411-Myeloblast		immortal cell line cell					
+CLO:0007938	NALM-6 cell	NALM-6-B cell		immortal human cell line cell|immortal human peripheral neuron cell line cell					
+CLO:0007939	NAMALWA cell	Namalwa-Lymphoblast		immortal human cell line cell					
+CLO:0007947	NB-4 cell	NB-4-B cell		immortal human cell line cell					
+CLO:0007980	NCI-H1092 cell	NCI-H1092-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0007986	NCI-H1299 cell	H1299-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0007989	NCI-H1355 cell	NCI-H1355-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0007992	NCI-H1395 cell	NCI-H1395-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0007998	NCI-H146 cell	NCI-H146-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008016	NCI-H1755 cell	NCI-H1755-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008035	NCI-H1975 cell	NCI-H1975-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008067	NCI-H2228 cell	NCI-H2228-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008068	NCI-H226 cell	NCI-H226-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008076	NCI-H2444 cell	NCI-H2444-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008077	NCI-H2452 cell	NCI-H2452-Epithelial cell		derives_from some lung|immortal human cell line cell				lung	
+CLO:0008080	NCI-H292 cell	NCI-H292-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008084	NCI-H345 cell	NCI-H345-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008085	NCI-H358 cell	NCI-H358-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008087	NCI-H441 cell	NCI-H441-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008088	NCI-H446 cell	NCI-H446-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008093	NCI-H520 cell	H520-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008094	NCI-H522 cell	NCI-H522-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0008102	NCI-H660 cell	NCI-H660-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008105	NCI-H69 cell	NCI-H69-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0008127	NCI-H929 cell	NCI-H929-B cell		immortal cell line cell					
+CLO:0008129	NCI-N87 cell	NCI-N87-Epithelial cell		immortal human stomach-derived cell line cell					
+CLO:0008172	NIH-3T3 cell	NIH 3T3-Fibroblast		immortal mouse cell line cell					
+CLO:0008195	NRK cell	NRK-Epithelial cell		immortal kidney-derived cell line cell					
+CLO:0008228	OAW28 cell	OAW28-Epithelial cell		immortal human cell line cell|immortal human female gonad-derived cell line cell					
+CLO:0008235	OCI-AML2 cell	OCI-AML-2-Myeloblast		immortal human peripheral neuron cell line cell					
+CLO:0008238	OE19 cell	OE19-Epithelial cell		immortal human cell line cell|immortal human esophagus-derived cell line cell					
+CLO:0008269	OPM-2 cell	OPM-2-B cell		immortal human cell line cell|immortal human peripheral neuron cell line cell					
+CLO:0008279	OVCAR-3 cell	OVCAR3-Fibroblast		immortal human cell line cell|immortal human female gonad-derived cell line cell					
+CLO:0008280	OVCAR-5 cell	OVCAR5-Epithelial cell		immortal human cell line cell|immortal human female gonad-derived cell line cell					
+CLO:0008321	P388 cell	P388-Lymphoblast		immortal blood cell line cell|immortal mouse cell line cell					
+CLO:0008341	P815 cell	P815-Mast cell		immortal mouse cell line cell|immortal myeloid leukocyte cell line cell		immortal mouse mast cell line cell that was derived from some lymph node mast cell from a /2 mouse with mast cell neoplasm			
+CLO:0008380	Panc 10.05 cell	Panc 10.05-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0008381	PANC-1 cell	PANC-1-Epithelial cell		immortal human pancreas-derived epithelial cell line cell					
+CLO:0008395	PC-3 cell	PC-3-Epithelial cell		derives_from some 'native cell'|derives_from some 'prostate gland'|immortal human cell line cell|immortal human prostate epithelium-derived cell line cell				native cell|prostate gland	
+CLO:0008458	PLC/PRF/5 cell	PLC/PRF/5-Hepatocyte		immortal human cell line cell|immortal human liver-derived cell line cell					
+CLO:0008693	R D cell	RD-Muscle cell		immortal animal cell line cell|immortal electrically responsive cell line cell|immortal human cell line cell|immortal somatic cell line cell					
+CLO:0008734	Raji cell	Raji-B cell		immortal cell line cell					
+CLO:0008738	RAMOS cell	Ramos-B cell		immortal cell line cell					
+CLO:0008873	RPMI 8226 cell	RPMI-8226-Lymphoblast		derives_from some 'native cell'|immortal human cell line cell				native cell	
+CLO:0008947	Saos-2 cell	SaOS-2-Osteoblast		immortal human bone element-derived cell line cell|immortal human cell line cell					
+CLO:0009034	SK-BR-3 cell	SK-BR3-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0009041	SK-MEL-2 cell	SK-MEL-2-Melanocyte		immortal human skin-derived cell line cell					
+CLO:0009043	SK-MEL-28 cell	SK-MEL-28-Melanocyte		immortal human skin-derived cell line cell					
+CLO:0009047	SK-MEL-5 cell	SK-MEL-5-Melanocyte		immortal human cell line cell|immortal human skin-derived cell line cell		"A melanoma cell line cell. This cell line was established in 1974 from a metastatic site (axillary lymph node) in a 24-year-old Caucasian female with malignant melanoma, expresses mutant B-Raf (V600E) and wildtype N-Ras."			
+CLO:0009051	SK-N-AS cell	SK-N-AS-Neuroblast		immortal human brain-derived cell line cell					
+CLO:0009063	SK-OV-3 cell	SKOV3-Epithelial cell		immortal human cell line cell					
+CLO:0009105	SNU-C2B cell	SNU-C2B-Epithelial cell		derives_from some 'subdivision of digestive tract'|immortal human cell line cell				subdivision of digestive tract	
+CLO:0009160	SU-DHL-1 cell	SU-DHL-1-Lymphocyte		immortal human lymphocyte cell line cell					
+CLO:0009161	SUP-B15 cell	SUP-B15-B cell		immortal human B cell line cell|immortal human cell line cell		an immortal human B cell line cell that is derived from a 8-year-old Caucasian male human patient with an acute lymphoblastic leukemia.			
+CLO:0009164	SUP-T1 cell	SUP-T1-Lymphoblast		immortal T cell line cell|immortal human cell line cell|immortal human lymphocyte cell line cell		immortal human T cell line cell that was derived from some human T cell from a patient who had disease  T-cell childhood lymphoblastic lymphoma			
+CLO:0009188	SW 1463 cell	SW1463-Epithelial cell		derives_from some 'subdivision of digestive tract'|immortal human cell line cell|immortal rectum-derived cell line cell				subdivision of digestive tract	
+CLO:0009190	SW 1573 cell	SW1573-Epithelial cell		immortal human cell line cell|immortal human lung-derived cell line cell					
+CLO:0009192	SW 1990 cell	SW1990-Epithelial cell		immortal human pancreas-derived epithelial cell line cell					
+CLO:0009195	SW 480 cell	SW-480-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0009196	SW 620 cell	SW620-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0009216	SW48 cell	SW-48-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0009226	SW948 cell	SW948-Epithelial cell		immortal human cell line cell|immortal human colon-derived cell line cell					
+CLO:0009242	T2 (174 x CEM.T2) cell	T2 cells-Lymphoblast		immortal human B cell line cell|immortal human cell line cell		an immortal human B cell line cell that was derived some B cell isolated from  human blood			
+CLO:0009245	T24 cell	T24-Epithelial cell		immortal human cell line cell|immortal human urinary bladder-derived cell line cell					
+CLO:0009251	T-47D cell	T-47D-Epithelial cell		immortal human breast epithelial cell line cell|immortal human cell line cell					
+CLO:0009258	T98G cell	T98G-Glial cell		immortal human brain-derived cell line cell|immortal human cell line cell					
+CLO:0009279	TC-1 cell	TC-1-Epithelial cell		immortal mouse pair of lungs-derived cell line cell					
+CLO:0009326	TF-1 cell	TF-1-Erythrocyte		immortal human cell line cell					
+CLO:0009348	THP-1 cell	THP-1-Monocyte		immortal human monocyte cell line cell					
+CLO:0009385	TOV-21G cell	TOV-21G-Epithelial cell		immortal human cell line cell|immortal human female gonad-derived cell line cell					
+CLO:0009401	TRAMP-C1 cell	TRAMP-C1-Epithelial cell		immortal mouse prostate gland-derived cell line cell					
+CLO:0009402	TRAMP-C2 cell	TRAMP-C2-Epithelial cell		immortal mouse prostate gland-derived cell line cell					
+CLO:0009454	U-2 OS cell	U2-OS-Epithelial cell		derives_from some 'native cell'|immortal human bone element-derived cell line cell|immortal human cell line cell|native cell|part_of some tissue			tissue	native cell	
+CLO:0009456	U-251 MG cell	U-251MG-Glial cell		immortal human brain-derived cell line cell					
+CLO:0009458	U266B1 cell	U266B1-B cell		immortal human B cell line cell|immortal human cell line cell		immortal human B cell line cell that was derived from some human B cell isolated from a patient with multiple myeloma			
+CLO:0009462	U-698-M cell	U-698-M-Lymphocyte		immortal human cell line cell					
+CLO:0009464	U-87 MG cell	U-87MG-Glial cell		immortal human brain-derived cell line cell|immortal human cell line cell					
+CLO:0009465	U-937 cell	U-937-Monocyte		immortal human cell line cell|immortal human monocyte cell line cell		a immortal human monocyte cell line cell that was derived from the histiocytic lymphoma of a 37-year-old male patient			
+CLO:0009467	UACC-812 cell	UACC-812-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0009468	UACC-893 cell	UACC-893-Epithelial cell		derives_from some breast|immortal human cell line cell				breast	
+CLO:0009597	WI-38 VA-13 cell	WI-38 VA13 subline 2RA-Epithelial cell		immortal human cell line cell					
+CLO:0009616	WM278 cell	WM278-Melanocyte		immortal human cell line cell|immortal human skin-derived cell line cell					
+CLO:0009619	WM793B cell	WM793-Melanocyte		immortal human cell line cell|immortal human skin-derived cell line cell					
+CLO:0009727	ZR-75-1 cell	ZR75.1-Epithelial cell		immortal human breast epithelial cell line cell					
+CLO:0009728	ZR-75-30 cell	ZR-75-30-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0009791	immortal human myeloblast cell line cell	KG-1-Myeloblast		immortal hematopoietic cell line cell|immortal human cell line cell|immortal nucleate cell line cell		An immortal myeloblast cell line cell that derives from human.			
+CLO:0009853	OCI-AML3 cell	OCI-AML3-Myeloid cell		immortal human blood cell line cell					
+CLO:0009856	PL-21 cell	PL-21-Myeloblast		immortal human blood cell line cell					
+CLO:0009873	EW-7 cell	EW-7-Neural crest cell		immortal human bone element-derived cell line cell					
+CLO:0009879	TC-71 cell	TC-71-Neural crest cell		immortal human bone element-derived cell line cell					
+CLO:0009894	KNS-42 cell	KNS42-Glial cell		immortal human brain-derived cell line cell					
+CLO:0009912	JIMT-1 cell	JIMT-1-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0009918	SUM159PT cell	SUM159PT-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0009919	SUM185PE cell	SUM185PE-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0009958	CL-40 cell	CL-40-Epithelial cell		immortal human intestine-derived cell line cell					
+CLO:0009970	MDST8 cell	MDST8-Epithelial cell		immortal human intestine-derived cell line cell					
+CLO:0009974	A498 cell	A498-Epithelial cell		immortal human kidney-derived cell line cell					
+CLO:0010594	GM08600 cell	31227ABO-B cell		immortal human peripheral vein-derived B cell line cell					
+CLO:0010607	GM08605 cell	MOU-B cell		immortal human peripheral vein-derived B cell line cell					
+CLO:0037020	LC-2-ad cell	LC-2/ad-Epithelial cell		immortal human lung-derived cell line cell					
+CLO:0037061	SU-DHL-4 cell	SU-DHL-4-B cell		immortal human lymphocyte cell line cell					
+CLO:0037063	SU-DHL-6 cell	SU-DHL-6-B cell		immortal human lymphocyte cell line cell					
+CLO:0037068	WSU-DLCL2 cell	WSU-DLCL2-B cell		immortal human lymphocyte cell line cell					
+CLO:0037104	TYK-nu cell	TYK-nu-Epithelial cell		immortal fibroblast cell line cell|immortal human cell line cell					
+CLO:0037107	KP-2 cell	KP2-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0037108	KP-3 cell	KP3-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0037114	SUIT-2 cell	SUIT2-Epithelial cell		immortal human pancreas-derived cell line cell					
+CLO:0037132	MZ2-MEL cell	MZ2-MEL-Melanocyte		immortal human skin-derived cell line cell					
+CLO:0037135	UACC-257 cell	UACC-257-Melanocyte		immortal human skin-derived cell line cell					
+CLO:0037144	NUGC-3 cell	NUGC-3-Epithelial cell		immortal human stomach-derived cell line cell					
+CLO:0037159	LB831-BLC cell	LB831-BLC-Epithelial cell		immortal human urinary bladder-derived cell line cell					
+CLO:0037173	JJN-3 cell	JJN-3-B cell		immortal human bone marrow-derived cell line cell					
+CLO:0037180	MCF12A cell	MCF12A-Epithelial cell		immortal human breast-derived cell line cell					
+CLO:0037194	immortal human breast epithelial cell line cell			immortal human breast-derived cell line cell|immortal human epithelial cell line cell		An immortal human epithelial cell line cell that derives from human breast.			
+CLO:0037201	RMA cell	RMA-Lymphocyte		immortal T cell line cell|immortal mouse cell line cell		"An immortal mouse T cell line cell derived from a mouse lymphoma, specifically a Rauscher virus-induced tumor.This cell line is antigen processing-defective and expresses a very low level of MHC molecules on its surface."			
+CLO:0037202	JY cell	JY cells-B cell		immortal human B cell line cell|immortal human cell line cell					
+CLO:0037203	MM.1S cell	MM.1S-B cell		immortal human B cell line cell|immortal human cell line cell					
+CLO:0037204	LSCC-RP9 cell	LSCC-RP9-B cell		immortal B cell line cell		immortal chicken B cell line cell derives_from some B cell from the peritoneal sac of a chicken having leukosis			
+CLO:0037205	UCI 107 cell	UCI 107-Epithelial cell		immortal human cell line cell|immortal human epithelial cell line cell		immortal human epithelial cell line cell  derives_from some ovary epithelial cell from a patient having ovary serous adenocarcinoma			
+CLO:0037206	UCI 101 cell	UCI 101-Epithelial cell		immortal human cell line cell|immortal human epithelial cell line cell		immortal human epithelial cell line cell  derives_from some ovary epithelial cell from a patient having ovary serous adenocarcinoma			
+CLO:0037235	immortal human pancreas-derived epithelial cell line cell			derives_from some 'native cell'|immortal human cell line cell|immortal human pancreas-derived cell line cell		An immortal pancreas-derived cell line cell that derives from human.		native cell	
+CLO:0037236	immortal human kidney-derived epithelial cell line cell			derives_from some 'native cell'|immortal human kidney-derived cell line cell		An immortal kidney-derived cell line cell that derives from human.		native cell	
+CLO:0037256	HBL-1 cell	HBL-1-B cell		immortal human B cell line cell|immortal human cell line cell		"HBL-1 (aka human is an EBV-negative B-cell lymphoma cell line established from the pleural effusion of a patient with malignant lymphoma, diffuse, large cell."			
+CLO:0037272	TMD8 cell	TMD8-B cell		immortal human B cell line cell|immortal human cell line cell		Human diffuse large B cell lymphoma cell line derived from a 62-year-old male patient			
+CLO:0050045	RCB0455 cell	LC-1-Epithelial cell		immortal human lung-derived cell line cell		A immortal human cell line cell that has the characteristics: Parent cell line of LC/sq-SFthe same patient as RCB0439 LC-F. Cell growth is slow.			
+CLO:0050048	RCB0725 cell	MS-1-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Small lung carcinoma. PTHrP producing.			
+CLO:0050049	RCB1905 cell	Sq-1-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Human cell line derived from lung squamous cell carcinoma. Many granules are found in cytoplasma. HLA-A 11/24. TKG0301 (Deposited from Tohoku Univ.).			
+CLO:0050057	RCB2818 cell	B1203L-Epithelial cell		immortal human cell line cell		"A immortal human cell line cell that has the characteristics: Human cell line derived from lung adenocarcinoma. HLA A2402/2402, B5201/5401, C0102/1202."			
+CLO:0050059	RCB1967 cell	Lu-65-Epithelial cell		immortal human lung-derived cell line cell		A immortal human cell line cell that has the characteristics: Human lung carcinoma cell line. TKG0442(Deposited from Tohoku Univ.).			
+CLO:0050067	RCB4455 cell	PC-9-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Human cell line derived from lung adenocarcinoma cells. Differentiated type. <a href='http://www.brc.riken.go.jp/lab/cell/english/rcb0446_announce.shtml'>Previous name:PC-14(RCB0446) </a>			
+CLO:0050083	RCB2293 cell	ACC-MESO-4-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Human malignant pleural mesothelioma cell line.			
+CLO:0050104	RCB2138 cell	KLM-1-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Human cell line derived from pancreatic cancer. RCB1972 is derived from the same patient. TKG0490 (Deposited from Tohoku Univ.).			
+CLO:0050107	RCB2141 cell	PK-45P-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Human cell line derived from pancreatic carcinoma. RCB1973 is derived from the same patient. TKG0493(Deposited from Tohoku Univ.).			
+CLO:0050150	RCB0980 cell	Sa3-Epithelial cell		immortal human cell line cell		A immortal human cell line cell that has the characteristics: Squamous carcinoma cells derived from human oral cancer.			
+CLO:0050164	RCB0193 cell	KMM-1-B cell		immortal mouse cell line cell		A immortal mouse cell line cell that has the characteristics: Human myeloma. Lambda- chain producing.			
+CLO:0050192	RCB2652 cell	J774-1-Macrophage		immortal mouse cell line cell		A immortal mouse cell line cell that has the characteristics: Mouse cell line derived from ascites. Macrophage-like cells. BALB/c strain. TKG0208(Deposited from Tohoku Univ.).			
+CLO:0050238	RCB1830 cell	Rat1-Fibroblast		immortal connective tissue cell line cell		A immortal connective tissue cell line cell that has the characteristics: Rat fibroblast-like cell line that can be transformed by oncogenes.			
+CLO:0050752	RCB1283 cell	B16-Epithelial cell		immortal mouse skin-derived cell line cell		A immortal mouse skin-derived cell line cell that has the characteristics: Mouse melanoma producing melanin.			
+CLO:0050789	RCB1939 cell	NUGC4-Epithelial cell		immortal human stomach-derived cell line cell		A immortal human stomach-derived cell line cell that has the characteristics: Human cell line derived from signet ring cell carcinoma of stomach. TKG0449 (Deposited from Tohoku Univ.).			
+CLO:0050802	RCB1434 cell	KE39-Epithelial cell		immortal human stomach-derived cell line cell		A immortal human stomach-derived cell line cell that has the characteristics: Human cell line derived from gastric cancer			
+CLO:0050853	RCB1942 cell	HuH7-Hepatocyte		immortal human liver-derived cell line cell		A immortal human liver-derived cell line cell that has the characteristics: Human cell line derived from hepatoma. TKG0206 (Deposited from Tohoku Univ.).			
+CLO:0050890	RCB1151 cell	10RGB-Epithelial cell		immortal human kidney-derived cell line cell		A immortal human kidney-derived cell line cell that has the characteristics: Kidney carcinoma from a Japanese patient. Cell growth is slow.			
+CLO:0050893	RCB1963 cell	VMRC-RCW-Epithelial cell		immortal human kidney-derived cell line cell		A immortal human kidney-derived cell line cell that has the characteristics: Human renal cell carcinoma cell line. TKG0447(Deposited from Tohoku Univ.).			
+CLO:0050894	RCB2202 cell	293-T-Epithelial cell		derives_from some HEK293|immortal human cell line cell|immortal human kidney-derived epithelial cell line cell		A immortal human kidney-derived cell line cell that has the characteristics: Human cell line expressing SV40 large T antigen abundantly.|immortal human kidney-derived cell line cell that was derived from some human kidney epithelial cells		HEK293	
+CLO:0050896	RCB1275 cell	TUHR-10TKB-Epithelial cell		immortal human kidney-derived cell line cell		A immortal human kidney-derived cell line cell that has the characteristics: Japanese renal carcinoma cells expressing HLA-A2402. Cell growth is slow.			
+CLO:0050983	RCB1428 cell	FKH-1-Myeloblast		immortal human blood cell line cell		A immortal human blood cell line cell that has the characteristics: Acute myeloid leukemia with dek/can chimera mRNA expression. Responding to G-CSF and differentiate.			
+CLO:0051228	HEV0041 cell	HEV0041-B cell		immortal human B cell line cell		"A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. HLA A*02:01 A*24:02, B*07:02 B*35:01, C*03:03 C*07:02, DRB1*01:01 DRB1*08:02, DQB1*04:02 DQB1*05:01, DPB1*02:01 DPB1*04:02"			
+CLO:0051333	HSC0107 cell	COLO205-B cell		immortal human B cell line cell		A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America.			
+CLO:0051371	RCB2098 cell	TE-8-Epithelial cell		immortal human esophagus-derived cell line cell		A immortal human esophagus-derived cell line cell that has the characteristics: Human cell line derived from esophageal cancer. Moderately differentiated squamous cell carcinoma. TKG0259(Deposited from Tohoku Univ.).			
+CLO:0051542	RCB0483 cell	LAN-1-Neuroblast		immortal human bone marrow-derived cell line cell		A immortal human bone marrow-derived cell line cell that has the characteristics: N-myc gene amplification			
+CLO:0051567	RCB1902 cell	HSC-4-Epithelial cell		immortal human tongue-derived cell line cell		A immortal human tongue-derived cell line cell that has the characteristics: Human tongue squamous cell carcinoma derived cell line. TKG0489 (Deposited from Tohoku Univ.).			
+CLO:0051568	RCB1974 cell	SAS-Epithelial cell		immortal human tongue-derived cell line cell		A immortal human tongue-derived cell line cell that has the characteristics: Human cell line derived from tongue cancer. Squamous cell carcinoma. TKG0470(Deposited from Tohoku Univ.).			
+CLO:0051569	RCB1975 cell	HSC-3-Epithelial cell		immortal human tongue-derived cell line cell		A immortal human tongue-derived cell line cell that has the characteristics: Human tongue squamous cell carcinoma cell line. HLA-A 2/24. TKG0484(Deposited from Tohoku Univ.).			
+CLO:0051596	RCB2657 cell	Colon 26-Epithelial cell		immortal mouse cell line cell|immortal rectum-derived cell line cell		A immortal mouse rectum-derived cell line cell that has the characteristics: Mouse cell line derived from rectal cancer. BALB/c strain.TKG0518(Deposited from Tohoku Univ.).			
+CLO:0051609	RCB0881 cell	OCUB-M-Epithelial cell		immortal cell line cell		"A immortal human mammary gland-derived cell line cell that has the characteristics: Same as OCUB-1, OCUB-F. Chromosome = pseudotetraploid."			
+OBI:0000047	processed material					Is a material entity that is created or changed during material processing.			
+OBI:0000953	processed specimen			processed material|specimen	specimen and ('processed material' and specimen)	A specimen that has been intentionally physically modified.			
+OBI:0001479	specimen from organism			specimen		"A specimen that derives from an anatomical part or substance arising from an organism. Examples of tissue specimen include tissue, organ, physiological system, blood, or body location (arm)."			
+OBI:0001875	cultured immune cell population			cultured cell population		a cultured cell population comprised of a single type of immune system cell			
+OBI:0100051	specimen					A material entity that is collected for potential use as an input upon which measurements or observations are performed.			
+OBI:0100060	cultured cell population			has_part some 'processed material'|processed material		A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.			processed material
+OBI:0100067	bronchial alveolar lavage	Bronchial Aveolar Lavage (BAL)		derives_from some lung|processed specimen|specimen from organism		"Group of biomaterials present in the bronchial aveolar space of an organism which are collected through lavage including the reagents used to for the lavage process, organisms, cells, and cellular secretions present in the bronchial aveolar space."		lung	
+OBI:1110041	lymph node cell specimen	Lymph node cells		processed specimen|specimen from organism		"A cell specimen comprised of a mixed population of cells obtained by processing whole lymph node into individual cells, typically performed using a sieve. This population includes T cells, B cells, macrophages, and other cell types."			
+OBI:1110043	cultured adherent cell population	Adherent cell		cultured cell population		A mixed cell population that is characterized by its ability to bind to tissue culture flasks or plates. This population typically contains macrophages and other cells capable of playing the antigen presenting cell role.			
+OBI:1110050	cultured CD4- T cell population	T cell CD4-		cultured immune cell population		A T cell population characterized by not expressing the CD4 molecule on its surface.			
+OBI:1110051	cultured CD8- T cell population	T cell CD8-		cultured immune cell population		A T cell population characterized by not expressing the CD8 molecule on its surface.			
+OBI:1110052	cultured CD4-/CD8- T cell population	T cell CD8-/CD4-		cultured CD4- T cell population|cultured CD8- T cell population		A T cell population characterized by not expressing the CD4 nor the CD8 molecule on its surface.			
+UBERON:0000002	uterine cervix	Uterine Cervix		organ part|part_of some uterus|reproductive structure		"Lower, narrow portion of the uterus where it joins with the top end of the vagina."	uterus		
+UBERON:0000007	pituitary gland	Pituitary Gland		endocrine gland|has_part some 'endocrine cell'|has_part some 'endocrine gland'|has_part some 'epithelial cell'|has_part some 'glial cell'|has_part some 'multi-tissue structure'|has_part some 'native cell'|has_part some 'organ part'|has_part some 'reproductive gland'|has_part some neuron|part_of some 'multi-tissue structure'|part_of some brain|reproductive gland|reproductive organ		The pituitary gland is an endocrine gland that secretes hormones that regulate many other glands [GO]. An endocrine gland located ventral to the diencephalon and derived from mixed neuroectodermal and non neuroectodermal origin [ZFIN].	brain|multi-tissue structure		endocrine cell|endocrine gland|epithelial cell|glial cell|multi-tissue structure|native cell|neuron|organ part|reproductive gland
+UBERON:0000010	peripheral nervous system	Peripheral Nervous System		organ system subdivision		"A major division of the nervous system that contains nerves which connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands."			
+UBERON:0000020	sense organ			organ		An organ that is capable of transducing sensory stimulus to the nervous system.			
+UBERON:0000029	lymph node	Lymph Node		has_part some 'anatomical conduit'|has_part some 'bodily fluid'|has_part some 'connective tissue'|has_part some 'lymphoid tissue'|has_part some 'multi-tissue structure'|has_part some 'organ part'|immune organ		"Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph."			anatomical conduit|bodily fluid|connective tissue|lymphoid tissue|multi-tissue structure|organ part
+UBERON:0000061	anatomical structure			material anatomical entity		Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.			
+UBERON:0000062	organ			anatomical structure|has_part some cell		Anatomical structure that performs a specific function or group of functions [WP].			cell
+UBERON:0000064	organ part			anatomical structure|has_part some cell|part_of some organ		A multicellular structure that is a part of an organ.	organ		cell
+UBERON:0000170	pair of lungs			has_part some lung|material anatomical entity|part_of some 'compound organ'|part_of some 'subdivision of tube'		The pair of anatomical structures comprised of a left lung and right lung.	compound organ|subdivision of tube		lung
+UBERON:0000174	excreta			organism substance		A portion of organism substance that is the product of an excretion process that will be eliminated from the body. An excretion process is elimination by an organism of the waste products that arise as a result of metabolic activity.			
+UBERON:0000178	blood	Blood		anatomical structure|bodily fluid|has_part some 'bodily fluid'|has_part some 'native cell'|has_part some erythrocyte		A fluid that is composed of blood plasma and erythrocytes.			bodily fluid|erythrocyte|native cell
+UBERON:0000310	breast	Breast		anatomical structure|has_part some 'anatomical conduit'|has_part some 'bodily fluid'|has_part some 'connective tissue'|has_part some 'epithelial cell'|has_part some 'muscle structure'|has_part some 'organ part'|has_part some 'organ system subdivision'|has_part some organ		The upper ventral region of the torso of an organism.			anatomical conduit|bodily fluid|connective tissue|epithelial cell|muscle structure|organ|organ part|organ system subdivision
+UBERON:0000456	secretion of exocrine gland			organism substance		A portion of organism substance that is produced by exocrine glands.			
+UBERON:0000463	organism substance			material anatomical entity		"Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body."			
+UBERON:0000465	material anatomical entity					Anatomical entity that has mass.			
+UBERON:0000473	testis	Testis		gonad		A gonad of a male animal. A gonad produces and releases sperm.			
+UBERON:0000479	tissue			anatomical structure|has_part some cell		"Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation."			cell
+UBERON:0000481	multi-tissue structure			anatomical structure|has_part some tissue		Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.			tissue
+UBERON:0000489	cavitated compound organ			compound organ		Compound organ that contains one or more macroscopic anatomical spaces.			
+UBERON:0000922	embryo	Embryo		anatomical structure|has_part some cell		"Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant."			cell
+UBERON:0000945	stomach	Stomach		digestive system element|part_of some 'alimentary part of gastrointestinal system'|part_of some 'subdivision of digestive tract'|subdivision of digestive tract		"An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium."	alimentary part of gastrointestinal system|subdivision of digestive tract		
+UBERON:0000947	aorta	Aorta		blood vessel|part_of some 'organ system subdivision'		"The main trunk of the systemic arterial system that carries blood from the heart to all the organs and other structures of the body, bringing oxygenated blood to all parts of the body in the systemic circulation."	organ system subdivision		
+UBERON:0000948	heart	Heart		compound organ|has_part some 'eukaryotic cell'|has_part some 'native cell'|has_part some 'organ part'|part_of some 'thoracic cavity element'|thoracic segment organ		A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.	thoracic cavity element		eukaryotic cell|native cell|organ part
+UBERON:0000955	brain	Brain		has_part some 'native cell'|has_part some 'neural cell'|organ|part_of some 'central nervous system'		"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."	central nervous system		native cell|neural cell
+UBERON:0000970	eye	Eye		has_part some 'native cell'|has_part some 'stuff accumulating cell'|has_part some neuron|sense organ		An organ that detects light.			native cell|neuron|stuff accumulating cell
+UBERON:0000991	gonad			has_part some 'germ cell'|has_part some 'native cell'|reproductive organ	'reproductive organ' and (has_part some 'germ cell')	Reproductive organ that produces and releases eggs (ovary) or sperm (testis).			germ cell|germ cell|native cell
+UBERON:0000992	ovary	Ovary		gonad		The gonad of a female organism which contains germ cells.			
+UBERON:0000995	uterus	Uterus		part_of some 'reproductive organ'|reproductive structure|subdivision of tube		The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.	reproductive organ		
+UBERON:0001013	adipose tissue	Adipose Tissue		connective tissue|has_part some 'connective tissue cell'|has_part some 'native cell'|has_part some 'stuff accumulating cell'		Portion of connective tissue composed of adipocytes enmeshed in areolar tissue.			connective tissue cell|native cell|stuff accumulating cell
+UBERON:0001017	central nervous system	Central nervous system (CNS)		organ system subdivision		The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the neural tube derivatives: the brain and spinal cord. In invertebrates it includes central ganglia plus nerve cord.			
+UBERON:0001043	esophagus	Esophagus		digestive system element|part_of some 'subdivision of digestive tract'|subdivision of digestive tract|thoracic cavity element		"Tube that connects the pharynx to the stomach. In mammals, the oesophagus connects the buccal cavity with the stomach. The stratified squamous non-keratinised epithelium lining the buccal cavity is continued through the pharynx down into the oesophagus. The lowest part of the oesophagus (ca. 2 cm) is lined with gastric mucosa and covered by peritoneum. The main body of the oesophagus is lined with small, simple mucous glands. Each gland opens into the lumen by a long duct which pierces the muscularis mucosae (Wilson and Washington, 1989). A sphincter is situated at the point where the oesophagus enters the stomach to prevent gastro-oesophageal reflux, i.e. to prevent acidic gastric contents from reaching stratified epithelia of the oesophagus, where they can cause inflammation and irritation (Wilson and Washington, 1989; Brown et al., 1993)."	subdivision of digestive tract		
+UBERON:0001044	saliva-secreting gland	Salivary Gland		digestive system element|exocrine gland|part_of some 'subdivision of digestive tract'		Saliva-secreting exocrine glands of the oral cavity[GO].	subdivision of digestive tract		
+UBERON:0001052	rectum			part_of some 'alimentary part of gastrointestinal system'|part_of some 'digestive system element'|part_of some 'multi-tissue structure'|part_of some 'subdivision of digestive tract'|subdivision of digestive tract		"The terminal portion of the intestinal tube, terminating with the anus."	alimentary part of gastrointestinal system|digestive system element|multi-tissue structure|subdivision of digestive tract		
+UBERON:0001088	urine	Urine		excreta		Excretion that is the output of a kidney.			
+UBERON:0001090	synovial fluid	Synovial Fluid		secretion of serous gland|transudate		Joint fluid is a transudate of plasma that is actively secreted by synovial cells.			
+UBERON:0001155	colon	Colon		part_of some 'alimentary part of gastrointestinal system'|part_of some 'digestive system element'|part_of some 'subdivision of digestive tract'|subdivision of digestive tract		"A portion of the large intestine before it becomes the rectum. In mammals, the colon is the most part of the large intestine, excluding the vermiform appendix, the rectum and the anal canal."	alimentary part of gastrointestinal system|digestive system element|subdivision of digestive tract		
+UBERON:0001255	urinary bladder	Bladder		bladder organ|part_of some 'organ system subdivision'|viscus		Distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].	organ system subdivision		
+UBERON:0001264	pancreas	Pancreas		has_part some 'enteroendocrine cell'|has_part some 'multi-tissue structure'|has_part some 'native cell'|viscus		An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].|An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones[GO].			enteroendocrine cell|multi-tissue structure|native cell
+UBERON:0001268	peritoneal fluid	Peritoneal Fluid		secretion of serous gland|transudate		Transudate contained in the peritoneal cavity.			
+UBERON:0001359	cerebrospinal fluid	Cerebrospinal fluid (CSF)		transudate		"A clear, colorless, bodily fluid, that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord."			
+UBERON:0001474	bone element	Bone		has_part some 'connective tissue'|organ|part_of some 'organ system subdivision'		Skeletal element that is composed of bone tissue.	organ system subdivision		connective tissue
+UBERON:0001723	tongue	Tongue		digestive system element|part_of some 'subdivision of digestive tract'|sense organ		A muscular organ in the floor of the mouth.	subdivision of digestive tract		
+UBERON:0001729	oropharynx	Oropharynx		part_of some 'alimentary part of gastrointestinal system'|part_of some 'subdivision of digestive tract'|subdivision of tube		The portion of the pharynx that lies between the soft palate and the upper edge of the epiglottis.	alimentary part of gastrointestinal system|subdivision of digestive tract		
+UBERON:0001737	larynx	Larynx		part_of some 'compound organ'|subdivision of tube		"A continuation of the pharynx that is involved in breathing, sound production, and protecting the trachea against food aspiration."	compound organ		
+UBERON:0001744	lymphoid tissue	Lymphoid		has_part some 'native cell'|has_part some lymphocyte|tissue		"Portion of connective tissue with various types of white blood cells enmeshed in it, most numerous being the lymphocytes[WP]."			lymphocyte|native cell
+UBERON:0001836	saliva	Saliva		secretion of exocrine gland		"A fluid produced in the oral cavity by salivary glands, typically used in predigestion, but also in other functions."			
+UBERON:0001961	mucosa-associated lymphoid tissue			lymphoid tissue		"Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung, salivary glands, eye, and skin[WP]. Mucosal-associated lymphoid tissue is typically found as nodules associated with mucosal epithelia with distinct internal structures including B- and T-zones for the activation of lymphocytes[GO]."			
+UBERON:0001981	blood vessel			anatomical conduit|has_part some 'anatomical conduit'|has_part some 'endothelial cell'|has_part some 'epithelial cell'|has_part some 'native cell'|has_part some 'subdivision of tube'|has_part some tissue		A vessel through which blood circulates in the body.			anatomical conduit|endothelial cell|epithelial cell|native cell|subdivision of tube|tissue
+UBERON:0001987	placenta	Placenta		organ|part_of some 'multi-tissue structure'|reproductive structure		"Organ of metabolic interchange between fetus and mother, partly of embryonic origin and partly of maternal origin[GO]. The fetal portion of the placenta is known as the villous chorion. The maternal portion is known as the decidua basalis. The two portions are held together by anchoring villi that are anchored to the decidua basalis by the cytotrophoblastic shell."	multi-tissue structure		
+UBERON:0001988	feces	Feces		excreta		"Portion of semisolid bodily waste discharged through the anus[MW,modified]."			
+UBERON:0002037	cerebellum	Cerebellum		has_part some 'glial cell'|has_part some 'native cell'|has_part some neuron|multi-tissue structure|part_of some 'multi-tissue structure'|part_of some 'organ part'|part_of some brain		"Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem. It is concerned with the coordination of movement[MESH]. A large dorsally projecting part of the brain concerned especially with the coordination of muscles and the maintenance of bodily equilibrium, situated between the brain stem and the back of the cerebrum , and formed in humans of two lateral lobes and a median lobe[BTO]. Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance[ZFA]."	brain|multi-tissue structure|organ part		glial cell|native cell|neuron
+UBERON:0002046	thyroid gland	Thyroid		endocrine gland		"A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin[BTO]."			
+UBERON:0002048	lung	Lung		has_part some 'anatomical conduit'|has_part some 'epithelial cell'|has_part some 'subdivision of tube'|has_part some tissue|part_of some lung|thoracic cavity element		Respiration organ that develops as an outpocketing of the esophagus.	lung		anatomical conduit|epithelial cell|subdivision of tube|tissue
+UBERON:0002075	viscus			trunk region element		"An organ that is located within the body cavity (or in its extension, in the scrotum); it consists of organ parts that are embryologically derived from endoderm, splanchnic mesoderm or intermediate mesoderm; together with other organs, the viscus constitutes the respiratory, gastrointestinal, urinary, reproductive and immune systems, or is the central organ of the cardiovascular system. Examples: heart, lung, esophagus, kidney, ovary, spleen."			
+UBERON:0002097	skin of body	Skin		has_part some 'connective tissue'|has_part some 'epithelial cell'|has_part some 'native cell'|has_part some 'organ part'|organ|part_of some 'organ system subdivision'		The organ covering the body that consists of the dermis and epidermis.	organ system subdivision		connective tissue|epithelial cell|native cell|organ part
+UBERON:0002106	spleen	Spleen		abdominal viscera|digestive system element|hemopoietic organ|immune organ		The organ that functions to filter blood and to store red corpuscles and platelets.			
+UBERON:0002107	liver	Liver		abdomen element|digestive system element|endocrine gland|exocrine gland|has_part some hepatocyte|part_of some 'organ system subdivision'		"An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO]."	organ system subdivision		hepatocyte
+UBERON:0002108	small intestine	Small Intestine		digestive system element|part_of some 'alimentary part of gastrointestinal system'|part_of some 'subdivision of digestive tract'|subdivision of digestive tract		"Subdivision of digestive tract that connects the stomach to the large intestine and is where much of the digestion and absorption of food takes place (with the exception of ruminants). The mammalian small intestine is long and coiled and can be differentiated histologically into: duodenum, jejunem, ileum[WP,cjm,Kardong]."	alimentary part of gastrointestinal system|subdivision of digestive tract		
+UBERON:0002110	gallbladder	Gallbladder		abdominal viscera|bladder organ|digestive system element|part_of some 'organ system subdivision'		An organ that aids digestion and stores bile produced by the liver[WP].	organ system subdivision		
+UBERON:0002113	kidney	Kidney		abdomen element|cavitated compound organ|part_of some 'organ system subdivision'		"A paired organ of the urinary tract that produces urine and maintains bodily fluid homeostasis, blood pressure, pH levels, red blood cell production and skeleton mineralization.|A paired organ of the urinary tract which has the production of urine as its primary function."	organ system subdivision		
+UBERON:0002115	jejunum	Jejunum		part_of some 'small intestine'|subdivision of digestive tract		The portion of the small intestine that extends from the duodenum to the ileum.	small intestine		
+UBERON:0002240	spinal cord	Spinal Cord		cavitated compound organ|has_part some 'native cell'|has_part some neuron|part_of some 'central nervous system'		"Part of the central nervous system located in the vertebral canal continuous with and caudal to the brain; demarcated from brain by plane of foramen magnum. It is composed of an inner core of gray matter in which nerve cells predominate, and an outer layer of white matter in which myelinated nerve fibers predominate, and surrounds the central canal. (CUMBO)."	central nervous system		native cell|neuron
+UBERON:0002365	exocrine gland			gland|has_part some 'anatomical conduit'|has_part some 'epithelial cell'|has_part some 'native cell'|has_part some 'subdivision of tube'|has_part some tissue		"A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external environment[WP]. Typical exocrine glands include sweat glands, salivary glands, mammary glands, stomach, liver, pancreas."			anatomical conduit|epithelial cell|native cell|subdivision of tube|tissue
+UBERON:0002367	prostate gland	Prostate		reproductive gland		"The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid."			
+UBERON:0002368	endocrine gland			gland		"Endocrine glands are glands of the endocrine system that secrete their products directly into the circulatory system rather than through a duct.[WP, modified]."			
+UBERON:0002369	adrenal gland	Adrenal Gland		abdomen element|endocrine gland|has_part some 'biogenic amine secreting cell'|has_part some 'endocrine cell'|has_part some 'epithelial cell'|has_part some neuron|part_of some 'organ system subdivision'		"Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine[BTO]."	organ system subdivision		biogenic amine secreting cell|endocrine cell|epithelial cell|neuron
+UBERON:0002370	thymus	Thymus		endocrine gland|has_part some 'epithelial cell'|has_part some 'lymphoid tissue'|has_part some thymocyte|hemopoietic organ|immune organ		Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.			epithelial cell|lymphoid tissue|thymocyte
+UBERON:0002371	bone marrow	Bone Marrow		has_part some 'eukaryotic cell'|has_part some 'native cell'|has_part some tissue|part_of some 'bone element'|tissue		The soft tissue that fills the cavities of bones.	bone element		eukaryotic cell|native cell|tissue
+UBERON:0002372	tonsil	Tonsil		mucosa-associated lymphoid tissue|part_of some 'mucosa-associated lymphoid tissue'|part_of some 'subdivision of digestive tract'		Either of the two small almond-shaped masses of lymph tissue found on either side of the oropharynx.	mucosa-associated lymphoid tissue|subdivision of digestive tract		
+UBERON:0002384	connective tissue			tissue		Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.			
+UBERON:0002530	gland			organ		An organ that functions as a secretory or excretory organ.			
+UBERON:0003103	compound organ			organ		Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.			
+UBERON:0003126	trachea	Trachea		anatomical conduit|has_part some 'epithelial cell'|has_part some 'subdivision of tube'|has_part some tissue|part_of some 'compound organ'|part_of some 'subdivision of tube'		The trachea is the portion of the airway that attaches to the bronchi as it branches [GO:dph].	compound organ|subdivision of tube		epithelial cell|subdivision of tube|tissue
+UBERON:0003133	reproductive organ			organ|reproductive structure		An organ involved in reproduction.			
+UBERON:0003937	reproductive gland			gland|reproductive structure		Any of the organized aggregations of cells that function as secretory or excretory organs and are associated with reproduction.			
+UBERON:0004111	anatomical conduit			anatomical structure|has_part some cell		"Any tube, opening or passage that connects two distinct anatomical spaces."			cell
+UBERON:0004177	hemopoietic organ			organ		Organ that is part of the hematopoietic system.			
+UBERON:0004921	subdivision of digestive tract			subdivision of tube		A proximal-distal subdivision of the digestive tract.			
+UBERON:0005057	immune organ			organ		An organ that is part of a immune system [Automatically generated definition].			
+UBERON:0005090	muscle structure	Muscle		anatomical structure|has_part some 'muscle cell'|has_part some 'native cell'		"Muscle structures are contractile cells, tissues or organs that are found in multicellular organisms[GO]."			muscle cell|native cell
+UBERON:0005156	reproductive structure			anatomical structure|has_part some cell		Any anatomical structure that is part of the reproductive system.			cell
+UBERON:0005172	abdomen element			trunk region element		"An organ or element that is in the abdomen. Examples: spleen, intestine, kidney, abdominal mammary gland."			
+UBERON:0005177	trunk region element			organ		An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.			
+UBERON:0005178	thoracic cavity element			thoracic segment organ|viscus		"An organ or element that is in the thoracic cavity. Examples: lung, heart, longus colli."			
+UBERON:0005181	thoracic segment organ			trunk region element		An organ that part of the thoracic segment region. This region can be further subdividied chest and thoracic cavity regions.			
+UBERON:0005409	alimentary part of gastrointestinal system	Gastrointestinal Tract		anatomical structure|has_part some organ		The part of the digestive system that excludes the hepatobiliary system.			organ
+UBERON:0006314	bodily fluid			organism substance		Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.			
+UBERON:0007779	transudate			bodily fluid		"Any bodily fluid that has passed through a membrane such as the capillary wall, as a result of unbalanced hydrostatic and osmotic forces."			
+UBERON:0007794	secretion of serous gland			bodily fluid|secretion of exocrine gland		Any fluid produced by a serous gland.			
+UBERON:0011216	organ system subdivision			anatomical structure|has_part some cell		A subdivision of an anatomical system.			cell
+UBERON:0012168	umbilical cord blood	Umbilical Cord Blood		blood|part_of some embryo		Blood that remains in the placenta and in the attached umbilical cord after childbirth[WP].	embryo		
+UBERON:0013522	subdivision of tube			has_part some 'organ part'|organ part|part_of some 'anatomical conduit'			anatomical conduit		organ part
+UBERON:0013765	digestive system element			organ		"Any of the organs or elements that are part of the digestive system. Examples: tongue, esophagus, spleen, crop, lunge feeding organ, tooth elements."			
+UBERON:0017672	abdominal viscera			abdomen element|viscus		A viscus that is part of a abdomen.			
+UBERON:0018707	bladder organ			cavitated compound organ		A membranous sac in animals that serves as the receptacle of a liquid or contains gas.			
+http://www.ebi.ac.uk/efo/EFO_0006306	TUBO			cultured cell		"TUBO cells are a cloned line established in vitro from a BALB-neuT mouse mammary carcinoma. They display membrane class I H-2dMHC glycoproteins and rp185neu proteins. In BALB/c mice, r-p185 is a xenogeneic Ag that differs from mouse rp185 in <6% of the amino residues. Despite these differences, a challenge of 1 x 105 TUBO cells grew progressively in all BALB/c mice and gave rise to lobular carcinomas histologically similar to those that appear in BALB-neuT-transgenic mice. The reactive cell infiltrate associated with TUBO cell growth was marginal. No anti-TUBO cell CTL, nor IFN-gama, nor GM-CSF release were found when Spc from BALB/c mice bearing 3- or 10-mm mean TUBO tumors were tested immediately or after 6 days in in vitro restimulation with TUBO cells. Moreover, no anti-rp185 Ab were detected in the sera of tumor bearing mice. Despite their high membrane expression of the xenogeneic rp185, growing TUBO cells appear to trigger a marginal or no immune reaction in BALB/c mice."			
