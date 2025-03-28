@@ -1,0 +1,285 @@
+ID	Label	IEDB Alternative Term
+ID	A rdfs:label	A http://purl.obolibrary.org/obo/OBI_9991118
+CLO:0009728	ZR-75-30 cell	ZR-75-30-Epithelial cell
+CLO:0009727	ZR-75-1 cell	ZR75.1-Epithelial cell
+CLO:0037068	WSU-DLCL2 cell	WSU-DLCL2-B cell
+CLO:0009619	WM793B cell	WM793-Melanocyte
+CLO:0009616	WM278 cell	WM278-Melanocyte
+CLO:0009597	WI-38 VA-13 cell	WI-38 VA13 subline 2RA-Epithelial cell
+CLO:0050893	RCB1963 cell	VMRC-RCW-Epithelial cell
+CLO:0037205	UCI 107 cell	UCI 107-Epithelial cell
+CLO:0037206	UCI 101 cell	UCI 101-Epithelial cell
+CLO:0009468	UACC-893 cell	UACC-893-Epithelial cell
+CLO:0009467	UACC-812 cell	UACC-812-Epithelial cell
+CLO:0037135	UACC-257 cell	UACC-257-Melanocyte
+CLO:0009465	U-937 cell	U-937-Monocyte
+CLO:0009464	U-87 MG cell	U-87MG-Glial cell
+CLO:0009462	U-698-M cell	U-698-M-Lymphocyte
+CLO:0009454	U-2 OS cell	U2-OS-Epithelial cell
+CLO:0009458	U266B1 cell	U266B1-B cell
+CLO:0009456	U-251 MG cell	U-251MG-Glial cell
+CLO:0037104	TYK-nu cell	TYK-nu-Epithelial cell
+CLO:0050896	RCB1275 cell	TUHR-10TKB-Epithelial cell
+CLO:0009402	TRAMP-C2 cell	TRAMP-C2-Epithelial cell
+CLO:0009401	TRAMP-C1 cell	TRAMP-C1-Epithelial cell
+CLO:0009385	TOV-21G cell	TOV-21G-Epithelial cell
+CLO:0037272	TMD8 cell	TMD8-B cell
+UBERON:0002046	thyroid gland	Thyroid
+CLO:0009348	THP-1 cell	THP-1-Monocyte
+CLO:0009326	TF-1 cell	TF-1-Erythrocyte
+CLO:0051371	RCB2098 cell	TE-8-Epithelial cell
+CLO:0009879	TC-71 cell	TC-71-Neural crest cell
+CLO:0009279	TC-1 cell	TC-1-Epithelial cell
+CLO:0009258	T98G cell	T98G-Glial cell
+CLO:0009251	T-47D cell	T-47D-Epithelial cell
+CLO:0009245	T24 cell	T24-Epithelial cell
+CLO:0009242	T2 (174 x CEM.T2) cell	T2 cells-Lymphoblast
+CLO:0000169	hybridoma cell line cell	T cell hybridoma
+CL:0000625	"CD8-positive, alpha-beta T cell"	T cell CD8+
+OBI:1110052	cultured CD4-/CD8- T cell population	T cell CD8-/CD4-
+OBI:1110051	cultured CD8- T cell population	T cell CD8-
+CL:0000624	"CD4-positive, alpha-beta T cell"	T cell CD4+
+OBI:1110050	cultured CD4- T cell population	T cell CD4-
+CL:0000798	gamma-delta T cell	T cell Î³Î´
+CLO:0009226	SW948 cell	SW948-Epithelial cell
+CLO:0009196	SW 620 cell	SW620-Epithelial cell
+CLO:0009216	SW48 cell	SW-48-Epithelial cell
+CLO:0009195	SW 480 cell	SW-480-Epithelial cell
+CLO:0009192	SW 1990 cell	SW1990-Epithelial cell
+CLO:0009190	SW 1573 cell	SW1573-Epithelial cell
+CLO:0009188	SW 1463 cell	SW1463-Epithelial cell
+CLO:0009164	SUP-T1 cell	SUP-T1-Lymphoblast
+CLO:0009161	SUP-B15 cell	SUP-B15-B cell
+CLO:0009919	SUM185PE cell	SUM185PE-Epithelial cell
+CLO:0009918	SUM159PT cell	SUM159PT-Epithelial cell
+CLO:0037114	SUIT-2 cell	SUIT2-Epithelial cell
+CLO:0037063	SU-DHL-6 cell	SU-DHL-6-B cell
+CLO:0037061	SU-DHL-4 cell	SU-DHL-4-B cell
+CLO:0009160	SU-DHL-1 cell	SU-DHL-1-Lymphocyte
+CLO:0050049	RCB1905 cell	Sq-1-Epithelial cell
+CL:0000017	spermatocyte	Sperm cell
+CLO:0009105	SNU-C2B cell	SNU-C2B-Epithelial cell
+CLO:0009063	SK-OV-3 cell	SKOV3-Epithelial cell
+CLO:0009051	SK-N-AS cell	SK-N-AS-Neuroblast
+CLO:0009047	SK-MEL-5 cell	SK-MEL-5-Melanocyte
+CLO:0009041	SK-MEL-2 cell	SK-MEL-2-Melanocyte
+CLO:0009043	SK-MEL-28 cell	SK-MEL-28-Melanocyte
+UBERON:0002097	skin of body	Skin
+CLO:0009034	SK-BR-3 cell	SK-BR3-Epithelial cell
+CLO:0051568	RCB1974 cell	SAS-Epithelial cell
+CLO:0008947	Saos-2 cell	SaOS-2-Osteoblast
+UBERON:0001044	saliva-secreting gland	Salivary Gland
+CLO:0050150	RCB0980 cell	Sa3-Epithelial cell
+CLO:0008873	RPMI 8226 cell	RPMI-8226-Lymphoblast
+CLO:0037201	RMA cell	RMA-Lymphocyte
+CLO:0008693	R D cell	RD-Muscle cell
+CLO:0050238	RCB1830 cell	Rat1-Fibroblast
+CLO:0008738	RAMOS cell	Ramos-B cell
+CLO:0008734	Raji cell	Raji-B cell
+UBERON:0002367	prostate gland	Prostate
+CLO:0008458	PLC/PRF/5 cell	PLC/PRF/5-Hepatocyte
+CLO:0009856	PL-21 cell	PL-21-Myeloblast
+CLO:0050107	RCB2141 cell	PK-45P-Epithelial cell
+CLO:0050067	RCB4455 cell	PC-9-Epithelial cell
+CLO:0008395	PC-3 cell	PC-3-Epithelial cell
+CL:2000001	peripheral blood mononuclear cell	PBMC
+CL:0000169	type B pancreatic cell	Pancreatic beta cell
+CLO:0008381	PANC-1 cell	PANC-1-Epithelial cell
+CLO:0008380	Panc 10.05 cell	Panc 10.05-Epithelial cell
+CLO:0008341	P815 cell	P815-Mast cell
+CLO:0008321	P388 cell	P388-Lymphoblast
+CLO:0008280	OVCAR-5 cell	OVCAR5-Epithelial cell
+CLO:0008279	OVCAR-3 cell	OVCAR3-Fibroblast
+CLO:0008269	OPM-2 cell	OPM-2-B cell
+CLO:0008238	OE19 cell	OE19-Epithelial cell
+CLO:0051609	RCB0881 cell	OCUB-M-Epithelial cell
+CLO:0009853	OCI-AML3 cell	OCI-AML3-Myeloid cell
+CLO:0008235	OCI-AML2 cell	OCI-AML-2-Myeloblast
+CLO:0008228	OAW28 cell	OAW28-Epithelial cell
+CLO:0050789	RCB1939 cell	NUGC4-Epithelial cell
+CLO:0037144	NUGC-3 cell	NUGC-3-Epithelial cell
+CLO:0008195	NRK cell	NRK-Epithelial cell
+CL:0000814	mature NK T cell	NKT cells
+CLO:0008172	NIH-3T3 cell	NIH 3T3-Fibroblast
+CL:0000031	neuroblast (sensu Vertebrata)	Neuroblast
+CLO:0008129	NCI-N87 cell	NCI-N87-Epithelial cell
+CLO:0008127	NCI-H929 cell	NCI-H929-B cell
+CLO:0008105	NCI-H69 cell	NCI-H69-Epithelial cell
+CLO:0008102	NCI-H660 cell	NCI-H660-Epithelial cell
+CLO:0008094	NCI-H522 cell	NCI-H522-Epithelial cell
+CLO:0008088	NCI-H446 cell	NCI-H446-Epithelial cell
+CLO:0008087	NCI-H441 cell	NCI-H441-Epithelial cell
+CLO:0008085	NCI-H358 cell	NCI-H358-Epithelial cell
+CLO:0008084	NCI-H345 cell	NCI-H345-Epithelial cell
+CLO:0008080	NCI-H292 cell	NCI-H292-Epithelial cell
+CLO:0008077	NCI-H2452 cell	NCI-H2452-Epithelial cell
+CLO:0008076	NCI-H2444 cell	NCI-H2444-Epithelial cell
+CLO:0008068	NCI-H226 cell	NCI-H226-Epithelial cell
+CLO:0008067	NCI-H2228 cell	NCI-H2228-Epithelial cell
+CLO:0008035	NCI-H1975 cell	NCI-H1975-Epithelial cell
+CLO:0008016	NCI-H1755 cell	NCI-H1755-Epithelial cell
+CLO:0007998	NCI-H146 cell	NCI-H146-Epithelial cell
+CLO:0007992	NCI-H1395 cell	NCI-H1395-Epithelial cell
+CLO:0007989	NCI-H1355 cell	NCI-H1355-Epithelial cell
+CLO:0007980	NCI-H1092 cell	NCI-H1092-Epithelial cell
+CLO:0007947	NB-4 cell	NB-4-B cell
+CLO:0007939	NAMALWA cell	Namalwa-Lymphoblast
+CLO:0007938	NALM-6 cell	NALM-6-B cell
+CLO:0037132	MZ2-MEL cell	MZ2-MEL-Melanocyte
+CLO:0007906	MV-4-11 cell	MV411-Myeloblast
+UBERON:0005090	muscle structure	Muscle
+CLO:0050048	RCB0725 cell	MS-1-Epithelial cell
+CLO:0010607	GM08605 cell	MOU-B cell
+CLO:0007830	MOPC 315 cell	MOPC315-B cell
+CLO:0007825	MOLT-4 cell	MOLT-4-Lymphocyte
+CLO:0037203	MM.1S cell	MM.1S-B cell
+CLO:0007733	MKN-45 cell	MKN45-Epithelial cell
+CLO:0007726	MIA PaCa-2 cell	MIA PaCa-2-Epithelial cell
+CLO:0007688	MeWo cell	MeWo-Fibroblast
+CLO:0007680	MeT-5A cell	Met-5A-Epithelial cell
+CLO:0007668	MEG-01 cell	MEG-01-Lymphoblast
+CLO:0009970	MDST8 cell	MDST8-Epithelial cell
+CLO:0007629	MDA PCa 2b cell	MDA-PCa-2b-Epithelial cell
+CLO:0007641	MDA-MB-468 cell	MDA-MB-468-Epithelial cell
+CLO:0007636	MDA-MB-361 cell	MDA-MB-361-Epithelial cell
+CLO:0007634	MDA-MB-231 cell	MDA-MB-231-Epithelial cell
+CLO:0007606	MCF7 cell	MCF-7/LY2-Epithelial cell
+CLO:0037180	MCF12A cell	MCF12A-Epithelial cell
+CLO:0007587	MC57G cell	MC57G-Fibroblast cell
+UBERON:0001744	lymphoid tissue	Lymphoid
+OBI:1110041	lymph node cell specimen	Lymph node cells
+CLO:0050059	RCB1967 cell	Lu-65-Epithelial cell
+CLO:0037204	LSCC-RP9 cell	LSCC-RP9-B cell
+CLO:0007365	LNCAP cell	LNCa-Epithelial cell
+CLO:0007325	LL/2 (LLC1) cell	LL/2 (LLC1)-Epithelial cell
+CLO:0037020	LC-2-ad cell	LC-2/ad-Epithelial cell
+CLO:0050045	RCB0455 cell	LC-1-Epithelial cell
+CLO:0037159	LB831-BLC cell	LB831-BLC-Epithelial cell
+CLO:0051542	RCB0483 cell	LAN-1-Neuroblast
+CLO:0007201	L-540 cell	L-540-Lymphocyte
+CLO:0007189	L-428 cell	L-428-Lymphocyte
+CLO:0007336	L-M cell	L cells-Fibroblast
+CLO:0037108	KP-3 cell	KP3-Epithelial cell
+CLO:0037107	KP-2 cell	KP2-Epithelial cell
+CLO:0009894	KNS-42 cell	KNS42-Glial cell
+CLO:0050164	RCB0193 cell	KMM-1-B cell
+CLO:0050104	RCB2138 cell	KLM-1-Epithelial cell
+CLO:0009791	immortal human myeloblast cell line cell	KG-1-Myeloblast
+CLO:0050802	RCB1434 cell	KE39-Epithelial cell
+CLO:0007073	KATO III cell	KATO III-Epithelial cell
+CLO:0007050	K 562 cell	K562-Myeloid cell
+CLO:0037202	JY cell	JY cells-B cell
+CLO:0007043	JURKAT cell	Jurkat-T cell
+CLO:0037173	JJN-3 cell	JJN-3-B cell
+CLO:0009912	JIMT-1 cell	JIMT-1-Epithelial cell
+CLO:0007012	JAWSII cell	JAWS II-Dendritic cell
+CLO:0050192	RCB2652 cell	J774-1-Macrophage
+CLO:0006961	IPC-298 cell	IPC-298-Melanocyte
+CLO:0050853	RCB1942 cell	HuH7-Hepatocyte
+CLO:0004283	HT-29 cell	HT-29-Epithelial cell
+CLO:0004278	HT-1197 cell	HT1197-Epithelial cell
+CLO:0051567	RCB1902 cell	HSC-4-Epithelial cell
+CLO:0051569	RCB1975 cell	HSC-3-Epithelial cell
+CLO:0004245	Hs 940.T cell	Hs 940.T-Fibroblast
+CLO:0004009	Hs 578T cell	Hs 578T-Epithelial cell
+CLO:0003795	HOS cell	HOS-Epithelial cell
+CLO:0003744	HH cell	HH-T cell
+CLO:0051228	HEV0041 cell	HEV0041-B cell
+CLO:0003704	Hep G2 cell	HepG2-Hepatocyte
+CLO:0001176	2.2.15 cell	Hep-G2/2.2.15-Hepatocyte
+CLO:0003684	HeLa cell	HeLa cells-Epithelial cell
+CLO:0001230	HEK293	HEK293-Epithelial cell
+CLO:0003667	HCT-8 cell	HCT 8-Epithelial cell
+CLO:0003666	HCT-15 cell	HCT 15-Epithelial cell
+CLO:0003665	HCT 116 cell	HCT 116-Epithelial cell
+CLO:0003659	HCC827 cell	HCC827-Epithelial cell
+CLO:0003658	HCC70 cell	HCC70-Epithelial cell
+CLO:0003644	HCC1806 cell	HCC1806-Epithelial cell
+CLO:0003640	HCC1569 cell	HCC1569-Epithelial cell
+CLO:0003639	HCC1500 cell	HCC1500-Epithelial cell
+CLO:0003637	HCC1428 cell	HCC1428-Epithelial cell
+CLO:0003636	HCC1419 cell	HCC1419-Epithelial cell
+CLO:0003634	HCC1395 cell	HCC1395-Epithelial cell
+CLO:0003632	HCC1187 cell	HCC1187-Epithelial cell
+CLO:0003630	HCC1143 cell	HCC1143-Epithelial cell
+CLO:0037256	HBL-1 cell	HBL-1-B cell
+CLO:0008093	NCI-H520 cell	H520-Epithelial cell
+CLO:0007986	NCI-H1299 cell	H1299-Epithelial cell
+UBERON:0005409	alimentary part of gastrointestinal system	Gastrointestinal Tract
+CLO:0003434	G-401 cell	G-401-Epithelial cell
+CLO:0003433	G-361 cell	G-361-Melanocyte
+CLO:0050983	RCB1428 cell	FKH-1-Myeloblast
+CLO:0009873	EW-7 cell	EW-7-Neural crest cell
+CLO:0002913	EL4 cell	EL-4 cells-Lymphoblast
+CLO:0002889	EFM-192A cell	EFM192A-Epithelial cell
+CLO:0002840	DU 145 cell	DU145-Epithelial cell
+CLO:0002805	DOHH2 cell	DoHH2-B cell
+CLO:0002797	DMS 273 cell	DMS273-Epithelial cell
+CLO:0002799	DMS 53 cell	DMS 53-Epithelial cell
+CLO:0002798	DMS 454 cell	DMS 454-Epithelial cell
+CLO:0002785	DLD-1 cell	DLD-1-Epithelial cell
+CLO:0002767	DG-75 cell	DG-75-B cell
+CLO:0002723	DBTRG-05MG cell	DBTRG05-MG-Glial cell
+CLO:0002709	DB cell	DB-B cell
+CLO:0002708	Daudi cell	Daudi-Lymphoblast
+CLO:0002631	CT26.WT cell	CT26.WT-Fibroblast
+CLO:0002597	COS-7 cell	Cos-7-Fibroblast
+CLO:0051596	RCB2657 cell	Colon 26-Epithelial cell
+CLO:0002571	COLO-320 cell	COLO320-Epithelial cell
+CLO:0051333	HSC0107 cell	COLO205-B cell
+CLO:0002544	COLO 205 cell	COLO 205-Epithelial cell
+CLO:0002531	CMT64/61 cell	CMT64-Epithelial cell
+CLO:0009958	CL-40 cell	CL-40-Epithelial cell
+CLO:0002395	CFPAC-1 cell	CFPAC-1-Epithelial cell
+UBERON:0001359	cerebrospinal fluid	Cerebrospinal fluid (CSF)
+UBERON:0001017	central nervous system	Central nervous system (CNS)
+CLO:0002165	Ca Ski cell	CaSki-Epithelial cell
+CLO:0002198	Capan-2 cell	Capan-2-Epithelial cell
+CLO:0002197	Capan-1 cell	Capan-1-Epithelial cell
+CLO:0002195	Caov-3 cell	Caov-3-Epithelial cell
+CLO:0002192	Calu-3 cell	Calu-3-Epithelial cell
+CLO:0002191	Calu-1 cell	Calu-1-Epithelial cell
+CLO:0002179	CAL-120 cell	CAL-120-Epithelial cell
+CLO:0002175	CAKI-1 cell	Caki-1-Epithelial cell
+CLO:0002172	Caco-2 cell	Caco-2-Epithelial cell
+CLO:0002168	CA46 cell	CA46-Lymphoblast
+CLO:0002115	C-33 A cell	C-33A-Epithelial cell
+CLO:0003787	HMy2.CIR cell	C1R cells-B cell
+CLO:0002065	BxPC-3 cell	BxPC-3-Epithelial cell
+CLO:0002052	BV-173 cell	BV-173-Myeloblast
+CLO:0002044	BT-549 cell	BT-549-Epithelial cell
+CLO:0002043	BT-483 cell	BT-483-Epithelial cell
+CLO:0002042	BT-474 cell	BT-474-Epithelial cell
+CLO:0002041	BT-20 cell	BT20-Epithelial cell
+OBI:0100067	bronchial alveolar lavage	Bronchial Aveolar Lavage (BAL)
+UBERON:0001474	bone element	Bone
+UBERON:0001255	urinary bladder	Bladder
+CLO:0001987	BL-41 cell	BL-41-Lymphocyte
+CLO:0001925	BEAS-2B cell	BEAS-2B-Epithelial cell
+CLO:0001842	BA/F3 cell	Ba/F3-B cell
+CLO:0001793	B16-F1 cell	B16-F1-Epithelial cell
+CLO:0001794	B16-F10 cell	B16-F10-Epithelial cell
+CLO:0050752	RCB1283 cell	B16-Epithelial cell
+CLO:0050057	RCB2818 cell	B1203L-Epithelial cell
+CLO:0001769	AU565 cell	AU565-Epithelial cell
+CLO:0001756	AsPC-1 cell	AsPC1-Epithelial cell
+CLO:0001686	AGS cell	AGS-Epithelial cell 
+OBI:1110043	cultured adherent cell population	Adherent cell
+CLO:0050083	RCB2293 cell	ACC-MESO-4-Epithelial cell
+CLO:0001606	A-673 cell	A-673-Neural crest cell
+CLO:0001601	A549 cell	A549-Epithelial cell
+CLO:0009974	A498 cell	A498-Epithelial cell
+CLO:0001592	A-431 cell	A-431-Epithelial cell
+CLO:0001582	A-375 cell	A-375-Epithelial cell
+CLO:0001566	A2058 cell	A2058-Epithelial cell
+CLO:0001560	A172 cell	A-172-Glial cell
+CLO:0001008	697 cell	697-B cell
+CLO:0001421	5637 cell	5637-Epithelial cell
+CLO:0001401	4T1 cell	4T1-Epithelial cell
+CLO:0001400	4MBr-5 cell	4MBr-5-Epithelial cell
+CLO:0010594	GM08600 cell	31227ABO-B cell
+CLO:0050894	RCB2202 cell	293-T-Epithelial cell
+CLO:0001199	22RV1 cell	22Rv1-Epithelial cell
+CLO:0001137	184A1 cell	184A1-Epithelial Cell
+CLO:0001056	1205Lu cell	1205Lu-Melanocyte
+CLO:0050890	RCB1151 cell	10RGB-Epithelial cell

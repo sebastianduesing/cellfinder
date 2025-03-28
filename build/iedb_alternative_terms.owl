@@ -1,0 +1,2591 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sebastianduesing/cellfinder/iedb_alternative_terms.owl#"
+     xml:base="https://github.com/sebastianduesing/cellfinder/iedb_alternative_terms.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/sebastianduesing/cellfinder/iedb_alternative_terms.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000169">
+        <obo:OBI_9991118>T cell hybridoma</obo:OBI_9991118>
+        <rdfs:label>hybridoma cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001008">
+        <obo:OBI_9991118>697-B cell</obo:OBI_9991118>
+        <rdfs:label>697 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001056">
+        <obo:OBI_9991118>1205Lu-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>1205Lu cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001137">
+        <obo:OBI_9991118>184A1-Epithelial Cell</obo:OBI_9991118>
+        <rdfs:label>184A1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001176">
+        <obo:OBI_9991118>Hep-G2/2.2.15-Hepatocyte</obo:OBI_9991118>
+        <rdfs:label>2.2.15 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001199">
+        <obo:OBI_9991118>22Rv1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>22RV1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001230">
+        <obo:OBI_9991118>HEK293-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HEK293</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001400">
+        <obo:OBI_9991118>4MBr-5-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>4MBr-5 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001401">
+        <obo:OBI_9991118>4T1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>4T1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001421">
+        <obo:OBI_9991118>5637-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>5637 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001560">
+        <obo:OBI_9991118>A-172-Glial cell</obo:OBI_9991118>
+        <rdfs:label>A172 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001566">
+        <obo:OBI_9991118>A2058-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>A2058 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001582">
+        <obo:OBI_9991118>A-375-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>A-375 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001592">
+        <obo:OBI_9991118>A-431-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>A-431 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001601">
+        <obo:OBI_9991118>A549-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>A549 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001606">
+        <obo:OBI_9991118>A-673-Neural crest cell</obo:OBI_9991118>
+        <rdfs:label>A-673 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001686">
+        <obo:OBI_9991118>AGS-Epithelial cell </obo:OBI_9991118>
+        <rdfs:label>AGS cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001756">
+        <obo:OBI_9991118>AsPC1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>AsPC-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001769">
+        <obo:OBI_9991118>AU565-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>AU565 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001793">
+        <obo:OBI_9991118>B16-F1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>B16-F1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001794">
+        <obo:OBI_9991118>B16-F10-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>B16-F10 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001842">
+        <obo:OBI_9991118>Ba/F3-B cell</obo:OBI_9991118>
+        <rdfs:label>BA/F3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001925">
+        <obo:OBI_9991118>BEAS-2B-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BEAS-2B cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0001987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001987">
+        <obo:OBI_9991118>BL-41-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>BL-41 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002041">
+        <obo:OBI_9991118>BT20-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BT-20 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002042">
+        <obo:OBI_9991118>BT-474-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BT-474 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002043">
+        <obo:OBI_9991118>BT-483-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BT-483 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002044">
+        <obo:OBI_9991118>BT-549-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BT-549 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002052">
+        <obo:OBI_9991118>BV-173-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>BV-173 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002065">
+        <obo:OBI_9991118>BxPC-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>BxPC-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002115">
+        <obo:OBI_9991118>C-33A-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>C-33 A cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002165">
+        <obo:OBI_9991118>CaSki-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Ca Ski cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002168">
+        <obo:OBI_9991118>CA46-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>CA46 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
+        <obo:OBI_9991118>Caco-2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Caco-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002175">
+        <obo:OBI_9991118>Caki-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>CAKI-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002179">
+        <obo:OBI_9991118>CAL-120-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>CAL-120 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002191">
+        <obo:OBI_9991118>Calu-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Calu-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
+        <obo:OBI_9991118>Calu-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Calu-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002195">
+        <obo:OBI_9991118>Caov-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Caov-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002197">
+        <obo:OBI_9991118>Capan-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Capan-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002198">
+        <obo:OBI_9991118>Capan-2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Capan-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002395">
+        <obo:OBI_9991118>CFPAC-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>CFPAC-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002531">
+        <obo:OBI_9991118>CMT64-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>CMT64/61 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002544">
+        <obo:OBI_9991118>COLO 205-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>COLO 205 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002571">
+        <obo:OBI_9991118>COLO320-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>COLO-320 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002597">
+        <obo:OBI_9991118>Cos-7-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>COS-7 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002631">
+        <obo:OBI_9991118>CT26.WT-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>CT26.WT cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002708">
+        <obo:OBI_9991118>Daudi-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>Daudi cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002709">
+        <obo:OBI_9991118>DB-B cell</obo:OBI_9991118>
+        <rdfs:label>DB cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002723">
+        <obo:OBI_9991118>DBTRG05-MG-Glial cell</obo:OBI_9991118>
+        <rdfs:label>DBTRG-05MG cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002767">
+        <obo:OBI_9991118>DG-75-B cell</obo:OBI_9991118>
+        <rdfs:label>DG-75 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002785">
+        <obo:OBI_9991118>DLD-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>DLD-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002797">
+        <obo:OBI_9991118>DMS273-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>DMS 273 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002798">
+        <obo:OBI_9991118>DMS 454-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>DMS 454 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002799">
+        <obo:OBI_9991118>DMS 53-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>DMS 53 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002805">
+        <obo:OBI_9991118>DoHH2-B cell</obo:OBI_9991118>
+        <rdfs:label>DOHH2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002840">
+        <obo:OBI_9991118>DU145-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>DU 145 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002889">
+        <obo:OBI_9991118>EFM192A-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>EFM-192A cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002913">
+        <obo:OBI_9991118>EL-4 cells-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>EL4 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003433">
+        <obo:OBI_9991118>G-361-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>G-361 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003434">
+        <obo:OBI_9991118>G-401-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>G-401 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003630">
+        <obo:OBI_9991118>HCC1143-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1143 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003632">
+        <obo:OBI_9991118>HCC1187-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1187 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003634">
+        <obo:OBI_9991118>HCC1395-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1395 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003636">
+        <obo:OBI_9991118>HCC1419-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1419 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003637">
+        <obo:OBI_9991118>HCC1428-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1428 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003639">
+        <obo:OBI_9991118>HCC1500-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1500 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003640">
+        <obo:OBI_9991118>HCC1569-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1569 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003644">
+        <obo:OBI_9991118>HCC1806-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC1806 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003658">
+        <obo:OBI_9991118>HCC70-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC70 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003659">
+        <obo:OBI_9991118>HCC827-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCC827 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003665">
+        <obo:OBI_9991118>HCT 116-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCT 116 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003666">
+        <obo:OBI_9991118>HCT 15-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCT-15 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003667">
+        <obo:OBI_9991118>HCT 8-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HCT-8 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003684">
+        <obo:OBI_9991118>HeLa cells-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HeLa cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003704">
+        <obo:OBI_9991118>HepG2-Hepatocyte</obo:OBI_9991118>
+        <rdfs:label>Hep G2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003744">
+        <obo:OBI_9991118>HH-T cell</obo:OBI_9991118>
+        <rdfs:label>HH cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003787">
+        <obo:OBI_9991118>C1R cells-B cell</obo:OBI_9991118>
+        <rdfs:label>HMy2.CIR cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0003795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003795">
+        <obo:OBI_9991118>HOS-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HOS cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0004009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0004009">
+        <obo:OBI_9991118>Hs 578T-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Hs 578T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0004245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0004245">
+        <obo:OBI_9991118>Hs 940.T-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>Hs 940.T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0004278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0004278">
+        <obo:OBI_9991118>HT1197-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HT-1197 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0004283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0004283">
+        <obo:OBI_9991118>HT-29-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>HT-29 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0006961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0006961">
+        <obo:OBI_9991118>IPC-298-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>IPC-298 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007012">
+        <obo:OBI_9991118>JAWS II-Dendritic cell</obo:OBI_9991118>
+        <rdfs:label>JAWSII cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007043">
+        <obo:OBI_9991118>Jurkat-T cell</obo:OBI_9991118>
+        <rdfs:label>JURKAT cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007050">
+        <obo:OBI_9991118>K562-Myeloid cell</obo:OBI_9991118>
+        <rdfs:label>K 562 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007073">
+        <obo:OBI_9991118>KATO III-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>KATO III cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007189">
+        <obo:OBI_9991118>L-428-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>L-428 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007201">
+        <obo:OBI_9991118>L-540-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>L-540 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007325">
+        <obo:OBI_9991118>LL/2 (LLC1)-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>LL/2 (LLC1) cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007336">
+        <obo:OBI_9991118>L cells-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>L-M cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007365">
+        <obo:OBI_9991118>LNCa-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>LNCAP cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007587">
+        <obo:OBI_9991118>MC57G-Fibroblast cell</obo:OBI_9991118>
+        <rdfs:label>MC57G cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007606">
+        <obo:OBI_9991118>MCF-7/LY2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MCF7 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007629">
+        <obo:OBI_9991118>MDA-PCa-2b-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MDA PCa 2b cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007634">
+        <obo:OBI_9991118>MDA-MB-231-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MDA-MB-231 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007636">
+        <obo:OBI_9991118>MDA-MB-361-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MDA-MB-361 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007641">
+        <obo:OBI_9991118>MDA-MB-468-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MDA-MB-468 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007668">
+        <obo:OBI_9991118>MEG-01-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>MEG-01 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007680">
+        <obo:OBI_9991118>Met-5A-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MeT-5A cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007688">
+        <obo:OBI_9991118>MeWo-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>MeWo cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007726">
+        <obo:OBI_9991118>MIA PaCa-2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MIA PaCa-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007733">
+        <obo:OBI_9991118>MKN45-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MKN-45 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007825">
+        <obo:OBI_9991118>MOLT-4-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>MOLT-4 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007830">
+        <obo:OBI_9991118>MOPC315-B cell</obo:OBI_9991118>
+        <rdfs:label>MOPC 315 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007906">
+        <obo:OBI_9991118>MV411-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>MV-4-11 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007938">
+        <obo:OBI_9991118>NALM-6-B cell</obo:OBI_9991118>
+        <rdfs:label>NALM-6 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007939">
+        <obo:OBI_9991118>Namalwa-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>NAMALWA cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007947">
+        <obo:OBI_9991118>NB-4-B cell</obo:OBI_9991118>
+        <rdfs:label>NB-4 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007980">
+        <obo:OBI_9991118>NCI-H1092-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1092 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007986">
+        <obo:OBI_9991118>H1299-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1299 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007989">
+        <obo:OBI_9991118>NCI-H1355-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1355 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007992">
+        <obo:OBI_9991118>NCI-H1395-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1395 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007998">
+        <obo:OBI_9991118>NCI-H146-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H146 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008016">
+        <obo:OBI_9991118>NCI-H1755-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1755 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008035">
+        <obo:OBI_9991118>NCI-H1975-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H1975 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008067">
+        <obo:OBI_9991118>NCI-H2228-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H2228 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008068">
+        <obo:OBI_9991118>NCI-H226-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H226 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008076">
+        <obo:OBI_9991118>NCI-H2444-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H2444 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008077">
+        <obo:OBI_9991118>NCI-H2452-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H2452 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008080">
+        <obo:OBI_9991118>NCI-H292-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H292 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008084">
+        <obo:OBI_9991118>NCI-H345-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H345 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008085">
+        <obo:OBI_9991118>NCI-H358-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H358 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008087">
+        <obo:OBI_9991118>NCI-H441-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H441 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008088">
+        <obo:OBI_9991118>NCI-H446-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H446 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008093">
+        <obo:OBI_9991118>H520-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H520 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008094">
+        <obo:OBI_9991118>NCI-H522-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H522 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008102">
+        <obo:OBI_9991118>NCI-H660-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H660 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008105">
+        <obo:OBI_9991118>NCI-H69-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H69 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008127">
+        <obo:OBI_9991118>NCI-H929-B cell</obo:OBI_9991118>
+        <rdfs:label>NCI-H929 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008129">
+        <obo:OBI_9991118>NCI-N87-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NCI-N87 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008172">
+        <obo:OBI_9991118>NIH 3T3-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>NIH-3T3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008195">
+        <obo:OBI_9991118>NRK-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NRK cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008228">
+        <obo:OBI_9991118>OAW28-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>OAW28 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008235">
+        <obo:OBI_9991118>OCI-AML-2-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>OCI-AML2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008238">
+        <obo:OBI_9991118>OE19-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>OE19 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008269">
+        <obo:OBI_9991118>OPM-2-B cell</obo:OBI_9991118>
+        <rdfs:label>OPM-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008279">
+        <obo:OBI_9991118>OVCAR3-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>OVCAR-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008280">
+        <obo:OBI_9991118>OVCAR5-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>OVCAR-5 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008321">
+        <obo:OBI_9991118>P388-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>P388 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008341">
+        <obo:OBI_9991118>P815-Mast cell</obo:OBI_9991118>
+        <rdfs:label>P815 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008380">
+        <obo:OBI_9991118>Panc 10.05-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>Panc 10.05 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008381">
+        <obo:OBI_9991118>PANC-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>PANC-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008395">
+        <obo:OBI_9991118>PC-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>PC-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008458">
+        <obo:OBI_9991118>PLC/PRF/5-Hepatocyte</obo:OBI_9991118>
+        <rdfs:label>PLC/PRF/5 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008693">
+        <obo:OBI_9991118>RD-Muscle cell</obo:OBI_9991118>
+        <rdfs:label>R D cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008734">
+        <obo:OBI_9991118>Raji-B cell</obo:OBI_9991118>
+        <rdfs:label>Raji cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008738">
+        <obo:OBI_9991118>Ramos-B cell</obo:OBI_9991118>
+        <rdfs:label>RAMOS cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008873">
+        <obo:OBI_9991118>RPMI-8226-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>RPMI 8226 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0008947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008947">
+        <obo:OBI_9991118>SaOS-2-Osteoblast</obo:OBI_9991118>
+        <rdfs:label>Saos-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009034">
+        <obo:OBI_9991118>SK-BR3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SK-BR-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009041">
+        <obo:OBI_9991118>SK-MEL-2-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>SK-MEL-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009043">
+        <obo:OBI_9991118>SK-MEL-28-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>SK-MEL-28 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009047">
+        <obo:OBI_9991118>SK-MEL-5-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>SK-MEL-5 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009051">
+        <obo:OBI_9991118>SK-N-AS-Neuroblast</obo:OBI_9991118>
+        <rdfs:label>SK-N-AS cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009063">
+        <obo:OBI_9991118>SKOV3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SK-OV-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009105">
+        <obo:OBI_9991118>SNU-C2B-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SNU-C2B cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009160">
+        <obo:OBI_9991118>SU-DHL-1-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>SU-DHL-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009161">
+        <obo:OBI_9991118>SUP-B15-B cell</obo:OBI_9991118>
+        <rdfs:label>SUP-B15 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009164">
+        <obo:OBI_9991118>SUP-T1-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>SUP-T1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009188">
+        <obo:OBI_9991118>SW1463-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW 1463 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009190">
+        <obo:OBI_9991118>SW1573-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW 1573 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009192">
+        <obo:OBI_9991118>SW1990-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW 1990 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009195">
+        <obo:OBI_9991118>SW-480-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW 480 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009196">
+        <obo:OBI_9991118>SW620-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW 620 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009216">
+        <obo:OBI_9991118>SW-48-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW48 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009226">
+        <obo:OBI_9991118>SW948-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SW948 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009242">
+        <obo:OBI_9991118>T2 cells-Lymphoblast</obo:OBI_9991118>
+        <rdfs:label>T2 (174 x CEM.T2) cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009245">
+        <obo:OBI_9991118>T24-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>T24 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009251">
+        <obo:OBI_9991118>T-47D-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>T-47D cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009258">
+        <obo:OBI_9991118>T98G-Glial cell</obo:OBI_9991118>
+        <rdfs:label>T98G cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009279">
+        <obo:OBI_9991118>TC-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>TC-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009326">
+        <obo:OBI_9991118>TF-1-Erythrocyte</obo:OBI_9991118>
+        <rdfs:label>TF-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009348">
+        <obo:OBI_9991118>THP-1-Monocyte</obo:OBI_9991118>
+        <rdfs:label>THP-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009385">
+        <obo:OBI_9991118>TOV-21G-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>TOV-21G cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009401">
+        <obo:OBI_9991118>TRAMP-C1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>TRAMP-C1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009402">
+        <obo:OBI_9991118>TRAMP-C2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>TRAMP-C2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009454">
+        <obo:OBI_9991118>U2-OS-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>U-2 OS cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009456">
+        <obo:OBI_9991118>U-251MG-Glial cell</obo:OBI_9991118>
+        <rdfs:label>U-251 MG cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009458">
+        <obo:OBI_9991118>U266B1-B cell</obo:OBI_9991118>
+        <rdfs:label>U266B1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009462">
+        <obo:OBI_9991118>U-698-M-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>U-698-M cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009464">
+        <obo:OBI_9991118>U-87MG-Glial cell</obo:OBI_9991118>
+        <rdfs:label>U-87 MG cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009465">
+        <obo:OBI_9991118>U-937-Monocyte</obo:OBI_9991118>
+        <rdfs:label>U-937 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009467">
+        <obo:OBI_9991118>UACC-812-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>UACC-812 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009468">
+        <obo:OBI_9991118>UACC-893-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>UACC-893 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009597">
+        <obo:OBI_9991118>WI-38 VA13 subline 2RA-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>WI-38 VA-13 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009616">
+        <obo:OBI_9991118>WM278-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>WM278 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009619">
+        <obo:OBI_9991118>WM793-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>WM793B cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009727">
+        <obo:OBI_9991118>ZR75.1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>ZR-75-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009728">
+        <obo:OBI_9991118>ZR-75-30-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>ZR-75-30 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009791">
+        <obo:OBI_9991118>KG-1-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>immortal human myeloblast cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009853">
+        <obo:OBI_9991118>OCI-AML3-Myeloid cell</obo:OBI_9991118>
+        <rdfs:label>OCI-AML3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009856">
+        <obo:OBI_9991118>PL-21-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>PL-21 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009873">
+        <obo:OBI_9991118>EW-7-Neural crest cell</obo:OBI_9991118>
+        <rdfs:label>EW-7 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009879">
+        <obo:OBI_9991118>TC-71-Neural crest cell</obo:OBI_9991118>
+        <rdfs:label>TC-71 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009894">
+        <obo:OBI_9991118>KNS42-Glial cell</obo:OBI_9991118>
+        <rdfs:label>KNS-42 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009912">
+        <obo:OBI_9991118>JIMT-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>JIMT-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009918">
+        <obo:OBI_9991118>SUM159PT-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SUM159PT cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009919">
+        <obo:OBI_9991118>SUM185PE-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SUM185PE cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009958">
+        <obo:OBI_9991118>CL-40-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>CL-40 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009970">
+        <obo:OBI_9991118>MDST8-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MDST8 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009974">
+        <obo:OBI_9991118>A498-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>A498 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0010594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010594">
+        <obo:OBI_9991118>31227ABO-B cell</obo:OBI_9991118>
+        <rdfs:label>GM08600 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0010607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010607">
+        <obo:OBI_9991118>MOU-B cell</obo:OBI_9991118>
+        <rdfs:label>GM08605 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037020">
+        <obo:OBI_9991118>LC-2/ad-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>LC-2-ad cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037061">
+        <obo:OBI_9991118>SU-DHL-4-B cell</obo:OBI_9991118>
+        <rdfs:label>SU-DHL-4 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037063">
+        <obo:OBI_9991118>SU-DHL-6-B cell</obo:OBI_9991118>
+        <rdfs:label>SU-DHL-6 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037068">
+        <obo:OBI_9991118>WSU-DLCL2-B cell</obo:OBI_9991118>
+        <rdfs:label>WSU-DLCL2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037104">
+        <obo:OBI_9991118>TYK-nu-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>TYK-nu cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037107">
+        <obo:OBI_9991118>KP2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>KP-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037108">
+        <obo:OBI_9991118>KP3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>KP-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037114">
+        <obo:OBI_9991118>SUIT2-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>SUIT-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037132">
+        <obo:OBI_9991118>MZ2-MEL-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>MZ2-MEL cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037135">
+        <obo:OBI_9991118>UACC-257-Melanocyte</obo:OBI_9991118>
+        <rdfs:label>UACC-257 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037144">
+        <obo:OBI_9991118>NUGC-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>NUGC-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037159">
+        <obo:OBI_9991118>LB831-BLC-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>LB831-BLC cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037173">
+        <obo:OBI_9991118>JJN-3-B cell</obo:OBI_9991118>
+        <rdfs:label>JJN-3 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037180">
+        <obo:OBI_9991118>MCF12A-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>MCF12A cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037201">
+        <obo:OBI_9991118>RMA-Lymphocyte</obo:OBI_9991118>
+        <rdfs:label>RMA cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037202">
+        <obo:OBI_9991118>JY cells-B cell</obo:OBI_9991118>
+        <rdfs:label>JY cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037203">
+        <obo:OBI_9991118>MM.1S-B cell</obo:OBI_9991118>
+        <rdfs:label>MM.1S cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037204">
+        <obo:OBI_9991118>LSCC-RP9-B cell</obo:OBI_9991118>
+        <rdfs:label>LSCC-RP9 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037205">
+        <obo:OBI_9991118>UCI 107-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>UCI 107 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037206">
+        <obo:OBI_9991118>UCI 101-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>UCI 101 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037256">
+        <obo:OBI_9991118>HBL-1-B cell</obo:OBI_9991118>
+        <rdfs:label>HBL-1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037272">
+        <obo:OBI_9991118>TMD8-B cell</obo:OBI_9991118>
+        <rdfs:label>TMD8 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050045">
+        <obo:OBI_9991118>LC-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB0455 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050048">
+        <obo:OBI_9991118>MS-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB0725 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050049">
+        <obo:OBI_9991118>Sq-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1905 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050057">
+        <obo:OBI_9991118>B1203L-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2818 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050059">
+        <obo:OBI_9991118>Lu-65-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1967 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050067">
+        <obo:OBI_9991118>PC-9-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB4455 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050083">
+        <obo:OBI_9991118>ACC-MESO-4-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2293 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050104">
+        <obo:OBI_9991118>KLM-1-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2138 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050107">
+        <obo:OBI_9991118>PK-45P-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2141 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050150">
+        <obo:OBI_9991118>Sa3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB0980 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050164">
+        <obo:OBI_9991118>KMM-1-B cell</obo:OBI_9991118>
+        <rdfs:label>RCB0193 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050192">
+        <obo:OBI_9991118>J774-1-Macrophage</obo:OBI_9991118>
+        <rdfs:label>RCB2652 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050238">
+        <obo:OBI_9991118>Rat1-Fibroblast</obo:OBI_9991118>
+        <rdfs:label>RCB1830 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050752">
+        <obo:OBI_9991118>B16-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1283 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050789">
+        <obo:OBI_9991118>NUGC4-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1939 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050802">
+        <obo:OBI_9991118>KE39-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1434 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050853">
+        <obo:OBI_9991118>HuH7-Hepatocyte</obo:OBI_9991118>
+        <rdfs:label>RCB1942 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050890">
+        <obo:OBI_9991118>10RGB-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1151 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050893">
+        <obo:OBI_9991118>VMRC-RCW-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1963 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050894">
+        <obo:OBI_9991118>293-T-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2202 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050896">
+        <obo:OBI_9991118>TUHR-10TKB-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1275 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0050983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0050983">
+        <obo:OBI_9991118>FKH-1-Myeloblast</obo:OBI_9991118>
+        <rdfs:label>RCB1428 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051228">
+        <obo:OBI_9991118>HEV0041-B cell</obo:OBI_9991118>
+        <rdfs:label>HEV0041 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051333">
+        <obo:OBI_9991118>COLO205-B cell</obo:OBI_9991118>
+        <rdfs:label>HSC0107 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051371">
+        <obo:OBI_9991118>TE-8-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2098 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051542">
+        <obo:OBI_9991118>LAN-1-Neuroblast</obo:OBI_9991118>
+        <rdfs:label>RCB0483 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051567">
+        <obo:OBI_9991118>HSC-4-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1902 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051568">
+        <obo:OBI_9991118>SAS-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1974 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051569">
+        <obo:OBI_9991118>HSC-3-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB1975 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051596">
+        <obo:OBI_9991118>Colon 26-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB2657 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051609">
+        <obo:OBI_9991118>OCUB-M-Epithelial cell</obo:OBI_9991118>
+        <rdfs:label>RCB0881 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000017">
+        <obo:OBI_9991118>Sperm cell</obo:OBI_9991118>
+        <rdfs:label>spermatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000031">
+        <obo:OBI_9991118>Neuroblast</obo:OBI_9991118>
+        <rdfs:label>neuroblast (sensu Vertebrata)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000169">
+        <obo:OBI_9991118>Pancreatic beta cell</obo:OBI_9991118>
+        <rdfs:label>type B pancreatic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000624">
+        <obo:OBI_9991118>T cell CD4+</obo:OBI_9991118>
+        <rdfs:label>CD4-positive, alpha-beta T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000625">
+        <obo:OBI_9991118>T cell CD8+</obo:OBI_9991118>
+        <rdfs:label>CD8-positive, alpha-beta T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000798">
+        <obo:OBI_9991118>T cell Î³Î´</obo:OBI_9991118>
+        <rdfs:label>gamma-delta T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000814">
+        <obo:OBI_9991118>NKT cells</obo:OBI_9991118>
+        <rdfs:label>mature NK T cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_2000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000001">
+        <obo:OBI_9991118>PBMC</obo:OBI_9991118>
+        <rdfs:label>peripheral blood mononuclear cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100067">
+        <obo:OBI_9991118>Bronchial Aveolar Lavage (BAL)</obo:OBI_9991118>
+        <rdfs:label>bronchial alveolar lavage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110041">
+        <obo:OBI_9991118>Lymph node cells</obo:OBI_9991118>
+        <rdfs:label>lymph node cell specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110043">
+        <obo:OBI_9991118>Adherent cell</obo:OBI_9991118>
+        <rdfs:label>cultured adherent cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110050">
+        <obo:OBI_9991118>T cell CD4-</obo:OBI_9991118>
+        <rdfs:label>cultured CD4- T cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110051">
+        <obo:OBI_9991118>T cell CD8-</obo:OBI_9991118>
+        <rdfs:label>cultured CD8- T cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110052">
+        <obo:OBI_9991118>T cell CD8-/CD4-</obo:OBI_9991118>
+        <rdfs:label>cultured CD4-/CD8- T cell population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001017">
+        <obo:OBI_9991118>Central nervous system (CNS)</obo:OBI_9991118>
+        <rdfs:label>central nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044">
+        <obo:OBI_9991118>Salivary Gland</obo:OBI_9991118>
+        <rdfs:label>saliva-secreting gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001255">
+        <obo:OBI_9991118>Bladder</obo:OBI_9991118>
+        <rdfs:label>urinary bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359">
+        <obo:OBI_9991118>Cerebrospinal fluid (CSF)</obo:OBI_9991118>
+        <rdfs:label>cerebrospinal fluid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
+        <obo:OBI_9991118>Bone</obo:OBI_9991118>
+        <rdfs:label>bone element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001744">
+        <obo:OBI_9991118>Lymphoid</obo:OBI_9991118>
+        <rdfs:label>lymphoid tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002046">
+        <obo:OBI_9991118>Thyroid</obo:OBI_9991118>
+        <rdfs:label>thyroid gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
+        <obo:OBI_9991118>Skin</obo:OBI_9991118>
+        <rdfs:label>skin of body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002367">
+        <obo:OBI_9991118>Prostate</obo:OBI_9991118>
+        <rdfs:label>prostate gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005090">
+        <obo:OBI_9991118>Muscle</obo:OBI_9991118>
+        <rdfs:label>muscle structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
+        <obo:OBI_9991118>Gastrointestinal Tract</obo:OBI_9991118>
+        <rdfs:label>alimentary part of gastrointestinal system</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

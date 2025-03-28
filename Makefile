@@ -130,6 +130,13 @@ merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.o
 	--output merged.owl
 
 
+cellfinder.owl: merged.owl build/iedb_alternative_terms.owl
+	robot merge \
+	--input $< \
+	--input build/iedb_alternative_terms.owl \
+	--output cellfinder.owl
+
+
 build/merged_template.tsv: merged.owl
 	robot export \
 	--input $< \
