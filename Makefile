@@ -13,6 +13,23 @@ imports/uberon_imports.owl: sources/uberon.owl inputs/uberon_input.txt
 	robot export --input $@ \
 	--header IRI \
 	--export build/final_uberon.txt
+imports/doid_imports.owl: sources/doid.owl inputs/doid_input.txt imports/uberon_imports.owl
+	robot reason --reasoner ELK \
+	--input $< \
+	extract --method MIREOT \
+	--lower-terms $(word 2,$^) \
+	--lower-terms build/final_uberon.txt \
+	--intermediates minimal \
+	export --header IRI \
+	--export build/mireot_doid.txt
+	robot extract --method subset --input $< \
+	--term-file build/mireot_doid.txt \
+	--term BFO:0000050 \
+	--term BFO:0000051 \
+	--output $@
+	robot export --input $@ \
+	--header IRI \
+	--export build/final_doid.txt
 imports/cl_imports.owl: sources/cl.owl inputs/cl_input.txt imports/uberon_imports.owl
 	robot extract --method MIREOT --input $< \
 	--upper-term UBERON:0001062 \
