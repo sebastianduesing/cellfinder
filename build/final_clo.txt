@@ -324,6 +324,7 @@ http://purl.obolibrary.org/obo/CLO_0051609
 http://purl.obolibrary.org/obo/CL_0000000
 http://purl.obolibrary.org/obo/CL_0000003
 http://purl.obolibrary.org/obo/CL_0000010
+http://purl.obolibrary.org/obo/CL_0000066
 http://purl.obolibrary.org/obo/CL_0001034
 http://purl.obolibrary.org/obo/NCBITaxon_10090
 http://purl.obolibrary.org/obo/NCBITaxon_117571

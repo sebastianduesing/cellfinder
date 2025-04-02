@@ -134,10 +134,12 @@ cellfinder.owl: merged.owl build/iedb_alternative_terms.owl
 	robot merge \
 	--input $< \
 	--input build/iedb_alternative_terms.owl \
+	annotate \
+	--ontology-iri https://github.com/sebastianduesing/cellfinder/cellfinder.owl \
 	--output cellfinder.owl
 
 
-build/merged_template.tsv: merged.owl
+build/template.tsv: cellfinder.owl
 	robot export \
 	--input $< \
 	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part" \

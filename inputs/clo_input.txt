@@ -260,6 +260,7 @@ http://purl.obolibrary.org/obo/CLO_0051596
 http://purl.obolibrary.org/obo/CLO_0051609
 http://purl.obolibrary.org/obo/CLO_0052983
 http://purl.obolibrary.org/obo/CLO_0053007
+http://purl.obolibrary.org/obo/CL_0000066
 http://purl.obolibrary.org/obo/NCBITaxon_9606
 http://purl.obolibrary.org/obo/NCBITaxon_10090
 http://purl.obolibrary.org/obo/OBI_0100026
