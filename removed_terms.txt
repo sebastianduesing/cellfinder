@@ -5,7 +5,14 @@ http://purl.obolibrary.org/obo/BFO_0000016
 http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CL_0001034
+http://purl.obolibrary.org/obo/OBI_0000047
+http://purl.obolibrary.org/obo/OBI_0000953
+http://purl.obolibrary.org/obo/OBI_0001479
+http://purl.obolibrary.org/obo/OBI_0100051
+http://purl.obolibrary.org/obo/UBERON_0000061
 http://purl.obolibrary.org/obo/UBERON_0000077
+http://purl.obolibrary.org/obo/UBERON_0000465
+http://purl.obolibrary.org/obo/UBERON_0000481
 http://purl.obolibrary.org/obo/UBERON_0001062
 http://purl.obolibrary.org/obo/UBERON_0004119
 http://purl.obolibrary.org/obo/UBERON_0004120

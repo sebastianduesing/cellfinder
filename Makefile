@@ -131,10 +131,22 @@ merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.o
 	--output merged.owl
 
 
-cellfinder.owl: merged.owl build/iedb_alternative_terms.owl
+build/cf-edit.owl: build/cf-edit.tsv
+	echo '' > $@
+	robot merge \
+	--input merged.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri https://github.com/sebastianduesing/cellfinder/cf-edit.owl \
+	--output $@
+
+
+cellfinder.owl: merged.owl build/iedb_alternative_terms.owl build/cf-edit.owl
 	robot merge \
 	--input $< \
 	--input build/iedb_alternative_terms.owl \
+	--input build/cf-edit.owl \
 	annotate \
 	--ontology-iri https://github.com/sebastianduesing/cellfinder/cellfinder.owl \
 	--output cellfinder.owl
