@@ -3024,7 +3024,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3035,14 +3035,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1730</obo:CLO_0000178>
@@ -3348,7 +3360,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3359,14 +3371,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1731</obo:CLO_0000178>
@@ -3823,7 +3847,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3834,14 +3858,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1732</obo:CLO_0000178>
@@ -3865,7 +3901,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3876,14 +3912,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1733</obo:CLO_0000178>
@@ -3907,7 +3955,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3918,14 +3966,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1748</obo:CLO_0000178>
@@ -5083,7 +5143,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5101,7 +5161,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5748,7 +5808,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5759,14 +5819,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1738</obo:CLO_0000178>
@@ -6929,7 +7001,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6940,14 +7012,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1743</obo:CLO_0000178>
@@ -6966,7 +7050,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6977,14 +7061,38 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1726</obo:CLO_0000178>
@@ -7175,7 +7283,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7193,7 +7301,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7666,7 +7774,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7677,14 +7785,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1750</obo:CLO_0000178>
@@ -8231,7 +8351,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8255,7 +8375,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8291,12 +8411,6 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8316,12 +8430,6 @@ This is a short cut relation that represents:
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8771,13 +8879,13 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8795,13 +8903,13 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8833,13 +8941,13 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8857,13 +8965,13 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9296,7 +9404,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9307,14 +9415,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1728</obo:CLO_0000178>
@@ -9334,7 +9454,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9345,14 +9465,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1723</obo:CLO_0000178>
@@ -9372,7 +9504,7 @@ This is a short cut relation that represents:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9383,14 +9515,26 @@ This is a short cut relation that represents:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1729</obo:CLO_0000178>
@@ -13294,15 +13438,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0050161</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
-        <rdfs:comment>&quot;A respiratory system disease which involves the lower respiratory tract.&quot; [url:http\://en.wikipedia.org/wiki/lower_respiratory_tract]</rdfs:comment>
-        <rdfs:label>lower respiratory tract disease</rdfs:label>
         <rdfs:label xml:lang="en">lower respiratory tract disease</rdfs:label>
-        <rdfs:seeAlso>ICD9CM_2010:478.1</rdfs:seeAlso>
-        <rdfs:seeAlso>ICD9CM_2010:478.19</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:195823002</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:266346007</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C0029581</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#lower_respiratory_tract_disease</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050161"/>
@@ -13319,12 +13455,9 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
-        <obo:IAO_0000115>An organ system cancer located_in the respiratory system that is characterized by uncontrolled cellular proliferation in the respiratory tract.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in the respiratory system that is characterized by uncontrolled cellular proliferation in the respiratory tract.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0050615</oboInOwl:id>
-        <rdfs:label>respiratory system cancer</rdfs:label>
         <rdfs:label xml:lang="en">respiratory system cancer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13585,14 +13718,11 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
-        <obo:IAO_0000115>An immune system cancer that is located_in the lymphatic system and is characterized by uncontrolled cellular proliferation of lymphoid tissue.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An immune system cancer that is located_in the lymphatic system and is characterized by uncontrolled cellular proliferation of lymphoid tissue.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-05-11T01:05:14Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0060073</oboInOwl:id>
-        <rdfs:label>lymphatic system cancer</rdfs:label>
         <rdfs:label xml:lang="en">lymphatic system cancer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13610,16 +13740,13 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
-        <obo:IAO_0000115>An organ system cancer located_in the muscular and skeletal organs and characterized by uncontrolled cellular proliferation of the musculoskeletal organs.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in the muscular and skeletal organs and characterized by uncontrolled cellular proliferation of the musculoskeletal organs.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-07-15T02:30:51Z</oboInOwl:creation_date>
         <oboInOwl:hasAlternativeId>DOID:0060124</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym xml:lang="en">skeletal system cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0060100</oboInOwl:id>
-        <rdfs:label>musculoskeletal system cancer</rdfs:label>
         <rdfs:label xml:lang="en">musculoskeletal system cancer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13728,16 +13855,9 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <!-- http://purl.obolibrary.org/obo/DOID_10283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_122"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1265"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3856"/>
-        <obo:IAO_0000115>A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_48"/>
         <obo:IAO_0000115 xml:lang="en">A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
-        <obo:IAO_0000118>&quot;malignant tumor of prostate (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:363448003]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant tumor of prostate (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:399068003]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant tumor of the prostate&quot; EXACT [NCI2004_11_17:C7378]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;prostatic cancer&quot; EXACT [CSP2005:2016-2641]</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:514</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:C61</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:185</oboInOwl:hasDbXref>
@@ -13762,26 +13882,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasDbXref>MIM:611959</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3343</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7378</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:176807</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:300147</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:300704</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:601518</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:602759</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:608656</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:608658</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:609299</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:609558</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:610321</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:610997</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611100</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611868</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611928</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611955</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611958</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611959</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:1331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:126906006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:93974005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126906006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93974005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0033578</oboInOwl:hasDbXref>
@@ -13796,32 +13897,14 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasExactSynonym xml:lang="en">tumor of the prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:10283</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
-        <rdfs:comment>Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <rdfs:label>malignant neoplasm of prostate</rdfs:label>
-        <rdfs:label>prostate cancer</rdfs:label>
         <rdfs:label xml:lang="en">prostate cancer</rdfs:label>
-        <rdfs:seeAlso>ICD9CM_2010:185</rdfs:seeAlso>
-        <rdfs:seeAlso>NCI2009_04D:C7378</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM2009_05_01:176807</rdfs:seeAlso>
-        <rdfs:seeAlso>OMIM2009_05_01:MTHU017418</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:363448003</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:399068003</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:93974005</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C0376358</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#malignant_neoplasm_of_prostate</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_10283"/>
@@ -13839,7 +13922,10 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10283"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1265"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3856"/>
         <obo:IAO_0000115>A prostate cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A prostate cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -14193,22 +14279,14 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_16">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115>A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:16</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
-        <rdfs:label>integumentary system disease</rdfs:label>
         <rdfs:label xml:lang="en">integumentary system disease</rdfs:label>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#integumentary_system_disease</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_16"/>
@@ -14332,24 +14410,13 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_462"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115>An organ system cancer located_in endocrine system that is characterized by uncontrolled cellular proliferation of the hormone producing glands of the endocrine system.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in endocrine system that is characterized by uncontrolled cellular proliferation of the hormone producing glands of the endocrine system.</obo:IAO_0000115>
-        <obo:IAO_0000118>&quot;Endocrine tumor&quot; EXACT [NCI2004_11_17:C3010]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;endocrine neoplasm&quot; EXACT [CSP2005:2009-5861]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;neoplasm of endocrine gland (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:127015005]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;neoplasm of endocrine gland (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:387922007]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;neoplasm of endocrine system (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:387927001]</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:10009</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:C75.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:194.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004701</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3010</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3575</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:127015005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:93780007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:127015005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93780007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014132</oboInOwl:hasDbXref>
@@ -14363,20 +14430,9 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">neoplasm of endocrine system</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:170</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
-        <rdfs:comment>&quot;A cancer by anatomical entity that affects any gland in the endocrine system.&quot; [url:http\://www.wrongdiagnosis.com/e/endocrine_system_cancer/basics.htm]</rdfs:comment>
-        <rdfs:label>endocrine gland cancer</rdfs:label>
         <rdfs:label xml:lang="en">endocrine gland cancer</rdfs:label>
-        <rdfs:seeAlso>MSH2010_2010_02_22:D004701</rdfs:seeAlso>
-        <rdfs:seeAlso>NCI2009_04D:C3010</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:127015005</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:387922007</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:387927001</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C0014132</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#endocrine_gland_cancer</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
@@ -14804,8 +14860,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3165"/>
         <obo:IAO_0000115>A carcinoma that has_material_basis_in abnormally proliferating cells, derives_from epithelial cells, which originate in glandular tissue.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A carcinoma that has_material_basis_in abnormally proliferating cells, derives_from epithelial cells, which originate in glandular tissue.</obo:IAO_0000115>
         <obo:IAO_0000118>&quot;adenocarcinoma NOS (morphologic abnormality)&quot; EXACT [SNOMEDCT_2005_07_31:189582009]</obo:IAO_0000118>
@@ -14941,7 +14997,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060100"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1319"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_177"/>
@@ -15139,26 +15194,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3165 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_16"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_177"/>
-        <obo:IAO_0000118>&quot;neoplasm of skin (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:126488004]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;neoplasm of skin by site&quot; EXACT [SNOMEDCT_2005_07_31:363230005]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;skin neoplasm&quot; EXACT [CSP2005:2020-0536]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;tumor of the skin&quot; EXACT [NCI2004_11_17:C3372]</obo:IAO_0000118>
-        <rdfs:label>skin neoplasm</rdfs:label>
-        <rdfs:seeAlso>MSH2010_2010_02_22:D012878</rdfs:seeAlso>
-        <rdfs:seeAlso>NCI2009_04D:C3372</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:126488004</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:363230005</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C0037286</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#skin_neoplasm</rdfs:seeAlso>
-    </owl:Class>
     
 
 
@@ -15445,6 +15480,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3721">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_706"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_707"/>
         <obo:IAO_0000118>&quot;Myeloma - solitary&quot; EXACT [SNOMEDCT_2005_07_31:189507001]</obo:IAO_0000118>
         <obo:IAO_0000118>&quot;Myeloma, solitary&quot; EXACT [SNOMEDCT_2005_07_31:154644004]</obo:IAO_0000118>
         <obo:IAO_0000118>&quot;Myeloma, solitary&quot; EXACT [SNOMEDCT_2005_07_31:269652000]</obo:IAO_0000118>
@@ -15699,21 +15735,11 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3165"/>
-        <obo:IAO_0000115>An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_16"/>
         <obo:IAO_0000115 xml:lang="en">An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.</obo:IAO_0000115>
-        <obo:IAO_0000118>&quot;CA - skin cancer&quot; EXACT [SNOMEDCT_2005_07_31:363511009]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant neoplasm of skin (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:372130007]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant neoplasm of skin NOS (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:188143008]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant neoplasm of skin&quot; EXACT [MTH:NOCODE]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;malignant neoplasm of skin, unspecified (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:190107001]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;melanoma and Non-melanoma skin cancer&quot; EXACT [NCI2004_11_17:C2920]</obo:IAO_0000118>
-        <obo:IAO_0000118>&quot;skin cancer&quot; EXACT [CSP2005:2020-0536]</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:10421</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012878</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2920</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:94047004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94047004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007114</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CA - skin cancer</oboInOwl:hasExactSynonym>
@@ -15722,23 +15748,11 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym xml:lang="en">cancer of skin</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>DOID:4159</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
-        <rdfs:label>cancer of skin</rdfs:label>
-        <rdfs:label>skin cancer</rdfs:label>
         <rdfs:label xml:lang="en">skin cancer</rdfs:label>
-        <rdfs:seeAlso>NCI2009_04D:C2920</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:188143008</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:190107001</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:363511009</rdfs:seeAlso>
-        <rdfs:seeAlso>SNOMEDCT_2010_1_31:372130007</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C0007114</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#cancer_of_skin</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4159"/>
@@ -16174,7 +16188,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_706 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_707"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
         <oboInOwl:hasDbXref>EFO:0000096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C27910</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1334633</oboInOwl:hasDbXref>
@@ -16183,11 +16197,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:id>DOID:706</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
-        <rdfs:label>mature B-cell lymphocytic neoplasm</rdfs:label>
         <rdfs:label xml:lang="en">mature B-cell neoplasm</rdfs:label>
-        <rdfs:seeAlso>NCI2009_04D:C27910</rdfs:seeAlso>
-        <rdfs:seeAlso>UMLS_CUI:C1334633</rdfs:seeAlso>
-        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#mature_B-cell_lymphocytic_neoplasm</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -16478,6 +16488,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_706"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_707"/>
         <obo:IAO_0000115>A mature B-cell neoplasm of B-cells found in the germinal center.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A mature B-cell neoplasm of B-cells found in the germinal center.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
