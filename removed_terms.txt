@@ -1,6 +1,7 @@
 http://purl.obolibrary.org/obo/BFO_0000001
 http://purl.obolibrary.org/obo/BFO_0000002
 http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/BFO_0000016
 http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CL_0001034
@@ -22,3 +23,5 @@ http://purl.obolibrary.org/obo/NCBITaxon_39107
 http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_117571
 http://purl.obolibrary.org/obo/NCBITaxon_314146
+http://www.ebi.ac.uk/efo/EFO_0000408
+http://www.ebi.ac.uk/efo/EFO_0000512

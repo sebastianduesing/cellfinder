@@ -69,6 +69,7 @@ imports/clo_imports.owl: sources/clo.owl inputs/clo_input.txt imports/uberon_imp
 	--upper-term BFO:0000004 \
 	--lower-terms $(word 2,$^) \
 	--lower-terms build/final_uberon.txt \
+	--lower-terms build/final_doid.txt \
 	--intermediates minimal \
 	export --header IRI \
 	--export build/mireot_clo.txt
@@ -76,6 +77,7 @@ imports/clo_imports.owl: sources/clo.owl inputs/clo_input.txt imports/uberon_imp
 	--term-file build/mireot_clo.txt \
 	--term BFO:0000050 \
 	--term BFO:0000051 \
+	--term CLO:0000015 \
 	--term RO:0001000 \
 	--output $@
 	robot export --input $@ \
@@ -133,7 +135,7 @@ imports/bto_imports.owl: sources/bto.owl inputs/bto_input.txt imports/uberon_imp
 	--export build/final_bto.txt
 
 
-merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.owl imports/obi_imports.owl imports/uberon_imports.owl
+merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.owl imports/obi_imports.owl imports/uberon_imports.owl removed_terms.txt
 	robot merge \
 	--inputs "imports/*.owl" \
 	annotate \
@@ -159,7 +161,7 @@ cellfinder.owl: merged.owl build/iedb_alternative_terms.owl
 build/template.tsv: cellfinder.owl
 	robot export \
 	--input $< \
-	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part" \
+	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part|derives from patient having disease" \
 	--export $@
 
 
