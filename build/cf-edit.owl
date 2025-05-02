@@ -91,14 +91,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000481 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000481">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922">
