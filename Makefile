@@ -117,9 +117,55 @@ imports/bto_imports.owl: sources/bto.owl inputs/bto_input.txt imports/uberon_imp
 	--export build/final_bto.txt
 
 
-merged.owl: imports/cl_imports.owl imports/clo_imports.owl imports/efo_imports.owl imports/obi_imports.owl imports/uberon_imports.owl removed_terms.txt
-	robot merge \
-	--inputs "imports/*.owl" \
+build/%_import_source.owl:
+	curl -sL http://purl.obolibrary.org/obo/$*.owl -o $@
+
+build/%_parent.tsv: src/ontology/robot_inputs/%_input.tsv
+	python3 src/scripts/import.py split $*
+
+build/%_parent.owl: build/%_parent.tsv
+	echo "" > $@
+	robot template \
+	--template $< \
+	annotate \
+	--ontology-iri "http://github.com/sebastianduesing/cellfinder/dev/import/$*_parent.owl" \
+	--output $@
+
+src/ontology/robot_outputs/%_imports.owl: build/%_import_source.owl build/%_limit.txt build/%_import.txt build/%_ignore.txt build/%_parent.owl
+	robot extract --method MIREOT --input $< \
+	--upper-terms $(word 2,$^) \
+	--lower-terms $(word 3,$^) \
+	--intermediates minimal \
+	export --header IRI --export build/mireot_$*.txt
+	robot extract --method subset --input $< \
+	--term-file build/mireot_$*.txt \
+	--term-file build/$*_relations.txt \
+	remove --term-file $(word 4,$^) \
+	reduce --reasoner ELK \
+	merge --input $(word 5,$^) \
+	annotate --ontology-iri "http://github.com/sebastianduesing/cellfinder/dev/import/$*_imports.owl" \
+	convert -o $@
+
+
+icf.owl: build/cells.tsv build/CLO_import_source.owl build/DOID_import_source.owl build/UBERON_import_source.owl
+	echo '' > $@
+	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
+	merge \
+	--input build/CLO_import_source.owl \
+	--input build/DOID_import_source.owl \
+	--input build/UBERON_import_source.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri https://github.com/sebastianduesing/cellfinder/icf.owl \
+	--output $@
+
+
+merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot_outputs/clo_imports.owl src/ontology/robot_outputs/efo_imports.owl src/ontology/robot_outputs/obi_imports.owl src/ontology/robot_outputs/uberon_imports.owl removed_terms.txt
+	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
+	merge \
+	--inputs "src/ontology/robot_outputs/*.owl" \
+	--input icf.owl \
 	annotate \
 	--ontology-iri https://github.com/sebastianduesing/cellfinder/merged.owl \
 	reduce \
@@ -143,10 +189,13 @@ build/cf-edit.owl: build/cf-edit.tsv
 
 
 cellfinder.owl: merged.owl build/iedb_alternative_terms.owl build/cf-edit.owl
-	robot merge \
+	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
+	merge \
 	--input $< \
 	--input build/iedb_alternative_terms.owl \
 	--input build/cf-edit.owl \
+	remove \
+	--term-file removed_terms.txt \
 	annotate \
 	--ontology-iri https://github.com/sebastianduesing/cellfinder/cellfinder.owl \
 	--output cellfinder.owl

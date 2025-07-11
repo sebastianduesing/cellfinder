@@ -5,6 +5,36 @@ http://purl.obolibrary.org/obo/BFO_0000016
 http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CL_0001034
+http://purl.obolibrary.org/obo/CLO_0001008 # 697 cell
+http://purl.obolibrary.org/obo/CLO_0002708 # Daudi cell
+http://purl.obolibrary.org/obo/CLO_0002709 # DB cell
+http://purl.obolibrary.org/obo/CLO_0002767 # DG-75 cell
+http://purl.obolibrary.org/obo/CLO_0002805 # DOHH2 cell
+http://purl.obolibrary.org/obo/CLO_0003787 # HMy2.CIR cell
+http://purl.obolibrary.org/obo/CLO_0007050 # K 562 cell
+http://purl.obolibrary.org/obo/CLO_0007830 # MOPC 315 cell
+http://purl.obolibrary.org/obo/CLO_0007938 # NALM-6 cell
+http://purl.obolibrary.org/obo/CLO_0007939 # NAMALWA cell
+http://purl.obolibrary.org/obo/CLO_0007947 # NB-4 cell
+http://purl.obolibrary.org/obo/CLO_0008127 # NCI-H929 cell
+http://purl.obolibrary.org/obo/CLO_0008269 # OPM-2 cell
+http://purl.obolibrary.org/obo/CLO_0008873 # RPMI 8226 cell
+http://purl.obolibrary.org/obo/CLO_0009161 # SUP-B15 cell
+http://purl.obolibrary.org/obo/CLO_0009242 # T2 (174 x CEM.T2) cell
+http://purl.obolibrary.org/obo/CLO_0009458 # U266B1 cell
+http://purl.obolibrary.org/obo/CLO_0009462 # U-698-M cell
+http://purl.obolibrary.org/obo/CLO_0010594 # GM08600 cell
+http://purl.obolibrary.org/obo/CLO_0010607 # GM08605 cell
+http://purl.obolibrary.org/obo/CLO_0037061 # SU-DHL-4 cell
+http://purl.obolibrary.org/obo/CLO_0037063 # SU-DHL-6 cell
+http://purl.obolibrary.org/obo/CLO_0037068 # WSU-DLCL2 cell
+http://purl.obolibrary.org/obo/CLO_0037173 # JJN-3 cell
+http://purl.obolibrary.org/obo/CLO_0037202 # JY cell
+http://purl.obolibrary.org/obo/CLO_0037203 # MM.1S cell
+http://purl.obolibrary.org/obo/CLO_0037256 # HBL-1 cell
+http://purl.obolibrary.org/obo/CLO_0037272 # TMD8 cell
+http://purl.obolibrary.org/obo/CLO_0051228 # HEV0041 cell
+http://purl.obolibrary.org/obo/CLO_0051333 # HSC0107 cell
 http://purl.obolibrary.org/obo/OBI_0000047
 http://purl.obolibrary.org/obo/OBI_0000953
 http://purl.obolibrary.org/obo/OBI_0001479
