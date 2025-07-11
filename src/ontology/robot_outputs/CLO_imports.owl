@@ -35,17 +35,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0037244 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037244">
-        <obo:IAO_0000115>An annotation property that represents a PubMed BioAssay Identifier accession number.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubchem.ncbi.nlm.nih.gov/help.html</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">PubChem AID</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0037275 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037275">
@@ -849,17 +838,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0000374 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000115>An immortal peripheral vein-derived B cell line cell that derives from human.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yue Liu, Yongqun He</obo:IAO_0000117>
-        <rdfs:label>immortal human peripheral vein-derived B cell line cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0000438 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000438">
@@ -1135,17 +1113,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0000871 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000871">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
-        <obo:IAO_0000115>An immortal bone marrow-derived cell line cell that derives from human.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yue Liu, Yongqun He</obo:IAO_0000117>
-        <rdfs:label>immortal human bone marrow-derived cell line cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0000901 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000901">
@@ -1177,27 +1144,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000115>An immortal prostate gland-derived cell line cell that derives from mouse.</obo:IAO_0000115>
         <obo:IAO_0000117>Yue Liu, Yongqun He</obo:IAO_0000117>
         <rdfs:label>immortal mouse prostate gland-derived cell line cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0001008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0001008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5603"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1042</obo:CLO_0000178>
-        <obo:IAO_0000118>697</obo:IAO_0000118>
-        <rdfs:label>697 cell</rdfs:label>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308147</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0079</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl117</rdfs:seeAlso>
-        <rdfs:seeAlso>Sanger: COSMIC ID:906800</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2153,38 +2099,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0002708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000468"/>
-        <obo:CLO_0000178>LCL-2018</obo:CLO_0000178>
-        <obo:IAO_0000118>Daudi</obo:IAO_0000118>
-        <rdfs:label>Daudi cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CCL-213</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3307579</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0008</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002169</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl995</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0002709 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002709">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
-        <obo:CLO_0000178>LCL-1119</obo:CLO_0000178>
-        <obo:IAO_0000118>DB</obo:IAO_0000118>
-        <rdfs:comment>disease: large cell lymphoma</rdfs:comment>
-        <rdfs:label>DB cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-2289</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308866</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_1168</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002158</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0002723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002723">
@@ -2204,21 +2118,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:seeAlso>CHEMBL: CHEMBL3308485</rdfs:seeAlso>
         <rdfs:seeAlso>CVCL: CVCL_1169</rdfs:seeAlso>
         <rdfs:seeAlso>EFO: EFO_0002159</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0002767 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002767">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000468"/>
-        <obo:CLO_0000178>LCL-2019</obo:CLO_0000178>
-        <obo:IAO_0000118>DG-75</obo:IAO_0000118>
-        <rdfs:label>DG-75 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-2625</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308527</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0244</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl1051</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2289,18 +2188,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:comment>disease: carcinoma; small cell lung cancer</rdfs:comment>
         <rdfs:label>DMS 53 cell</rdfs:label>
         <rdfs:seeAlso>ATCC: CRL-2062</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0002805 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002805">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-        <obo:IAO_0000118>DOHH2</obo:IAO_0000118>
-        <rdfs:label>DOHH2 cell</rdfs:label>
-        <rdfs:seeAlso>HyperCLDB: cl1086</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl4974</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2728,20 +2615,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0003787 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000115>immortal human B cell line cell that derives from some B cell from a human blood sample</obo:IAO_0000115>
-        <obo:IAO_0000118>HMy2.CIR</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://web.expasy.org/cellosaurus/CVCL_3714</obo:IAO_0000119>
-        <rdfs:label>HMy2.CIR cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-1993</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_3714</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0003795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0003795">
@@ -2922,26 +2795,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:seeAlso>HyperCLDB: cl5296</rdfs:seeAlso>
         <rdfs:seeAlso>MeSH: D019169</rdfs:seeAlso>
         <rdfs:seeAlso>RRID: CVCL_0065</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0007050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <obo:IAO_0000118>GM05372</obo:IAO_0000118>
-        <obo:IAO_0000118>GM05372E</obo:IAO_0000118>
-        <obo:IAO_0000118>K 562</obo:IAO_0000118>
-        <obo:IAO_0000118>K-562</obo:IAO_0000118>
-        <obo:IAO_0000118>K.562</obo:IAO_0000118>
-        <obo:IAO_0000118>K562</obo:IAO_0000118>
-        <obo:IAO_0000118>KO</obo:IAO_0000118>
-        <obo:IAO_0000119>https://web.expasy.org/cellosaurus/CVCL_0004</obo:IAO_0000119>
-        <rdfs:comment>disease: leukemia, chronic myeloid</rdfs:comment>
-        <rdfs:label>K 562 cell</rdfs:label>
-        <rdfs:seeAlso>HyperCLDB: cl2969</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_0004</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3258,18 +3111,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0007830 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007830">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-        <obo:IAO_0000118>MOPC 315</obo:IAO_0000118>
-        <rdfs:comment>disease: plasmacytoma; myeloma</rdfs:comment>
-        <rdfs:label>MOPC 315 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: TIB-23</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0007906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007906">
@@ -3287,68 +3128,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:seeAlso>CRL-9591</rdfs:seeAlso>
         <rdfs:seeAlso>HyperCLDB: cl3610</rdfs:seeAlso>
         <rdfs:seeAlso>HyperCLDB: cl3611</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0007938 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007938">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000523"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1007</obo:CLO_0000178>
-        <obo:IAO_0000118>NALM-6</obo:IAO_0000118>
-        <rdfs:label>NALM-6 cell</rdfs:label>
-        <rdfs:seeAlso>ACC 128</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3307559</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0092</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002245</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl3631</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0007939 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007939">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
-        <obo:CLO_0000178>LCL-2022</obo:CLO_0000178>
-        <obo:IAO_0000118>NAMALWA</obo:IAO_0000118>
-        <rdfs:comment>disease: Burkitts lymphoma</rdfs:comment>
-        <rdfs:label>NAMALWA cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-1432</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl3633</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0007947 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007947">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1084</obo:CLO_0000178>
-        <obo:IAO_0000118>NB-4</obo:IAO_0000118>
-        <obo:IAO_0000118>NB.4</obo:IAO_0000118>
-        <obo:IAO_0000118>NB4</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://web.expasy.org/cellosaurus/CVCL_0005</obo:IAO_0000119>
-        <rdfs:label>NB-4 cell</rdfs:label>
-        <rdfs:seeAlso>ACC 207</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308423</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002798</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl3643</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_0005</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3739,18 +3518,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0008127 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
-        <obo:IAO_0000118>NCI-H929</obo:IAO_0000118>
-        <rdfs:comment>disease: plasmacytoma;   myeloma</rdfs:comment>
-        <rdfs:label>NCI-H929 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-9068</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0008129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008129">
@@ -3876,28 +3643,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:seeAlso>ECACC: 96071721</rdfs:seeAlso>
         <rdfs:seeAlso>EFO: EFO_0002308</rdfs:seeAlso>
         <rdfs:seeAlso>HyperCLDB: cl3761</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0008269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000523"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-2048</obo:CLO_0000178>
-        <obo:IAO_0000118>OPM-2</obo:IAO_0000118>
-        <rdfs:label>OPM-2 cell</rdfs:label>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308883</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_1625</rdfs:seeAlso>
-        <rdfs:seeAlso>DSMZ: ACC 50</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl3774</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4108,25 +3853,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>RAMOS</obo:IAO_0000118>
         <rdfs:label>RAMOS cell</rdfs:label>
         <rdfs:seeAlso>HyperCLDB: cl4096</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0008873 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0008873">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-2049</obo:CLO_0000178>
-        <obo:IAO_0000118>RPMI 8226</obo:IAO_0000118>
-        <rdfs:label>RPMI 8226 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CCL-155</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl5355</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4378,37 +4104,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0009161 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1041</obo:CLO_0000178>
-        <obo:IAO_0000115>an immortal human B cell line cell that is derived from a 8-year-old Caucasian male human patient with an acute lymphoblastic leukemia.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>CRL-1929</obo:IAO_0000118>
-        <obo:IAO_0000118>SUP-B15</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://www.atcc.org/products/all/CRL-1929.aspx</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: http://www.atcc.org/~/ps/CRL-1929.ashx</obo:IAO_0000119>
-        <rdfs:label>SUP-B15 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-1929</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_0103</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0009164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009164">
@@ -4558,22 +4253,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:comment>disease: colorectal adenocarcinoma</rdfs:comment>
         <rdfs:label>SW948 cell</rdfs:label>
         <rdfs:seeAlso>ATCC: CCL-237</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0009242 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009242">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000115>an immortal human B cell line cell that was derived some B cell isolated from  human blood</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>T2 (174 x CEM.T2)</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: https://www.atcc.org/products/all/CRL-1992.aspx</obo:IAO_0000119>
-        <rdfs:label>T2 (174 x CEM.T2) cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: CRL-1992</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_2211</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4835,50 +4514,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label>U-251 MG cell</rdfs:label>
         <rdfs:seeAlso>HyperCLDB: cl4583</rdfs:seeAlso>
         <rdfs:seeAlso>JHSF: IFO50288</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0009458 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-2050</obo:CLO_0000178>
-        <obo:IAO_0000115>immortal human B cell line cell that was derived from some human B cell isolated from a patient with multiple myeloma</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>U266B1</obo:IAO_0000118>
-        <rdfs:label>U266B1 cell</rdfs:label>
-        <rdfs:seeAlso>ATCC: TIB-196</rdfs:seeAlso>
-        <rdfs:seeAlso>ECACC: 85051003</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID: CVCL_0566</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0009462 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1008</obo:CLO_0000178>
-        <obo:IAO_0000118>U-698-M</obo:IAO_0000118>
-        <rdfs:label>U-698-M cell</rdfs:label>
-        <rdfs:seeAlso>ACC 4</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308280</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0017</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl4591</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5315,32 +4950,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0010594 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000374"/>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM08600</obo:IAO_0000118>
-        <rdfs:comment> HLA HISTOCOMPATIBILITY TYPE: 142800 THROUGH 142860 &amp; 142880</rdfs:comment>
-        <rdfs:label>GM08600 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 142800</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0010607 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0010607">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000374"/>
-        <obo:IAO_0000117>Chao Pang</obo:IAO_0000117>
-        <obo:IAO_0000118>GM08605</obo:IAO_0000118>
-        <rdfs:comment> HLA HISTOCOMPATIBILITY TYPE: 142800 THROUGH 142860 &amp; 142880</rdfs:comment>
-        <rdfs:label>GM08605 cell</rdfs:label>
-        <rdfs:seeAlso>OMIM: 142800</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0037020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037020">
@@ -5362,64 +4971,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>LC-2-ad</obo:IAO_0000118>
         <rdfs:label>LC-2-ad cell</rdfs:label>
         <rdfs:seeAlso>Sanger: COSMIC ID:907786</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000468"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1136</obo:CLO_0000178>
-        <obo:IAO_0000117>Oliver He, Jiangan Xie</obo:IAO_0000117>
-        <obo:IAO_0000118>SU-DHL-4</obo:IAO_0000118>
-        <rdfs:label>SU-DHL-4 cell</rdfs:label>
-        <rdfs:seeAlso>DSMZ: ACC 495</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000468"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1138</obo:CLO_0000178>
-        <obo:IAO_0000117>Oliver He, Jiangan Xie</obo:IAO_0000117>
-        <obo:IAO_0000118>SU-DHL-6</obo:IAO_0000118>
-        <rdfs:label>SU-DHL-6 cell</rdfs:label>
-        <rdfs:seeAlso>DSMZ: ACC 572</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000468"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_707"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-1954</obo:CLO_0000178>
-        <obo:IAO_0000117>Oliver He, Jiangan Xie</obo:IAO_0000117>
-        <obo:IAO_0000118>WSU-DLCL2</obo:IAO_0000118>
-        <obo:IAO_0000118>WSUDLCL2</obo:IAO_0000118>
-        <rdfs:label>WSU-DLCL2 cell</rdfs:label>
-        <rdfs:seeAlso>DSMZ: ACC 575</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5638,25 +5189,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0037173 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000871"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CLO_0000178>LCL-2052</obo:CLO_0000178>
-        <obo:IAO_0000117>Oliver He, Jiangan Xie</obo:IAO_0000117>
-        <obo:IAO_0000118>JJN-3</obo:IAO_0000118>
-        <rdfs:label>JJN-3 cell</rdfs:label>
-        <rdfs:seeAlso>DSMZ: ACC 541</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0037180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037180">
@@ -5694,32 +5226,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label xml:lang="en">RMA cell</rdfs:label>
         <rdfs:seeAlso>OBI: OBI_1110038</rdfs:seeAlso>
         <rdfs:seeAlso>RRID: CVCL_J385</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037202 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://web.expasy.org/cellosaurus/CVCL_0108</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">JY cell</rdfs:label>
-        <rdfs:seeAlso>RRID: CVCL_0108</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037203 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://web.expasy.org/cellosaurus/CVCL_8792</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">MM.1S cell</rdfs:label>
-        <rdfs:seeAlso>RRID: CVCL_8792</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5784,40 +5290,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000115>An immortal kidney-derived cell line cell that derives from human.</obo:IAO_0000115>
         <obo:IAO_0000117>Yue Liu, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">immortal human kidney-derived epithelial cell line cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037256 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:CLO_0037244 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651646</obo:CLO_0037244>
-        <obo:IAO_0000115>HBL-1 (aka human is an EBV-negative B-cell lymphoma cell line established from the pleural effusion of a patient with malignant lymphoma, diffuse, large cell.</obo:IAO_0000115>
-        <obo:IAO_0000117>BAO, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>http://purl.obolibrary.org/obo/BTO_0002522</obo:IAO_0000119>
-        <obo:IAO_0000119>http://web.expasy.org/cellosaurus/CVCL_4213</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">HBL-1 cell</rdfs:label>
-        <rdfs:seeAlso>BAO: BAO_0030037</rdfs:seeAlso>
-        <rdfs:seeAlso>BTO: BTO_0002522</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID:CVCL_4213</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0037272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037272">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:CLO_0037244 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651712</obo:CLO_0037244>
-        <obo:IAO_0000115>Human diffuse large B cell lymphoma cell line derived from a 62-year-old male patient</obo:IAO_0000115>
-        <obo:IAO_0000117>BAO, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>http://web.expasy.org/cellosaurus/CVCL_A442</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">TMD8 cell</rdfs:label>
-        <rdfs:seeAlso>BAO: BAO_0030064</rdfs:seeAlso>
-        <rdfs:seeAlso>RRID:CVCL_A442</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6240,33 +5712,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CLO_0051228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000115>A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. HLA A*02:01 A*24:02, B*07:02 B*35:01, C*03:03 C*07:02, DRB1*01:01 DRB1*08:02, DQB1*04:02 DQB1*05:01, DPB1*02:01 DPB1*04:02</obo:IAO_0000115>
-        <obo:IAO_0000117>RIKEN Cell bank Team Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000118>HEV0041</obo:IAO_0000118>
-        <rdfs:comment>Register: Imai, Takashi</rdfs:comment>
-        <rdfs:label>HEV0041 cell</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CLO_0051333 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <obo:IAO_0000115>A immortal human B cell line cell that has the characteristics: Human B lymphocytes transformed by Epstein-Barr Virus. This B cell lines derived from Mongoloid Minority Groups in South America.</obo:IAO_0000115>
-        <obo:IAO_0000117>RIKEN Cell bank Team Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000118>COLO205</obo:IAO_0000118>
-        <obo:IAO_0000118>HSC0107</obo:IAO_0000118>
-        <rdfs:comment>Register: Danjoh, Inaho</rdfs:comment>
-        <rdfs:label>HSC0107 cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0051371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051371">
@@ -6302,7 +5747,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0051542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0051542">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000871"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
         <obo:IAO_0000115>A immortal human bone marrow-derived cell line cell that has the characteristics: N-myc gene amplification</obo:IAO_0000115>
         <obo:IAO_0000117>RIKEN Cell bank Team Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118>LA-N-1</obo:IAO_0000118>
@@ -6514,7 +5959,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
@@ -6538,6 +5983,85 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label>epithelial cell</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000475</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#epithelial_cell</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <obo:IAO_0000115>A lymphocyte of B lineage that is capable of B cell mediated immunity.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000118>B Cells</obo:IAO_0000118>
+        <obo:IAO_0000118>B Lymphocytes</obo:IAO_0000118>
+        <obo:IAO_0000118>B-Lymphocyte</obo:IAO_0000118>
+        <obo:IAO_0000118>Bursa-Dependent Lymphocytes</obo:IAO_0000118>
+        <obo:IAO_0000118>Bursa-Equivalent Lymphocyte</obo:IAO_0000118>
+        <obo:IAO_0000119>CL:0000236</obo:IAO_0000119>
+        <obo:IAO_0000119>NCIt:C12474</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>BTO:0000776</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0068</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62869</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001480</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:comment>A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.</rdfs:comment>
+        <rdfs:comment>Immunologically important lymphocyte that is not thymus-dependent, is either short-lived and naive or long-lived and of memory phenotype, and resembles the bursa-derived lymphocyte of birds in that it is responsible for the production of immunoglobulins.</rdfs:comment>
+        <rdfs:label>B cell</rdfs:label>
+        <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000101</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
+        <rdfs:label>animal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
+        <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>BTO:0000751</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0549</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>immune cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <obo:IAO_0000115>A cell containing at least one nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:created_by>tmeehan</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-09-07T03:32:33Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FMA:67513</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>nucleate cell</rdfs:label>
     </owl:Class>
     
 
