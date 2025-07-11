@@ -7,11 +7,13 @@ BFO:0000016	disposition	ignore
 BFO:0000040	bounding layer of	ignore		
 CARO:0000000	anatomical entity	ignore		
 CL:0000066	022HU-NSO cell	import		
+CL:0000236	B cell	import		
 CL:0001034	cell in vitro	ignore		
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
-CLO:0001008	697 cell	import		
+CLO:0000652	immortal human B cell line cell	import		
+CLO:0001008	697 cell	ignore		
 CLO:0001056	1205Lu cell	import		
 CLO:0001137	184A1 cell	import		
 CLO:0001176	2.2.15 cell	import		
@@ -57,15 +59,15 @@ CLO:0002544	COLO 205 cell	import
 CLO:0002571	COLO-320 cell	import		
 CLO:0002597	COS-7 cell	import		
 CLO:0002631	CT26.WT cell	import		
-CLO:0002708	Daudi cell	import		
-CLO:0002709	DB cell	import		
+CLO:0002708	Daudi cell	ignore		
+CLO:0002709	DB cell	ignore		
 CLO:0002723	DBTRG-05MG cell	import		
-CLO:0002767	DG-75 cell	import		
+CLO:0002767	DG-75 cell	ignore		
 CLO:0002785	DLD-1 cell	import		
 CLO:0002797	DMS 273 cell	import		
 CLO:0002798	DMS 454 cell	import		
 CLO:0002799	DMS 53 cell	import		
-CLO:0002805	DOHH2 cell	import		
+CLO:0002805	DOHH2 cell	ignore		
 CLO:0002840	DU 145 cell	import		
 CLO:0002889	EFM-192A cell	import		
 CLO:0002913	EL4 cell	import		
@@ -87,7 +89,7 @@ CLO:0003667	HCT-8 cell	import
 CLO:0003684	HeLa cell	import		
 CLO:0003704	Hep G2 cell	import		
 CLO:0003744	HH cell	import		
-CLO:0003787	HMy2.CIR cell	import		
+CLO:0003787	HMy2.CIR cell	ignore		
 CLO:0003795	HOS cell	import		
 CLO:0004009	Hs 578T cell	import		
 CLO:0004245	Hs 940.T cell	import		
@@ -96,7 +98,7 @@ CLO:0004283	HT-29 cell	import
 CLO:0006961	IPC-298 cell	import		
 CLO:0007012	JAWSII cell	import		
 CLO:0007043	JURKAT cell	import		
-CLO:0007050	K 562 cell	import		
+CLO:0007050	K 562 cell	ignore		
 CLO:0007073	KATO III cell	import		
 CLO:0007189	L-428 cell	import		
 CLO:0007201	L-540 cell	import		
@@ -115,11 +117,11 @@ CLO:0007688	MeWo cell	import
 CLO:0007726	MIA PaCa-2 cell	import		
 CLO:0007733	MKN-45 cell	import		
 CLO:0007825	MOLT-4 cell	import		
-CLO:0007830	MOPC 315 cell	import		
+CLO:0007830	MOPC 315 cell	ignore		
 CLO:0007906	MV-4-11 cell	import		
-CLO:0007938	NALM-6 cell	import		
-CLO:0007939	NAMALWA cell	import		
-CLO:0007947	NB-4 cell	import		
+CLO:0007938	NALM-6 cell	ignore		
+CLO:0007939	NAMALWA cell	ignore		
+CLO:0007947	NB-4 cell	ignore		
 CLO:0007980	NCI-H1092 cell	import		
 CLO:0007986	NCI-H1299 cell	import		
 CLO:0007989	NCI-H1355 cell	import		
@@ -140,14 +142,14 @@ CLO:0008093	NCI-H520 cell	import
 CLO:0008094	NCI-H522 cell	import		
 CLO:0008102	NCI-H660 cell	import		
 CLO:0008105	NCI-H69 cell	import		
-CLO:0008127	NCI-H929 cell	import		
+CLO:0008127	NCI-H929 cell	ignore		
 CLO:0008129	NCI-N87 cell	import		
 CLO:0008172	NIH-3T3 cell	import		
 CLO:0008195	NRK cell	import		
 CLO:0008228	OAW28 cell	import		
 CLO:0008235	OCI-AML2 cell	import		
 CLO:0008238	OE19 cell	import		
-CLO:0008269	OPM-2 cell	import		
+CLO:0008269	OPM-2 cell	ignore		
 CLO:0008279	OVCAR-3 cell	import		
 CLO:0008280	OVCAR-5 cell	import		
 CLO:0008321	P388 cell	import		
@@ -159,7 +161,7 @@ CLO:0008458	PLC/PRF/5 cell	import
 CLO:0008693	R D cell	import		
 CLO:0008734	Raji cell	import		
 CLO:0008738	RAMOS cell	import		
-CLO:0008873	RPMI 8226 cell	import		
+CLO:0008873	RPMI 8226 cell	ignore		
 CLO:0008947	Saos-2 cell	import		
 CLO:0009034	SK-BR-3 cell	import		
 CLO:0009041	SK-MEL-2 cell	import		
@@ -169,7 +171,7 @@ CLO:0009051	SK-N-AS cell	import
 CLO:0009063	SK-OV-3 cell	import		
 CLO:0009105	SNU-C2B cell	import		
 CLO:0009160	SU-DHL-1 cell	import		
-CLO:0009161	SUP-B15 cell	import		
+CLO:0009161	SUP-B15 cell	ignore		
 CLO:0009164	SUP-T1 cell	import		
 CLO:0009188	SW 1463 cell	import		
 CLO:0009190	SW 1573 cell	import		
@@ -178,7 +180,7 @@ CLO:0009195	SW 480 cell	import
 CLO:0009196	SW 620 cell	import		
 CLO:0009216	SW48 cell	import		
 CLO:0009226	SW948 cell	import		
-CLO:0009242	T2 (174 x CEM.T2) cell	import		
+CLO:0009242	T2 (174 x CEM.T2) cell	ignore		
 CLO:0009245	T24 cell	import		
 CLO:0009251	T-47D cell	import		
 CLO:0009258	T98G cell	import		
@@ -190,8 +192,8 @@ CLO:0009401	TRAMP-C1 cell	import
 CLO:0009402	TRAMP-C2 cell	import		
 CLO:0009454	U-2 OS cell	import		
 CLO:0009456	U-251 MG cell	import		
-CLO:0009458	U266B1 cell	import		
-CLO:0009462	U-698-M cell	import		
+CLO:0009458	U266B1 cell	ignore		
+CLO:0009462	U-698-M cell	ignore		
 CLO:0009464	U-87 MG cell	import		
 CLO:0009465	U-937 cell	import		
 CLO:0009467	UACC-812 cell	import		
@@ -213,12 +215,12 @@ CLO:0009919	SUM185PE cell	import
 CLO:0009958	CL-40 cell	import		
 CLO:0009970	MDST8 cell	import		
 CLO:0009974	A498 cell	import		
-CLO:0010594	GM08600 cell	import		
-CLO:0010607	GM08605 cell	import		
+CLO:0010594	GM08600 cell	ignore		
+CLO:0010607	GM08605 cell	ignore		
 CLO:0037020	LC-2-ad cell	import		
-CLO:0037061	SU-DHL-4 cell	import		
-CLO:0037063	SU-DHL-6 cell	import		
-CLO:0037068	WSU-DLCL2 cell	import		
+CLO:0037061	SU-DHL-4 cell	ignore		
+CLO:0037063	SU-DHL-6 cell	ignore		
+CLO:0037068	WSU-DLCL2 cell	ignore		
 CLO:0037104	TYK-nu cell	import		
 CLO:0037107	KP-2 cell	import		
 CLO:0037108	KP-3 cell	import		
@@ -227,19 +229,19 @@ CLO:0037132	MZ2-MEL cell	import
 CLO:0037135	UACC-257 cell	import		
 CLO:0037144	NUGC-3 cell	import		
 CLO:0037159	LB831-BLC cell	import		
-CLO:0037173	JJN-3 cell	import		
+CLO:0037173	JJN-3 cell	ignore		
 CLO:0037180	MCF12A cell	import		
 CLO:0037201	RMA cell	import		
-CLO:0037202	JY cell	import		
-CLO:0037203	MM.1S cell	import		
+CLO:0037202	JY cell	ignore		
+CLO:0037203	MM.1S cell	ignore		
 CLO:0037204	LSCC-RP9 cell	import		
 CLO:0037205	UCI 107 cell	import		
 CLO:0037206	UCI 101 cell	import		
 CLO:0037207	derived from organism	relate		
 CLO:0037208	derived from anatomic part	relate		
 CLO:0037209	derived from cell	relate		
-CLO:0037256	HBL-1 cell	import		
-CLO:0037272	TMD8 cell	import		
+CLO:0037256	HBL-1 cell	ignore		
+CLO:0037272	TMD8 cell	ignore		
 CLO:0050045	RCB0455 cell	import		
 CLO:0050048	RCB0725 cell	import		
 CLO:0050049	RCB1905 cell	import		
@@ -262,8 +264,8 @@ CLO:0050893	RCB1963 cell	import
 CLO:0050894	RCB2202 cell	import		
 CLO:0050896	RCB1275 cell	import		
 CLO:0050983	RCB1428 cell	import		
-CLO:0051228	HEV0041 cell	import		
-CLO:0051333	HSC0107 cell	import		
+CLO:0051228	HEV0041 cell	ignore		
+CLO:0051333	HSC0107 cell	ignore		
 CLO:0051371	RCB2098 cell	import		
 CLO:0051542	RCB0483 cell	import		
 CLO:0051567	RCB1902 cell	import		
