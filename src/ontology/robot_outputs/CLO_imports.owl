@@ -6850,7 +6850,7 @@ in CLO, this is a short cut relation that represents:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
         <obo:IAO_0000115>An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000118>&quot;Hematologic malignancy (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:127221002]</obo:IAO_0000118>
         <obo:IAO_0000118>&quot;Hematologic malignancy&quot; EXACT [SNOMEDCT_2005_07_31:269475001]</obo:IAO_0000118>
@@ -7761,6 +7761,65 @@ in CLO, this is a short cut relation that represents:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_74 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_74">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+        <obo:IAO_0000115>A disease of anatomical entity that has_material_basis_in hematopoietic cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>&quot;Blood disease (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:267552000]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease NOS (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:267573000]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease NOS&quot; EXACT [SNOMEDCT_2005_07_31:154842002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease&quot; EXACT [SNOMEDCT_2005_07_31:154785002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood dyscrasia NOS (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:191402006]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood dyscrasia NOS&quot; EXACT [MTHICD9_2006:289.9]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood/blood forming organ NOS&quot; EXACT [SNOMEDCT_2005_07_31:191446003]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS&quot; EXACT [ICD9CM_2006:280-289.99]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Hematological disease&quot; EXACT [MTH:NOCODE]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Unspecified disease of blood and blood-forming organs&quot; EXACT [ICD9CM_2006:289.9]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;blood disorder&quot; EXACT [CSP2005:0427-3600]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disease of blood and/or blood-forming organ (navigational concept)&quot; EXACT [SNOMEDCT_2005_07_31:191124002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disease of hematopoietic system&quot; EXACT []</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disorder of hematopoietic system (navigational concept)&quot; EXACT [SNOMEDCT_2005_07_31:34093004]</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:D75.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:289.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:154785002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Blood disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Blood dyscrasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Hematological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of haematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">haematopoietic system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:74</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label>hematopoietic system disease</rdfs:label>
+        <rdfs:seeAlso>ICD9CM_2010:280-289.99</rdfs:seeAlso>
+        <rdfs:seeAlso>ICD9CM_2010:289.9</rdfs:seeAlso>
+        <rdfs:seeAlso>MSH2010_2010_02_22:D006402</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:154785002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:154842002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191124002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191402006</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191446003</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:267552000</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:267573000</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:34093004</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI:C0018939</rdfs:seeAlso>
+        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#hematopoietic_system_disease</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_769">
@@ -7941,6 +8000,32 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:seeAlso>SNOMEDCT_2010_1_31:286946008</rdfs:seeAlso>
         <rdfs:seeAlso>UMLS_CUI:C0027765</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#nervous_system_disease</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
+        <obo:IAO_0000115>A myeloid neoplasm that is located_in the plasma cells in bone marrow.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:7108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C90.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:203.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:254500</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:29073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:94705007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0026764</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9538</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>multiple myeloma</rdfs:label>
     </owl:Class>
     
 

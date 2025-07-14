@@ -302,6 +302,7 @@ DOID:684	hepatocellular carcinoma	import
 DOID:769	neuroblastoma	import		
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
+DOID:9538	multiple myeloma	import		
 NCBITaxon:10090	+/+ SCT cell	import		
 NCBITaxon:117571	Euteleostomi	ignore		
 NCBITaxon:2759	Eukaryota	ignore		
