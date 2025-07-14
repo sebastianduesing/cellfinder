@@ -1,0 +1,8 @@
+ontology ID	label	action	logical type	parent class
+ID			CLASS_TYPE	C %
+DOID:0050745	diffuse large B-cell lymphoma	import		
+DOID:0060318	acute promyelocytic leukemia	import		
+DOID:0060592	B-cell adult acute lymphocytic leukemia	import		
+DOID:0080147	lymphoblastic lymphoma	import		
+DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
+DOID:7	disease of anatomical entity	ignore		
