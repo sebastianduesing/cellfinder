@@ -1,0 +1,75 @@
+ontology ID	label	action	logical type	parent class
+ID			CLASS_TYPE	C %
+BFO:0000050	part of	relate		
+BFO:0000051	has part	relate		
+UBERON:0000002	uterine cervix	import		
+UBERON:0000007	pituitary gland	import		
+UBERON:0000010	peripheral nervous system	import		
+UBERON:0000029	lymph node	import		
+UBERON:0000061	anatomical structure	ignore		
+UBERON:0000077	mixed endoderm/mesoderm-derived structure	ignore		
+UBERON:0000170	pair of lungs	import		
+UBERON:0000175	pleural effusion	import		
+UBERON:0000178	blood	import		
+UBERON:0000310	breast	import		
+UBERON:0000465	material anatomical entity	ignore		
+UBERON:0000473	testis	import		
+UBERON:0000481	regional part of nervous system	ignore		
+UBERON:0000922	late embryo	import		
+UBERON:0000945	stomach	import		
+UBERON:0000947	aorta	import		
+UBERON:0000948	heart	import		
+UBERON:0000955	brain	import		
+UBERON:0000970	compound eye	import		
+UBERON:0000992	ovary	import		
+UBERON:0000995	uterus	import		
+UBERON:0001013	adipose tissue	import		
+UBERON:0001017	central nervous system	import		
+UBERON:0001043	esophagus	import		
+UBERON:0001044	saliva-secreting gland	import		
+UBERON:0001052	rectum	import		
+UBERON:0001062	anatomical entity	import		
+UBERON:0001088	urine	import		
+UBERON:0001090	synovial fluid	import		
+UBERON:0001155	colon	import		
+UBERON:0001255	urinary bladder	import		
+UBERON:0001264	pancreas	import		
+UBERON:0001268	peritoneal fluid	import		
+UBERON:0001359	cerebrospinal fluid	import		
+UBERON:0001474	carpal bone	import		
+UBERON:0001723	tongue	import		
+UBERON:0001729	oropharynx	import		
+UBERON:0001737	larynx	import		
+UBERON:0001744	lymphoid tissue	import		
+UBERON:0001836	saliva	import		
+UBERON:0001987	placenta	import		
+UBERON:0001988	feces	import		
+UBERON:0002037	cerebellum	import		
+UBERON:0002046	thyroid gland	import		
+UBERON:0002048	lung	import		
+UBERON:0002072	hypodermis	import		
+UBERON:0002097	skin of body	import		
+UBERON:0002106	spleen	import		
+UBERON:0002107	liver	import		
+UBERON:0002108	small intestine	import		
+UBERON:0002110	gallbladder	import		
+UBERON:0002113	kidney	import		
+UBERON:0002115	jejunum	import		
+UBERON:0002240	spinal cord	import		
+UBERON:0002367	prostate gland	import		
+UBERON:0002369	right adrenal gland	import		
+UBERON:0002370	thymus	import		
+UBERON:0002371	yellow bone marrow	import		
+UBERON:0002372	tonsil	import		
+UBERON:0003126	trachea	import		
+UBERON:0004119	endoderm-derived structure	ignore		
+UBERON:0004120	mesoderm-derived structure	ignore		
+UBERON:0004121	ectoderm-derived structure	ignore		
+UBERON:0004923	organ component layer	ignore		
+UBERON:0005090	urethra muscle tissue	import		
+UBERON:0005409	alimentary part of gastrointestinal system	import		
+UBERON:0007795	ascitic fluid	import		
+UBERON:0010000	directly develops from	ignore		
+UBERON:0010314	structure with developmental contribution from neural crest	ignore		
+UBERON:0012168	umbilical cord blood	import		
+UBERON:0015212	lateral structure	ignore		
