@@ -979,7 +979,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the hypodermis of subjects with plasmacytoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal mouse B cell line cell originating from the hypodermis of subjects with plasmacytoma.</obo:IAO_0000115>
         <obo:IAO_0000118>MOPC 315</obo:IAO_0000118>
         <obo:IAO_0000118>MOPC315</obo:IAO_0000118>
         <obo:OBI_9991118>MOPC 315 cell</obo:OBI_9991118>
@@ -1012,7 +1012,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An immortal mouse B cell line cell originating from the blood.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>31227 ABO</obo:IAO_0000118>
         <obo:IAO_0000118>ABU</obo:IAO_0000118>
         <obo:IAO_0000118>ABUC</obo:IAO_0000118>
