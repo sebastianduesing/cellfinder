@@ -1362,29 +1362,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000001 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000001">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060318"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the bone marrow of subjects with acute promyelocytic leukemia.</obo:IAO_0000115>
         <obo:IAO_0000118>NB-4</obo:IAO_0000118>
         <obo:IAO_0000118>NB.4</obo:IAO_0000118>
@@ -1400,29 +1402,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000002 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000002">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060592"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060592"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with B-cell adult acute lymphocytic leukemia.</obo:IAO_0000115>
         <obo:IAO_0000118>NALM-6</obo:IAO_0000118>
         <obo:OBI_9991118>NALM-6 cell</obo:OBI_9991118>
@@ -1436,29 +1440,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000003 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000003">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the bone marrow of subjects with B-lymphoblastic leukemia/lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>697</obo:IAO_0000118>
         <obo:OBI_9991118>697 cell</obo:OBI_9991118>
@@ -1472,29 +1478,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000004 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000004">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the bone marrow of subjects with B-lymphoblastic leukemia/lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>CRL-1929</obo:IAO_0000118>
         <obo:IAO_0000118>SUP-B15</obo:IAO_0000118>
@@ -1509,29 +1517,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000005 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000005">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with Burkitt lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>DAUDI</obo:IAO_0000118>
         <obo:IAO_0000118>Daudi</obo:IAO_0000118>
@@ -1556,29 +1566,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000006 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000006">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with Burkitt lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>DG-75</obo:IAO_0000118>
         <obo:OBI_9991118>DG-75 cell</obo:OBI_9991118>
@@ -1592,29 +1604,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000007 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000007">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with Burkitt lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>NAMALVA</obo:IAO_0000118>
         <obo:IAO_0000118>NAMALWA</obo:IAO_0000118>
@@ -1633,29 +1647,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000008 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000008">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8552"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with chronic myeloid leukemia.</obo:IAO_0000115>
         <obo:IAO_0000118>GM05372</obo:IAO_0000118>
         <obo:IAO_0000118>GM05372E</obo:IAO_0000118>
@@ -1676,29 +1692,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000009 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000009">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the ascitic fluid of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>DB</obo:IAO_0000118>
         <obo:OBI_9991118>DB cell</obo:OBI_9991118>
@@ -1712,29 +1730,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000010 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000010">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>DOHH-2</obo:IAO_0000118>
         <obo:IAO_0000118>DOHH2</obo:IAO_0000118>
@@ -1750,29 +1770,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000011 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000011">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>HBL1</obo:IAO_0000118>
         <obo:OBI_9991118>HBL-1 cell</obo:OBI_9991118>
@@ -1786,29 +1808,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000012 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000012">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the peritoneal fluid of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>DHL-4</obo:IAO_0000118>
         <obo:IAO_0000118>DHL4</obo:IAO_0000118>
@@ -1833,29 +1857,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000013 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000013">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the peritoneal fluid of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>SU-DHL-6</obo:IAO_0000118>
         <obo:OBI_9991118>SU-DHL-6 cell</obo:OBI_9991118>
@@ -1869,29 +1895,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000014 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000014">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the bone marrow of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>TMD-8</obo:IAO_0000118>
         <obo:IAO_0000118>Tokyo Medical and Dental university 8</obo:IAO_0000118>
@@ -1906,29 +1934,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000015 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000015">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with diffuse large B-cell lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>WSU-DLCL2</obo:IAO_0000118>
         <obo:IAO_0000118>WSUDLCL2</obo:IAO_0000118>
@@ -1943,29 +1973,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000016 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000016">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080147"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002372"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the tonsil of subjects with lymphoblastic lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118>U-698</obo:IAO_0000118>
         <obo:IAO_0000118>U-698 M</obo:IAO_0000118>
@@ -1984,29 +2016,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000017 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000017">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the bone marrow of subjects with multiple myeloma.</obo:IAO_0000115>
         <obo:IAO_0000118>JJN-3</obo:IAO_0000118>
         <obo:OBI_9991118>JJN-3 cell</obo:OBI_9991118>
@@ -2020,29 +2054,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000018 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000018">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with multiple myeloma.</obo:IAO_0000115>
         <obo:IAO_0000118>MM-1S</obo:IAO_0000118>
         <obo:IAO_0000118>MM.1S</obo:IAO_0000118>
@@ -2059,29 +2095,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000019 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000019">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with multiple myeloma.</obo:IAO_0000115>
         <obo:IAO_0000118>OPM-2</obo:IAO_0000118>
         <obo:OBI_9991118>OPM-2 cell</obo:OBI_9991118>
@@ -2095,29 +2133,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000020 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000020">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with multiple myeloma.</obo:IAO_0000115>
         <obo:IAO_0000118>8226</obo:IAO_0000118>
         <obo:IAO_0000118>8226/S</obo:IAO_0000118>
@@ -2146,29 +2186,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000021 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000021">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with multiple myeloma.</obo:IAO_0000115>
         <obo:IAO_0000118>U266B1</obo:IAO_0000118>
         <obo:OBI_9991118>U266B1 cell</obo:OBI_9991118>
@@ -2182,29 +2224,31 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000022 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000022">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the pleural effusion of subjects with plasmacytoma.</obo:IAO_0000115>
         <obo:IAO_0000118>H-929</obo:IAO_0000118>
         <obo:IAO_0000118>H929</obo:IAO_0000118>
@@ -2221,29 +2265,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000023 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000023">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000933"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000933"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal mouse B cell line cell originating from the hypodermis of subjects with plasmacytoma.</obo:IAO_0000115>
         <obo:IAO_0000118>MOPC 315</obo:IAO_0000118>
         <obo:IAO_0000118>MOPC315</obo:IAO_0000118>
@@ -2258,25 +2298,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000024 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000024">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>31227 ABO</obo:IAO_0000118>
         <obo:IAO_0000118>ABU</obo:IAO_0000118>
@@ -2294,25 +2334,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000025 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000025">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>GM08605</obo:IAO_0000118>
         <obo:IAO_0000118>MOU</obo:IAO_0000118>
@@ -2327,25 +2367,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000026 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000026">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>HEV0041</obo:IAO_0000118>
         <obo:OBI_9991118>HEV0041 cell</obo:OBI_9991118>
@@ -2359,25 +2399,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000027 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000027">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>C1R</obo:IAO_0000118>
         <obo:IAO_0000118>HMy2.CIR</obo:IAO_0000118>
@@ -2393,25 +2433,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000028 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000028">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>COLO205</obo:IAO_0000118>
         <obo:IAO_0000118>HSC0107</obo:IAO_0000118>
@@ -2426,25 +2466,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000029 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000029">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>JY-S</obo:IAO_0000118>
         <obo:OBI_9991118>JY cell</obo:OBI_9991118>
@@ -2458,25 +2498,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000030 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000030">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037209"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>174xCEM.T2</obo:IAO_0000118>
         <obo:IAO_0000118>CEMx721.174.T2</obo:IAO_0000118>
@@ -16553,6 +16593,12 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
         <owl:annotatedTarget>Portion of organism substance that is a clear fluid that occupies the space in synovial joints.[TAO]</owl:annotatedTarget>
         <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
@@ -16570,12 +16616,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>joint fluid</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -18651,6 +18691,37 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sub-tegumental tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>subcutaneous tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>subtegumental tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>superficial fascia</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>tela subcutanea</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
@@ -18694,37 +18765,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>UMLS:C0278403</owl:annotatedTarget>
         <oboInOwl:source>ncithesaurus:Subcutis</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>sub-tegumental tissue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>subcutaneous tissue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>subtegumental tissue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>superficial fascia</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>tela subcutanea</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
     </owl:Axiom>
     
 
