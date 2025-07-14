@@ -6,6 +6,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -249,6 +250,50 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <obo:IAO_0000115>An alternate textual definition for a class taken unmodified from an external source. This definition may have been used to derive a generalized definition for the new class.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBPROP:0000001</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>external_definition</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>external_definition</oboInOwl:shorthand>
+        <rdfs:comment>This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
+        <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <obo:IAO_0000232>Used to connect a class to an adjectival form of its label. For example, a class with label &apos;intestine&apos; may have a relational adjective &apos;intestinal&apos;.</obo:IAO_0000232>
+        <oboInOwl:hasDbXref>UBPROP:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>has_relational_adjective</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>has_relational_adjective</oboInOwl:shorthand>
+        <rdfs:label>has_relational_adjective</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000012 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000012">
+        <obo:IAO_0000115>Notes on how similar or equivalent classes are represented in other ontologies.</obo:IAO_0000115>
+        <obo:IAO_0000116>This annotation property may be replaced with an annotation property from an external ontology such as IAO</obo:IAO_0000116>
+        <oboInOwl:hasDbXref>UBPROP:0000012</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>external_ontology_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>external_ontology_notes</oboInOwl:shorthand>
+        <rdfs:label>external_ontology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
@@ -407,6 +452,20 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
         <obo:IAO_0000115>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</obo:IAO_0000115>
         <rdfs:label>has exact match</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicted_by -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by">
+        <oboInOwl:hasDbXref rdf:resource="http://xmlns.com/foaf/0.1/depicted_by"/>
+        <oboInOwl:hasDbXref>http://xmlns.com/foaf/0.1/depicted_by</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>depicted_by</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>depicted_by</oboInOwl:shorthand>
+        <rdfs:label>depicted by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1120,6 +1179,34 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000115>An immortal tongue-derived cell line cell that derives from human.</obo:IAO_0000115>
         <obo:IAO_0000117>Yue Liu, Yongqun He</obo:IAO_0000117>
         <rdfs:label>immortal human tongue-derived cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000933">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal B cell line cell that derives from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immortal mouse B cell line cell</rdfs:label>
     </owl:Class>
     
 
@@ -7913,6 +8000,122 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">WEB: http://en.wikipedia.org/wiki/Organism</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+        <obo:IAO_0000115>Pleural effusion is a bodily fluid that is produced in exess and accumulates in the pleural cavity, the fluid-filled space that surrounds the lungs. Excessive amounts of such fluid can impair breathing by limiting the expansion of the lungs during inhalation.</obo:IAO_0000115>
+        <obo:IAO_0000116>cede to MPATH? Note the ncit class is under finding.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>ENVO:02000033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rLaTGCK2TEduAAAAOpmP6tw</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ncithesaurus:Pleural_Effusion</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000175</oboInOwl:id>
+        <rdfs:label>pleural effusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
+        <obo:IAO_0000115>Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>AAO:0010839</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>AEO:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BILA:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CARO:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0003004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00007019</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9669</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HAO:0000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002450</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SPD:0000008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001487</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TGMA:0001824</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0004001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0001487</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:BodySubstance</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>body fluid or substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>body substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>organism substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of body substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of organism substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000463</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
+        <rdfs:label>organism substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004923"/>
+        <obo:IAO_0000115>Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000001>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells. Le Guellec et al, 2004.[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells[FMA:70544].</obo:UBPROP_0000001>
+        <obo:UBPROP_0000007>hypodermal</obo:UBPROP_0000007>
+        <obo:UBPROP_0000007>subcutaneous</obo:UBPROP_0000007>
+        <obo:UBPROP_0000007>subcutaneus</obo:UBPROP_0000007>
+        <obo:UBPROP_0000012>BTO has &apos;subcutis&apos;, as part of dermis. We follow FMA in having distinct classes for hypodermis and superficial fascia, and including these as part of the non-skin intgeument.</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Hypodermis"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0278403"/>
+        <oboInOwl:hasDbXref>BTO:0001314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2366</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:37505</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C33645</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001136</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0278403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0001136</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hypoderm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vertebrate hypodermis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>sub-tegumental tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subcutaneous tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subcutis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subtegumental tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>superficial fascia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tela subcutanea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002072</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <rdfs:label>hypodermis</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depicted_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004923">
+        <obo:IAO_0000115>A part of a wall of an organ that forms a layer.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>FMA:82485</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0004923</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
+        <rdfs:label>organ component layer</rdfs:label>
     </owl:Class>
     
 

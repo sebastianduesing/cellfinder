@@ -13,6 +13,7 @@ CLO:0000001	cell line cell	import
 CLO:0000015	derives from patient having disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
 CLO:0000652	immortal human B cell line cell	import		
+CLO:0000933	immortal mouse B cell line cell	import		
 CLO:0001008	697 cell	ignore		
 CLO:0001056	1205Lu cell	import		
 CLO:0001137	184A1 cell	import		
@@ -317,9 +318,11 @@ OBI:0000047	processed material	ignore
 OBI:0100026	organism	import		
 UBERON:0000061	anatomical structure	ignore		
 UBERON:0000077	+/+ SCT cell	ignore		
+UBERON:0000175	pleural effusion	import		
 UBERON:0000465	material anatomical entity	ignore		
 UBERON:0000481	regional part of nervous system	ignore		
 UBERON:0001062	anatomical entity	ignore		
+UBERON:0002072	hypodermis	import		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
