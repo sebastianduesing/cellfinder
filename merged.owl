@@ -316,6 +316,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
@@ -753,6 +759,21 @@ WHERE {
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type">
+        <obo:IAO_0000115>The dc:type.</obo:IAO_0000115>
+        <rdfs:label>dc:type</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The dc:type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.org/dc/elements/1.1/type</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
@@ -795,6 +816,12 @@ WHERE {
         <obo:IAO_0000115>Author of the class.</obo:IAO_0000115>
         <rdfs:label>created_by</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Author of the class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#created_by</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -804,6 +831,12 @@ WHERE {
         <obo:IAO_0000115>Date class was created.</obo:IAO_0000115>
         <rdfs:label>creation_date</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Date class was created.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#creation_date</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -843,6 +876,12 @@ WHERE {
         <obo:IAO_0000115>ID of merged class.</obo:IAO_0000115>
         <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>ID of merged class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasAlternativeId</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -869,6 +908,12 @@ WHERE {
         <rdfs:label>database_cross_reference</rdfs:label>
         <rdfs:label>has cross-reference</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Reference database or publication source.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasDbXref</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -884,6 +929,12 @@ WHERE {
         <rdfs:label>has_exact_synonym</rdfs:label>
         <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</rdfs:seeAlso>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Exact synonym.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -906,6 +957,12 @@ WHERE {
         <rdfs:comment>disease_ontology</rdfs:comment>
         <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Name space of the ontology.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasOBONamespace</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -945,6 +1002,12 @@ WHERE {
         <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
         <rdfs:label>id</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.obolibrary.org/obo/IAO_0020000</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -954,6 +1017,12 @@ WHERE {
         <obo:IAO_0000115>In subset.</obo:IAO_0000115>
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>In subset.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#inSubset</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1019,6 +1088,12 @@ WHERE {
         <obo:IAO_0000115>Comment.</obo:IAO_0000115>
         <rdfs:label>comment</rdfs:label>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Comment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.w3.org/2000/01/rdf-schema#comment</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1039,6 +1114,13 @@ WHERE {
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A human readable name for this class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.w3.org/2000/01/rdf-schema#label</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.w3.org/TR/owl-guide/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1063,6 +1145,20 @@ WHERE {
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
         <obo:IAO_0000115>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</obo:IAO_0000115>
         <rdfs:label>has exact match</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicted_by -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by">
+        <oboInOwl:hasDbXref rdf:resource="http://xmlns.com/foaf/0.1/depicted_by"/>
+        <oboInOwl:hasDbXref>http://xmlns.com/foaf/0.1/depicted_by</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>depicted_by</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>depicted_by</oboInOwl:shorthand>
+        <rdfs:label>depicted by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1894,7 +1990,7 @@ in CLO, this is a short cut relation that represents:
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -1930,7 +2026,7 @@ in CLO, this is a short cut relation that represents:
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -1969,7 +2065,7 @@ in CLO, this is a short cut relation that represents:
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -2005,7 +2101,7 @@ in CLO, this is a short cut relation that represents:
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -2056,7 +2152,7 @@ in CLO, this is a short cut relation that represents:
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -2148,7 +2244,7 @@ in CLO, this is a short cut relation that represents:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the hypodermis of subjects with plasmacytoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal mouse B cell line cell originating from the hypodermis of subjects with plasmacytoma.</obo:IAO_0000115>
         <obo:IAO_0000118>MOPC 315</obo:IAO_0000118>
         <obo:IAO_0000118>MOPC315</obo:IAO_0000118>
         <obo:OBI_9991118>MOPC 315 cell</obo:OBI_9991118>
@@ -2181,7 +2277,7 @@ in CLO, this is a short cut relation that represents:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An immortal mouse B cell line cell originating from the blood.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
         <obo:IAO_0000118>31227 ABO</obo:IAO_0000118>
         <obo:IAO_0000118>ABU</obo:IAO_0000118>
         <obo:IAO_0000118>ABUC</obo:IAO_0000118>
@@ -3045,7 +3141,29 @@ in CLO, this is a short cut relation that represents:
 
     <!-- http://purl.obolibrary.org/obo/CLO_0000933 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000933"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000933">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An immortal B cell line cell that derives from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immortal mouse B cell line cell</rdfs:label>
+    </owl:Class>
     
 
 
@@ -10452,14 +10570,23 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
         <obo:IAO_0000115>A cancer that is classified based on the organ it starts in.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cancer that is classified based on the organ it starts in.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:created_by>snadendla</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-13T03:28:33Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>MESH:D009371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0050686</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>organ system cancer</rdfs:label>
+        <rdfs:label xml:lang="en">organ system cancer</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cancer that is classified based on the organ it starts in.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.cancer.gov/types/by-body-location</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10481,7 +10608,40 @@ Disorders or aberrations in the development or migration of the neural crest cel
 
     <!-- http://purl.obolibrary.org/obo/DOID_0050745 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050745"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <obo:IAO_0000115 xml:lang="en">A large B-cell lymphoma that is consisting of medium-sized to large B cells with a diffuse growth pattern.</obo:IAO_0000115>
+        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-09-18T01:58:25Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:3178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD11:2A81.Z</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICDO:9680/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D016403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C80280</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">DLBCL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050745</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">diffuse large B-cell lymphoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A large B-cell lymphoma that is consisting of medium-sized to large B cells with a diffuse growth pattern.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Diffuse_large_B-cell_lymphoma</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C148392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/28487884</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050745"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">DLBCL</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
     
 
 
@@ -10511,6 +10671,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
         <obo:IAO_0000115>A hematologic cancer that affects lymphocytes that reside in the lymphatic system and in blood-forming organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A hematologic cancer that affects lymphocytes that reside in the lymphatic system and in blood-forming organs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:1033</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:353</oboInOwl:hasAlternativeId>
@@ -10521,6 +10682,8 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasDbXref>NCI:C7065</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:118600007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:414628006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:118600007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:414628006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024299</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0598798</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">lymphoid cancer</oboInOwl:hasExactSynonym>
@@ -10529,8 +10692,22 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>lymphoma</rdfs:label>
+        <rdfs:label xml:lang="en">lymphoma</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A hematologic cancer that affects lymphocytes that reside in the lymphatic system and in blood-forming organs.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007644"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Lymphoma</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.lymphoma.org/site/pp.asp?c=bkLTKaOQLmK8E&amp;b=6300161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.nlm.nih.gov/medlineplus/lymphoma.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10572,13 +10749,71 @@ Disorders or aberrations in the development or migration of the neural crest cel
 
     <!-- http://purl.obolibrary.org/obo/DOID_0060318 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060318"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+        <obo:IAO_0000115 xml:lang="en">An acute myeloid leukemia characterized by accumulation of promyelocytes in the bone marrow and by a translocation between chromosomes 15 and 17.</obo:IAO_0000115>
+        <oboInOwl:created_by>emitraka</oboInOwl:created_by>
+        <oboInOwl:creation_date>2015-02-24T16:50:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:538</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C92.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:612376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3182</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:520</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:28950004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0023487</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute myeloblastic leukaemia type 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute myeloblastic leukemia type 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute myeloid leukaemia M3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute myeloid leukemia M3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute promyelocytic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060318</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">acute promyelocytic leukemia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060318"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An acute myeloid leukemia characterized by accumulation of promyelocytes in the bone marrow and by a translocation between chromosomes 15 and 17.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Acute_promyelocytic_leukemia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://ghr.nlm.nih.gov/condition/acute-promyelocytic-leukemia</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/DOID_0060592 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060592"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+        <obo:IAO_0000115 xml:lang="en">An adult acute lymphoblastic leukemia occurring in adults and that has_material_basis_in B lymphocytes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCI:C9143</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">B-cell adult acute lymphocytic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult B acute lymphoblastic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult B acute lymphoblastic leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult B-lymphoblastic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult B-lymphoblastic leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult b-cell acute lymphoblastic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult b-cell acute lymphoblastic leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult b-cell lymphocytic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">adult b-cell lymphocytic leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060592</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">B-cell adult acute lymphocytic leukemia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060592"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An adult acute lymphoblastic leukemia occurring in adults and that has_material_basis_in B lymphocytes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C9143</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10614,13 +10849,57 @@ Disorders or aberrations in the development or migration of the neural crest cel
 
     <!-- http://purl.obolibrary.org/obo/DOID_0080147 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080147"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <obo:IAO_0000115 xml:lang="en">A lymphoma that has_material_basis_in immature malignant lymphocytes (lymphoblasts) committed to the B-cell or T-cell lineage and located_in primarily lymph nodes or located_in extranodal sites.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:3329</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080147</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">lymphoblastic lymphoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080147"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A lymphoma that has_material_basis_in immature malignant lymphocytes (lymphoblasts) committed to the B-cell or T-cell lineage and located_in primarily lymph nodes or located_in extranodal sites.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007636"/>
+        <oboInOwl:hasDbXref>url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C7055</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/DOID_0080630 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080630"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+        <obo:IAO_0000115 xml:lang="en">A B-cell acute lymphoblastic leukemia that is characterized by the presence of too many B-cell lymphoblasts in the blood and bone marrow.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:7061</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICDO:9836/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C8936</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:1162660006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0862030</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">B lymphoblastic leukemia/lymphoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">B-ALL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">precursor B lymphoblastic lymphoma/leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080630</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">B-lymphoblastic leukemia/lymphoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A B-cell acute lymphoblastic leukemia that is characterized by the presence of too many B-cell lymphoblasts in the blood and bone marrow.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Precursor_B-cell_lymphoblastic_leukemia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080630"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">B-ALL</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
     
 
 
@@ -10707,6 +10986,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
         <obo:IAO_0000115>A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:9145</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:C95.90</oboInOwl:hasDbXref>
@@ -10715,14 +10995,29 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasDbXref>MESH:D007938</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3161</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:255049003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:255049003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0023418</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1240</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>leukemia</rdfs:label>
+        <rdfs:label xml:lang="en">leukemia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007641"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Leukemia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=45343</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10917,6 +11212,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_14566"/>
         <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:C80.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:199</oboInOwl:hasDbXref>
@@ -10924,6 +11220,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasDbXref>MESH:D009369</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9305</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:269513004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:269513004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006826</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor</oboInOwl:hasExactSynonym>
@@ -10937,14 +11234,32 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:comment>&quot;A neoplastic disease that is malignant and characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.&quot; [stedman:rlc, url:http\://en.wikipedia.org/wiki/cancer, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=cancer]</rdfs:comment>
         <rdfs:comment>Updating out dated UMLS CUI.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Updating out dated UMLS CUI.</rdfs:comment>
         <rdfs:label>cancer</rdfs:label>
+        <rdfs:label xml:lang="en">cancer</rdfs:label>
         <rdfs:seeAlso>ICD9CM_2010:239.4</rdfs:seeAlso>
         <rdfs:seeAlso>SNOMEDCT_2010_1_31:189535002</rdfs:seeAlso>
         <rdfs:seeAlso>UMLS_CUI:C0027639</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#cancer</rdfs:seeAlso>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007643"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/cancer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.merriam-webster.com/dictionary/cancer#medicalDictionary</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -11172,8 +11487,9 @@ Disorders or aberrations in the development or migration of the neural crest cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
         <obo:IAO_0000115>An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000118>&quot;Hematologic malignancy (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:127221002]</obo:IAO_0000118>
         <obo:IAO_0000118>&quot;Hematologic malignancy&quot; EXACT [SNOMEDCT_2005_07_31:269475001]</obo:IAO_0000118>
         <obo:IAO_0000118>&quot;Hematologic neoplasm (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:129154003]</obo:IAO_0000118>
@@ -11190,6 +11506,7 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasDbXref>MESH:D019337</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C27134</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:414388001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:414388001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0376544</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Hematologic malignancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Hematologic neoplasm</oboInOwl:hasExactSynonym>
@@ -11208,8 +11525,15 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
         <rdfs:comment>&quot;A cancer that affects the blood or bone marrow.&quot; [url:http\://www.cancer.gov/dictionary/?CdrID=45708]</rdfs:comment>
         <rdfs:label>hematologic cancer</rdfs:label>
+        <rdfs:label xml:lang="en">hematologic cancer</rdfs:label>
         <rdfs:seeAlso>MSH2010_2010_02_22:D019337</rdfs:seeAlso>
         <rdfs:seeAlso>NCI2009_04D:C27134</rdfs:seeAlso>
         <rdfs:seeAlso>SNOMEDCT_2010_1_31:414388001</rdfs:seeAlso>
@@ -11217,6 +11541,16 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <rdfs:seeAlso>UMLS_CUI:C0376544</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#hematologic_cancer</rdfs:seeAlso>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007641"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Blood_cancer</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary/?CdrID=45708</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -11254,11 +11588,13 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2914">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115>A disease of anatomical entity that is located_in the immune system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the immune system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0000540</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:D89.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:279.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:154782004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154782004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0041806</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:2914</oboInOwl:id>
@@ -11267,8 +11603,21 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>immune system disease</rdfs:label>
+        <rdfs:label xml:lang="en">immune system disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A disease of anatomical entity that is located_in the immune system.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Immune_system</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -11805,17 +12154,29 @@ Disorders or aberrations in the development or migration of the neural crest cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
         <obo:IAO_0000115>A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2991</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:64572001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0012634</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>disease</rdfs:label>
+        <rdfs:label xml:lang="en">disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041577/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -12081,6 +12442,65 @@ Disorders or aberrations in the development or migration of the neural crest cel
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_74 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_74">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+        <obo:IAO_0000115>A disease of anatomical entity that has_material_basis_in hematopoietic cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>&quot;Blood disease (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:267552000]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease NOS (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:267573000]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease NOS&quot; EXACT [SNOMEDCT_2005_07_31:154842002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood disease&quot; EXACT [SNOMEDCT_2005_07_31:154785002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood dyscrasia NOS (disorder)&quot; EXACT [SNOMEDCT_2005_07_31:191402006]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood dyscrasia NOS&quot; EXACT [MTHICD9_2006:289.9]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Blood/blood forming organ NOS&quot; EXACT [SNOMEDCT_2005_07_31:191446003]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS&quot; EXACT [ICD9CM_2006:280-289.99]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Hematological disease&quot; EXACT [MTH:NOCODE]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;Unspecified disease of blood and blood-forming organs&quot; EXACT [ICD9CM_2006:289.9]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;blood disorder&quot; EXACT [CSP2005:0427-3600]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disease of blood and/or blood-forming organ (navigational concept)&quot; EXACT [SNOMEDCT_2005_07_31:191124002]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disease of hematopoietic system&quot; EXACT []</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;disorder of hematopoietic system (navigational concept)&quot; EXACT [SNOMEDCT_2005_07_31:34093004]</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:D75.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:289.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:154785002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018939</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Blood disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Blood dyscrasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Hematological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">blood disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of haematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">disease of hematopoietic system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">haematopoietic system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:74</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label>hematopoietic system disease</rdfs:label>
+        <rdfs:seeAlso>ICD9CM_2010:280-289.99</rdfs:seeAlso>
+        <rdfs:seeAlso>ICD9CM_2010:289.9</rdfs:seeAlso>
+        <rdfs:seeAlso>MSH2010_2010_02_22:D006402</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:154785002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:154842002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191124002</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191402006</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:191446003</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:267552000</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:267573000</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:34093004</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI:C0018939</rdfs:seeAlso>
+        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#hematopoietic_system_disease</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_769">
@@ -12262,6 +12682,80 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:seeAlso>UMLS_CUI:C0027765</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#nervous_system_disease</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2531"/>
+        <obo:IAO_0000115>A myeloid neoplasm that is located_in the plasma cells in bone marrow.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:7108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C90.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:203.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:254500</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:29073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:94705007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0026764</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9538</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>multiple myeloma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+        <obo:IAO_0000115 xml:lang="en">A acute leukemia that is characterized by over production of lymphoblasts.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:5600</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0000220</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:522</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C91.00</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:204.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:247640</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:613065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3167</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C7055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:513</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:128822004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0023449</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1335469</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ALL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute lymphoblastic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acute lymphocytic leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">precursor lymphoblastic lymphoma/leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9952</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI.</rdfs:comment>
+        <rdfs:label xml:lang="en">acute lymphoblastic leukemia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A acute leukemia that is characterized by over production of lymphoblasts.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007641"/>
+        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=46332</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">ALL</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
     
 
 
@@ -13404,6 +13898,40 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
+        <obo:IAO_0000115>Pleural effusion is a bodily fluid that is produced in exess and accumulates in the pleural cavity, the fluid-filled space that surrounds the lungs. Excessive amounts of such fluid can impair breathing by limiting the expansion of the lungs during inhalation.</obo:IAO_0000115>
+        <obo:IAO_0000116>cede to MPATH? Note the ncit class is under finding.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>ENVO:02000033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rLaTGCK2TEduAAAAOpmP6tw</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ncithesaurus:Pleural_Effusion</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000175</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>pleural effusion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000175"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Pleural effusion is a bodily fluid that is produced in exess and accumulates in the pleural cavity, the fluid-filled space that surrounds the lungs. Excessive amounts of such fluid can impair breathing by limiting the expansion of the lungs during inhalation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ENVO:02000033</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000175"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>MESH:D010996</owl:annotatedTarget>
+        <sssom:author_id rdf:resource="https://orcid.org/0000-0001-9439-5346"/>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
@@ -13725,6 +14253,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
         <obo:IAO_0000111>organism substance</obo:IAO_0000111>
         <obo:IAO_0000115>Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
@@ -13755,6 +14284,9 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>portion of organism substance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0000463</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#common_anatomy"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -16021,12 +16553,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
         <owl:annotatedTarget>Portion of organism substance that is a clear fluid that occupies the space in synovial joints.[TAO]</owl:annotatedTarget>
         <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
@@ -16044,6 +16570,12 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>joint fluid</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -16497,6 +17029,21 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A clear, colorless, bodily fluid, that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Cerebrospinal_fluid</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Portion of organism substance that is a clear fluid that occupies the subarachnoid space and the ventricular system around and inside the brain.[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0002184</oboInOwl:external_class>
+        <oboInOwl:ontology>TAO</oboInOwl:ontology>
+        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
         <owl:annotatedTarget>In vertebrates, at early stages of Central Nervous System (CNS) development, the architecture of the brain primordium reveals the presence of the cavity of brain vesicles, which is filled by Embryonic Cerebro-Spinal Fluid (E-CSF). (...) Rat and chick E-CSF proteomes are similar, although rat is more complex in certain groups of proteins, e.g., apolipoproteins, which may be involved in the control of neural diversity, and has soluble enzymes present, just like adult human CSF, but unlike chick E-CSF, revealing phylogenetic brain differences between these groups of vertebrates.[uncertain][VHOG]</owl:annotatedTarget>
         <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
@@ -16541,21 +17088,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>spinal fluid</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BTO:0000237</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A clear, colorless, bodily fluid, that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Cerebrospinal_fluid</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001359"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
-        <owl:annotatedTarget>Portion of organism substance that is a clear fluid that occupies the subarachnoid space and the ventricular system around and inside the brain.[TAO]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>TAO:0002184</oboInOwl:external_class>
-        <oboInOwl:ontology>TAO</oboInOwl:ontology>
-        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -18052,7 +18584,148 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002072 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells. Le Guellec et al, 2004.[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells[FMA:70544].</obo:UBPROP_0000001>
+        <obo:UBPROP_0000007>hypodermal</obo:UBPROP_0000007>
+        <obo:UBPROP_0000007>subcutaneous</obo:UBPROP_0000007>
+        <obo:UBPROP_0000007>subcutaneus</obo:UBPROP_0000007>
+        <obo:UBPROP_0000012>BTO has &apos;subcutis&apos;, as part of dermis. We follow FMA in having distinct classes for hypodermis and superficial fascia, and including these as part of the non-skin intgeument.</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Hypodermis"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0278403"/>
+        <oboInOwl:hasDbXref>BTO:0001314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2366</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:37505</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D040521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C33645</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001136</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0278403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0001136</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hypoderm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vertebrate hypodermis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>sub-tegumental tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subcutaneous tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subcutis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>subtegumental tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>superficial fascia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tela subcutanea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002072</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <rdfs:label>hypodermis</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depicted_by>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells. Le Guellec et al, 2004.[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0001136</oboInOwl:external_class>
+        <oboInOwl:ontology>TAO</oboInOwl:ontology>
+        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>A layer separating the inner face of the dermis from the subjacent muscle cells. It is covered on both sides by a basement membrane. It contains pigment cells[FMA:70544].</owl:annotatedTarget>
+        <oboInOwl:source>FMA:70544</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+        <owl:annotatedTarget>BTO has &apos;subcutis&apos;, as part of dermis. We follow FMA in having distinct classes for hypodermis and superficial fascia, and including these as part of the non-skin intgeument.</owl:annotatedTarget>
+        <oboInOwl:external_ontology>BTO</oboInOwl:external_ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>EMAPA:37505</owl:annotatedTarget>
+        <oboInOwl:source>MA:th</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>MESH:D040521</owl:annotatedTarget>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/LexicalMatching"/>
+        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0278403</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Subcutis</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sub-tegumental tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>subcutaneous tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>subtegumental tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0004525</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>superficial fascia</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>tela subcutanea</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Hypodermis</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+    </owl:Axiom>
     
 
 
@@ -20996,7 +21669,39 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001268"/>
+        <obo:IAO_0000115>The serous fluid which accumulates in the peritoneal cavity in ascites.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO - move to pathological anatomical entity ontology</obo:IAO_0000116>
+        <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1175</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001202</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ascites</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ascites fluid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0007795</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>ascitic fluid</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The serous fluid which accumulates in the peritoneal cavity in ascites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:A12.207.119</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ascites</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ascites fluid</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -21422,12 +22127,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     
 
 
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001378 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001378"/>
-    
-
-
     <!-- http://www.ebi.ac.uk/efo/EFO_0006306 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006306">
@@ -21484,6 +22183,16 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002240"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>

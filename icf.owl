@@ -725,7 +725,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -761,7 +761,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -800,7 +800,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -836,7 +836,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -887,7 +887,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000652"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000015"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001378"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
@@ -1292,6 +1292,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_9538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9538"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -1343,12 +1349,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001378 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001378"/>
 </rdf:RDF>
 
 

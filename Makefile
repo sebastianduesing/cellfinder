@@ -151,9 +151,9 @@ icf.owl: build/cells.tsv build/CLO_import_source.owl build/DOID_import_source.ow
 	echo '' > $@
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
-	--input build/CLO_import_source.owl \
-	--input build/DOID_import_source.owl \
+	--input src/ontology/robot_outputs/CLO_imports.owl \
 	--input build/UBERON_import_source.owl \
+	--input build/DOID_import_source.owl \
 	template \
 	--template $< \
 	annotate \
@@ -177,7 +177,7 @@ merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot
 	--output merged.owl
 
 
-build/cf-edit.owl: build/cf-edit.tsv
+src/ontology/cf-edit.owl: src/ontology/cf-edit.tsv
 	echo '' > $@
 	robot merge \
 	--input merged.owl \
@@ -188,12 +188,12 @@ build/cf-edit.owl: build/cf-edit.tsv
 	--output $@
 
 
-cellfinder.owl: merged.owl build/iedb_alternative_terms.owl build/cf-edit.owl
+cellfinder.owl: merged.owl build/iedb_alternative_terms.owl src/ontology/cf-edit.owl
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
 	--input $< \
 	--input build/iedb_alternative_terms.owl \
-	--input build/cf-edit.owl \
+	--input src/ontology/cf-edit.owl \
 	remove \
 	--term-file removed_terms.txt \
 	annotate \
