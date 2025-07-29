@@ -6,9 +6,67 @@ BFO:0000004	located in	ignore
 BFO:0000016	disposition	ignore		
 BFO:0000040	bounding layer of	ignore		
 CARO:0000000	anatomical entity	ignore		
+CL:0000017	GC-2spd(ts) cell	import		
+CL:0000023	oocyte	import		
+CL:0000031	CHP-212 cell	import		
+CL:0000034	stem cell	import		
+CL:0000055	non-terminally differentiated cell	import		
+CL:0000057	208F cell	import		
+CL:0000062	osteoblast	import		
 CL:0000066	022HU-NSO cell	import		
+CL:0000081	707 DAP10 cell	import		
+CL:0000084	immortal human T cell line cell	import		
+CL:0000094	granulocyte	import		
+CL:0000097	10P12 cell	import		
+CL:0000113	FeT-1C cell	import		
+CL:0000115	EOMA cell	import		
+CL:0000125	RG2 cell	import		
+CL:0000127	astrocyte	import		
+CL:0000145	professional antigen presenting cell	import		
+CL:0000148	melanocyte	import		
+CL:0000151	secretory cell	import		
+CL:0000163	endocrine cell	import		
+CL:0000164	enteroendocrine cell	import		
+CL:0000182	hepatocyte	import		
+CL:0000187	G.8 cell	import		
+CL:0000211	electrically active cell	import		
+CL:0000219	motile cell	import		
+CL:0000221	ectodermal cell	import		
+CL:0000232	erythrocyte	import		
+CL:0000235	DH82 cell	import		
 CL:0000236	B cell	import		
+CL:0000255	eukaryotic cell	import		
+CL:0000325	stuff accumulating cell	import		
+CL:0000393	electrically responsive cell	import		
+CL:0000451	dendritic cell	import		
+CL:0000457	biogenic amine secreting cell	import		
+CL:0000540	B35 cell	import		
+CL:0000542	A84M cell	import		
+CL:0000576	NCTC 3749 cell	import		
+CL:0000586	male germ cell	import		
+CL:0000623	natural killer cell	import		
+CL:0000624	CD4-positive, alpha-beta T cell	import		
+CL:0000738	B 95.8 cell	import		
+CL:0000763	megakaryocyte	import		
+CL:0000766	osteoclast	import		
+CL:0000767	basophil	import		
+CL:0000775	neutrophil	import		
+CL:0000786	plasma cell	import		
+CL:0000791	CD4-positive, alpha-beta T cell	import		
+CL:0000835	KG-1 cell	import		
+CL:0000842	mononuclear cell	import		
+CL:0000893	immature single positive thymocyte	import		
+CL:0000945	B cell	import		
+CL:0000988	DS19 cell	import		
 CL:0001034	cell in vitro	ignore		
+CL:0002242	nucleate cell	import		
+CL:0002319	neural cell	import		
+CL:0002320	connective tissue cell	import		
+CL:0002321	embryonic cell (metazoa)	import		
+CL:0011012	neural crest cell	import		
+CL:0011026	progenitor cell	import		
+CL:0011115	muscle precursor cell	import		
+CL:2000001	peripheral blood mononuclear cell	import		
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
@@ -317,6 +375,7 @@ NCBITaxon:9606	is_manufactured_by	import
 NCBITaxon:9989	Rodentia	ignore		
 OBI:0000047	processed material	ignore		
 OBI:0100026	organism	import		
+RO:0001000	derives from	relate		
 UBERON:0000061	anatomical structure	ignore		
 UBERON:0000077	+/+ SCT cell	ignore		
 UBERON:0000175	pleural effusion	import		
