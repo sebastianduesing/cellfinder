@@ -2,6 +2,7 @@ ontology ID	label	action	logical type	parent class
 ID			CLASS_TYPE	C %
 BFO:0000050	part of	relate		
 BFO:0000051	has part	relate		
+NCBITaxon:10116	Rattus norvegicus	import		
 UBERON:0000002	uterine cervix	import		
 UBERON:0000007	pituitary gland	import		
 UBERON:0000010	peripheral nervous system	import		
@@ -21,6 +22,8 @@ UBERON:0000947	aorta	import
 UBERON:0000948	heart	import		
 UBERON:0000955	brain	import		
 UBERON:0000970	compound eye	import		
+UBERON:0000977	pleura	import	subclass	tissue
+UBERON:0000979	tibia	import		
 UBERON:0000992	ovary	import		
 UBERON:0000995	uterus	import		
 UBERON:0001013	adipose tissue	import		
@@ -31,17 +34,21 @@ UBERON:0001052	rectum	import
 UBERON:0001062	anatomical entity	import		
 UBERON:0001088	urine	import		
 UBERON:0001090	synovial fluid	import		
+UBERON:0001153	caecum	import		
 UBERON:0001155	colon	import		
 UBERON:0001255	urinary bladder	import		
 UBERON:0001264	pancreas	import		
 UBERON:0001268	peritoneal fluid	import		
 UBERON:0001359	cerebrospinal fluid	import		
 UBERON:0001474	carpal bone	import		
+UBERON:0001506	brachialis muscle	import		
 UBERON:0001723	tongue	import		
 UBERON:0001729	oropharynx	import		
 UBERON:0001737	larynx	import		
 UBERON:0001744	lymphoid tissue	import		
+UBERON:0001828	gingiva	import		
 UBERON:0001836	saliva	import		
+UBERON:0001911	mammary gland	import		
 UBERON:0001987	placenta	import		
 UBERON:0001988	feces	import		
 UBERON:0002037	cerebellum	import		

@@ -70,7 +70,9 @@ CL:2000001	peripheral blood mononuclear cell	import
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
+CLO:0000535	immortal mouse epithelial cell line cell	import		
 CLO:0000652	immortal human B cell line cell	import		
+CLO:0000897	immortal rat epithelial cell line cell	import		
 CLO:0000933	immortal mouse B cell line cell	import		
 CLO:0001008	697 cell	ignore		
 CLO:0001056	1205Lu cell	import		
@@ -337,31 +339,55 @@ DOID:0060060	non-Hodgkin lymphoma	import
 DOID:10286	prostate carcinoma	import		
 DOID:1240	leukemia	import		
 DOID:1485	cystic fibrosis	import		
+DOID:1520	colon carcinoma	import		
+DOID:1612	breast cancer	import		
 DOID:1749	squamous cell carcinoma	import		
 DOID:1790	malignant mesothelioma	import		
 DOID:1909	melanoma	import		
+DOID:1996	rectum adenocarcinoma	import		
+DOID:234	colon adenocarcinoma	import		
 DOID:2526	prostate adenocarcinoma	import		
 DOID:2671	transitional cell carcinoma	import		
 DOID:299	adenocarcinoma	import		
 DOID:3007	breast ductal carcinoma	import		
+DOID:3008	invasive ductal carcinoma	import		
+DOID:3039	cecum adenocarcinoma	import		
 DOID:305	carcinoma	import		
 DOID:3068	glioblastoma	import		
+DOID:3151	skin squamous cell carcinoma	import		
+DOID:3347	osteosarcoma	import		
 DOID:3458	breast adenocarcinoma	import		
 DOID:3664	mast cell neoplasm	import		
+DOID:3713	ovary adenocarcinoma	import		
+DOID:3717	gastric adenocarcinoma	import		
 DOID:3721	plasmacytoma	import		
+DOID:3744	cervical squamous cell carcinoma	import		
+DOID:3748	esophagus squamous cell carcinoma	import		
 DOID:3905	lung carcinoma	import		
 DOID:3907	lung squamous cell carcinoma	import		
 DOID:3908	lung non-small cell carcinoma	import		
+DOID:3910	lung adenocarcinoma	import		
 DOID:4	disease	import		
+DOID:4007	bladder carcinoma	import		
+DOID:4074	pancreatic adenocarcinoma	import		
+DOID:4450	renal cell carcinoma	import		
+DOID:4467	clear cell renal cell carcinoma	import		
+DOID:4556	lung large cell carcinoma	import		
+DOID:4905	pancreatic carcinoma	import		
+DOID:4914	esophagus adenocarcinoma	import		
+DOID:5304	ovarian clear cell adenocarcinoma	import		
 DOID:5409	lung small cell carcinoma	import		
 DOID:5517	stomach carcinoma	import		
+DOID:5583	lung giant cell carcinoma	import		
 DOID:5603	T-cell acute lymphoblastic leukemia	import		
+DOID:5744	ovary serous adenocarcinoma	import		
 DOID:684	hepatocellular carcinoma	import		
 DOID:769	neuroblastoma	import		
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
 DOID:9538	multiple myeloma	import		
 NCBITaxon:10090	+/+ SCT cell	import		
+NCBITaxon:10116	13762 MAT B III cell	import		
 NCBITaxon:117571	Euteleostomi	ignore		
 NCBITaxon:2759	Eukaryota	ignore		
 NCBITaxon:314146	Euarchontoglires	ignore		
@@ -371,17 +397,24 @@ NCBITaxon:33213	Bilateria	ignore
 NCBITaxon:39107	Murinae	ignore		
 NCBITaxon:40674	Mammalia	ignore		
 NCBITaxon:7742	Vertebrata 	ignore		
+NCBITaxon:9544	Macaca mulatta	import		
 NCBITaxon:9606	is_manufactured_by	import		
 NCBITaxon:9989	Rodentia	ignore		
 OBI:0000047	processed material	ignore		
 OBI:0100026	organism	import		
 RO:0001000	derives from	relate		
 UBERON:0000061	anatomical structure	ignore		
+UBERON:0000064	organ part	import		
 UBERON:0000077	+/+ SCT cell	ignore		
 UBERON:0000175	pleural effusion	import		
 UBERON:0000465	material anatomical entity	ignore		
+UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
+UBERON:0000977	pleura	import		
 UBERON:0001062	anatomical entity	ignore		
+UBERON:0001153	LS1034 cell	import		
+UBERON:0001828	HGF-1 cell	import		
+UBERON:0001911	C127:LT cell	import		
 UBERON:0002072	hypodermis	import		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		

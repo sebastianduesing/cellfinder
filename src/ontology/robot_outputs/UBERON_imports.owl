@@ -833,6 +833,74 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30365038</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32761142</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>all</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>NCBITaxon:1</oboInOwl:id>
+        <rdfs:label>root</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>all</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:36465</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Norway rat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brown rat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rats</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Mus norvegicus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>NCBITaxon:10116</oboInOwl:id>
+        <rdfs:label>Rattus norvegicus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Norway rat</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>brown rat</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003003"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rat</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003003"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rats</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003003"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Mus norvegicus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000002">
@@ -979,6 +1047,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002368"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003133"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1816,24 +1890,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A fluid that is composed of blood plasma and erythrocytes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:9670</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Blood</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/issues/9</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
-        <owl:annotatedTarget>A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>TAO:0000007</oboInOwl:external_class>
-        <oboInOwl:ontology>TAO</oboInOwl:ontology>
-        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
         <owl:annotatedTarget>Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]</owl:annotatedTarget>
         <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
@@ -1870,6 +1926,24 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>whole blood</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BTO:0000089</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A fluid that is composed of blood plasma and erythrocytes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:9670</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Blood</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/issues/9</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0000007</oboInOwl:external_class>
+        <oboInOwl:ontology>TAO</oboInOwl:ontology>
+        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -3139,6 +3213,179 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion).</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+        <obo:UBPROP_0000001>The serous membrane that covers the lungs and lines the pleural cavity. [Kaufman_MH_and_Bard_JBL, The_anatomical_basis_of_mouse_development_(1999)_San_Diego:_Academic_Press, p.264][VHOG]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000007>pleural</obo:UBPROP_0000007>
+        <obo:UBPROP_0000012>In MA, is_a cavity lining (which we equate to parietal). In FMA, is_a (viscous) serous membrane (which includes mesothelium plus connective tissue). Note the MA structure should probably be associated with the mesothelium of pleura in FMA. JB/EHDAA2 argues the term &apos;pleura&apos; is best used for the mesothelial lining (thus excluding connective tissue). See https://github.com/obophenotype/uberon/issues/86</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref>BTO:0001791</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2081</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0001980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100044</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:360</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12469</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:181609007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0032225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Pleura</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>wall of pleural sac</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>pleura</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pleural tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0000977</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>pleura</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/a/ab/Gray965.png</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0-683-40008-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MP:0010820</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:cjm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Pulmonary_pleurae</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/issues/1231</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002175"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+        <oboInOwl:source>ISBN:978-0030223693</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0003-3308-6245</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>The serous membrane that covers the lungs and lines the pleural cavity. [Kaufman_MH_and_Bard_JBL, The_anatomical_basis_of_mouse_development_(1999)_San_Diego:_Academic_Press, p.264][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0000394</oboInOwl:external_class>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>ISBN:0124020607</oboInOwl:source>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0032225</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Pleural_Tissue</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>pleural tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0001791</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12469</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002495"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <obo:IAO_0000115>The major preaxial endochondral bone in the posterior zeugopod[Phenoscape].</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>One of the two long bones of endochondral origin of the hind-epipodium; it is a straight, simple bone whose section is more or less rectangular at the ends and circular at its central portion.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref>AAO:0000890</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-1048</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0003054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:19142</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:24476</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:204</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0001361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D013977</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:182061009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0040184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Tibia</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>shankbone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>shinbone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000979</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>tibia</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/2/2a/Gray260.png</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The major preaxial endochondral bone in the posterior zeugopod[Phenoscape].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PHENOSCAPE:mah</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>One of the two long bones of endochondral origin of the hind-epipodium; it is a straight, simple bone whose section is more or less rectangular at the ends and circular at its central portion.[AAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000890</oboInOwl:external_class>
+        <oboInOwl:ontology>AAO</oboInOwl:ontology>
+        <oboInOwl:source>AAO:LAP</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0040184</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Tibia</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>shankbone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>shinbone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000991">
@@ -4096,6 +4343,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4351,6 +4604,140 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>joint fluid</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK274/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009856"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A pouch in the digestive tract that connects the ileum with the ascending colon of the large intestine. It is separated from the ileum by the ileocecal valve, and is the beginning of the large intestine. It is also separated from the colon by the cecocolic junction.</obo:IAO_0000115>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000007>caecal</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008>A cecum is present in most amniote species, and also in lungfish, but not in any living species of amphibian. In reptiles, it is usually a single median structure, arising from the dorsal side of the large intestine. Birds typically have two paired ceca, as, unlike other mammals, do hyraxes. Most mammalian herbivores have a relatively large cecum, hosting a large number of bacteria, which aid in the enzymatic breakdown of plant materials such as cellulose; in many species, it is considerably wider than the colon. In contrast, obligatory carnivores, whose diets contain little or no plant material, have a reduced cecum, which is often partially or wholly replaced by the vermiform appendix. Many fish have a number of small outpocketings, called pyloric ceca, along their intestine; despite the name they are not homologous with the cecum of amniotes, and their purpose is to increase the overall area of the digestive epithelium.[2] Some invertebrates, such as squid,[3] may also have structures with the same name, but these have no relationship with those of vertebrates.</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref>BTO:0000166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0000206</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:3913</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35197</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:14541</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000334</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002432</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000288</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:181256004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0007531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cecum</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Cecum</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>caecum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cecum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intestinum crassum caecum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>caeca</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>ceca</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>blind intestine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>blindgut</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>intestinum caecum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>intestinum crassum cecum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001153</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:comment>Taxon notes: in some herbivorous lizards, a cecum is present between small and large intestines[Kardong]</rdfs:comment>
+        <rdfs:label>caecum</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/8/82/Stomach_colon_rectum_diagram.svg</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A pouch in the digestive tract that connects the ileum with the ascending colon of the large intestine. It is separated from the ileum by the ileocecal valve, and is the beginning of the large intestine. It is also separated from the colon by the cecocolic junction.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Cecum</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002161"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
+        <oboInOwl:source>Wikipedia</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+        <owl:annotatedTarget>A cecum is present in most amniote species, and also in lungfish, but not in any living species of amphibian. In reptiles, it is usually a single median structure, arising from the dorsal side of the large intestine. Birds typically have two paired ceca, as, unlike other mammals, do hyraxes. Most mammalian herbivores have a relatively large cecum, hosting a large number of bacteria, which aid in the enzymatic breakdown of plant materials such as cellulose; in many species, it is considerably wider than the colon. In contrast, obligatory carnivores, whose diets contain little or no plant material, have a reduced cecum, which is often partially or wholly replaced by the vermiform appendix. Many fish have a number of small outpocketings, called pyloric ceca, along their intestine; despite the name they are not homologous with the cecum of amniotes, and their purpose is to increase the overall area of the digestive epithelium.[2] Some invertebrates, such as squid,[3] may also have structures with the same name, but these have no relationship with those of vertebrates.</owl:annotatedTarget>
+        <oboInOwl:source>WP</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0007531</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Cecum</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>caecum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VHOG:0001559</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cecum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:14541</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caeca</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCBITaxon:8782</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>ceca</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCBITaxon:8782</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>blind intestine</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>blindgut</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>intestinum caecum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>intestinum crassum cecum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000166</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4853,13 +5240,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -4998,6 +5379,80 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedTarget>bones</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ZFA:0001514</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014892"/>
+        <obo:IAO_0000115>The brachialis (brachialis anticus) is a muscle in the upper arm that flexes the elbow joint. It lies just deep of the biceps brachii, and is a synergist that assists the biceps brachii in flexing at the elbow. It makes up part of the floor of the region known as the cubital fossa. [WP,unvetted].</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>A muscle of the stylopodium, covering the distal half of the humerus and the anterior part of the elbow joint. It functions to flex the zeugopodium. [TFD][VHOG]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref>EHDAA2:0000181</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:8281</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:19109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:37667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002271</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C53149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:244982000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0224240</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Casserio&apos;s muscle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>brachialis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>brachialis anticus muscle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>musculus brachialis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001506</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>brachialis muscle</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/8/87/Brachialis.png</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The brachialis (brachialis anticus) is a muscle in the upper arm that flexes the elbow joint. It lies just deep of the biceps brachii, and is a synergist that assists the biceps brachii in flexing at the elbow. It makes up part of the floor of the region known as the cubital fossa. [WP,unvetted].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>A muscle of the stylopodium, covering the distal half of the humerus and the anterior part of the elbow joint. It functions to flex the zeugopodium. [TFD][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0001026</oboInOwl:external_class>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+        <oboInOwl:source>http://medical-dictionary.thefreedictionary.com/brachialis</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0224240</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Brachialis</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>brachialis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>brachialis anticus muscle</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>musculus brachialis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
     </owl:Axiom>
     
 
@@ -5344,6 +5799,84 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The fibrous investing tissue, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and with the mucosal tissues of the mouth[Glossary of Periodontal Terms 2001].</obo:IAO_0000115>
+        <obo:IAO_0000116>FMA has a 3-level breakdown of jaws into: region, jaw (skeleton+gums), skeleton.</obo:IAO_0000116>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000007>gingival</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref>BTO:0000519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2074</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0001925</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35945</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:59762</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C32677</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:181224006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0017562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001269</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Gingiva</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Gingiva</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>gum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gum tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gums</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>gingival mucosa</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001828</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>gingiva</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/2/2e/Tooth_Section.svg</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001828"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The fibrous investing tissue, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and with the mucosal tissues of the mouth[Glossary of Periodontal Terms 2001].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0013002015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Gingiva</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001828"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0017562</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Gingiva</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001828"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:59762</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001828"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>gum tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001836">
@@ -5420,6 +5953,153 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedTarget>saliva molecularis</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:Saliva</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
+        <obo:IAO_0000115>A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.</obo:IAO_0000115>
+        <obo:IAO_0000116>Originally this was classified as a female reproductive structure, as it was in the MP in 2011</obo:IAO_0000116>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:UBPROP_0000001>Any of the milk-producing apocrine glands typically occurring in pairs in female mammals and consisting of lobes containing clusters of alveoli with a system of ducts to convey the milk to an external nipple or teat. [TFD][VHOG]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000003>The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000007>mammary</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008>A mouse mammary gland contains a single duct or sinus, forming 5-10 secondary ducts</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008>The male Dayak fruit bat has lactating mammary glands</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008>The mammary glands of humans are in the thoracid/breast region. In other mammals they may be located elsewhere on the mammary ridges.</obo:UBPROP_0000008>
+        <obo:UBPROP_0000012>The BTO class represents the combination of nipple plus lobe</obo:UBPROP_0000012>
+        <obo:UBPROP_0000012>The FMA class represents an individule lobe. The nipple is not a part</obo:UBPROP_0000012>
+        <obo:UBPROP_0000012>The MA class represents a composite structure, including the nipple, fat, connective tissue, smooth muscle as parts</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref>BTO:0000817</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0595</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000854</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:17759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100125</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:286452</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:361720005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0929301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000398</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Mammary_gland</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>glandula mammaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lactiferous gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>lobe of breast</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>milk patch</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Brustdruese</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dug</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>glandula mammaria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lobe of mammary gland</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mamma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mammae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001911</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>mammary gland</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/64/Illu_breast_anatomy.jpg</foaf:depiction>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000817</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Mammary_gland</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Any of the milk-producing apocrine glands typically occurring in pairs in female mammals and consisting of lobes containing clusters of alveoli with a system of ducts to convey the milk to an external nipple or teat. [TFD][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0000398</oboInOwl:external_class>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+        <oboInOwl:source>http://medical-dictionary.thefreedictionary.com/mammary+gland</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedTarget>The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0000398</oboInOwl:external_class>
+        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
+        <oboInOwl:source>ISBN:978-0072528305 Kardong KV, Vertebrates: Comparative Anatomy, Function, Evolution (2006) p.224</oboInOwl:source>
+        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0929301</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Mammary_Gland</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>glandula mammaria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:57983</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:TA</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>lactiferous gland</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:62088</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>milk patch</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCBITaxon:9255</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Brustdruese</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000817</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>dug</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Mammary_gland</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>glandula mammaria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Mammary_gland</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>lobe of mammary gland</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:62088</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>mamma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000817</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>mammae</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003004"/>
     </owl:Axiom>
     
 
@@ -5846,6 +6526,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -8182,6 +8868,115 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <obo:IAO_0000115>A bone that is part of a limb [Automatically generated definition].</obo:IAO_0000115>
+        <obo:IAO_0000232>the formal definition is very inclusive, and includes sesamoids</obo:IAO_0000232>
+        <obo:UBPROP_0000012>NCITA includes clavicle. MA:&apos;limb bone&apos; is actually a bone of limb or girdle</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref>EFO:0000945</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C32223</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:304149004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0582791</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone of extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>free limb bone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0002428</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <rdfs:label>limb bone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A bone that is part of a limb [Automatically generated definition].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+        <owl:annotatedTarget>NCITA includes clavicle. MA:&apos;limb bone&apos; is actually a bone of limb or girdle</owl:annotatedTarget>
+        <oboInOwl:external_ontology>NCIT</oboInOwl:external_ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0582791</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Bone_of_the_Extremity</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone of limb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>free limb bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERONREF:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <obo:IAO_0000115>A long bone is a bone that has a shaft and 2 ends and is longer than it is wide. Long bones have a thick outside layer of compact bone and an inner medullary cavity containing bone marrow.  The ends of a long bone contain spongy bone and an epiphyseal plate or line depending on the stage of development. The epiphyseal plate is a hyaline cartilage, where new bone growth takes place, lengthening the bone prior to adulthood. Bone lengthening ceases when this cartilage is lost, leaving a remnant referred to as an epiphyseal line.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <dc:contributor rdf:resource="https://github.com/wdahdul"/>
+        <oboInOwl:hasDbXref>BTO:0004256</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:7474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002802</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C33003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:332709000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0222647</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Long_bone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:LongBone</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>os longum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002495</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:comment>Endochondral_ossification is an essential process during the rudimentary formation of long bones, with the exception of the clavicle[Wikipedia:Endochondral_ossification]. The medial and and lateral ends undergo EO, the mid-portion is formed by a process with features of EO &amp; IO (the process is shared by the mandible)[ISBN:9780397517251]</rdfs:comment>
+        <rdfs:label>long bone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002495"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A long bone is a bone that has a shaft and 2 ends and is longer than it is wide. Long bones have a thick outside layer of compact bone and an inner medullary cavity containing bone marrow.  The ends of a long bone contain spongy bone and an epiphyseal plate or line depending on the stage of development. The epiphyseal plate is a hyaline cartilage, where new bone growth takes place, lengthening the bone prior to adulthood. Bone lengthening ceases when this cartilage is lost, leaving a remnant referred to as an epiphyseal line.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Long_bone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://medlineplus.gov/ency/imagepages/9582.htm</oboInOwl:hasDbXref>
+        <rdfs:seeAlso>https://github.com/obophenotype/uberon/issues/2010</rdfs:seeAlso>
+        <rdfs:seeAlso>https://github.com/obophenotype/uberon/issues/32</rdfs:seeAlso>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002495"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0222647</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Long_Bone</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002495"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>os longum</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0004256</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002530">
@@ -8498,6 +9293,116 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <obo:IAO_0000115>A bone that is part of a hindlimb region. Examples: any pes phalanx, femur. Counter-examples: ischium, pubis (they are part of the pelvic girdle).</obo:IAO_0000115>
+        <obo:UBPROP_0000012>the MA class is actually bone of pelvic complex; in contrast the NCIT class excludes ilium etc</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref>EFO:0003842</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12982</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:361370006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0448188</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb bone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb bone organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb bone organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0003464</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>hindlimb bone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A bone that is part of a hindlimb region. Examples: any pes phalanx, femur. Counter-examples: ischium, pubis (they are part of the pelvic girdle).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+        <owl:annotatedTarget>the MA class is actually bone of pelvic complex; in contrast the NCIT class excludes ilium etc</owl:annotatedTarget>
+        <oboInOwl:external_ontology>MA</oboInOwl:external_ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0448188</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Bone_of_the_Lower_Extremity</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone of hind limb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone of hindlimb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone of inferior member</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone of lower extremity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone organ of hind limb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone organ of hindlimb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>bone organ of lower extremity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>hind limb bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>hind limb bone organ</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003464"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>hindlimb bone organ</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003937">
@@ -8750,6 +9655,60 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:annotatedTarget>lymphoid organ</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BTO:0004605</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:7143</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Organ consisting of skeletal tissue. Encompasses whole bones, fused bones, cartilaginious elements, teeth, dermal denticles.</obo:IAO_0000115>
+        <obo:UBPROP_0000001>Organ entity that is typically involved in mechanical support and may have different skeletal tissue compositions at different stages.[VSAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>Organ entity that may have different tissue compositions at different stages and is typically involved in mechanical support.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref>AAO:0011129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001890</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSAO:0000128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0004012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005494</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:SkeletalStructure</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0004765</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>skeletal element</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Organ consisting of skeletal tissue. Encompasses whole bones, fused bones, cartilaginious elements, teeth, dermal denticles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Organ entity that is typically involved in mechanical support and may have different skeletal tissue compositions at different stages.[VSAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VSAO:0000128</oboInOwl:external_class>
+        <oboInOwl:ontology>VSAO</oboInOwl:ontology>
+        <oboInOwl:source>PSPUB:0000170</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Organ entity that may have different tissue compositions at different stages and is typically involved in mechanical support.[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0001890</oboInOwl:external_class>
+        <oboInOwl:ontology>TAO</oboInOwl:ontology>
+        <oboInOwl:source>TAO:VSAO_workshop</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -9296,6 +10255,96 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009856">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <oboInOwl:hasDbXref>galen:Diverticulum</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>pouch</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>diverticulum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0009856</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>sac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <obo:IAO_0000115>A skeletal element that has the potential to participate in endochondral ossification, and may participate in intramembranous ossification.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VSAO:0000139</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0004017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005620</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>endochondral replacement element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0010363</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>endochondral element</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skeletal element that has the potential to participate in endochondral ossification, and may participate in intramembranous ossification.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO_REF:0000034</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PSPUB:0000170</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSAO:0000139</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://dx.plos.org/10.1371/journal.pone.0051070</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>endochondral replacement element</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VSAO:0000139</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <obo:IAO_0000115>A bone that is part of an appendage girdle complex (i.e. any bone in a limb, fin or girdle).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EMAPA:35494</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000688</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>bone of extended limb/fin region</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>limb bone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0010740</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <rdfs:label>bone of appendage girdle complex</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A bone that is part of an appendage girdle complex (i.e. any bone in a limb, fin or girdle).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERONREF:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>bone of extended limb/fin region</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERONREF:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>limb bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MA:0000688</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERONREF:0000003</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0011216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011216">
@@ -9437,6 +10486,122 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A muscle organ that consists of skeletal muscle tissue ensheathed in epimysium, that develops from myotome and that is innervated by some somatic motor neuron. Skeletal muscles are typically attached (via a tendon) to a bone but there are exceptions (e.g. intrinsic tongue muscles).</obo:IAO_0000115>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:hasBroadSynonym>skeletal muscle</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>AAO:0011099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0933</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000888</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:5035</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:5043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:5978</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:5984</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0003148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000302</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D018482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000302</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0005277</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000319</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000174</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005277</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0014892</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>skeletal muscle organ, vertebrate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014892"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A muscle organ that consists of skeletal muscle tissue ensheathed in epimysium, that develops from myotome and that is innervated by some somatic motor neuron. Skeletal muscles are typically attached (via a tendon) to a bone but there are exceptions (e.g. intrinsic tongue muscles).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:dos</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <obo:IAO_0000115>A hindlimb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>hindlimb bone skeletal element</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0015022</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>hindlimb endochondral element</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hindlimb bone or its cartilage or pre-cartilage precursor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>hindlimb bone skeletal element</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <obo:IAO_0000115>A limb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>limb bone skeletal element</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>limb bone endochondral element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0015061</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
+        <rdfs:label>limb endochondral element</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A limb bone or its cartilage or pre-cartilage precursor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>limb bone skeletal element</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>limb bone endochondral element</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://github.com/obophenotype/uberon/wiki/Modeling-endochondral-elements-Design-Pattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0017672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0017672">
@@ -9486,6 +10651,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0018707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009856"/>
         <obo:IAO_0000115>A membranous sac in animals that serves as the receptacle of a liquid or contains gas.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BTO:0000123</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>bladder</oboInOwl:hasNarrowSynonym>
