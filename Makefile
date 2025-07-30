@@ -172,6 +172,8 @@ merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot
 	--reasoner ELK \
 	remove \
 	--term-file removed_terms.txt \
+	rename \
+	--mapping obo:SYMP_0000107 obo:UBERON_0000175 \
 	reduce \
 	--reasoner ELK \
 	--output merged.owl
