@@ -147,7 +147,7 @@ src/ontology/robot_outputs/%_imports.owl: build/%_import_source.owl build/%_limi
 	convert -o $@
 
 
-icf.owl: build/cells.tsv build/CLO_import_source.owl build/DOID_import_source.owl build/UBERON_import_source.owl
+icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_source.owl build/UBERON_import_source.owl
 	echo '' > $@
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
