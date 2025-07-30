@@ -99,6 +99,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002037">
