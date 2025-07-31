@@ -12113,6 +12113,24 @@ in CLO, this is a short cut relation that represents:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000129"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000166"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a immortal neurecto-epithelial cell line that is derived from melanocyte</obo:IAO_0000115>
+        <obo:IAO_0000117>ZX, YH</obo:IAO_0000117>
+        <rdfs:label>immortal melanocyte cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000147">
