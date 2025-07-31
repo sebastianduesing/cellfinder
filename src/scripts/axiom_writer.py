@@ -96,6 +96,9 @@ def main():
         if id == "robot":
             row["unified axiom"] = "C %"
             continue
+        if row["logical type"] == "equivalent":
+            row["unified axiom"] = ""
+            continue
         row["unified axiom"] = write_axiom(row)
     dict2TSV(template, path)
 
