@@ -36,6 +36,21 @@ http://purl.obolibrary.org/obo/CLO_0037256 # HBL-1 cell
 http://purl.obolibrary.org/obo/CLO_0037272 # TMD8 cell
 http://purl.obolibrary.org/obo/CLO_0051228 # HEV0041 cell
 http://purl.obolibrary.org/obo/CLO_0051333 # HSC0107 cell
+CLO:0001056
+CLO:0001566
+CLO:0001582
+CLO:0050752
+CLO:0001793
+CLO:0001794
+CLO:0003433
+CLO:0006961
+CLO:0037132
+CLO:0009041
+CLO:0009043
+CLO:0009047
+CLO:0037135
+CLO:0009616
+CLO:0009619
 http://purl.obolibrary.org/obo/OBI_0000047
 http://purl.obolibrary.org/obo/OBI_0000953
 http://purl.obolibrary.org/obo/OBI_0001479

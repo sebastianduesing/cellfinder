@@ -77,7 +77,7 @@ CLO:0000652	immortal human B cell line cell	import
 CLO:0000897	immortal rat epithelial cell line cell	import		
 CLO:0000933	immortal mouse B cell line cell	import		
 CLO:0001008	697 cell	ignore		
-CLO:0001056	1205Lu cell	import		
+CLO:0001056	1205Lu cell	ignore		
 CLO:0001137	184A1 cell	import		
 CLO:0001176	2.2.15 cell	import		
 CLO:0001199	22RV1 cell	import		
@@ -86,16 +86,16 @@ CLO:0001400	4MBr-5 cell	import
 CLO:0001401	4T1 cell	import		
 CLO:0001421	5637 cell	import		
 CLO:0001560	A172 cell	import		
-CLO:0001566	A2058 cell	import		
-CLO:0001582	A-375 cell	import		
+CLO:0001566	A2058 cell	ignore		
+CLO:0001582	A-375 cell	ignore		
 CLO:0001592	A-431 cell	import		
 CLO:0001601	A549 cell	import		
 CLO:0001606	A-673 cell	import		
 CLO:0001686	AGS cell	import		
 CLO:0001756	AsPC-1 cell	import		
 CLO:0001769	AU565 cell	import		
-CLO:0001793	B16-F1 cell	import		
-CLO:0001794	B16-F10 cell	import		
+CLO:0001793	B16-F1 cell	ignore		
+CLO:0001794	B16-F10 cell	ignore		
 CLO:0001842	BA/F3 cell	import		
 CLO:0001925	BEAS-2B cell	import		
 CLO:0001987	BL-41 cell	import		
@@ -134,7 +134,7 @@ CLO:0002805	DOHH2 cell	ignore
 CLO:0002840	DU 145 cell	import		
 CLO:0002889	EFM-192A cell	import		
 CLO:0002913	EL4 cell	import		
-CLO:0003433	G-361 cell	import		
+CLO:0003433	G-361 cell	ignore		
 CLO:0003434	G-401 cell	import		
 CLO:0003630	HCC1143 cell	import		
 CLO:0003632	HCC1187 cell	import		
@@ -158,7 +158,7 @@ CLO:0004009	Hs 578T cell	import
 CLO:0004245	Hs 940.T cell	import		
 CLO:0004278	HT-1197 cell	import		
 CLO:0004283	HT-29 cell	import		
-CLO:0006961	IPC-298 cell	import		
+CLO:0006961	IPC-298 cell	ignore		
 CLO:0007012	JAWSII cell	import		
 CLO:0007043	JURKAT cell	import		
 CLO:0007050	K 562 cell	ignore		
@@ -227,9 +227,9 @@ CLO:0008738	RAMOS cell	import
 CLO:0008873	RPMI 8226 cell	ignore		
 CLO:0008947	Saos-2 cell	import		
 CLO:0009034	SK-BR-3 cell	import		
-CLO:0009041	SK-MEL-2 cell	import		
-CLO:0009043	SK-MEL-28 cell	import		
-CLO:0009047	SK-MEL-5 cell	import		
+CLO:0009041	SK-MEL-2 cell	ignore		
+CLO:0009043	SK-MEL-28 cell	ignore		
+CLO:0009047	SK-MEL-5 cell	ignore		
 CLO:0009051	SK-N-AS cell	import		
 CLO:0009063	SK-OV-3 cell	import		
 CLO:0009105	SNU-C2B cell	import		
@@ -262,8 +262,8 @@ CLO:0009465	U-937 cell	import
 CLO:0009467	UACC-812 cell	import		
 CLO:0009468	UACC-893 cell	import		
 CLO:0009597	WI-38 VA-13 cell	import		
-CLO:0009616	WM278 cell	import		
-CLO:0009619	WM793B cell	import		
+CLO:0009616	WM278 cell	ignore		
+CLO:0009619	WM793B cell	ignore		
 CLO:0009727	ZR-75-1 cell	import		
 CLO:0009728	ZR-75-30 cell	import		
 CLO:0009791	immortal human myeloblast cell line cell	import		
@@ -288,8 +288,8 @@ CLO:0037104	TYK-nu cell	import
 CLO:0037107	KP-2 cell	import		
 CLO:0037108	KP-3 cell	import		
 CLO:0037114	SUIT-2 cell	import		
-CLO:0037132	MZ2-MEL cell	import		
-CLO:0037135	UACC-257 cell	import		
+CLO:0037132	MZ2-MEL cell	ignore		
+CLO:0037135	UACC-257 cell	ignore		
 CLO:0037144	NUGC-3 cell	import		
 CLO:0037159	LB831-BLC cell	import		
 CLO:0037173	JJN-3 cell	ignore		
@@ -318,7 +318,7 @@ CLO:0050150	RCB0980 cell	import
 CLO:0050164	RCB0193 cell	import		
 CLO:0050192	RCB2652 cell	import		
 CLO:0050238	RCB1830 cell	import		
-CLO:0050752	RCB1283 cell	import		
+CLO:0050752	RCB1283 cell	ignore		
 CLO:0050789	RCB1939 cell	import		
 CLO:0050802	RCB1434 cell	import		
 CLO:0050853	RCB1942 cell	import		

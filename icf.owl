@@ -10514,6 +10514,908 @@
     
 
 
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000207 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000133"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">An immortal melanocyte cell line cell derived from a human.</obo:IAO_0000115>
+        <rdfs:label>immortal human melanocyte cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000208 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000208">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000133"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">An immortal melanocyte cell line cell derived from a mouse.</obo:IAO_0000115>
+        <rdfs:label>immortal mouse melanocyte cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000209 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000209">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> 1205 Lu</obo:IAO_0000118>
+        <obo:IAO_0000118> LU1205</obo:IAO_0000118>
+        <obo:IAO_0000118> Lu1205</obo:IAO_0000118>
+        <obo:IAO_0000118> WC00058</obo:IAO_0000118>
+        <obo:IAO_0000118> WM 1205LU</obo:IAO_0000118>
+        <obo:IAO_0000118> WM-1205LU</obo:IAO_0000118>
+        <obo:IAO_0000118> WM1205</obo:IAO_0000118>
+        <obo:IAO_0000118> WM1205Lu</obo:IAO_0000118>
+        <obo:IAO_0000118>1205-Lu</obo:IAO_0000118>
+        <obo:IAO_0000118>1205Lu</obo:IAO_0000118>
+        <obo:OBI_9991118>1205Lu cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_5239</oboInOwl:hasDbXref>
+        <rdfs:label>1205Lu cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000210 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000210">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4359"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the lymph node of subjects with amelanotic melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> A-2058</obo:IAO_0000118>
+        <obo:IAO_0000118>A 2058</obo:IAO_0000118>
+        <obo:IAO_0000118>A2058</obo:IAO_0000118>
+        <obo:OBI_9991118>A2058 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001566</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_1059</oboInOwl:hasDbXref>
+        <rdfs:label>A2058 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000211 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000211">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4359"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with amelanotic melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> 375</obo:IAO_0000118>
+        <obo:IAO_0000118> A375-MEL</obo:IAO_0000118>
+        <obo:IAO_0000118> A375-mel</obo:IAO_0000118>
+        <obo:IAO_0000118> A375mel</obo:IAO_0000118>
+        <obo:IAO_0000118>A 375</obo:IAO_0000118>
+        <obo:IAO_0000118>A-375</obo:IAO_0000118>
+        <obo:IAO_0000118>A375</obo:IAO_0000118>
+        <obo:IAO_0000118>A375 cell</obo:IAO_0000118>
+        <obo:OBI_9991118>A-375 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0132</oboInOwl:hasDbXref>
+        <rdfs:label>A-375 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000212 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000212">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000208"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal mouse melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> B16 subline B78</obo:IAO_0000118>
+        <obo:IAO_0000118> B78</obo:IAO_0000118>
+        <obo:IAO_0000118>B-16</obo:IAO_0000118>
+        <obo:IAO_0000118>B16 melanoma</obo:IAO_0000118>
+        <obo:IAO_0000118>RCB1283</obo:IAO_0000118>
+        <obo:OBI_9991118>B16 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0050752</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_F936</oboInOwl:hasDbXref>
+        <rdfs:label>RCB1283 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000213 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000213">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000208"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal mouse melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> B16 F1</obo:IAO_0000118>
+        <obo:IAO_0000118> B16F1</obo:IAO_0000118>
+        <obo:IAO_0000118>B16-F1</obo:IAO_0000118>
+        <obo:IAO_0000118>B16/F1</obo:IAO_0000118>
+        <obo:OBI_9991118>B16-F1 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001793</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0158</oboInOwl:hasDbXref>
+        <rdfs:label>B16-F1 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000214 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000214">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000208"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal mouse melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> B16 F10</obo:IAO_0000118>
+        <obo:IAO_0000118> B16 melanoma F10</obo:IAO_0000118>
+        <obo:IAO_0000118> B16F10</obo:IAO_0000118>
+        <obo:IAO_0000118>B16-F10</obo:IAO_0000118>
+        <obo:IAO_0000118>B16/F10</obo:IAO_0000118>
+        <obo:OBI_9991118>B16-F10 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001794</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0159</oboInOwl:hasDbXref>
+        <rdfs:label>B16-F10 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000215 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000215">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> G361-mel</obo:IAO_0000118>
+        <obo:IAO_0000118> G361mel</obo:IAO_0000118>
+        <obo:IAO_0000118>G-361</obo:IAO_0000118>
+        <obo:IAO_0000118>G361</obo:IAO_0000118>
+        <obo:OBI_9991118>G-361 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0003433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_1220</oboInOwl:hasDbXref>
+        <rdfs:label>G-361 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000216 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000216">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> IPC298</obo:IAO_0000118>
+        <obo:IAO_0000118>IPC 298</obo:IAO_0000118>
+        <obo:IAO_0000118>IPC-298</obo:IAO_0000118>
+        <obo:OBI_9991118>IPC-298 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0006961</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_1307</oboInOwl:hasDbXref>
+        <rdfs:label>IPC-298 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000217 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000217">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the abdomen of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> MZ Mel 2</obo:IAO_0000118>
+        <obo:IAO_0000118> MZ-2 Mel</obo:IAO_0000118>
+        <obo:IAO_0000118> MZ2-Mel</obo:IAO_0000118>
+        <obo:IAO_0000118> MZ2-mel</obo:IAO_0000118>
+        <obo:IAO_0000118> MZ2MEL</obo:IAO_0000118>
+        <obo:IAO_0000118>MZ2-MEL</obo:IAO_0000118>
+        <obo:IAO_0000118>Mz-Mel-2</obo:IAO_0000118>
+        <obo:OBI_9991118>MZ2-MEL-2 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0037132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_1435</oboInOwl:hasDbXref>
+        <rdfs:label>MZ2-MEL cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000218 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000218">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> SK MEL 2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK Mel 2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK-MEL2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK-ML2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK-Mel 2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK-mel-2</obo:IAO_0000118>
+        <obo:IAO_0000118> SK.MEL.2</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMEL-2</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMEL2</obo:IAO_0000118>
+        <obo:IAO_0000118> SKmel2</obo:IAO_0000118>
+        <obo:IAO_0000118> SKml2</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-MEL-2</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-Mel-2</obo:IAO_0000118>
+        <obo:OBI_9991118>SK-MEL-2 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0009041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0069</oboInOwl:hasDbXref>
+        <rdfs:label>SK-MEL-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000219 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000219">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118>AU-Mel</obo:IAO_0000118>
+        <obo:IAO_0000118>P-36</obo:IAO_0000118>
+        <obo:IAO_0000118>P36</obo:IAO_0000118>
+        <obo:IAO_0000118>SK MEL 28</obo:IAO_0000118>
+        <obo:IAO_0000118>SK Mel 28</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-MEL 28</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-MEL28</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-Mel28</obo:IAO_0000118>
+        <obo:IAO_0000118>SK.MEL.28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKMEL-28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKMEL28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKMEL28 cell</obo:IAO_0000118>
+        <obo:IAO_0000118>SKML-28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKMel-28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKMel28</obo:IAO_0000118>
+        <obo:IAO_0000118>SKmel28</obo:IAO_0000118>
+        <obo:OBI_9991118>SK-MEL-28 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0009043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0526</oboInOwl:hasDbXref>
+        <rdfs:label>SK-MEL-28 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000220 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000220">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the lymph node of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> AA-Mel</obo:IAO_0000118>
+        <obo:IAO_0000118> SK MEL 5</obo:IAO_0000118>
+        <obo:IAO_0000118> SK-MEL5</obo:IAO_0000118>
+        <obo:IAO_0000118> SK.MEL.5</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMEL-5</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMEL5</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMel-5</obo:IAO_0000118>
+        <obo:IAO_0000118> SKMel5</obo:IAO_0000118>
+        <obo:IAO_0000118> SKmel5</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-MEL-5</obo:IAO_0000118>
+        <obo:IAO_0000118>SK-Mel-5</obo:IAO_0000118>
+        <obo:OBI_9991118>SK-MEL-5 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0009047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_0527</oboInOwl:hasDbXref>
+        <rdfs:label>SK-MEL-5 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000221 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000221">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> UACC.257</obo:IAO_0000118>
+        <obo:IAO_0000118> UACC257</obo:IAO_0000118>
+        <obo:IAO_0000118> University of Arizona Cell Culture-257</obo:IAO_0000118>
+        <obo:IAO_0000118>UACC 257</obo:IAO_0000118>
+        <obo:IAO_0000118>UACC-257</obo:IAO_0000118>
+        <obo:OBI_9991118>UACC-257 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0037135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_1779</oboInOwl:hasDbXref>
+        <rdfs:label>UACC-257 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000222 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000222">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> WC00054</obo:IAO_0000118>
+        <obo:IAO_0000118> WM 278</obo:IAO_0000118>
+        <obo:IAO_0000118>WM-278</obo:IAO_0000118>
+        <obo:IAO_0000118>WM278</obo:IAO_0000118>
+        <obo:OBI_9991118>WM278 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0009616</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_6473</oboInOwl:hasDbXref>
+        <rdfs:label>WM278 cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000223 -->
+
+    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000223">
+        <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of body of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000118> WC00062</obo:IAO_0000118>
+        <obo:IAO_0000118> WM 793</obo:IAO_0000118>
+        <obo:IAO_0000118> WM 793B</obo:IAO_0000118>
+        <obo:IAO_0000118> WM-793B</obo:IAO_0000118>
+        <obo:IAO_0000118> WM793B</obo:IAO_0000118>
+        <obo:IAO_0000118> WM793b</obo:IAO_0000118>
+        <obo:IAO_0000118> WML 793</obo:IAO_0000118>
+        <obo:IAO_0000118>WM-793</obo:IAO_0000118>
+        <obo:IAO_0000118>WM793B</obo:IAO_0000118>
+        <obo:OBI_9991118>WM793 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0009619</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RRID:CVCL_8787</oboInOwl:hasDbXref>
+        <rdfs:label>WM793B cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019"/>
@@ -10523,6 +11425,12 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000133"/>
     
 
 
@@ -10565,6 +11473,12 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000148"/>
     
 
 
@@ -10643,6 +11557,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_1612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1612"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1909"/>
     
 
 
@@ -10769,6 +11689,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_4074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4359"/>
     
 
 
@@ -11081,6 +12007,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172"/>
     
 
 
