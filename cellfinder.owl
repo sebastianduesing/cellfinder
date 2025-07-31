@@ -2596,13 +2596,17 @@ in CLO, this is a short cut relation that represents:
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000031 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000129"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000129"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">An immortal epithelial cell line cell originating from a Rhesus macaque.</obo:IAO_0000115>
         <rdfs:label>immortal Rhesus macaque epithelial cell line cell</rdfs:label>
     </owl:Class>
@@ -8543,6 +8547,12 @@ in CLO, this is a short cut relation that represents:
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000173">
         <rdfs:subClassOf rdf:resource="http://github.com/sebastianduesing/cellfinder/icf/icf#0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0037208"/>
