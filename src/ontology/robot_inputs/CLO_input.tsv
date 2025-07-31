@@ -69,6 +69,7 @@ CL:0011115	muscle precursor cell	import
 CL:2000001	peripheral blood mononuclear cell	import		
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
+CLO:0000167	has disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
 CLO:0000535	immortal mouse epithelial cell line cell	import		
 CLO:0000652	immortal human B cell line cell	import		

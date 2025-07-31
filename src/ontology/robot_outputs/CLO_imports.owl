@@ -621,6 +621,21 @@ This is a short cut relation that represents:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000167 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000167">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115>a disease disposition has been realized by a bearer.
+</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng, Yongqun He, Yu Lin, Allen Xiang</obo:IAO_0000117>
+        <rdfs:comment>This is a shortcut relation. It is equivalent to:
+participates_in some &apos;disease couse&apos; and realizes some disease</rdfs:comment>
+        <rdfs:label xml:lang="en">has disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0037207 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037207">
