@@ -148,6 +148,7 @@ src/ontology/robot_outputs/%_imports.owl: build/%_import_source.owl build/%_limi
 
 
 icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_source.owl build/UBERON_import_source.owl
+	python3 src/scripts/axiom_writer.py
 	echo '' > $@
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
