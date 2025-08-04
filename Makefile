@@ -163,6 +163,7 @@ icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_sour
 
 
 merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot_outputs/clo_imports.owl src/ontology/robot_outputs/efo_imports.owl src/ontology/robot_outputs/obi_imports.owl src/ontology/robot_outputs/uberon_imports.owl removed_terms.txt
+	python3 src/scripts/clean_removed_terms.py
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
 	--inputs "src/ontology/robot_outputs/*.owl" \
