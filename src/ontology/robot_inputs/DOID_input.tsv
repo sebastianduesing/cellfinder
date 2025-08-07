@@ -73,6 +73,7 @@ CL:0011115	muscle precursor cell	import
 CL:2000001	peripheral blood mononuclear cell	import		
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
+CLO:0000020	immortal human cell line cell	import		
 CLO:0000133	immortal melanocyte cell line cell	import		
 CLO:0000167	has disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
@@ -604,7 +605,7 @@ DOID:769	neuroblastoma	import
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
 DOID:9538	multiple myeloma	import		
-NCBITaxon:10090	+/+ SCT cell	import		
+NCBITaxon:10090	Mus musculus	import		
 NCBITaxon:10116	Korean hemorrhagic fever	import		
 NCBITaxon:117571	Euteleostomi	ignore		
 NCBITaxon:2759	Eukaryota	ignore		
@@ -706,6 +707,7 @@ UBERON:0004923 # organ component layer	organ component layer	ignore
 UBERON:0005090	urethra muscle tissue	import		
 UBERON:0005409	alimentary part of gastrointestinal system	import		
 UBERON:0007795	ascitic fluid	import		
+UBERON:0009856	sac	ignore		
 UBERON:0009856 # sac	sac	ignore		
 UBERON:0010000	directly develops from	ignore		
 UBERON:0010000 # multicellular anatomical structure	multicellular anatomical structure	ignore		

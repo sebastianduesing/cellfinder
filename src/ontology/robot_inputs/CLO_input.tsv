@@ -48,21 +48,20 @@ CL:0000542	A84M cell	import
 CL:0000576	NCTC 3749 cell	import		
 CL:0000586	male germ cell	import		
 CL:0000623	natural killer cell	import		
-CL:0000624	CD4-positive, alpha-beta T cell	import		
+CL:0000624	CD4-positive, alpha-beta T cell	ignore		
 CL:0000738	B 95.8 cell	import		
 CL:0000763	megakaryocyte	import		
 CL:0000766	osteoclast	import		
 CL:0000767	basophil	import		
 CL:0000775	neutrophil	import		
 CL:0000786	plasma cell	import		
-CL:0000791	CD4-positive, alpha-beta T cell	import		
+CL:0000791	CD4-positive, alpha-beta T cell	ignore		
 CL:0000835	KG-1 cell	import		
 CL:0000842	mononuclear cell	import		
 CL:0000893	immature single positive thymocyte	import		
-CL:0000945	B cell	import		
+CL:0000945	lymphocyte of B lineage	import		
 CL:0000988	DS19 cell	import		
 CL:0001034	cell in vitro	ignore		
-CL:0001034 # cell in vitro	cell in vitro	ignore		
 CL:0002242	nucleate cell	import		
 CL:0002319	neural cell	import		
 CL:0002320	connective tissue cell	import		
@@ -73,6 +72,7 @@ CL:0011115	muscle precursor cell	import
 CL:2000001	peripheral blood mononuclear cell	import		
 CLO:0000001	cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
+CLO:0000020	immortal human cell line cell	import		
 CLO:0000133	immortal melanocyte cell line cell	import		
 CLO:0000167	has disease	relate		
 CLO:0000169	hybridoma cell line cell	import		
@@ -81,460 +81,265 @@ CLO:0000652	immortal human B cell line cell	import
 CLO:0000897	immortal rat epithelial cell line cell	import		
 CLO:0000933	immortal mouse B cell line cell	import		
 CLO:0001008	697 cell	ignore		
-CLO:0001008 # 697 cell	697 cell	ignore		
 CLO:0001056	1205Lu cell	ignore		
-CLO:0001056 # 1205Lu cell	1205Lu cell	ignore		
-CLO:0001137	184A1 cell	import		
-CLO:0001137 # 184A1 cell	184A1 cell	ignore		
+CLO:0001137	184A1 cell	ignore		
 CLO:0001176	2.2.15 cell	import		
-CLO:0001199	22RV1 cell	import		
-CLO:0001199 # 22RV1 cell	22RV1 cell	ignore		
-CLO:0001230	HEK293	import		
-CLO:0001230 # HEK293	HEK293	ignore		
-CLO:0001400	4MBr-5 cell	import		
-CLO:0001400 # 4MBr-5 cell	4MBr-5 cell	ignore		
-CLO:0001401	4T1 cell	import		
-CLO:0001401 # 4T1 cell	4T1 cell	ignore		
-CLO:0001421	5637 cell	import		
-CLO:0001421 # 5637 cell	5637 cell	ignore		
+CLO:0001199	22RV1 cell	ignore		
+CLO:0001230	HEK293	ignore		
+CLO:0001400	4MBr-5 cell	ignore		
+CLO:0001401	4T1 cell	ignore		
+CLO:0001421	5637 cell	ignore		
 CLO:0001560	A172 cell	import		
 CLO:0001566	A2058 cell	ignore		
-CLO:0001566 # A2058 cell	A2058 cell	ignore		
 CLO:0001582	A-375 cell	ignore		
-CLO:0001582 # A-375 cell	A-375 cell	ignore		
-CLO:0001592	A-431 cell	import		
-CLO:0001592 # A-431 cell	A-431 cell	ignore		
-CLO:0001601	A549 cell	import		
-CLO:0001601 # A549 cell	A549 cell	ignore		
+CLO:0001592	A-431 cell	ignore		
+CLO:0001601	A549 cell	ignore		
 CLO:0001606	A-673 cell	import		
-CLO:0001686	AGS cell	import		
-CLO:0001686 # AGS cell	AGS cell	ignore		
-CLO:0001756	AsPC-1 cell	import		
-CLO:0001756 # AsPC-1 cell	AsPC-1 cell	ignore		
-CLO:0001769	AU565 cell	import		
-CLO:0001769 # AU565 cell	AU565 cell	ignore		
+CLO:0001686	AGS cell	ignore		
+CLO:0001756	AsPC-1 cell	ignore		
+CLO:0001769	AU565 cell	ignore		
 CLO:0001793	B16-F1 cell	ignore		
-CLO:0001793 # B16-F1 cell	B16-F1 cell	ignore		
 CLO:0001794	B16-F10 cell	ignore		
-CLO:0001794 # B16-F10 cell	B16-F10 cell	ignore		
 CLO:0001842	BA/F3 cell	import		
 CLO:0001925	BEAS-2B cell	import		
 CLO:0001987	BL-41 cell	import		
-CLO:0002041	BT-20 cell	import		
-CLO:0002041 # BT-20 cell	BT-20 cell	ignore		
-CLO:0002042	BT-474 cell	import		
-CLO:0002042 # BT-474 cell	BT-474 cell	ignore		
-CLO:0002043	BT-483 cell	import		
-CLO:0002043 # BT-483 cell	BT-483 cell	ignore		
-CLO:0002044	BT-549 cell	import		
-CLO:0002044 # BT-549 cell	BT-549 cell	ignore		
+CLO:0002041	BT-20 cell	ignore		
+CLO:0002042	BT-474 cell	ignore		
+CLO:0002043	BT-483 cell	ignore		
+CLO:0002044	BT-549 cell	ignore		
 CLO:0002052	BV-173 cell	import		
-CLO:0002065	BxPC-3 cell	import		
-CLO:0002065 # BxPC-3 cell	BxPC-3 cell	ignore		
-CLO:0002115	C-33 A cell	import		
-CLO:0002115 # C-33 A cell	C-33 A cell	ignore		
-CLO:0002165	Ca Ski cell	import		
-CLO:0002165 # Ca Ski cell	Ca Ski cell	ignore		
+CLO:0002065	BxPC-3 cell	ignore		
+CLO:0002115	C-33 A cell	ignore		
+CLO:0002165	Ca Ski cell	ignore		
 CLO:0002168	CA46 cell	import		
-CLO:0002172	Caco-2 cell	import		
-CLO:0002172 # Caco-2 cell	Caco-2 cell	ignore		
-CLO:0002175	CAKI-1 cell	import		
-CLO:0002175 # CAKI-1 cell	CAKI-1 cell	ignore		
-CLO:0002179	CAL-120 cell	import		
-CLO:0002179 # CAL-120 cell	CAL-120 cell	ignore		
-CLO:0002191	Calu-1 cell	import		
-CLO:0002191 # Calu-1 cell	Calu-1 cell	ignore		
-CLO:0002192	Calu-3 cell	import		
-CLO:0002192 # Calu-3 cell	Calu-3 cell	ignore		
-CLO:0002195	Caov-3 cell	import		
-CLO:0002195 # Caov-3 cell	Caov-3 cell	ignore		
-CLO:0002197	Capan-1 cell	import		
-CLO:0002197 # Capan-1 cell	Capan-1 cell	ignore		
-CLO:0002198	Capan-2 cell	import		
-CLO:0002198 # Capan-2 cell	Capan-2 cell	ignore		
-CLO:0002395	CFPAC-1 cell	import		
-CLO:0002395 # CFPAC-1 cell	CFPAC-1 cell	ignore		
-CLO:0002531	CMT64/61 cell	import		
-CLO:0002531 # CMT64/61 cell	CMT64/61 cell	ignore		
-CLO:0002544	COLO 205 cell	import		
-CLO:0002544 # COLO 205 cell	COLO 205 cell	ignore		
-CLO:0002571	COLO-320 cell	import		
-CLO:0002571 # COLO-320 cell	COLO-320 cell	ignore		
+CLO:0002172	Caco-2 cell	ignore		
+CLO:0002175	CAKI-1 cell	ignore		
+CLO:0002179	CAL-120 cell	ignore		
+CLO:0002191	Calu-1 cell	ignore		
+CLO:0002192	Calu-3 cell	ignore		
+CLO:0002195	Caov-3 cell	ignore		
+CLO:0002197	Capan-1 cell	ignore		
+CLO:0002198	Capan-2 cell	ignore		
+CLO:0002395	CFPAC-1 cell	ignore		
+CLO:0002531	CMT64/61 cell	ignore		
+CLO:0002544	COLO 205 cell	ignore		
+CLO:0002571	COLO-320 cell	ignore		
 CLO:0002597	COS-7 cell	import		
 CLO:0002631	CT26.WT cell	import		
 CLO:0002708	Daudi cell	ignore		
-CLO:0002708 # Daudi cell	Daudi cell	ignore		
 CLO:0002709	DB cell	ignore		
-CLO:0002709 # DB cell	DB cell	ignore		
 CLO:0002723	DBTRG-05MG cell	import		
 CLO:0002767	DG-75 cell	ignore		
-CLO:0002767 # DG-75 cell	DG-75 cell	ignore		
-CLO:0002785	DLD-1 cell	import		
-CLO:0002785 # DLD-1 cell	DLD-1 cell	ignore		
-CLO:0002797	DMS 273 cell	import		
-CLO:0002797 # DMS 273 cell	DMS 273 cell	ignore		
-CLO:0002798	DMS 454 cell	import		
-CLO:0002798 # DMS 454 cell	DMS 454 cell	ignore		
-CLO:0002799	DMS 53 cell	import		
-CLO:0002799 # DMS 53 cell	DMS 53 cell	ignore		
+CLO:0002785	DLD-1 cell	ignore		
+CLO:0002797	DMS 273 cell	ignore		
+CLO:0002798	DMS 454 cell	ignore		
+CLO:0002799	DMS 53 cell	ignore		
 CLO:0002805	DOHH2 cell	ignore		
-CLO:0002805 # DOHH2 cell	DOHH2 cell	ignore		
-CLO:0002840	DU 145 cell	import		
-CLO:0002840 # DU 145 cell	DU 145 cell	ignore		
-CLO:0002889	EFM-192A cell	import		
-CLO:0002889 # EFM-192A cell	EFM-192A cell	ignore		
+CLO:0002840	DU 145 cell	ignore		
+CLO:0002889	EFM-192A cell	ignore		
 CLO:0002913	EL4 cell	import		
 CLO:0003433	G-361 cell	ignore		
-CLO:0003433 # G-361 cell	G-361 cell	ignore		
-CLO:0003434	G-401 cell	import		
-CLO:0003434 # G-401 cell	G-401 cell	ignore		
+CLO:0003434	G-401 cell	ignore		
 CLO:0003630	HCC1143 cell	import		
-CLO:0003632	HCC1187 cell	import		
-CLO:0003632 # HCC1187 cell	HCC1187 cell	ignore		
-CLO:0003634	HCC1395 cell	import		
-CLO:0003634 # HCC1395 cell	HCC1395 cell	ignore		
-CLO:0003636	HCC1419 cell	import		
-CLO:0003636 # HCC1419 cell	HCC1419 cell	ignore		
-CLO:0003637	HCC1428 cell	import		
-CLO:0003637 # HCC1428 cell	HCC1428 cell	ignore		
-CLO:0003639	HCC1500 cell	import		
-CLO:0003639 # HCC1500 cell	HCC1500 cell	ignore		
-CLO:0003640	HCC1569 cell	import		
-CLO:0003640 # HCC1569 cell	HCC1569 cell	ignore		
-CLO:0003644	HCC1806 cell	import		
-CLO:0003644 # HCC1806 cell	HCC1806 cell	ignore		
-CLO:0003658	HCC70 cell	import		
-CLO:0003658 # HCC70 cell	HCC70 cell	ignore		
-CLO:0003659	HCC827 cell	import		
-CLO:0003659 # HCC827 cell	HCC827 cell	ignore		
-CLO:0003665	HCT 116 cell	import		
-CLO:0003665 # HCT 116 cell	HCT 116 cell	ignore		
-CLO:0003666	HCT-15 cell	import		
-CLO:0003666 # HCT-15 cell	HCT-15 cell	ignore		
-CLO:0003667	HCT-8 cell	import		
-CLO:0003667 # HCT-8 cell	HCT-8 cell	ignore		
-CLO:0003684	HeLa cell	import		
-CLO:0003684 # HeLa cell	HeLa cell	ignore		
+CLO:0003632	HCC1187 cell	ignore		
+CLO:0003634	HCC1395 cell	ignore		
+CLO:0003636	HCC1419 cell	ignore		
+CLO:0003637	HCC1428 cell	ignore		
+CLO:0003639	HCC1500 cell	ignore		
+CLO:0003640	HCC1569 cell	ignore		
+CLO:0003644	HCC1806 cell	ignore		
+CLO:0003658	HCC70 cell	ignore		
+CLO:0003659	HCC827 cell	ignore		
+CLO:0003665	HCT 116 cell	ignore		
+CLO:0003666	HCT-15 cell	ignore		
+CLO:0003667	HCT-8 cell	ignore		
+CLO:0003684	HeLa cell	ignore		
 CLO:0003704	Hep G2 cell	import		
 CLO:0003744	HH cell	import		
 CLO:0003787	HMy2.CIR cell	ignore		
-CLO:0003787 # HMy2.CIR cell	HMy2.CIR cell	ignore		
 CLO:0003795	HOS cell	import		
-CLO:0004009	Hs 578T cell	import		
-CLO:0004009 # Hs 578T cell	Hs 578T cell	ignore		
+CLO:0004009	Hs 578T cell	ignore		
 CLO:0004245	Hs 940.T cell	import		
-CLO:0004278	HT-1197 cell	import		
-CLO:0004278 # HT-1197 cell	HT-1197 cell	ignore		
-CLO:0004283	HT-29 cell	import		
-CLO:0004283 # HT-29 cell	HT-29 cell	ignore		
+CLO:0004278	HT-1197 cell	ignore		
+CLO:0004283	HT-29 cell	ignore		
 CLO:0006961	IPC-298 cell	ignore		
-CLO:0006961 # IPC-298 cell	IPC-298 cell	ignore		
 CLO:0007012	JAWSII cell	import		
 CLO:0007043	JURKAT cell	import		
 CLO:0007050	K 562 cell	ignore		
-CLO:0007050 # K 562 cell	K 562 cell	ignore		
-CLO:0007073	KATO III cell	import		
-CLO:0007073 # KATO III cell	KATO III cell	ignore		
+CLO:0007073	KATO III cell	ignore		
 CLO:0007189	L-428 cell	import		
 CLO:0007201	L-540 cell	import		
-CLO:0007325	LL/2 (LLC1) cell	import		
-CLO:0007325 # LL/2 (LLC1) cell	LL/2 (LLC1) cell	ignore		
+CLO:0007325	LL/2 (LLC1) cell	ignore		
 CLO:0007336	L-M cell	import		
-CLO:0007365	LNCAP cell	import		
-CLO:0007365 # LNCAP cell	LNCAP cell	ignore		
+CLO:0007365	LNCAP cell	ignore		
 CLO:0007587	MC57G cell	import		
 CLO:0007606	MCF7 cell	import		
-CLO:0007629	MDA PCa 2b cell	import		
-CLO:0007629 # MDA PCa 2b cell	MDA PCa 2b cell	ignore		
-CLO:0007634	MDA-MB-231 cell	import		
-CLO:0007634 # MDA-MB-231 cell	MDA-MB-231 cell	ignore		
-CLO:0007636	MDA-MB-361 cell	import		
-CLO:0007636 # MDA-MB-361 cell	MDA-MB-361 cell	ignore		
-CLO:0007641	MDA-MB-468 cell	import		
-CLO:0007641 # MDA-MB-468 cell	MDA-MB-468 cell	ignore		
+CLO:0007629	MDA PCa 2b cell	ignore		
+CLO:0007634	MDA-MB-231 cell	ignore		
+CLO:0007636	MDA-MB-361 cell	ignore		
+CLO:0007641	MDA-MB-468 cell	ignore		
 CLO:0007668	MEG-01 cell	import		
-CLO:0007680	MeT-5A cell	import		
-CLO:0007680 # MeT-5A cell	MeT-5A cell	ignore		
+CLO:0007680	MeT-5A cell	ignore		
 CLO:0007688	MeWo cell	import		
-CLO:0007726	MIA PaCa-2 cell	import		
-CLO:0007726 # MIA PaCa-2 cell	MIA PaCa-2 cell	ignore		
-CLO:0007733	MKN-45 cell	import		
-CLO:0007733 # MKN-45 cell	MKN-45 cell	ignore		
+CLO:0007726	MIA PaCa-2 cell	ignore		
+CLO:0007733	MKN-45 cell	ignore		
 CLO:0007825	MOLT-4 cell	import		
 CLO:0007830	MOPC 315 cell	ignore		
-CLO:0007830 # MOPC 315 cell	MOPC 315 cell	ignore		
 CLO:0007906	MV-4-11 cell	import		
 CLO:0007938	NALM-6 cell	ignore		
-CLO:0007938 # NALM-6 cell	NALM-6 cell	ignore		
 CLO:0007939	NAMALWA cell	ignore		
-CLO:0007939 # NAMALWA cell	NAMALWA cell	ignore		
 CLO:0007947	NB-4 cell	ignore		
-CLO:0007947 # NB-4 cell	NB-4 cell	ignore		
-CLO:0007980	NCI-H1092 cell	import		
-CLO:0007980 # NCI-H1092 cell	NCI-H1092 cell	ignore		
-CLO:0007986	NCI-H1299 cell	import		
-CLO:0007986 # NCI-H1299 cell	NCI-H1299 cell	ignore		
-CLO:0007989	NCI-H1355 cell	import		
-CLO:0007989 # NCI-H1355 cell	NCI-H1355 cell	ignore		
-CLO:0007992	NCI-H1395 cell	import		
-CLO:0007992 # NCI-H1395 cell	NCI-H1395 cell	ignore		
-CLO:0007998	NCI-H146 cell	import		
-CLO:0007998 # NCI-H146 cell	NCI-H146 cell	ignore		
-CLO:0008016	NCI-H1755 cell	import		
-CLO:0008016 # NCI-H1755 cell	NCI-H1755 cell	ignore		
-CLO:0008035	NCI-H1975 cell	import		
-CLO:0008035 # NCI-H1975 cell	NCI-H1975 cell	ignore		
-CLO:0008067	NCI-H2228 cell	import		
-CLO:0008067 # NCI-H2228 cell	NCI-H2228 cell	ignore		
-CLO:0008068	NCI-H226 cell	import		
-CLO:0008068 # NCI-H226 cell	NCI-H226 cell	ignore		
-CLO:0008076	NCI-H2444 cell	import		
-CLO:0008076 # NCI-H2444 cell	NCI-H2444 cell	ignore		
-CLO:0008077	NCI-H2452 cell	import		
-CLO:0008077 # NCI-H2452 cell	NCI-H2452 cell	ignore		
-CLO:0008080	NCI-H292 cell	import		
-CLO:0008080 # NCI-H292 cell	NCI-H292 cell	ignore		
-CLO:0008084	NCI-H345 cell	import		
-CLO:0008084 # NCI-H345 cell	NCI-H345 cell	ignore		
-CLO:0008085	NCI-H358 cell	import		
-CLO:0008085 # NCI-H358 cell	NCI-H358 cell	ignore		
-CLO:0008087	NCI-H441 cell	import		
-CLO:0008087 # NCI-H441 cell	NCI-H441 cell	ignore		
-CLO:0008088	NCI-H446 cell	import		
-CLO:0008088 # NCI-H446 cell	NCI-H446 cell	ignore		
-CLO:0008093	NCI-H520 cell	import		
-CLO:0008093 # NCI-H520 cell	NCI-H520 cell	ignore		
-CLO:0008094	NCI-H522 cell	import		
-CLO:0008094 # NCI-H522 cell	NCI-H522 cell	ignore		
-CLO:0008102	NCI-H660 cell	import		
-CLO:0008102 # NCI-H660 cell	NCI-H660 cell	ignore		
-CLO:0008105	NCI-H69 cell	import		
-CLO:0008105 # NCI-H69 cell	NCI-H69 cell	ignore		
+CLO:0007980	NCI-H1092 cell	ignore		
+CLO:0007986	NCI-H1299 cell	ignore		
+CLO:0007989	NCI-H1355 cell	ignore		
+CLO:0007992	NCI-H1395 cell	ignore		
+CLO:0007998	NCI-H146 cell	ignore		
+CLO:0008016	NCI-H1755 cell	ignore		
+CLO:0008035	NCI-H1975 cell	ignore		
+CLO:0008067	NCI-H2228 cell	ignore		
+CLO:0008068	NCI-H226 cell	ignore		
+CLO:0008076	NCI-H2444 cell	ignore		
+CLO:0008077	NCI-H2452 cell	ignore		
+CLO:0008080	NCI-H292 cell	ignore		
+CLO:0008084	NCI-H345 cell	ignore		
+CLO:0008085	NCI-H358 cell	ignore		
+CLO:0008087	NCI-H441 cell	ignore		
+CLO:0008088	NCI-H446 cell	ignore		
+CLO:0008093	NCI-H520 cell	ignore		
+CLO:0008094	NCI-H522 cell	ignore		
+CLO:0008102	NCI-H660 cell	ignore		
+CLO:0008105	NCI-H69 cell	ignore		
 CLO:0008127	NCI-H929 cell	ignore		
-CLO:0008127 # NCI-H929 cell	NCI-H929 cell	ignore		
-CLO:0008129	NCI-N87 cell	import		
-CLO:0008129 # NCI-N87 cell	NCI-N87 cell	ignore		
+CLO:0008129	NCI-N87 cell	ignore		
 CLO:0008172	NIH-3T3 cell	import		
-CLO:0008195	NRK cell	import		
-CLO:0008195 # NRK cell	NRK cell	ignore		
-CLO:0008228	OAW28 cell	import		
-CLO:0008228 # OAW28 cell	OAW28 cell	ignore		
+CLO:0008195	NRK cell	ignore		
+CLO:0008228	OAW28 cell	ignore		
 CLO:0008235	OCI-AML2 cell	import		
-CLO:0008238	OE19 cell	import		
-CLO:0008238 # OE19 cell	OE19 cell	ignore		
+CLO:0008238	OE19 cell	ignore		
 CLO:0008269	OPM-2 cell	ignore		
-CLO:0008269 # OPM-2 cell	OPM-2 cell	ignore		
 CLO:0008279	OVCAR-3 cell	import		
-CLO:0008280	OVCAR-5 cell	import		
-CLO:0008280 # OVCAR-5 cell	OVCAR-5 cell	ignore		
+CLO:0008280	OVCAR-5 cell	ignore		
 CLO:0008321	P388 cell	import		
 CLO:0008341	P815 cell	import		
-CLO:0008380	Panc 10.05 cell	import		
-CLO:0008380 # Panc 10.05 cell	Panc 10.05 cell	ignore		
-CLO:0008381	PANC-1 cell	import		
-CLO:0008381 # PANC-1 cell	PANC-1 cell	ignore		
-CLO:0008395	PC-3 cell	import		
-CLO:0008395 # PC-3 cell	PC-3 cell	ignore		
+CLO:0008380	Panc 10.05 cell	ignore		
+CLO:0008381	PANC-1 cell	ignore		
+CLO:0008395	PC-3 cell	ignore		
 CLO:0008458	PLC/PRF/5 cell	import		
 CLO:0008693	R D cell	import		
 CLO:0008734	Raji cell	import		
 CLO:0008738	RAMOS cell	import		
 CLO:0008873	RPMI 8226 cell	ignore		
-CLO:0008873 # RPMI 8226 cell	RPMI 8226 cell	ignore		
 CLO:0008947	Saos-2 cell	import		
-CLO:0009034	SK-BR-3 cell	import		
-CLO:0009034 # SK-BR-3 cell	SK-BR-3 cell	ignore		
+CLO:0009034	SK-BR-3 cell	ignore		
 CLO:0009041	SK-MEL-2 cell	ignore		
-CLO:0009041 # SK-MEL-2 cell	SK-MEL-2 cell	ignore		
 CLO:0009043	SK-MEL-28 cell	ignore		
-CLO:0009043 # SK-MEL-28 cell	SK-MEL-28 cell	ignore		
 CLO:0009047	SK-MEL-5 cell	ignore		
-CLO:0009047 # SK-MEL-5 cell	SK-MEL-5 cell	ignore		
 CLO:0009051	SK-N-AS cell	import		
-CLO:0009063	SK-OV-3 cell	import		
-CLO:0009063 # SK-OV-3 cell	SK-OV-3 cell	ignore		
-CLO:0009105	SNU-C2B cell	import		
-CLO:0009105 # SNU-C2B cell	SNU-C2B cell	ignore		
+CLO:0009063	SK-OV-3 cell	ignore		
+CLO:0009105	SNU-C2B cell	ignore		
 CLO:0009160	SU-DHL-1 cell	import		
 CLO:0009161	SUP-B15 cell	ignore		
-CLO:0009161 # SUP-B15 cell	SUP-B15 cell	ignore		
 CLO:0009164	SUP-T1 cell	import		
-CLO:0009188	SW 1463 cell	import		
-CLO:0009188 # SW 1463 cell	SW 1463 cell	ignore		
-CLO:0009190	SW 1573 cell	import		
-CLO:0009190 # SW 1573 cell	SW 1573 cell	ignore		
-CLO:0009192	SW 1990 cell	import		
-CLO:0009192 # SW 1990 cell	SW 1990 cell	ignore		
-CLO:0009195	SW 480 cell	import		
-CLO:0009195 # SW 480 cell	SW 480 cell	ignore		
-CLO:0009196	SW 620 cell	import		
-CLO:0009196 # SW 620 cell	SW 620 cell	ignore		
-CLO:0009216	SW48 cell	import		
-CLO:0009216 # SW48 cell	SW48 cell	ignore		
-CLO:0009226	SW948 cell	import		
-CLO:0009226 # SW948 cell	SW948 cell	ignore		
+CLO:0009188	SW 1463 cell	ignore		
+CLO:0009190	SW 1573 cell	ignore		
+CLO:0009192	SW 1990 cell	ignore		
+CLO:0009195	SW 480 cell	ignore		
+CLO:0009196	SW 620 cell	ignore		
+CLO:0009216	SW48 cell	ignore		
+CLO:0009226	SW948 cell	ignore		
 CLO:0009242	T2 (174 x CEM.T2) cell	ignore		
-CLO:0009242 # T2 (174 x CEM.T2) cell	T2 (174 x CEM.T2) cell	ignore		
-CLO:0009245	T24 cell	import		
-CLO:0009245 # T24 cell	T24 cell	ignore		
-CLO:0009251	T-47D cell	import		
-CLO:0009251 # T-47D cell	T-47D cell	ignore		
+CLO:0009245	T24 cell	ignore		
+CLO:0009251	T-47D cell	ignore		
 CLO:0009258	T98G cell	import		
-CLO:0009279	TC-1 cell	import		
-CLO:0009279 # TC-1 cell	TC-1 cell	ignore		
+CLO:0009279	TC-1 cell	ignore		
 CLO:0009326	TF-1 cell	import		
 CLO:0009348	THP-1 cell	import		
-CLO:0009385	TOV-21G cell	import		
-CLO:0009385 # TOV-21G cell	TOV-21G cell	ignore		
-CLO:0009401	TRAMP-C1 cell	import		
-CLO:0009401 # TRAMP-C1 cell	TRAMP-C1 cell	ignore		
-CLO:0009402	TRAMP-C2 cell	import		
-CLO:0009402 # TRAMP-C2 cell	TRAMP-C2 cell	ignore		
-CLO:0009454	U-2 OS cell	import		
-CLO:0009454 # U-2 OS cell	U-2 OS cell	ignore		
+CLO:0009385	TOV-21G cell	ignore		
+CLO:0009401	TRAMP-C1 cell	ignore		
+CLO:0009402	TRAMP-C2 cell	ignore		
+CLO:0009454	U-2 OS cell	ignore		
 CLO:0009456	U-251 MG cell	import		
 CLO:0009458	U266B1 cell	ignore		
-CLO:0009458 # U266B1 cell	U266B1 cell	ignore		
 CLO:0009462	U-698-M cell	ignore		
-CLO:0009462 # U-698-M cell	U-698-M cell	ignore		
 CLO:0009464	U-87 MG cell	import		
 CLO:0009465	U-937 cell	import		
-CLO:0009467	UACC-812 cell	import		
-CLO:0009467 # UACC-812 cell	UACC-812 cell	ignore		
-CLO:0009468	UACC-893 cell	import		
-CLO:0009468 # UACC-893 cell	UACC-893 cell	ignore		
+CLO:0009467	UACC-812 cell	ignore		
+CLO:0009468	UACC-893 cell	ignore		
 CLO:0009597	WI-38 VA-13 cell	import		
 CLO:0009616	WM278 cell	ignore		
-CLO:0009616 # WM278 cell	WM278 cell	ignore		
 CLO:0009619	WM793B cell	ignore		
-CLO:0009619 # WM793B cell	WM793B cell	ignore		
-CLO:0009727	ZR-75-1 cell	import		
-CLO:0009727 # ZR-75-1 cell	ZR-75-1 cell	ignore		
-CLO:0009728	ZR-75-30 cell	import		
-CLO:0009728 # ZR-75-30 cell	ZR-75-30 cell	ignore		
+CLO:0009727	ZR-75-1 cell	ignore		
+CLO:0009728	ZR-75-30 cell	ignore		
 CLO:0009791	immortal human myeloblast cell line cell	import		
 CLO:0009853	OCI-AML3 cell	import		
 CLO:0009856	PL-21 cell	import		
 CLO:0009873	EW-7 cell	import		
 CLO:0009879	TC-71 cell	import		
 CLO:0009894	KNS-42 cell	import		
-CLO:0009912	JIMT-1 cell	import		
-CLO:0009912 # JIMT-1 cell	JIMT-1 cell	ignore		
-CLO:0009918	SUM159PT cell	import		
-CLO:0009918 # SUM159PT cell	SUM159PT cell	ignore		
-CLO:0009919	SUM185PE cell	import		
-CLO:0009919 # SUM185PE cell	SUM185PE cell	ignore		
-CLO:0009958	CL-40 cell	import		
-CLO:0009958 # CL-40 cell	CL-40 cell	ignore		
-CLO:0009970	MDST8 cell	import		
-CLO:0009970 # MDST8 cell	MDST8 cell	ignore		
-CLO:0009974	A498 cell	import		
-CLO:0009974 # A498 cell	A498 cell	ignore		
+CLO:0009912	JIMT-1 cell	ignore		
+CLO:0009918	SUM159PT cell	ignore		
+CLO:0009919	SUM185PE cell	ignore		
+CLO:0009958	CL-40 cell	ignore		
+CLO:0009970	MDST8 cell	ignore		
+CLO:0009974	A498 cell	ignore		
 CLO:0010594	GM08600 cell	ignore		
-CLO:0010594 # GM08600 cell	GM08600 cell	ignore		
 CLO:0010607	GM08605 cell	ignore		
-CLO:0010607 # GM08605 cell	GM08605 cell	ignore		
-CLO:0037020	LC-2-ad cell	import		
-CLO:0037020 # LC-2-ad cell	LC-2-ad cell	ignore		
+CLO:0037020	LC-2-ad cell	ignore		
 CLO:0037061	SU-DHL-4 cell	ignore		
-CLO:0037061 # SU-DHL-4 cell	SU-DHL-4 cell	ignore		
 CLO:0037063	SU-DHL-6 cell	ignore		
-CLO:0037063 # SU-DHL-6 cell	SU-DHL-6 cell	ignore		
 CLO:0037068	WSU-DLCL2 cell	ignore		
-CLO:0037068 # WSU-DLCL2 cell	WSU-DLCL2 cell	ignore		
-CLO:0037104	TYK-nu cell	import		
-CLO:0037104 # TYK-nu cell	TYK-nu cell	ignore		
-CLO:0037107	KP-2 cell	import		
-CLO:0037107 # KP-2 cell	KP-2 cell	ignore		
-CLO:0037108	KP-3 cell	import		
-CLO:0037108 # KP-3 cell	KP-3 cell	ignore		
-CLO:0037114	SUIT-2 cell	import		
-CLO:0037114 # SUIT-2 cell	SUIT-2 cell	ignore		
+CLO:0037104	TYK-nu cell	ignore		
+CLO:0037107	KP-2 cell	ignore		
+CLO:0037108	KP-3 cell	ignore		
+CLO:0037114	SUIT-2 cell	ignore		
 CLO:0037132	MZ2-MEL cell	ignore		
-CLO:0037132 # MZ2-MEL cell	MZ2-MEL cell	ignore		
 CLO:0037135	UACC-257 cell	ignore		
-CLO:0037135 # UACC-257 cell	UACC-257 cell	ignore		
-CLO:0037144	NUGC-3 cell	import		
-CLO:0037144 # NUGC-3 cell	NUGC-3 cell	ignore		
-CLO:0037159	LB831-BLC cell	import		
-CLO:0037159 # LB831-BLC cell	LB831-BLC cell	ignore		
+CLO:0037144	NUGC-3 cell	ignore		
+CLO:0037159	LB831-BLC cell	ignore		
 CLO:0037173	JJN-3 cell	ignore		
-CLO:0037173 # JJN-3 cell	JJN-3 cell	ignore		
-CLO:0037180	MCF12A cell	import		
-CLO:0037180 # MCF12A cell	MCF12A cell	ignore		
+CLO:0037180	MCF12A cell	ignore		
 CLO:0037201	RMA cell	import		
 CLO:0037202	JY cell	ignore		
-CLO:0037202 # JY cell	JY cell	ignore		
 CLO:0037203	MM.1S cell	ignore		
-CLO:0037203 # MM.1S cell	MM.1S cell	ignore		
 CLO:0037204	LSCC-RP9 cell	import		
-CLO:0037205	UCI 107 cell	import		
-CLO:0037205 # UCI 107 cell	UCI 107 cell	ignore		
-CLO:0037206	UCI 101 cell	import		
-CLO:0037206 # UCI 101 cell	UCI 101 cell	ignore		
+CLO:0037205	UCI 107 cell	ignore		
+CLO:0037206	UCI 101 cell	ignore		
 CLO:0037207	derived from organism	relate		
 CLO:0037208	derived from anatomic part	relate		
 CLO:0037209	derived from cell	relate		
 CLO:0037256	HBL-1 cell	ignore		
-CLO:0037256 # HBL-1 cell	HBL-1 cell	ignore		
 CLO:0037272	TMD8 cell	ignore		
-CLO:0037272 # TMD8 cell	TMD8 cell	ignore		
-CLO:0050045	RCB0455 cell	import		
-CLO:0050045 # RCB0455 cell	RCB0455 cell	ignore		
-CLO:0050048	RCB0725 cell	import		
-CLO:0050048 # RCB0725 cell	RCB0725 cell	ignore		
-CLO:0050049	RCB1905 cell	import		
-CLO:0050049 # RCB1905 cell	RCB1905 cell	ignore		
-CLO:0050057	RCB2818 cell	import		
-CLO:0050057 # RCB2818 cell	RCB2818 cell	ignore		
-CLO:0050059	RCB1967 cell	import		
-CLO:0050059 # RCB1967 cell	RCB1967 cell	ignore		
-CLO:0050067	RCB4455 cell	import		
-CLO:0050067 # RCB4455 cell	RCB4455 cell	ignore		
-CLO:0050083	RCB2293 cell	import		
-CLO:0050083 # RCB2293 cell	RCB2293 cell	ignore		
-CLO:0050104	RCB2138 cell	import		
-CLO:0050104 # RCB2138 cell	RCB2138 cell	ignore		
-CLO:0050107	RCB2141 cell	import		
-CLO:0050107 # RCB2141 cell	RCB2141 cell	ignore		
-CLO:0050150	RCB0980 cell	import		
-CLO:0050150 # RCB0980 cell	RCB0980 cell	ignore		
+CLO:0050045	RCB0455 cell	ignore		
+CLO:0050048	RCB0725 cell	ignore		
+CLO:0050049	RCB1905 cell	ignore		
+CLO:0050057	RCB2818 cell	ignore		
+CLO:0050059	RCB1967 cell	ignore		
+CLO:0050067	RCB4455 cell	ignore		
+CLO:0050083	RCB2293 cell	ignore		
+CLO:0050104	RCB2138 cell	ignore		
+CLO:0050107	RCB2141 cell	ignore		
+CLO:0050150	RCB0980 cell	ignore		
 CLO:0050164	RCB0193 cell	import		
 CLO:0050192	RCB2652 cell	import		
 CLO:0050238	RCB1830 cell	import		
 CLO:0050752	RCB1283 cell	ignore		
-CLO:0050752 # RCB1283 cell	RCB1283 cell	ignore		
-CLO:0050789	RCB1939 cell	import		
-CLO:0050789 # RCB1939 cell	RCB1939 cell	ignore		
-CLO:0050802	RCB1434 cell	import		
-CLO:0050802 # RCB1434 cell	RCB1434 cell	ignore		
+CLO:0050789	RCB1939 cell	ignore		
+CLO:0050802	RCB1434 cell	ignore		
 CLO:0050853	RCB1942 cell	import		
-CLO:0050890	RCB1151 cell	import		
-CLO:0050890 # RCB1151 cell	RCB1151 cell	ignore		
-CLO:0050893	RCB1963 cell	import		
-CLO:0050893 # RCB1963 cell	RCB1963 cell	ignore		
-CLO:0050894	RCB2202 cell	import		
-CLO:0050894 # RCB2202 cell	RCB2202 cell	ignore		
-CLO:0050896	RCB1275 cell	import		
-CLO:0050896 # RCB1275 cell	RCB1275 cell	ignore		
+CLO:0050890	RCB1151 cell	ignore		
+CLO:0050893	RCB1963 cell	ignore		
+CLO:0050894	RCB2202 cell	ignore		
+CLO:0050896	RCB1275 cell	ignore		
 CLO:0050983	RCB1428 cell	import		
 CLO:0051228	HEV0041 cell	ignore		
-CLO:0051228 # HEV0041 cell	HEV0041 cell	ignore		
 CLO:0051333	HSC0107 cell	ignore		
-CLO:0051333 # HSC0107 cell	HSC0107 cell	ignore		
-CLO:0051371	RCB2098 cell	import		
-CLO:0051371 # RCB2098 cell	RCB2098 cell	ignore		
+CLO:0051371	RCB2098 cell	ignore		
 CLO:0051542	RCB0483 cell	import		
-CLO:0051567	RCB1902 cell	import		
-CLO:0051567 # RCB1902 cell	RCB1902 cell	ignore		
-CLO:0051568	RCB1974 cell	import		
-CLO:0051568 # RCB1974 cell	RCB1974 cell	ignore		
-CLO:0051569	RCB1975 cell	import		
-CLO:0051569 # RCB1975 cell	RCB1975 cell	ignore		
-CLO:0051596	RCB2657 cell	import		
-CLO:0051596 # RCB2657 cell	RCB2657 cell	ignore		
-CLO:0051609	RCB0881 cell	import		
-CLO:0051609 # RCB0881 cell	RCB0881 cell	ignore		
+CLO:0051567	RCB1902 cell	ignore		
+CLO:0051568	RCB1974 cell	ignore		
+CLO:0051569	RCB1975 cell	ignore		
+CLO:0051596	RCB2657 cell	ignore		
+CLO:0051609	RCB0881 cell	ignore		
 DOID:0050745	diffuse large B-cell lymphoma	import		
 DOID:0050861	colorectal adenocarcinoma	import		
 DOID:0050865	tongue squamous cell carcinoma	import		
@@ -604,7 +409,7 @@ DOID:769	neuroblastoma	import
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
 DOID:9538	multiple myeloma	import		
-NCBITaxon:10090	+/+ SCT cell	import		
+NCBITaxon:10090	Mus musculus	import		
 NCBITaxon:10116	13762 MAT B III cell	import		
 NCBITaxon:117571	Euteleostomi	ignore		
 NCBITaxon:2759	Eukaryota	ignore		
@@ -619,7 +424,6 @@ NCBITaxon:9544	Macaca mulatta	import
 NCBITaxon:9606	is_manufactured_by	import		
 NCBITaxon:9989	Rodentia	ignore		
 OBI:0000047	processed material	ignore		
-OBI:0000047 # processed material	processed material	ignore		
 OBI:0100026	organism	import		
 RO:0001000	derives from	relate		
 UBERON:0000002	uterine cervix	import		
@@ -627,20 +431,16 @@ UBERON:0000007	pituitary gland	import
 UBERON:0000010	peripheral nervous system	import		
 UBERON:0000029	lymph node	import		
 UBERON:0000061	anatomical structure	ignore		
-UBERON:0000061 # anatomical structure	anatomical structure	ignore		
 UBERON:0000064	organ part	import		
 UBERON:0000077	+/+ SCT cell	ignore		
-UBERON:0000077 # mixed endoderm/mesoderm-derived structure	mixed endoderm/mesoderm-derived structure	ignore		
 UBERON:0000170	pair of lungs	import		
 UBERON:0000175	pleural effusion	import		
 UBERON:0000178	blood	import		
 UBERON:0000310	breast	import		
 UBERON:0000465	material anatomical entity	ignore		
-UBERON:0000465 # material anatomical entity	material anatomical entity	ignore		
 UBERON:0000473	testis	import		
 UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
-UBERON:0000481 # multi-tissue structure	multi-tissue structure	ignore		
 UBERON:0000922	late embryo	import		
 UBERON:0000945	stomach	import		
 UBERON:0000947	aorta	import		
@@ -657,7 +457,6 @@ UBERON:0001043	esophagus	import
 UBERON:0001044	saliva-secreting gland	import		
 UBERON:0001052	rectum	import		
 UBERON:0001062	anatomical entity	ignore		
-UBERON:0001062 # anatomical entity	anatomical entity	ignore		
 UBERON:0001088	urine	import		
 UBERON:0001090	synovial fluid	import		
 UBERON:0001153	LS1034 cell	import		
@@ -696,22 +495,15 @@ UBERON:0002371	yellow bone marrow	import
 UBERON:0002372	tonsil	import		
 UBERON:0003126	trachea	import		
 UBERON:0004119	endoderm-derived structure	ignore		
-UBERON:0004119 # endoderm-derived structure	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
-UBERON:0004120 # mesoderm-derived structure	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
-UBERON:0004121 # ectoderm-derived structure	ectoderm-derived structure	ignore		
 UBERON:0004923	organ component layer	ignore		
-UBERON:0004923 # organ component layer	organ component layer	ignore		
 UBERON:0005090	urethra muscle tissue	import		
 UBERON:0005409	alimentary part of gastrointestinal system	import		
 UBERON:0007795	ascitic fluid	import		
-UBERON:0009856 # sac	sac	ignore		
+UBERON:0009856	sac	ignore		
 UBERON:0010000	anatomical conduit	ignore		
-UBERON:0010000 # multicellular anatomical structure	multicellular anatomical structure	ignore		
 UBERON:0010313	neural crest-derived structure	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
-UBERON:0010314 # structure with developmental contribution from neural crest	structure with developmental contribution from neural crest	ignore		
 UBERON:0012168	umbilical cord blood	import		
 UBERON:0015212	lateral structure	ignore		
-UBERON:0015212 # lateral structure	lateral structure	ignore		
