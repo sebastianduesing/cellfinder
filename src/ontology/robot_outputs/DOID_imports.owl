@@ -4438,7 +4438,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009856"/>
     </owl:Class>
     
 
@@ -4843,12 +4842,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0009856 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009856"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0010363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010363">
@@ -4916,7 +4909,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0018707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000489"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009856"/>
     </owl:Class>
 </rdf:RDF>
 
