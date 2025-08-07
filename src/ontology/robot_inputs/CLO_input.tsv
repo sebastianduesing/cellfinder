@@ -709,6 +709,7 @@ UBERON:0007795	ascitic fluid	import
 UBERON:0009856 # sac	sac	ignore		
 UBERON:0010000	anatomical conduit	ignore		
 UBERON:0010000 # multicellular anatomical structure	multicellular anatomical structure	ignore		
+UBERON:0010313	neural crest-derived structure	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
 UBERON:0010314 # structure with developmental contribution from neural crest	structure with developmental contribution from neural crest	ignore		
 UBERON:0012168	umbilical cord blood	import		
