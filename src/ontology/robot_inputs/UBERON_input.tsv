@@ -1,13 +1,435 @@
 ontology ID	label	action	logical type	parent class
 ID			CLASS_TYPE	C %
+BFO:0000001	entity	ignore		
+BFO:0000002	continuant	ignore		
+BFO:0000004	located in	ignore		
+BFO:0000016	disposition	ignore		
+BFO:0000040	bounding layer of	ignore		
 BFO:0000050	part of	relate		
 BFO:0000051	has part	relate		
+CARO:0000000	anatomical entity	ignore		
+CL:0000017	GC-2spd(ts) cell	import		
+CL:0000023	oocyte	import		
+CL:0000031	CHP-212 cell	import		
+CL:0000034	stem cell	import		
+CL:0000055	non-terminally differentiated cell	import		
+CL:0000057	208F cell	import		
+CL:0000062	osteoblast	import		
+CL:0000066	022HU-NSO cell	import		
+CL:0000081	707 DAP10 cell	import		
+CL:0000084	immortal human T cell line cell	import		
+CL:0000094	granulocyte	import		
+CL:0000097	10P12 cell	import		
+CL:0000113	FeT-1C cell	import		
+CL:0000115	EOMA cell	import		
+CL:0000125	RG2 cell	import		
+CL:0000127	astrocyte	import		
+CL:0000145	professional antigen presenting cell	import		
+CL:0000148	melanocyte	import		
+CL:0000151	secretory cell	import		
+CL:0000163	endocrine cell	import		
+CL:0000164	enteroendocrine cell	import		
+CL:0000182	hepatocyte	import		
+CL:0000187	G.8 cell	import		
+CL:0000211	electrically active cell	import		
+CL:0000219	motile cell	import		
+CL:0000221	ectodermal cell	import		
+CL:0000232	erythrocyte	import		
+CL:0000235	DH82 cell	import		
+CL:0000236	B cell	import		
+CL:0000255	eukaryotic cell	import		
+CL:0000325	stuff accumulating cell	import		
+CL:0000393	electrically responsive cell	import		
+CL:0000451	dendritic cell	import		
+CL:0000457	biogenic amine secreting cell	import		
+CL:0000540	B35 cell	import		
+CL:0000542	A84M cell	import		
+CL:0000576	NCTC 3749 cell	import		
+CL:0000586	male germ cell	import		
+CL:0000623	natural killer cell	import		
+CL:0000624	CD4-positive, alpha-beta T cell	import		
+CL:0000738	B 95.8 cell	import		
+CL:0000763	megakaryocyte	import		
+CL:0000766	osteoclast	import		
+CL:0000767	basophil	import		
+CL:0000775	neutrophil	import		
+CL:0000786	plasma cell	import		
+CL:0000791	CD4-positive, alpha-beta T cell	import		
+CL:0000835	KG-1 cell	import		
+CL:0000842	mononuclear cell	import		
+CL:0000893	immature single positive thymocyte	import		
+CL:0000945	B cell	import		
+CL:0000988	DS19 cell	import		
+CL:0001034	cell in vitro	ignore		
+CL:0002242	nucleate cell	import		
+CL:0002319	neural cell	import		
+CL:0002320	connective tissue cell	import		
+CL:0002321	embryonic cell (metazoa)	import		
+CL:0011012	neural crest cell	import		
+CL:0011026	progenitor cell	import		
+CL:0011115	muscle precursor cell	import		
+CL:2000001	peripheral blood mononuclear cell	import		
+CLO:0000001	cell line cell	import		
+CLO:0000015	derives from patient having disease	relate		
+CLO:0000133	immortal melanocyte cell line cell	import		
+CLO:0000167	has disease	relate		
+CLO:0000169	hybridoma cell line cell	import		
+CLO:0000535	immortal mouse epithelial cell line cell	import		
+CLO:0000652	immortal human B cell line cell	import		
+CLO:0000897	immortal rat epithelial cell line cell	import		
+CLO:0000933	immortal mouse B cell line cell	import		
+CLO:0001008	697 cell	ignore		
+CLO:0001056	1205Lu cell	ignore		
+CLO:0001137	184A1 cell	import		
+CLO:0001176	2.2.15 cell	import		
+CLO:0001199	22RV1 cell	import		
+CLO:0001230	HEK293	import		
+CLO:0001400	4MBr-5 cell	import		
+CLO:0001401	4T1 cell	import		
+CLO:0001421	5637 cell	import		
+CLO:0001560	A172 cell	import		
+CLO:0001566	A2058 cell	ignore		
+CLO:0001582	A-375 cell	ignore		
+CLO:0001592	A-431 cell	import		
+CLO:0001601	A549 cell	import		
+CLO:0001606	A-673 cell	import		
+CLO:0001686	AGS cell	import		
+CLO:0001756	AsPC-1 cell	import		
+CLO:0001769	AU565 cell	import		
+CLO:0001793	B16-F1 cell	ignore		
+CLO:0001794	B16-F10 cell	ignore		
+CLO:0001842	BA/F3 cell	import		
+CLO:0001925	BEAS-2B cell	import		
+CLO:0001987	BL-41 cell	import		
+CLO:0002041	BT-20 cell	import		
+CLO:0002042	BT-474 cell	import		
+CLO:0002043	BT-483 cell	import		
+CLO:0002044	BT-549 cell	import		
+CLO:0002052	BV-173 cell	import		
+CLO:0002065	BxPC-3 cell	import		
+CLO:0002115	C-33 A cell	import		
+CLO:0002165	Ca Ski cell	import		
+CLO:0002168	CA46 cell	import		
+CLO:0002172	Caco-2 cell	import		
+CLO:0002175	CAKI-1 cell	import		
+CLO:0002179	CAL-120 cell	import		
+CLO:0002191	Calu-1 cell	import		
+CLO:0002192	Calu-3 cell	import		
+CLO:0002195	Caov-3 cell	import		
+CLO:0002197	Capan-1 cell	import		
+CLO:0002198	Capan-2 cell	import		
+CLO:0002395	CFPAC-1 cell	import		
+CLO:0002531	CMT64/61 cell	import		
+CLO:0002544	COLO 205 cell	import		
+CLO:0002571	COLO-320 cell	import		
+CLO:0002597	COS-7 cell	import		
+CLO:0002631	CT26.WT cell	import		
+CLO:0002708	Daudi cell	ignore		
+CLO:0002709	DB cell	ignore		
+CLO:0002723	DBTRG-05MG cell	import		
+CLO:0002767	DG-75 cell	ignore		
+CLO:0002785	DLD-1 cell	import		
+CLO:0002797	DMS 273 cell	import		
+CLO:0002798	DMS 454 cell	import		
+CLO:0002799	DMS 53 cell	import		
+CLO:0002805	DOHH2 cell	ignore		
+CLO:0002840	DU 145 cell	import		
+CLO:0002889	EFM-192A cell	import		
+CLO:0002913	EL4 cell	import		
+CLO:0003433	G-361 cell	ignore		
+CLO:0003434	G-401 cell	import		
+CLO:0003630	HCC1143 cell	import		
+CLO:0003632	HCC1187 cell	import		
+CLO:0003634	HCC1395 cell	import		
+CLO:0003636	HCC1419 cell	import		
+CLO:0003637	HCC1428 cell	import		
+CLO:0003639	HCC1500 cell	import		
+CLO:0003640	HCC1569 cell	import		
+CLO:0003644	HCC1806 cell	import		
+CLO:0003658	HCC70 cell	import		
+CLO:0003659	HCC827 cell	import		
+CLO:0003665	HCT 116 cell	import		
+CLO:0003666	HCT-15 cell	import		
+CLO:0003667	HCT-8 cell	import		
+CLO:0003684	HeLa cell	import		
+CLO:0003704	Hep G2 cell	import		
+CLO:0003744	HH cell	import		
+CLO:0003787	HMy2.CIR cell	ignore		
+CLO:0003795	HOS cell	import		
+CLO:0004009	Hs 578T cell	import		
+CLO:0004245	Hs 940.T cell	import		
+CLO:0004278	HT-1197 cell	import		
+CLO:0004283	HT-29 cell	import		
+CLO:0006961	IPC-298 cell	ignore		
+CLO:0007012	JAWSII cell	import		
+CLO:0007043	JURKAT cell	import		
+CLO:0007050	K 562 cell	ignore		
+CLO:0007073	KATO III cell	import		
+CLO:0007189	L-428 cell	import		
+CLO:0007201	L-540 cell	import		
+CLO:0007325	LL/2 (LLC1) cell	import		
+CLO:0007336	L-M cell	import		
+CLO:0007365	LNCAP cell	import		
+CLO:0007587	MC57G cell	import		
+CLO:0007606	MCF7 cell	import		
+CLO:0007629	MDA PCa 2b cell	import		
+CLO:0007634	MDA-MB-231 cell	import		
+CLO:0007636	MDA-MB-361 cell	import		
+CLO:0007641	MDA-MB-468 cell	import		
+CLO:0007668	MEG-01 cell	import		
+CLO:0007680	MeT-5A cell	import		
+CLO:0007688	MeWo cell	import		
+CLO:0007726	MIA PaCa-2 cell	import		
+CLO:0007733	MKN-45 cell	import		
+CLO:0007825	MOLT-4 cell	import		
+CLO:0007830	MOPC 315 cell	ignore		
+CLO:0007906	MV-4-11 cell	import		
+CLO:0007938	NALM-6 cell	ignore		
+CLO:0007939	NAMALWA cell	ignore		
+CLO:0007947	NB-4 cell	ignore		
+CLO:0007980	NCI-H1092 cell	import		
+CLO:0007986	NCI-H1299 cell	import		
+CLO:0007989	NCI-H1355 cell	import		
+CLO:0007992	NCI-H1395 cell	import		
+CLO:0007998	NCI-H146 cell	import		
+CLO:0008016	NCI-H1755 cell	import		
+CLO:0008035	NCI-H1975 cell	import		
+CLO:0008067	NCI-H2228 cell	import		
+CLO:0008068	NCI-H226 cell	import		
+CLO:0008076	NCI-H2444 cell	import		
+CLO:0008077	NCI-H2452 cell	import		
+CLO:0008080	NCI-H292 cell	import		
+CLO:0008084	NCI-H345 cell	import		
+CLO:0008085	NCI-H358 cell	import		
+CLO:0008087	NCI-H441 cell	import		
+CLO:0008088	NCI-H446 cell	import		
+CLO:0008093	NCI-H520 cell	import		
+CLO:0008094	NCI-H522 cell	import		
+CLO:0008102	NCI-H660 cell	import		
+CLO:0008105	NCI-H69 cell	import		
+CLO:0008127	NCI-H929 cell	ignore		
+CLO:0008129	NCI-N87 cell	import		
+CLO:0008172	NIH-3T3 cell	import		
+CLO:0008195	NRK cell	import		
+CLO:0008228	OAW28 cell	import		
+CLO:0008235	OCI-AML2 cell	import		
+CLO:0008238	OE19 cell	import		
+CLO:0008269	OPM-2 cell	ignore		
+CLO:0008279	OVCAR-3 cell	import		
+CLO:0008280	OVCAR-5 cell	import		
+CLO:0008321	P388 cell	import		
+CLO:0008341	P815 cell	import		
+CLO:0008380	Panc 10.05 cell	import		
+CLO:0008381	PANC-1 cell	import		
+CLO:0008395	PC-3 cell	import		
+CLO:0008458	PLC/PRF/5 cell	import		
+CLO:0008693	R D cell	import		
+CLO:0008734	Raji cell	import		
+CLO:0008738	RAMOS cell	import		
+CLO:0008873	RPMI 8226 cell	ignore		
+CLO:0008947	Saos-2 cell	import		
+CLO:0009034	SK-BR-3 cell	import		
+CLO:0009041	SK-MEL-2 cell	ignore		
+CLO:0009043	SK-MEL-28 cell	ignore		
+CLO:0009047	SK-MEL-5 cell	ignore		
+CLO:0009051	SK-N-AS cell	import		
+CLO:0009063	SK-OV-3 cell	import		
+CLO:0009105	SNU-C2B cell	import		
+CLO:0009160	SU-DHL-1 cell	import		
+CLO:0009161	SUP-B15 cell	ignore		
+CLO:0009164	SUP-T1 cell	import		
+CLO:0009188	SW 1463 cell	import		
+CLO:0009190	SW 1573 cell	import		
+CLO:0009192	SW 1990 cell	import		
+CLO:0009195	SW 480 cell	import		
+CLO:0009196	SW 620 cell	import		
+CLO:0009216	SW48 cell	import		
+CLO:0009226	SW948 cell	import		
+CLO:0009242	T2 (174 x CEM.T2) cell	ignore		
+CLO:0009245	T24 cell	import		
+CLO:0009251	T-47D cell	import		
+CLO:0009258	T98G cell	import		
+CLO:0009279	TC-1 cell	import		
+CLO:0009326	TF-1 cell	import		
+CLO:0009348	THP-1 cell	import		
+CLO:0009385	TOV-21G cell	import		
+CLO:0009401	TRAMP-C1 cell	import		
+CLO:0009402	TRAMP-C2 cell	import		
+CLO:0009454	U-2 OS cell	import		
+CLO:0009456	U-251 MG cell	import		
+CLO:0009458	U266B1 cell	ignore		
+CLO:0009462	U-698-M cell	ignore		
+CLO:0009464	U-87 MG cell	import		
+CLO:0009465	U-937 cell	import		
+CLO:0009467	UACC-812 cell	import		
+CLO:0009468	UACC-893 cell	import		
+CLO:0009597	WI-38 VA-13 cell	import		
+CLO:0009616	WM278 cell	ignore		
+CLO:0009619	WM793B cell	ignore		
+CLO:0009727	ZR-75-1 cell	import		
+CLO:0009728	ZR-75-30 cell	import		
+CLO:0009791	immortal human myeloblast cell line cell	import		
+CLO:0009853	OCI-AML3 cell	import		
+CLO:0009856	PL-21 cell	import		
+CLO:0009873	EW-7 cell	import		
+CLO:0009879	TC-71 cell	import		
+CLO:0009894	KNS-42 cell	import		
+CLO:0009912	JIMT-1 cell	import		
+CLO:0009918	SUM159PT cell	import		
+CLO:0009919	SUM185PE cell	import		
+CLO:0009958	CL-40 cell	import		
+CLO:0009970	MDST8 cell	import		
+CLO:0009974	A498 cell	import		
+CLO:0010594	GM08600 cell	ignore		
+CLO:0010607	GM08605 cell	ignore		
+CLO:0037020	LC-2-ad cell	import		
+CLO:0037061	SU-DHL-4 cell	ignore		
+CLO:0037063	SU-DHL-6 cell	ignore		
+CLO:0037068	WSU-DLCL2 cell	ignore		
+CLO:0037104	TYK-nu cell	import		
+CLO:0037107	KP-2 cell	import		
+CLO:0037108	KP-3 cell	import		
+CLO:0037114	SUIT-2 cell	import		
+CLO:0037132	MZ2-MEL cell	ignore		
+CLO:0037135	UACC-257 cell	ignore		
+CLO:0037144	NUGC-3 cell	import		
+CLO:0037159	LB831-BLC cell	import		
+CLO:0037173	JJN-3 cell	ignore		
+CLO:0037180	MCF12A cell	import		
+CLO:0037201	RMA cell	import		
+CLO:0037202	JY cell	ignore		
+CLO:0037203	MM.1S cell	ignore		
+CLO:0037204	LSCC-RP9 cell	import		
+CLO:0037205	UCI 107 cell	import		
+CLO:0037206	UCI 101 cell	import		
+CLO:0037207	derived from organism	relate		
+CLO:0037208	derived from anatomic part	relate		
+CLO:0037209	derived from cell	relate		
+CLO:0037256	HBL-1 cell	ignore		
+CLO:0037272	TMD8 cell	ignore		
+CLO:0050045	RCB0455 cell	import		
+CLO:0050048	RCB0725 cell	import		
+CLO:0050049	RCB1905 cell	import		
+CLO:0050057	RCB2818 cell	import		
+CLO:0050059	RCB1967 cell	import		
+CLO:0050067	RCB4455 cell	import		
+CLO:0050083	RCB2293 cell	import		
+CLO:0050104	RCB2138 cell	import		
+CLO:0050107	RCB2141 cell	import		
+CLO:0050150	RCB0980 cell	import		
+CLO:0050164	RCB0193 cell	import		
+CLO:0050192	RCB2652 cell	import		
+CLO:0050238	RCB1830 cell	import		
+CLO:0050752	RCB1283 cell	ignore		
+CLO:0050789	RCB1939 cell	import		
+CLO:0050802	RCB1434 cell	import		
+CLO:0050853	RCB1942 cell	import		
+CLO:0050890	RCB1151 cell	import		
+CLO:0050893	RCB1963 cell	import		
+CLO:0050894	RCB2202 cell	import		
+CLO:0050896	RCB1275 cell	import		
+CLO:0050983	RCB1428 cell	import		
+CLO:0051228	HEV0041 cell	ignore		
+CLO:0051333	HSC0107 cell	ignore		
+CLO:0051371	RCB2098 cell	import		
+CLO:0051542	RCB0483 cell	import		
+CLO:0051567	RCB1902 cell	import		
+CLO:0051568	RCB1974 cell	import		
+CLO:0051569	RCB1975 cell	import		
+CLO:0051596	RCB2657 cell	import		
+CLO:0051609	RCB0881 cell	import		
+DOID:0050745	diffuse large B-cell lymphoma	import		
+DOID:0050861	colorectal adenocarcinoma	import		
+DOID:0050865	tongue squamous cell carcinoma	import		
+DOID:0050866	oral squamous cell carcinoma	import		
+DOID:0050940	endocervical adenocarcinoma	import		
+DOID:0060060	non-Hodgkin lymphoma	import		
+DOID:0060318	acute promyelocytic leukemia	import		
+DOID:0060592	B-cell adult acute lymphocytic leukemia	import		
+DOID:0080147	lymphoblastic lymphoma	import		
+DOID:0080323	pancreatic squamous cell carcinoma	import		
+DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
+DOID:10286	prostate carcinoma	import		
+DOID:1240	leukemia	import		
+DOID:1485	cystic fibrosis	import		
+DOID:1520	colon carcinoma	import		
+DOID:1612	breast cancer	import		
+DOID:1749	squamous cell carcinoma	import		
+DOID:1790	malignant mesothelioma	import		
+DOID:1909	melanoma	import		
+DOID:1996	rectum adenocarcinoma	import		
+DOID:234	colon adenocarcinoma	import		
+DOID:2526	prostate adenocarcinoma	import		
+DOID:2671	transitional cell carcinoma	import		
+DOID:299	adenocarcinoma	import		
+DOID:3007	breast ductal carcinoma	import		
+DOID:3008	invasive ductal carcinoma	import		
+DOID:3039	cecum adenocarcinoma	import		
+DOID:305	carcinoma	import		
+DOID:3068	glioblastoma	import		
+DOID:3151	skin squamous cell carcinoma	import		
+DOID:3347	osteosarcoma	import		
+DOID:3458	breast adenocarcinoma	import		
+DOID:3498	pancreatic ductal adenocarcinoma	import		
+DOID:3664	mast cell neoplasm	import		
+DOID:3672	rhabdoid cancer	import		
+DOID:3713	ovary adenocarcinoma	import		
+DOID:3717	gastric adenocarcinoma	import		
+DOID:3721	plasmacytoma	import		
+DOID:3744	cervical squamous cell carcinoma	import		
+DOID:3748	esophagus squamous cell carcinoma	import		
+DOID:3905	lung carcinoma	import		
+DOID:3907	lung squamous cell carcinoma	import		
+DOID:3908	lung non-small cell carcinoma	import		
+DOID:3910	lung adenocarcinoma	import		
+DOID:4	disease	import		
+DOID:4007	bladder carcinoma	import		
+DOID:4074	pancreatic adenocarcinoma	import		
+DOID:4359	amelanotic melanoma	import		
+DOID:4450	renal cell carcinoma	import		
+DOID:4467	clear cell renal cell carcinoma	import		
+DOID:4556	lung large cell carcinoma	import		
+DOID:4905	pancreatic carcinoma	import		
+DOID:4914	esophagus adenocarcinoma	import		
+DOID:4926	bronchiolo-alveolar adenocarcinoma	import		
+DOID:5304	ovarian clear cell adenocarcinoma	import		
+DOID:5409	lung small cell carcinoma	import		
+DOID:5514	breast squamous cell carcinoma	import		
+DOID:5517	stomach carcinoma	import		
+DOID:5583	lung giant cell carcinoma	import		
+DOID:5603	T-cell acute lymphoblastic leukemia	import		
+DOID:5744	ovary serous adenocarcinoma	import		
+DOID:684	hepatocellular carcinoma	import		
+DOID:7	disease of anatomical entity	ignore		
+DOID:7141	prostate small cell carcinoma	import		
+DOID:7474	malignant pleural mesothelioma	import		
+DOID:769	neuroblastoma	import		
+DOID:8552	chronic myeloid leukemia	import		
+DOID:8584	Burkitt lymphoma	import		
+DOID:9538	multiple myeloma	import		
+NCBITaxon:10090	+/+ SCT cell	import		
 NCBITaxon:10116	Rattus norvegicus	import		
+NCBITaxon:117571	Euteleostomi	ignore		
+NCBITaxon:2759	Eukaryota	ignore		
+NCBITaxon:314146	Euarchontoglires	ignore		
+NCBITaxon:32524	Amniota	ignore		
+NCBITaxon:33154	Opisthokonta	ignore		
+NCBITaxon:33213	Bilateria	ignore		
+NCBITaxon:39107	Murinae	ignore		
+NCBITaxon:40674	Mammalia	ignore		
+NCBITaxon:7742	Vertebrata 	ignore		
+NCBITaxon:9544	Macaca mulatta	import		
+NCBITaxon:9606	is_manufactured_by	import		
+NCBITaxon:9989	Rodentia	ignore		
+OBI:0000047	processed material	ignore		
+OBI:0100026	organism	import		
+RO:0001000	derives from	relate		
 UBERON:0000002	uterine cervix	import		
 UBERON:0000007	pituitary gland	import		
 UBERON:0000010	peripheral nervous system	import		
 UBERON:0000029	lymph node	import		
 UBERON:0000061	anatomical structure	ignore		
+UBERON:0000064	organ part	import		
 UBERON:0000077	mixed endoderm/mesoderm-derived structure	ignore		
 UBERON:0000170	pair of lungs	import		
 UBERON:0000175	pleural effusion	import		
@@ -15,6 +437,7 @@ UBERON:0000178	blood	import
 UBERON:0000310	breast	import		
 UBERON:0000465	material anatomical entity	ignore		
 UBERON:0000473	testis	import		
+UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
 UBERON:0000922	late embryo	import		
 UBERON:0000945	stomach	import		

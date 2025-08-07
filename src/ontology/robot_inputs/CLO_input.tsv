@@ -5,6 +5,8 @@ BFO:0000002	continuant	ignore
 BFO:0000004	located in	ignore		
 BFO:0000016	disposition	ignore		
 BFO:0000040	bounding layer of	ignore		
+BFO:0000050	part of	relate		
+BFO:0000051	has part	relate		
 CARO:0000000	anatomical entity	ignore		
 CL:0000017	GC-2spd(ts) cell	import		
 CL:0000023	oocyte	import		
@@ -336,8 +338,17 @@ CLO:0051568	RCB1974 cell	import
 CLO:0051569	RCB1975 cell	import		
 CLO:0051596	RCB2657 cell	import		
 CLO:0051609	RCB0881 cell	import		
+DOID:0050745	diffuse large B-cell lymphoma	import		
 DOID:0050861	colorectal adenocarcinoma	import		
+DOID:0050865	tongue squamous cell carcinoma	import		
+DOID:0050866	oral squamous cell carcinoma	import		
+DOID:0050940	endocervical adenocarcinoma	import		
 DOID:0060060	non-Hodgkin lymphoma	import		
+DOID:0060318	acute promyelocytic leukemia	import		
+DOID:0060592	B-cell adult acute lymphocytic leukemia	import		
+DOID:0080147	lymphoblastic lymphoma	import		
+DOID:0080323	pancreatic squamous cell carcinoma	import		
+DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
 DOID:10286	prostate carcinoma	import		
 DOID:1240	leukemia	import		
 DOID:1485	cystic fibrosis	import		
@@ -359,7 +370,9 @@ DOID:3068	glioblastoma	import
 DOID:3151	skin squamous cell carcinoma	import		
 DOID:3347	osteosarcoma	import		
 DOID:3458	breast adenocarcinoma	import		
+DOID:3498	pancreatic ductal adenocarcinoma	import		
 DOID:3664	mast cell neoplasm	import		
+DOID:3672	rhabdoid cancer	import		
 DOID:3713	ovary adenocarcinoma	import		
 DOID:3717	gastric adenocarcinoma	import		
 DOID:3721	plasmacytoma	import		
@@ -372,18 +385,24 @@ DOID:3910	lung adenocarcinoma	import
 DOID:4	disease	import		
 DOID:4007	bladder carcinoma	import		
 DOID:4074	pancreatic adenocarcinoma	import		
+DOID:4359	amelanotic melanoma	import		
 DOID:4450	renal cell carcinoma	import		
 DOID:4467	clear cell renal cell carcinoma	import		
 DOID:4556	lung large cell carcinoma	import		
 DOID:4905	pancreatic carcinoma	import		
 DOID:4914	esophagus adenocarcinoma	import		
+DOID:4926	bronchiolo-alveolar adenocarcinoma	import		
 DOID:5304	ovarian clear cell adenocarcinoma	import		
 DOID:5409	lung small cell carcinoma	import		
+DOID:5514	breast squamous cell carcinoma	import		
 DOID:5517	stomach carcinoma	import		
 DOID:5583	lung giant cell carcinoma	import		
 DOID:5603	T-cell acute lymphoblastic leukemia	import		
 DOID:5744	ovary serous adenocarcinoma	import		
 DOID:684	hepatocellular carcinoma	import		
+DOID:7	disease of anatomical entity	ignore		
+DOID:7141	prostate small cell carcinoma	import		
+DOID:7474	malignant pleural mesothelioma	import		
 DOID:769	neuroblastoma	import		
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
@@ -405,22 +424,82 @@ NCBITaxon:9989	Rodentia	ignore
 OBI:0000047	processed material	ignore		
 OBI:0100026	organism	import		
 RO:0001000	derives from	relate		
+UBERON:0000002	uterine cervix	import		
+UBERON:0000007	pituitary gland	import		
+UBERON:0000010	peripheral nervous system	import		
+UBERON:0000029	lymph node	import		
 UBERON:0000061	anatomical structure	ignore		
 UBERON:0000064	organ part	import		
 UBERON:0000077	+/+ SCT cell	ignore		
+UBERON:0000170	pair of lungs	import		
 UBERON:0000175	pleural effusion	import		
+UBERON:0000178	blood	import		
+UBERON:0000310	breast	import		
 UBERON:0000465	material anatomical entity	ignore		
+UBERON:0000473	testis	import		
 UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
+UBERON:0000922	late embryo	import		
+UBERON:0000945	stomach	import		
+UBERON:0000947	aorta	import		
+UBERON:0000948	heart	import		
+UBERON:0000955	brain	import		
+UBERON:0000970	compound eye	import		
 UBERON:0000977	pleura	import		
+UBERON:0000979	tibia	import		
+UBERON:0000992	ovary	import		
+UBERON:0000995	uterus	import		
+UBERON:0001013	adipose tissue	import		
+UBERON:0001017	central nervous system	import		
+UBERON:0001043	esophagus	import		
+UBERON:0001044	saliva-secreting gland	import		
+UBERON:0001052	rectum	import		
 UBERON:0001062	anatomical entity	ignore		
+UBERON:0001088	urine	import		
+UBERON:0001090	synovial fluid	import		
 UBERON:0001153	LS1034 cell	import		
+UBERON:0001155	colon	import		
+UBERON:0001255	urinary bladder	import		
+UBERON:0001264	pancreas	import		
+UBERON:0001268	peritoneal fluid	import		
+UBERON:0001359	cerebrospinal fluid	import		
+UBERON:0001474	carpal bone	import		
+UBERON:0001506	brachialis muscle	import		
+UBERON:0001723	tongue	import		
+UBERON:0001729	oropharynx	import		
+UBERON:0001737	larynx	import		
+UBERON:0001744	lymphoid tissue	import		
 UBERON:0001828	HGF-1 cell	import		
+UBERON:0001836	saliva	import		
 UBERON:0001911	C127:LT cell	import		
+UBERON:0001987	placenta	import		
+UBERON:0001988	feces	import		
+UBERON:0002037	cerebellum	import		
+UBERON:0002046	thyroid gland	import		
+UBERON:0002048	lung	import		
 UBERON:0002072	hypodermis	import		
+UBERON:0002097	skin of body	import		
+UBERON:0002106	spleen	import		
+UBERON:0002107	liver	import		
+UBERON:0002108	small intestine	import		
+UBERON:0002110	gallbladder	import		
+UBERON:0002113	kidney	import		
+UBERON:0002115	jejunum	import		
+UBERON:0002240	spinal cord	import		
+UBERON:0002367	prostate gland	import		
+UBERON:0002369	right adrenal gland	import		
+UBERON:0002370	thymus	import		
+UBERON:0002371	yellow bone marrow	import		
+UBERON:0002372	tonsil	import		
+UBERON:0003126	trachea	import		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
+UBERON:0004923	organ component layer	ignore		
+UBERON:0005090	urethra muscle tissue	import		
+UBERON:0005409	alimentary part of gastrointestinal system	import		
+UBERON:0007795	ascitic fluid	import		
 UBERON:0010000	anatomical conduit	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
+UBERON:0012168	umbilical cord blood	import		
 UBERON:0015212	lateral structure	ignore		
