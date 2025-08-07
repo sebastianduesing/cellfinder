@@ -125,7 +125,9 @@ build/%_parent.tsv: src/ontology/robot_inputs/%_input.tsv
 
 build/%_parent.owl: build/%_parent.tsv
 	echo "" > $@
-	robot template \
+	robot merge \
+	--input build/$*_import_source.owl \
+	template \
 	--template $< \
 	annotate \
 	--ontology-iri "http://github.com/sebastianduesing/cellfinder/dev/import/$*_parent.owl" \

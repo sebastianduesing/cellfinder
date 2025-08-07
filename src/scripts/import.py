@@ -445,6 +445,25 @@ def split(ontology, imports_dict):
         print(f"Wrote {i}")
 
 
+def universalize(action, input_dict, path, limit, parent, source):
+    """
+    Add term(s) to all import files in directory
+    """
+    directory = os.path.join("src", "ontology", "robot_inputs")
+    for filename in os.listdir(directory):
+        secondary_path = os.path.join(directory, filename)
+        if os.path.isfile(secondary_path) and secondary_path != path:
+            print(f"Universalizing to {filename}")
+            secondary_imports = TSV2dict(secondary_path)
+            if action == "import":
+                do_import(input_dict, secondary_imports, limit, parent, source)
+            if action == "ignore":
+                do_ignore(input_dict, secondary_imports)
+            if action == "remove":
+                do_remove(input_dict, secondary_imports)
+            dict2TSV(secondary_imports, secondary_path)
+
+
 def main():
     """
     Validate paths and take specified action(s)
@@ -465,6 +484,8 @@ def main():
                         help="Sets intended parent for term, e.g., 'organ'")
     parser.add_argument("--source", "-s", default=None,
                         help="Path to a file to use as the source for the import")
+    parser.add_argument("--universal", "-u", action="store_true",
+                        help="Includes term in all input files")
     args = parser.parse_args()
     path = os.path.join("src",
                         "ontology",
@@ -496,6 +517,9 @@ def main():
     if args.action == "remove":
         do_remove(input_dict, imports)
     dict2TSV(imports, path)
+    if args.universal:
+        universalize(args.action, input_dict, path,
+                     args.limit, args.parent, source)
 
 
 if __name__ == "__main__":
