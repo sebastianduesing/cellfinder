@@ -838,6 +838,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasDbXref>EMAPA:31484</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:84049</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0006799</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <rdfs:label>spermatocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1970,11 +1971,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasDbXref>BTO:0000878</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0768</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:86713</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>mononuclear leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mononuclear cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>peripheral blood mononuclear cell</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <rdfs:label>mononuclear cell</rdfs:label>
+        <rdfs:label>mononuclear leukocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>

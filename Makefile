@@ -198,7 +198,6 @@ cellfinder.owl: merged.owl build/iedb_alternative_terms.owl src/ontology/cf-edit
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
 	--input $< \
-	--input build/iedb_alternative_terms.owl \
 	--input src/ontology/cf-edit.owl \
 	remove \
 	--term-file removed_terms.txt \
