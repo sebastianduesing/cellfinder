@@ -1,18 +1,3 @@
-imports/uberon_imports.owl: sources/uberon.owl inputs/uberon_input.txt
-	robot extract --method MIREOT --input $< \
-	--upper-term UBERON:0001062 \
-	--lower-terms $(word 2,$^) \
-	--intermediates minimal \
-	export --header IRI \
-	--export build/mireot_uberon.txt
-	robot extract --method subset --input $< \
-	--term-file build/mireot_uberon.txt \
-	--term BFO:0000050 \
-	--term BFO:0000051 \
-	--output $@
-	robot export --input $@ \
-	--header IRI \
-	--export build/final_uberon.txt
 imports/cl_imports.owl: sources/cl.owl inputs/cl_input.txt imports/uberon_imports.owl
 	robot extract --method MIREOT --input $< \
 	--upper-term UBERON:0001062 \
@@ -47,24 +32,6 @@ imports/obi_imports.owl: sources/obi.owl inputs/obi_input.txt imports/uberon_imp
 	robot export --input $@ \
 	--header IRI \
 	--export build/final_obi.txt
-imports/clo_imports.owl: sources/clo.owl inputs/clo_input.txt imports/uberon_imports.owl
-	robot extract --method MIREOT --input $< \
-	--upper-term BFO:0000004 \
-	--lower-terms $(word 2,$^) \
-	--lower-terms build/final_uberon.txt \
-	--intermediates minimal \
-	export --header IRI \
-	--export build/mireot_clo.txt
-	robot extract --method subset --input $< \
-	--term-file build/mireot_clo.txt \
-	--term BFO:0000050 \
-	--term BFO:0000051 \
-	--term CLO:0000015 \
-	--term RO:0001000 \
-	--output $@
-	robot export --input $@ \
-	--header IRI \
-	--export build/final_clo.txt
 imports/efo_imports.owl: sources/efo.owl inputs/efo_input.txt imports/uberon_imports.owl
 	robot extract --method MIREOT --input $< \
 	--upper-term CL:0000000 \
@@ -120,7 +87,7 @@ imports/bto_imports.owl: sources/bto.owl inputs/bto_input.txt imports/uberon_imp
 build/%_import_source.owl:
 	curl -sL http://purl.obolibrary.org/obo/$*.owl -o $@
 
-build/%_parent.tsv: src/ontology/robot_inputs/%_input.tsv
+build/%_parent.tsv: src/ontology/robot_inputs/%_input.tsv build/%_import_source.owl
 	python3 src/scripts/import.py split $*
 
 build/%_parent.owl: build/%_parent.tsv
@@ -164,7 +131,7 @@ icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_sour
 	--output $@
 
 
-merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot_outputs/clo_imports.owl src/ontology/robot_outputs/efo_imports.owl src/ontology/robot_outputs/obi_imports.owl src/ontology/robot_outputs/uberon_imports.owl removed_terms.txt
+build/merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot_outputs/clo_imports.owl src/ontology/robot_outputs/efo_imports.owl src/ontology/robot_outputs/obi_imports.owl src/ontology/robot_outputs/uberon_imports.owl removed_terms.txt
 	python3 src/scripts/clean_removed_terms.py
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
@@ -180,13 +147,13 @@ merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot
 	--mapping obo:SYMP_0000107 obo:UBERON_0000175 \
 	reduce \
 	--reasoner ELK \
-	--output merged.owl
+	--output build/merged.owl
 
 
 src/ontology/cf-edit.owl: src/ontology/cf-edit.tsv
 	echo '' > $@
 	robot merge \
-	--input merged.owl \
+	--input build/merged.owl \
 	template \
 	--template $< \
 	annotate \
@@ -194,7 +161,7 @@ src/ontology/cf-edit.owl: src/ontology/cf-edit.tsv
 	--output $@
 
 
-cellfinder.owl: merged.owl build/iedb_alternative_terms.owl src/ontology/cf-edit.owl
+cellfinder.owl: build/merged.owl build/iedb_alternative_terms.owl src/ontology/cf-edit.owl
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
 	--input $< \
@@ -206,7 +173,7 @@ cellfinder.owl: merged.owl build/iedb_alternative_terms.owl src/ontology/cf-edit
 	--output cellfinder.owl
 
 
-build/template.tsv: cellfinder.owl
+build/cellfinder.tsv: cellfinder.owl
 	robot export \
 	--input $< \
 	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part|derives from patient having disease" \
@@ -221,10 +188,10 @@ merge:
 	--ontology-iri https://github.com/sebastianduesing/cellfinder/merged.owl \
 	reduce \
 	--reasoner ELK \
-	--output merged.owl
+	--output build/merged.owl
 	robot remove \
-	--input merged.owl \
+	--input build/merged.owl \
 	--term-file removed_terms.txt \
 	reduce \
 	--reasoner ELK \
-	--output merged.owl
+	--output build/merged.owl
