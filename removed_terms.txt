@@ -6,6 +6,14 @@ BFO:0000040
 CARO:0000000
 CARO:0000006
 CL:0001034 # cell in vitro
+CLO:0000079 # immortal electrically active cell line cell
+CLO:0000080 # immortal electrically responsive cell line cell
+CLO:0000169 # hybridoma cell line cell
+CLO:0000236 # immortal colon-derived cell line cell
+CLO:0000253 # immortal bone element-derived cell line cell
+CLO:0000513 # immortal human colon-derived cell line cell
+CLO:0000523 # immortal human peripheral neuron cell line cell
+CLO:0000560 # immortal human bone element-derived cell line cell
 CLO:0001008 # 697 cell
 CLO:0001056 # 1205Lu cell
 CLO:0001137 # 184A1 cell
@@ -231,3 +239,4 @@ UBERON:0010314 # structure with developmental contribution from neural crest
 UBERON:0015212 # lateral structure
 http://www.ebi.ac.uk/efo/EFO_0000408
 http://www.ebi.ac.uk/efo/EFO_0000512
+http://www.ebi.ac.uk/efo/EFO_0006306
