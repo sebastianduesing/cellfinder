@@ -9,6 +9,7 @@ BFO:0000050	part of	relate
 BFO:0000051	has part	relate		
 CARO:0000000	anatomical entity	ignore		
 CARO:0000006	material anatomical entity	ignore		
+CL:0000003	native cell	import		
 CL:0000017	GC-2spd(ts) cell	import		
 CL:0000023	oocyte	import		
 CL:0000031	CHP-212 cell	import		
@@ -26,6 +27,7 @@ CL:0000115	EOMA cell	import
 CL:0000125	RG2 cell	import		
 CL:0000127	astrocyte	import		
 CL:0000145	professional antigen presenting cell	import		
+CL:0000147	pigment cell	import		
 CL:0000148	melanocyte	import		
 CL:0000151	secretory cell	import		
 CL:0000163	endocrine cell	import		
@@ -62,6 +64,8 @@ CL:0000893	immature single positive thymocyte	import
 CL:0000945	lymphocyte of B lineage	import		
 CL:0000988	DS19 cell	import		
 CL:0001034	cell in vitro	ignore		
+CL:0001067	group 1 innate lymphoid cell	import		
+CL:0002191	granulocytopoietic cell	import		
 CL:0002242	nucleate cell	import		
 CL:0002319	neural cell	import		
 CL:0002320	connective tissue cell	import		
@@ -71,15 +75,40 @@ CL:0011026	progenitor cell	import
 CL:0011115	muscle precursor cell	import		
 CL:2000001	peripheral blood mononuclear cell	import		
 CLO:0000001	cell line cell	import		
+CLO:0000012	immortal human T cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
+CLO:0000019	immortal cell line cell	import		
 CLO:0000020	immortal human cell line cell	import		
+CLO:0000044	immortal stem cell line cell	import		
+CLO:0000052	immortal neuroblast cell line cell	import		
+CLO:0000055	immortal osteoblast cell line cell	import		
+CLO:0000069	immortal mast cell line cell	import		
+CLO:0000076	immortal muscle cell line cell	import		
+CLO:0000096	immortal macrophage cell line cell	import		
+CLO:0000103	immortal dendritic cell line cell	import		
+CLO:0000106	immortal monocyte cell line cell	import		
+CLO:0000119	immortal B cell line cell	import		
+CLO:0000121	immortal natural killer cell line cell	import		
+CLO:0000129	immortal epithelial cell line cell	import		
 CLO:0000133	immortal melanocyte cell line cell	import		
+CLO:0000150	immortal myeloid cell line cell	import		
+CLO:0000154	immortal myeloblast cell line cell	import		
+CLO:0000157	immortal glial cell line cell	import		
+CLO:0000161	immortal fibroblast cell line cell	import		
 CLO:0000167	has disease	relate		
+CLO:0000479	immortal human fibroblast cell line cell	import		
+CLO:0000499	immortal mouse fibroblast cell line cell	import		
+CLO:0000534	immortal mouse mast cell line cell	import		
 CLO:0000535	immortal mouse epithelial cell line cell	import		
 CLO:0000563	immortal human epithelial cell line cell	import		
+CLO:0000589	immortal rat fibroblast cell line cell	import		
 CLO:0000652	immortal human B cell line cell	import		
+CLO:0000661	immortal human muscle cell line cell	import		
+CLO:0000728	immortal mouse macrophage cell line cell	import		
 CLO:0000897	immortal rat epithelial cell line cell	import		
+CLO:0000930	immortal human neuroblast cell line cell	import		
 CLO:0000933	immortal mouse B cell line cell	import		
+CLO:0000936	immortal human monocyte cell line cell	import		
 CLO:0001008	697 cell	ignore		
 CLO:0001056	1205Lu cell	ignore		
 CLO:0001566	A2058 cell	ignore		
@@ -119,6 +148,7 @@ CLO:0037068	WSU-DLCL2 cell	ignore
 CLO:0037132	MZ2-MEL cell	ignore		
 CLO:0037135	UACC-257 cell	ignore		
 CLO:0037173	JJN-3 cell	ignore		
+CLO:0037193	immortal mouse T cell line cell	import		
 CLO:0037202	JY cell	ignore		
 CLO:0037203	MM.1S cell	ignore		
 CLO:0037207	derived from organism	relate		
@@ -129,22 +159,36 @@ CLO:0037272	TMD8 cell	ignore
 CLO:0050752	RCB1283 cell	ignore		
 CLO:0051228	HEV0041 cell	ignore		
 CLO:0051333	HSC0107 cell	ignore		
+DOID:0050523	adult T-cell leukemia/lymphoma	import		
+DOID:0050546	congenital adrenal insufficiency	import		
+DOID:0050744	anaplastic large cell lymphoma	import		
 DOID:0050745	diffuse large B-cell lymphoma	import		
+DOID:0050746	mantle cell lymphoma	import		
 DOID:0050861	colorectal adenocarcinoma	import		
 DOID:0050865	tongue squamous cell carcinoma	import		
 DOID:0050866	oral squamous cell carcinoma	import		
 DOID:0050940	endocervical adenocarcinoma	import		
+DOID:0060058	lymphoma	import		
 DOID:0060060	non-Hodgkin lymphoma	import		
+DOID:0060061	primary cutaneous T-cell non-Hodgkin lymphoma	import		
+DOID:0060119	pharynx cancer	import		
 DOID:0060318	acute promyelocytic leukemia	import		
 DOID:0060592	B-cell adult acute lymphocytic leukemia	import		
+DOID:0070004	myeloid neoplasm	import		
+DOID:0070328	adult hepatocellular carcinoma	import		
+DOID:0080145	childhood T-cell acute lymphoblastic leukemia	import		
 DOID:0080147	lymphoblastic lymphoma	import		
 DOID:0080323	pancreatic squamous cell carcinoma	import		
+DOID:0080525	differentiated high-grade thyroid carcinoma	import		
 DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
+DOID:0080780	acute erythroid leukemia	import		
 DOID:10286	prostate carcinoma	import		
 DOID:1240	leukemia	import		
 DOID:1485	cystic fibrosis	import		
 DOID:1520	colon carcinoma	import		
 DOID:1612	breast cancer	import		
+DOID:162	cancer	import		
+DOID:169	neuroendocrine tumor	import		
 DOID:1749	squamous cell carcinoma	import		
 DOID:1790	malignant mesothelioma	import		
 DOID:1909	melanoma	import		
@@ -152,28 +196,42 @@ DOID:1996	rectum adenocarcinoma	import
 DOID:234	colon adenocarcinoma	import		
 DOID:2526	prostate adenocarcinoma	import		
 DOID:2671	transitional cell carcinoma	import		
+DOID:2876	laryngeal squamous cell carcinoma	import		
 DOID:299	adenocarcinoma	import		
 DOID:3007	breast ductal carcinoma	import		
 DOID:3008	invasive ductal carcinoma	import		
 DOID:3039	cecum adenocarcinoma	import		
 DOID:305	carcinoma	import		
 DOID:3068	glioblastoma	import		
+DOID:3069	malignant astrocytoma	import		
+DOID:3078	anaplastic astrocytoma	import		
 DOID:3151	skin squamous cell carcinoma	import		
+DOID:3246	embryonal rhabdomyosarcoma	import		
 DOID:3347	osteosarcoma	import		
+DOID:3355	fibrosarcoma	import		
+DOID:3369	Ewing sarcoma	import		
 DOID:3458	breast adenocarcinoma	import		
+DOID:3459	breast carcinoma	import		
 DOID:3498	pancreatic ductal adenocarcinoma	import		
+DOID:3605	ovarian cystadenocarcinoma	import		
 DOID:3664	mast cell neoplasm	import		
 DOID:3672	rhabdoid cancer	import		
 DOID:3713	ovary adenocarcinoma	import		
 DOID:3717	gastric adenocarcinoma	import		
 DOID:3721	plasmacytoma	import		
+DOID:3742	bladder squamous cell carcinoma	import		
 DOID:3744	cervical squamous cell carcinoma	import		
 DOID:3748	esophagus squamous cell carcinoma	import		
+DOID:3892	insulinoma	import		
 DOID:3905	lung carcinoma	import		
 DOID:3907	lung squamous cell carcinoma	import		
 DOID:3908	lung non-small cell carcinoma	import		
 DOID:3910	lung adenocarcinoma	import		
+DOID:3948	adrenocortical carcinoma	import		
+DOID:3965	Merkel cell carcinoma	import		
 DOID:4	disease	import		
+DOID:4001	ovarian carcinoma	import		
+DOID:4006	bladder urothelial carcinoma	import		
 DOID:4007	bladder carcinoma	import		
 DOID:4074	pancreatic adenocarcinoma	import		
 DOID:4359	amelanotic melanoma	import		
@@ -183,21 +241,33 @@ DOID:4556	lung large cell carcinoma	import
 DOID:4905	pancreatic carcinoma	import		
 DOID:4914	esophagus adenocarcinoma	import		
 DOID:4926	bronchiolo-alveolar adenocarcinoma	import		
+DOID:4928	intrahepatic cholangiocarcinoma	import		
+DOID:4947	cholangiocarcinoma	import		
 DOID:5304	ovarian clear cell adenocarcinoma	import		
 DOID:5409	lung small cell carcinoma	import		
 DOID:5514	breast squamous cell carcinoma	import		
 DOID:5517	stomach carcinoma	import		
 DOID:5583	lung giant cell carcinoma	import		
 DOID:5603	T-cell acute lymphoblastic leukemia	import		
+DOID:5635	gastric adenosquamous carcinoma	import		
 DOID:5744	ovary serous adenocarcinoma	import		
+DOID:6039	uveal melanoma	import		
+DOID:6179	ovarian small cell carcinoma	import		
+DOID:6263	inflammatory breast carcinoma	import		
 DOID:684	hepatocellular carcinoma	import		
+DOID:687	hepatoblastoma	import		
 DOID:7	disease of anatomical entity	ignore		
 DOID:7141	prostate small cell carcinoma	import		
 DOID:7474	malignant pleural mesothelioma	import		
 DOID:769	neuroblastoma	import		
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
+DOID:8719	in situ carcinoma	import		
+DOID:8761	acute megakaryocytic leukemia	import		
+DOID:8864	acute monocytic leukemia	import		
+DOID:9119	acute myeloid leukemia	import		
 DOID:9538	multiple myeloma	import		
+DOID:9952	acute lymphoblastic leukemia	import		
 NCBITaxon:10090	Mus musculus	import		
 NCBITaxon:10116	13762 MAT B III cell	import		
 NCBITaxon:117571	Euteleostomi	ignore		
@@ -209,6 +279,9 @@ NCBITaxon:33213	Bilateria	ignore
 NCBITaxon:39107	Murinae	ignore		
 NCBITaxon:40674	Mammalia	ignore		
 NCBITaxon:7742	Vertebrata 	ignore		
+NCBITaxon:9031	Gallus gallus	import		
+NCBITaxon:9305	Sarcophilus harrisii	import		
+NCBITaxon:9534	Chlorocebus aethiops	import		
 NCBITaxon:9544	Macaca mulatta	import		
 NCBITaxon:9606	is_manufactured_by	import		
 NCBITaxon:9989	Rodentia	ignore		
@@ -218,32 +291,45 @@ RO:0001000	derives from	relate
 UBERON:0000002	uterine cervix	import		
 UBERON:0000007	pituitary gland	import		
 UBERON:0000010	peripheral nervous system	import		
+UBERON:0000014	zone of skin	import		
 UBERON:0000029	lymph node	import		
+UBERON:0000042	serous membrane	import		
+UBERON:0000058	duct	import		
+UBERON:0000060	anatomical wall	import		
 UBERON:0000061	anatomical structure	ignore		
+UBERON:0000062	organ	import		
 UBERON:0000064	organ part	import		
 UBERON:0000077	+/+ SCT cell	ignore		
 UBERON:0000170	pair of lungs	import		
 UBERON:0000175	pleural effusion	import		
 UBERON:0000178	blood	import		
 UBERON:0000310	breast	import		
+UBERON:0000344	mucosa	import		
 UBERON:0000465	material anatomical entity	ignore		
+UBERON:0000468	multicellular organism	import		
 UBERON:0000473	testis	import		
 UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
+UBERON:0000916	abdomen	import		
 UBERON:0000922	late embryo	import		
 UBERON:0000945	stomach	import		
 UBERON:0000947	aorta	import		
 UBERON:0000948	heart	import		
+UBERON:0000950	gracilis	import		
 UBERON:0000955	brain	import		
 UBERON:0000970	compound eye	import		
 UBERON:0000977	pleura	import		
 UBERON:0000979	tibia	import		
+UBERON:0000988	pons	import		
+UBERON:0000991	gonad	import		
 UBERON:0000992	ovary	import		
 UBERON:0000995	uterus	import		
 UBERON:0001013	adipose tissue	import		
+UBERON:0001016	nervous system	import		
 UBERON:0001017	central nervous system	import		
 UBERON:0001043	esophagus	import		
 UBERON:0001044	saliva-secreting gland	import		
+UBERON:0001051	hypopharynx	import		
 UBERON:0001052	rectum	import		
 UBERON:0001062	anatomical entity	ignore		
 UBERON:0001088	urine	import		
@@ -253,13 +339,18 @@ UBERON:0001155	colon	import
 UBERON:0001255	urinary bladder	import		
 UBERON:0001264	pancreas	import		
 UBERON:0001268	peritoneal fluid	import		
+UBERON:0001325	muscle of pelvis	import		
 UBERON:0001359	cerebrospinal fluid	import		
 UBERON:0001474	carpal bone	import		
 UBERON:0001506	brachialis muscle	import		
+UBERON:0001560	neck of organ	import		
 UBERON:0001723	tongue	import		
+UBERON:0001728	nasopharynx	import		
 UBERON:0001729	oropharynx	import		
+UBERON:0001733	soft palate	import		
 UBERON:0001737	larynx	import		
 UBERON:0001744	lymphoid tissue	import		
+UBERON:0001768	uvea	import		
 UBERON:0001828	HGF-1 cell	import		
 UBERON:0001836	saliva	import		
 UBERON:0001911	C127:LT cell	import		
@@ -282,17 +373,25 @@ UBERON:0002369	right adrenal gland	import
 UBERON:0002370	thymus	import		
 UBERON:0002371	yellow bone marrow	import		
 UBERON:0002372	tonsil	import		
+UBERON:0002384	connective tissue	import		
+UBERON:0002405	immune system	import		
+UBERON:0002481	bone tissue	import		
+UBERON:0002530	gland	import		
 UBERON:0003126	trachea	import		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
+UBERON:0004765	skeletal element	import		
 UBERON:0004923	organ component layer	ignore		
 UBERON:0005090	urethra muscle tissue	import		
 UBERON:0005409	alimentary part of gastrointestinal system	import		
+UBERON:0007779	transudate	import		
 UBERON:0007795	ascitic fluid	import		
+UBERON:0008337	inguinal part of abdomen	import		
 UBERON:0009856	sac	ignore		
 UBERON:0010000	anatomical conduit	ignore		
 UBERON:0010313	neural crest-derived structure	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
 UBERON:0012168	umbilical cord blood	import		
 UBERON:0015212	lateral structure	ignore		
+UBERON:0035820	peritoneal sac	import		
