@@ -2,18 +2,23 @@ ID	label	IEDB alternative term	logical type	parent	part of	derives from	has part
 ID	A rdfs:label	A IEDB alternative term	CLASS_TYPE	C %	C 'part of' some %	C 'derives from' some %	C 'has part' some %	C 'derives from patient having disease' some %
 OBI:0100067			subclass	tissue				
 OBI:1110041			subclass	tissue				
+NCBITaxon:9305			subclass	organism				
 UBERON:0000062			subclass	tissue				
 UBERON:0000064			subclass	tissue				
 UBERON:0000170			subclass	tissue				
 UBERON:0000178			subclass	tissue				
 UBERON:0000310			subclass	tissue				
 UBERON:0000463			subclass	tissue				
+UBERON:0000916			subclass	tissue				
 UBERON:0000922			subclass	tissue				
 UBERON:0000977			subclass	tissue				
+UBERON:0000988			subclass	tissue				
 UBERON:0002037			subclass	tissue				
+UBERON:0001733			subclass	tissue				
 UBERON:0002072			subclass	tissue				
 UBERON:0004111			subclass	tissue				
 UBERON:0005090			subclass	tissue				
 UBERON:0005156			subclass	tissue				
 UBERON:0005409			subclass	tissue				
+UBERON:0008337			subclass	tissue				
 UBERON:0011216			subclass	tissue				
