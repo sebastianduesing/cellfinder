@@ -1624,6 +1624,54 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1240"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000623"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A leukemia that is characterized by the systemic proliferation of NK cells closely associated with Epstein-Barr virus and that is located_in the peripheral blood, bone marrow, liver, and spleen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:C94.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICDO:9948/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C8647</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:128833001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1292777</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">aggressive NK-cell leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">large granular Lymphocyte Leukemia, NK-cell type</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">natural killer cell leukaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">natural killer cell leukemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1035</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">aggressive NK-cell leukemia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_1035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A leukemia that is characterized by the systemic proliferation of NK cells closely associated with Epstein-Barr virus and that is located_in the peripheral blood, bone marrow, liver, and spleen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Aggressive_NK-cell_leukemia</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C8647</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6191480/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1107">
@@ -1880,8 +1928,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_1520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
         <obo:IAO_0000115 xml:lang="en">A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>NCI:C4910</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154454005</oboInOwl:hasDbXref>
@@ -2469,6 +2517,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+        <obo:IAO_0000115 xml:lang="en">A colorectal cancer that is located_in the colon.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:C18</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363406005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007102</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:219</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
+        <rdfs:label xml:lang="en">colon cancer</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A colorectal cancer that is located_in the colon.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007641"/>
+        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=44237</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.genome.gov/Genetic-Disorders/Colon-Cancer</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_229">
@@ -2727,6 +2805,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2876">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050615"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1749"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_974"/>
         <obo:IAO_0000115 xml:lang="en">A laryngeal carcinoma that has_material_basis_in squamous cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MESH:D000077195</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4044</oboInOwl:hasDbXref>
@@ -3027,14 +3106,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3093"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A malignant glioma that is has_material_basis_in astrocyte cells, a type of star-shaped glial cell, located in the brain and spinal cord.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>DOID:4861</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICDO:9400/3</oboInOwl:hasDbXref>
@@ -3063,6 +3136,64 @@
         <owl:annotatedTarget xml:lang="en">A malignant glioma that is has_material_basis_in astrocyte cells, a type of star-shaped glial cell, located in the brain and spinal cord.</owl:annotatedTarget>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Astrocytoma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cell type cancer that has_material_basis_in glial cells and is located in brain or located in spine.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:2627</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICDO:9380/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005910</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:PS137800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4822</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:182067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:393564001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:74532006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0017638</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0555198</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Neuroglial tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">glial cell tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">glioma, malignant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant Neuroglial tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant glioma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3070</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="en">high grade glioma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A cell type cancer that has_material_basis_in glial cells and is located in brain or located in spine.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Malignant_glioma</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4073,6 +4204,27 @@
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
         <oboInOwl:hasDbXref>url:http://cancergenome.nih.gov/cancersselected/AdrenocorticalCarcinoma</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>url:http://www.cancer.gov/cancertopics/types/adrenocortical</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3948"/>
+        <obo:IAO_0000115 xml:lang="en">An adrenocortical carcinoma that originates in the cortex of the adrenal gland and derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">Adrenal cortex adenocarcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3959</oboInOwl:id>
+        <rdfs:label xml:lang="en">adrenal cortical adenocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_3959"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An adrenocortical carcinoma that originates in the cortex of the adrenal gland and derives_from epithelial cells of glandular origin.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Adrenocortical_carcinoma</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5271,6 +5423,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_8533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060119"/>
+        <obo:IAO_0000115 xml:lang="en">A pharynx cancer that is located_in the hypopharynx.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:12202</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8532</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9160</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:9334</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C13.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:148.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D007012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C7190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93831006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93968005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153398</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0496770</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Hypopharyngeal cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant Hypopharyngeal tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of hypopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor of hypopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant tumour of hypopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:8533</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">hypopharynx cancer</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_8533"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pharynx cancer that is located_in the hypopharynx.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Hypopharynx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_8552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8552">
@@ -5621,6 +5814,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_9174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8719"/>
+        <obo:IAO_0000115 xml:lang="en">An in situ carcinoma that is located_in the rectum.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:D01.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:230.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:92696009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0154062</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Severe Rectal Dysplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Severe dysplasia of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">carcinoma in situ of rectum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9174</oboInOwl:id>
+        <rdfs:label xml:lang="en">rectum carcinoma in situ</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9174"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An in situ carcinoma that is located_in the rectum.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/622667</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_9256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9256">
@@ -5653,6 +5872,71 @@
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007641"/>
         <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=444983</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050615"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_974"/>
+        <obo:IAO_0000115 xml:lang="en">A pharynx cancer that is located in the nasopharynx, the uppermost region of the pharynx or throat, where the nasal passages and auditory tubes join the remainder of the upper respiratory tract.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:8813</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8814</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9057</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9144</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9197</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9229</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:7163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:161550</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:607107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187692001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187693006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187700006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363398003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93919005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94078000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153393</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153395</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153396</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0238301</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Nasopharyngeal carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant Nasopharyngeal tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of nasopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nasopharynx cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">carcinoma of nasopharynx</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:9261</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="en">nasopharynx carcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_9261"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pharynx cancer that is located in the nasopharynx, the uppermost region of the pharynx or throat, where the nasal passages and auditory tubes join the remainder of the upper respiratory tract.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Nasopharyngeal_carcinoma</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5716,6 +6000,30 @@
         <owl:annotatedTarget xml:lang="en">An endocrine system disease that is located_in the adrenal gland.</owl:annotatedTarget>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Adrenal_gland_disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_974">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <obo:IAO_0000115 xml:lang="en">A respiratory system disease which involves the upper respiratory tract.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM:478.19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:195823002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0029581</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:974</oboInOwl:id>
+        <rdfs:label xml:lang="en">upper respiratory tract disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_974"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A respiratory system disease which involves the upper respiratory tract.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Category:Upper_respiratory_tract_diseases</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.who.int/topics/respiratory_tract_diseases/en/</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5811,6 +6119,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
@@ -5819,9 +6135,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000042 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000058 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000042"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+    </owl:Class>
     
 
 
@@ -5867,23 +6185,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000467 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000473">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000991"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000475 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000475"/>
     
 
 
@@ -5897,14 +6203,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000489">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000916 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000916">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
     </owl:Class>
     
 
@@ -5954,7 +6252,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000977 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000977">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000042"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
     </owl:Class>
     
@@ -6005,7 +6302,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
     </owl:Class>
     
 
@@ -6101,6 +6398,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005090"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001723">
@@ -6145,7 +6451,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001828 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001828">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000344"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003729"/>
     </owl:Class>
     
 
@@ -6340,6 +6646,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000058"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002428">
@@ -6376,7 +6699,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0003126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
     </owl:Class>
     
 
@@ -6395,6 +6718,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003464">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002428"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000344"/>
     </owl:Class>
     
 
@@ -6446,6 +6777,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005090"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156"/>
@@ -6476,18 +6813,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005409 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006956 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003729"/>
     </owl:Class>
     
 

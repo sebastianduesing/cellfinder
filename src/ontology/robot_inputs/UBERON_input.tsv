@@ -183,6 +183,7 @@ DOID:0080525	differentiated high-grade thyroid carcinoma	import
 DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
 DOID:0080780	acute erythroid leukemia	import		
 DOID:10286	prostate carcinoma	import		
+DOID:1035	aggressive NK-cell leukemia	import		
 DOID:1240	leukemia	import		
 DOID:1485	cystic fibrosis	import		
 DOID:1520	colon carcinoma	import		
@@ -193,6 +194,7 @@ DOID:1749	squamous cell carcinoma	import
 DOID:1790	malignant mesothelioma	import		
 DOID:1909	melanoma	import		
 DOID:1996	rectum adenocarcinoma	import		
+DOID:219	colon cancer	import		
 DOID:234	colon adenocarcinoma	import		
 DOID:2526	prostate adenocarcinoma	import		
 DOID:2671	transitional cell carcinoma	import		
@@ -204,6 +206,7 @@ DOID:3039	cecum adenocarcinoma	import
 DOID:305	carcinoma	import		
 DOID:3068	glioblastoma	import		
 DOID:3069	malignant astrocytoma	import		
+DOID:3070	high grade glioma	import		
 DOID:3078	anaplastic astrocytoma	import		
 DOID:3151	skin squamous cell carcinoma	import		
 DOID:3246	embryonal rhabdomyosarcoma	import		
@@ -228,6 +231,7 @@ DOID:3907	lung squamous cell carcinoma	import
 DOID:3908	lung non-small cell carcinoma	import		
 DOID:3910	lung adenocarcinoma	import		
 DOID:3948	adrenocortical carcinoma	import		
+DOID:3959	adrenal cortical adenocarcinoma	import		
 DOID:3965	Merkel cell carcinoma	import		
 DOID:4	disease	import		
 DOID:4001	ovarian carcinoma	import		
@@ -260,12 +264,15 @@ DOID:7	disease of anatomical entity	ignore
 DOID:7141	prostate small cell carcinoma	import		
 DOID:7474	malignant pleural mesothelioma	import		
 DOID:769	neuroblastoma	import		
+DOID:8533	hypopharynx cancer	import		
 DOID:8552	chronic myeloid leukemia	import		
 DOID:8584	Burkitt lymphoma	import		
 DOID:8719	in situ carcinoma	import		
 DOID:8761	acute megakaryocytic leukemia	import		
 DOID:8864	acute monocytic leukemia	import		
 DOID:9119	acute myeloid leukemia	import		
+DOID:9174	rectum carcinoma in situ	import		
+DOID:9261	nasopharynx carcinoma	import		
 DOID:9538	multiple myeloma	import		
 DOID:9952	acute lymphoblastic leukemia	import		
 NCBITaxon:10090	Mus musculus	import		
@@ -274,6 +281,7 @@ NCBITaxon:117571	Euteleostomi	ignore
 NCBITaxon:2759	Eukaryota	ignore		
 NCBITaxon:314146	Euarchontoglires	ignore		
 NCBITaxon:32524	Amniota	ignore		
+NCBITaxon:32525	Theria 	ignore		
 NCBITaxon:33154	Opisthokonta	ignore		
 NCBITaxon:33213	Bilateria	ignore		
 NCBITaxon:39107	Murinae	ignore		
@@ -281,6 +289,8 @@ NCBITaxon:40674	Mammalia	ignore
 NCBITaxon:7742	Vertebrata 	ignore		
 NCBITaxon:9031	Gallus gallus	import		
 NCBITaxon:9305	Sarcophilus harrisii	import		
+NCBITaxon:9526	Catarrhini	ignore		
+NCBITaxon:9528	Cercopithecinae	ignore		
 NCBITaxon:9534	Chlorocebus aethiops	import		
 NCBITaxon:9544	Macaca mulatta	import		
 NCBITaxon:9606	is_manufactured_by	import		
@@ -293,7 +303,7 @@ UBERON:0000007	pituitary gland	import
 UBERON:0000010	peripheral nervous system	import		
 UBERON:0000014	zone of skin	import		
 UBERON:0000029	lymph node	import		
-UBERON:0000042	serous membrane	import		
+UBERON:0000042	serous membrane	ignore		
 UBERON:0000058	duct	import		
 UBERON:0000060	anatomical wall	import		
 UBERON:0000061	anatomical structure	ignore		
@@ -306,8 +316,10 @@ UBERON:0000178	blood	import
 UBERON:0000310	breast	import		
 UBERON:0000344	mucosa	import		
 UBERON:0000465	material anatomical entity	ignore		
-UBERON:0000468	multicellular organism	import		
+UBERON:0000467	anatomical system	ignore		
+UBERON:0000468	multicellular organism	ignore		
 UBERON:0000473	testis	import		
+UBERON:0000475	organism subdivision	ignore		
 UBERON:0000479	tissue	import		
 UBERON:0000481	regional part of nervous system	ignore		
 UBERON:0000916	abdomen	import		
@@ -325,7 +337,7 @@ UBERON:0000991	gonad	import
 UBERON:0000992	ovary	import		
 UBERON:0000995	uterus	import		
 UBERON:0001013	adipose tissue	import		
-UBERON:0001016	nervous system	import		
+UBERON:0001016	nervous system	import	subclass	tissue
 UBERON:0001017	central nervous system	import		
 UBERON:0001043	esophagus	import		
 UBERON:0001044	saliva-secreting gland	import		
@@ -343,7 +355,9 @@ UBERON:0001325	muscle of pelvis	import
 UBERON:0001359	cerebrospinal fluid	import		
 UBERON:0001474	carpal bone	import		
 UBERON:0001506	brachialis muscle	import		
+UBERON:0001542	inguinal lymph node	import		
 UBERON:0001560	neck of organ	import		
+UBERON:0001630	muscle organ	import		
 UBERON:0001723	tongue	import		
 UBERON:0001728	nasopharynx	import		
 UBERON:0001729	oropharynx	import		
@@ -374,10 +388,13 @@ UBERON:0002370	thymus	import
 UBERON:0002371	yellow bone marrow	import		
 UBERON:0002372	tonsil	import		
 UBERON:0002384	connective tissue	import		
-UBERON:0002405	immune system	import		
+UBERON:0002394	bile duct	import		
+UBERON:0002405	immune system	import	subclass	tissue
 UBERON:0002481	bone tissue	import		
 UBERON:0002530	gland	import		
+UBERON:0002616	regional part of brain	ignore		
 UBERON:0003126	trachea	import		
+UBERON:0003697	abdominal wall	import		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
@@ -385,6 +402,7 @@ UBERON:0004765	skeletal element	import
 UBERON:0004923	organ component layer	ignore		
 UBERON:0005090	urethra muscle tissue	import		
 UBERON:0005409	alimentary part of gastrointestinal system	import		
+UBERON:0006956	buccal mucosa	import		
 UBERON:0007779	transudate	import		
 UBERON:0007795	ascitic fluid	import		
 UBERON:0008337	inguinal part of abdomen	import		

@@ -4024,8 +4024,8 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/DOID_1520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
         <obo:IAO_0000115>A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>NCI:C4910</oboInOwl:hasDbXref>
@@ -4524,6 +4524,28 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+        <obo:IAO_0000115>A colorectal cancer that is located_in the colon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:C18</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:363406005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007102</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:219</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
+        <rdfs:label>colon cancer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_229">
@@ -4904,9 +4926,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1319"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3094"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
         <obo:IAO_0000115>A malignant glioma that is has_material_basis_in astrocyte cells, a type of star-shaped glial cell, located in the brain and spinal cord.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:4861</oboInOwl:hasAlternativeId>
@@ -4929,6 +4949,58 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label>malignant astrocytoma</rdfs:label>
         <skos:exactMatch>MESH:D001254</skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1319"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3094"/>
+        <obo:IAO_0000115>A cell type cancer that has_material_basis_in glial cells and is located in brain or located in spine.</obo:IAO_0000115>
+        <obo:IAO_0000118>&quot;glioma, malignant&quot; EXACT [SNOMEDCT_2005_07_31:189909006]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;glioma, malignant, no ICD-O subtype&quot; EXACT [SNOMEDCT_2005_07_31:74532006]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;malignant Neuroglial tumor&quot; EXACT [NCI2004_11_17:C4822]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;malignant glioma (morphologic abnormality)&quot; EXACT [SNOMEDCT_2005_07_31:269505000]</obo:IAO_0000118>
+        <obo:IAO_0000118>&quot;malignant glioma - category&quot; EXACT [SNOMEDCT_2005_07_31:416500007]</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:2627</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICDO:9380/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005910</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4822</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:PS137800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:182067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:393564001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2021_09_01:74532006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0017638</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0555198</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Neuroglial tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">glial cell tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">glioma, malignant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant Neuroglial tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant glioma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3070</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>high grade glioma</rdfs:label>
+        <rdfs:label>malignant glioma</rdfs:label>
+        <rdfs:seeAlso>MSH2010_2010_02_22:D005910</rdfs:seeAlso>
+        <rdfs:seeAlso>NCI2009_04D:C4822</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:189909006</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:269505000</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:416500007</rdfs:seeAlso>
+        <rdfs:seeAlso>SNOMEDCT_2010_1_31:74532006</rdfs:seeAlso>
+        <rdfs:seeAlso>UMLS_CUI:C0555198</rdfs:seeAlso>
+        <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#malignant_glioma</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5680,6 +5752,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label>adrenocortical carcinoma</rdfs:label>
         <skos:exactMatch>MESH:D018268</skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3948"/>
+        <obo:IAO_0000115>An adrenocortical carcinoma that originates in the cortex of the adrenal gland and derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Adrenal cortex adenocarcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Adrenal cortical adenocarcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3959</oboInOwl:id>
+        <rdfs:label>adrenal cortical adenocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -6975,32 +7063,10 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9526 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9526">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000111>Catarrhini</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label>Catarrhini</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9528 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9528">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9526"/>
-        <obo:IAO_0000111>Cercopithecinae</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label>Cercopithecinae</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9534">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000111>Chlorocebus aethiops</obo:IAO_0000111>
         <obo:IAO_0000118>African green monkey</obo:IAO_0000118>
         <obo:IAO_0000118>African green monkeys</obo:IAO_0000118>
@@ -7015,7 +7081,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9544">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9528"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000111>Macaca mulatta</obo:IAO_0000111>
         <obo:IAO_0000118>Rhesus monkey</obo:IAO_0000118>
         <obo:IAO_0000118>rhesus macaque</obo:IAO_0000118>
@@ -7030,7 +7096,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000111>Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000118>human</obo:IAO_0000118>
         <obo:IAO_0000118>human being</obo:IAO_0000118>
@@ -7398,6 +7464,31 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any hollow cylindrical anatomical structure containing a lumen through which substances are transported.</obo:IAO_0000115>
+        <obo:IAO_0000232>not every anatomical conduit is a tube - for example, a bone foramen is an opening in the bone, and there is no distinct separate tube structure. Tubes may transport large mixed objects (for example, a bolus of food in the digestive tube) or they may transport the secretions of a single gland (for example, gland ducts)</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000007>tubular</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref>galen:Tube</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>anatomical tube</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>duct</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000025</oboInOwl:id>
+        <rdfs:label>tube</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
@@ -7445,68 +7536,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000042">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:UBPROP_0000001>A multi-tissue structure that is comprised of a secretory epithelial layer and a connective tissue layer.[TAO]</obo:UBPROP_0000001>
-        <obo:UBPROP_0000001>a smooth membrane consisting of a thin layer of cells which excrete serous fluid. Serous membranes line and enclose several body cavities, known as serous cavities, where they secrete a lubricating fluid which reduces friction from muscle movement. Serosa is not to be confused with adventitia, a connective tissue layer which binds together structures rather than reducing friction between them. Each serous membrane is composed of a secretory epithelial layer and a connective tissue layer underneath. The epithelial layer, known as mesothelium, consists of a single layer of avascular flat nucleated cells (cuboidal epithelium) which produce the lubricating serous fluid. This fluid has a consistency similar to thin mucus. These cells are bound tightly to the underlying connective tissue. The connective tissue layer provides the blood vessels and nerves for the overlying secretory cells, and also serves as the binding layer which allows the whole serous membrane to adhere to organs and other structures.[WP]</obo:UBPROP_0000001>
-        <obo:UBPROP_0000012>in FMA, SM = mesothelium + connective tissue. It excludes the cavity. Serous sac = SM + cavity. Note that the SM is a subtype of wall in FMA.</obo:UBPROP_0000012>
-        <dc:contributor rdf:resource="https://github.com/cmungall"/>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Serous_membrane"/>
-        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0036760"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/362878009"/>
-        <oboInOwl:hasDbXref>FMA:9581</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GAID:19</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D012704</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C13169</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:362878009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TAO:0005425</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0036760</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Serous_membrane</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ZFA:0005425</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>tunica serosa</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>wall of serous sac</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>serosa</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0000042</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#vertebrate_core"/>
-        <rdfs:label>serous membrane</rdfs:label>
-        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/4/4e/Ens.png</foaf:depicted_by>
-        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Ens.png/200px-Ens.png</foaf:depicted_by>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000058">
@@ -7520,19 +7549,13 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A tubular structure that transports secreted or excreted substances.</obo:IAO_0000115>
@@ -7594,12 +7617,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -7743,12 +7760,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
             </owl:Restriction>
@@ -7815,12 +7826,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000310">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
             </owl:Restriction>
@@ -7828,19 +7833,13 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7949,12 +7948,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -7988,132 +7981,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
         <rdfs:label>organism substance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000467 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000467">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasBroadSynonym>system</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>AAO:0000007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>AEO:0000011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BILA:0000011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BIRNLEX:14</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BSA:0000049</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CALOHA:TS-2088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CARO:0000011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA2:0003011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA:392</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:16103</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EV:0100000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FBbt:00004856</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:7149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>HAO:0000011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0000003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12919</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OpenCyc:Mx4rCWM0QCtDEdyAAADggVbxzQ</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:278195005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TAO:0001439</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TGMA:0001831</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0460002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>VHOG:0001725</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>WBbt:0005746</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>WBbt:0005763</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Organ_system</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:0003002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ZFA:0001439</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:AnatomicalSystem</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>body system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>connected anatomical system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>organ system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>anatomical systems</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0000467</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
-        <rdfs:label>anatomical system</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/EHDAA2_0001330"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000468 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Anatomical structure that is an individual member of a species and consists of more than one cell.</obo:IAO_0000115>
-        <obo:IAO_0000116>TODO - split body and mc organism? body continues after death stage</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:UBPROP_0000007>organismal</obo:UBPROP_0000007>
-        <oboInOwl:hasBroadSynonym>organism</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Multi-cellular_organism"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/243928005"/>
-        <oboInOwl:hasDbXref>AAO:0010026</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>AEO:0000191</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BILA:0000012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BIRNLEX:18</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BSA:0000038</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BTO:0000042</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CARO:0000012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0002906</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA2:0003103</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA2:0003191</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:25765</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EV:0100016</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FBbt:00000001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:256135</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>HAO:0000012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C13041</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:243928005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TADS:0000001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TAO:0001094</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TGMA:0001832</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>VHOG:0000671</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>WBbt:0007833</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Multi-cellular_organism</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:0003004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ZFA:0001094</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:Organism</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ncithesaurus:Whole_Organism</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>multi-cellular organism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>animal</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Koerper</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>body</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>whole body</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>whole organism</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0000468</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
-        <rdfs:label>multicellular organism</rdfs:label>
     </owl:Class>
     
 
@@ -8182,79 +8049,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000475 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000475">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Anatomical structure which is a subdivision of a whole organism, consisting of components of multiple anatomical systems, largely surrounded by a contiguous region of integument.</obo:IAO_0000115>
-        <obo:IAO_0000116>Reflects CARO2. todo - check the inclusion of FMA &apos;cardinal body part here&apos;, and check child terms for consistency</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Body_part"/>
-        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0229962"/>
-        <oboInOwl:hasDbXref>AAO:0010053</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>AEO:0000032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BILA:0000032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BIRNLEX:7</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CALOHA:TS-2084</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CARO:0000032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0000808</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA2:0003032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:36031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FBbt:00007009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:7153</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>HAO:0000032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0002433</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MAT:0000293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D001829</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MIAA:0000293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C32221</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OpenCyc:Mx4rvViAHJwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TAO:0001308</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TGMA:0001840</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0229962</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>VHOG:0001758</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Body_part</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:0003013</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ZFA:0001308</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:BodyPart</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>anatomic region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>body part</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>body region</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>cardinal body part</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0000475</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#upper_level"/>
-        <rdfs:label>organism subdivision</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000479 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -8338,11 +8135,10 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000916 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000916">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column.</obo:IAO_0000115>
@@ -8385,7 +8181,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -8785,7 +8586,30 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000977 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000977">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
@@ -9089,11 +8913,17 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO].</obo:IAO_0000115>
@@ -9286,7 +9116,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Saliva-secreting exocrine glands of the oral cavity[GO].</obo:IAO_0000115>
@@ -9738,6 +9568,83 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005173"/>
+        <obo:IAO_0000115>The lymph nodes located in the groin area.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Inguinal_lymph_node"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0729596"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181762005"/>
+        <oboInOwl:hasDbXref>EMAPA:35431</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:44226</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000737</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C32801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0729596</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001542</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
+        <rdfs:label>inguinal lymph node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000001>Portion of tissue composed of contractile fibers.[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000003>It seems clear that the metazoan ancestor inherited from its unicellular descendants an actin cytoskeleton and motor-proteins of the myosin superfamily. Within metazoans, these two molecules were arranged into effective contractile units, the muscles. The basic trends for muscle evolution are already expressed in the diploblastic taxa.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000007>muscular</obo:UBPROP_0000007>
+        <oboInOwl:hasBroadSynonym>muscle</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>AAO:0011066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:32715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:37474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:5022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rv2kf-5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:71616004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0005145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001245</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Muscle</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001630</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#vertebrate_core"/>
+        <rdfs:label>muscle organ</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001723 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001723">
@@ -9936,31 +9843,19 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000970"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10105,12 +10000,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
             </owl:Restriction>
@@ -10118,19 +10007,13 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vessel through which blood circulates in the body.</obo:IAO_0000115>
@@ -10968,12 +10851,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11245,12 +11122,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
             </owl:Restriction>
@@ -11477,10 +11348,77 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000058"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any of the ducts that form the biliary tree, carrying bile from the liver to the small intestine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:UBPROP_0000001>A duct that carries bile from the liver to the intestine.</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>Any of the excretory ducts in the liver that convey bile between the liver and the intestine. [TFD][VHOG]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000003>(...) the amphibian liver has characteristics in common with both fish and terrestrial vertebrates. (...) The histological structure of the liver is similar to that in other vertebrates, with hepatocytes arranged in clusters and cords separated by a meshwork of sinusoids and the presence of the traditional triad of portal venule, hepatic arteriole, and bile duct.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000012>we place the ZFA class here as this fits its textual definition and child nodes. We may recommend a label change for ZFA</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Bile_duct"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005400"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/276157007"/>
+        <oboInOwl:hasDbXref>AAO:0011019</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0000741</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9706</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:280</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000354</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvdCds5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:276157007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005400</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Bile_duct</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000134</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0001100</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>bile tube</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>biliary duct</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>gall duct</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hepatic duct</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002394</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
+        <rdfs:label>bile duct</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/5/5d/Digestive_system_showing_bile_duct.png</foaf:depicted_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Anatomical system that protects the body from foreign substances, cells, and tissues by producing the immune response and that includes especially the thymus, spleen, lymphoid tissue, lymphocytes including the B cells and T cells, and antibodies.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -11642,13 +11580,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0003126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
         <obo:IAO_0000115>The trachea is the portion of the airway that attaches to the bronchi as it branches [GO:dph].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>An elongated tube which carries air to and from the lungs.[AAO]</obo:UBPROP_0000001>
@@ -11729,6 +11661,54 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#functional_classification"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#organ_slim"/>
         <rdfs:label>reproductive organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003697">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000060"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The tissues that surround the organs that are present within the abdominal cavity. The abdominal wall tissue is composed of layers of fat, parietal peritoneum, fascia, and muscles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>EMAPA:37064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:10429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:259054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:26</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:A01.047.050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C77608</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:181613000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0836916</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Abdominal_wall</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>paries abdominalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>wall of abdomen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>wall of abdomen proper</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>abdominal wall proper</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>layers of the abdominal wall</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>paries abdominalis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0003697</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <rdfs:label>abdominal wall</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/e/ee/Scheme_body_cavities-en.svg</foaf:depicted_by>
     </owl:Class>
     
 
@@ -11924,12 +11904,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
@@ -11961,7 +11935,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005173"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -11984,16 +11958,29 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <obo:IAO_0000115>An organ or element that is part of the adbominal segment of the organism. This region can be further subdivided into the abdominal cavity and the pelvic region.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref>EMAPA:37062</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000529</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>abdominal segment organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0005173</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#non_informative"/>
+        <rdfs:label>abdominal segment element</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12054,11 +12041,10 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0005409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The part of the digestive system that excludes the hepatobiliary system.</obo:IAO_0000115>
@@ -12148,7 +12134,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The external junctural region between the lower part of the abdomen and the thigh.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Inguinal_region"/>
@@ -12186,12 +12177,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011216">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
@@ -12219,7 +12204,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004111"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12331,7 +12316,19 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000042"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A serous sac that is the aggregate of the peritoneum and the peritoneal cavity, located in the abdominal cavity.</obo:IAO_0000115>
