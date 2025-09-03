@@ -337,7 +337,7 @@ UBERON:0000991	gonad	import
 UBERON:0000992	ovary	import		
 UBERON:0000995	uterus	import		
 UBERON:0001013	adipose tissue	import		
-UBERON:0001016	nervous system	import	subclass	tissue
+UBERON:0001016	nervous system	import		
 UBERON:0001017	central nervous system	import		
 UBERON:0001043	esophagus	import		
 UBERON:0001044	saliva-secreting gland	import		
@@ -389,7 +389,7 @@ UBERON:0002371	yellow bone marrow	import
 UBERON:0002372	tonsil	import		
 UBERON:0002384	connective tissue	import		
 UBERON:0002394	bile duct	import		
-UBERON:0002405	immune system	import	subclass	tissue
+UBERON:0002405	immune system	import		
 UBERON:0002481	bone tissue	import		
 UBERON:0002530	gland	import		
 UBERON:0002616	regional part of brain	ignore		

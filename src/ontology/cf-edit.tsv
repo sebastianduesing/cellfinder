@@ -13,9 +13,11 @@ UBERON:0000916			subclass	tissue
 UBERON:0000922			subclass	tissue				
 UBERON:0000977			subclass	tissue				
 UBERON:0000988			subclass	tissue				
+UBERON:0001016			subclass	tissue				
 UBERON:0002037			subclass	tissue				
 UBERON:0001733			subclass	tissue				
 UBERON:0002072			subclass	tissue				
+UBERON:0002405			subclass	tissue				
 UBERON:0004111			subclass	tissue				
 UBERON:0005090			subclass	tissue				
 UBERON:0005156			subclass	tissue				
