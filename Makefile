@@ -105,10 +105,12 @@ src/ontology/robot_outputs/%_imports.owl: build/%_import_source.owl build/%_limi
 	--upper-terms $(word 2,$^) \
 	--lower-terms $(word 3,$^) \
 	--intermediates minimal \
+	--annotate-with-source true \
 	export --header IRI --export build/mireot_$*.txt
 	robot extract --method subset --input $< \
 	--term-file build/mireot_$*.txt \
 	--term-file build/$*_relations.txt \
+	--annotate-with-source true \
 	remove --term-file $(word 4,$^) \
 	reduce --reasoner ELK \
 	merge --input $(word 5,$^) \
@@ -143,11 +145,16 @@ build/merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology
 	--reasoner ELK \
 	remove \
 	--term-file removed_terms.txt \
-	rename \
-	--mapping obo:SYMP_0000107 obo:UBERON_0000175 \
 	reduce \
 	--reasoner ELK \
 	--output build/merged.owl
+
+
+.PHONY: imp
+imp:
+	make src/ontology/robot_outputs/CLO_imports.owl
+	make src/ontology/robot_outputs/DOID_imports.owl
+	make src/ontology/robot_outputs/UBERON_imports.owl
 
 
 src/ontology/cf-edit.owl: src/ontology/cf-edit.tsv
