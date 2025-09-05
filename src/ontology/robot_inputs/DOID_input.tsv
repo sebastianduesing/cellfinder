@@ -110,55 +110,11 @@ CLO:0000930	immortal human neuroblast cell line cell	import
 CLO:0000933	immortal mouse B cell line cell	import		
 CLO:0000936	immortal human monocyte cell line cell	import		
 CLO:0001008	697 cell	ignore		
-CLO:0001056	1205Lu cell	ignore		
-CLO:0001566	A2058 cell	ignore		
-CLO:0001582	A-375 cell	ignore		
-CLO:0001793	B16-F1 cell	ignore		
-CLO:0001794	B16-F10 cell	ignore		
-CLO:0002708	Daudi cell	ignore		
-CLO:0002709	DB cell	ignore		
-CLO:0002767	DG-75 cell	ignore		
-CLO:0002805	DOHH2 cell	ignore		
-CLO:0003433	G-361 cell	ignore		
-CLO:0003787	HMy2.CIR cell	ignore		
-CLO:0006961	IPC-298 cell	ignore		
-CLO:0007050	K 562 cell	ignore		
-CLO:0007830	MOPC 315 cell	ignore		
-CLO:0007938	NALM-6 cell	ignore		
-CLO:0007939	NAMALWA cell	ignore		
-CLO:0007947	NB-4 cell	ignore		
-CLO:0008127	NCI-H929 cell	ignore		
-CLO:0008269	OPM-2 cell	ignore		
-CLO:0008873	RPMI 8226 cell	ignore		
-CLO:0009041	SK-MEL-2 cell	ignore		
-CLO:0009043	SK-MEL-28 cell	ignore		
-CLO:0009047	SK-MEL-5 cell	ignore		
-CLO:0009161	SUP-B15 cell	ignore		
-CLO:0009242	T2 (174 x CEM.T2) cell	ignore		
-CLO:0009458	U266B1 cell	ignore		
-CLO:0009462	U-698-M cell	ignore		
-CLO:0009616	WM278 cell	ignore		
-CLO:0009619	WM793B cell	ignore		
 CLO:0009791	immortal human myeloblast cell line cell	import		
-CLO:0010594	GM08600 cell	ignore		
-CLO:0010607	GM08605 cell	ignore		
-CLO:0037061	SU-DHL-4 cell	ignore		
-CLO:0037063	SU-DHL-6 cell	ignore		
-CLO:0037068	WSU-DLCL2 cell	ignore		
-CLO:0037132	MZ2-MEL cell	ignore		
-CLO:0037135	UACC-257 cell	ignore		
-CLO:0037173	JJN-3 cell	ignore		
 CLO:0037193	immortal mouse T cell line cell	import		
-CLO:0037202	JY cell	ignore		
-CLO:0037203	MM.1S cell	ignore		
 CLO:0037207	derived from organism	relate		
 CLO:0037208	derived from anatomic part	relate		
 CLO:0037209	derived from cell	relate		
-CLO:0037256	HBL-1 cell	ignore		
-CLO:0037272	TMD8 cell	ignore		
-CLO:0050752	RCB1283 cell	ignore		
-CLO:0051228	HEV0041 cell	ignore		
-CLO:0051333	HSC0107 cell	ignore		
 DOID:0050523	adult T-cell leukemia/lymphoma	import		
 DOID:0050546	congenital adrenal insufficiency	import		
 DOID:0050744	anaplastic large cell lymphoma	import		
