@@ -7507,6 +7507,33 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0100060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100060">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>cultured cell population</obo:IAO_0000111>
+        <obo:IAO_0000112>A cultured cell population applied in an experiment: &quot;293 cells expressing TrkA were serum-starved for 18 hours and then neurotrophins were added for 10 min before cell harvest.&quot;  (Lee, Ramee, et al. &quot;Regulation of cell survival by secreted proneurotrophins.&quot; Science 294.5548 (2001): 1945-1948).
+
+A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 15 day embryos are grown in dissociated cell culture and maintained in vitro for 8–12 weeks&quot; (Dichter, Marc A. &quot;Rat cortical neurons in cell culture: culture methods, cell morphology, electrophysiology, and synapse formation.&quot; Brain Research 149.2 (1978): 279-293).</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2013-6-5 MHB: This OBI class was formerly called &apos;cell culture&apos;, but label changed and definition updated following CLO alignment efforts in spring 2013, during which the intent of this class was clarified to refer to portions of a culture or line rather than a complete cell culture or line.</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON:Matthew Brush</obo:IAO_0000117>
+        <obo:IAO_0000118>cell culture sample</obo:IAO_0000118>
+        <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:comment>The extent of a &apos;cultured cell population&apos; is restricted only in that all cell members must share a propagation history (ie be derived through a common lineage of passages from an initial culture). In being defined in this way, this class can be used to refer to the populations that researchers actually use in the practice of science - ie are the inputs to culturing, experimentation, and sharing. The cells in such populations will be a relatively uniform population as they have experienced similar selective pressures due to their continuous co-propagation. And this population will also have a single passage number, again owing to their common passaging history. Cultured cell populations represent only a collection of cells (ie do not include media, culture dishes, etc), and include populations of cultured unicellular organisms or cultured multicellular organism cells. They can exist under active culture, stored in a quiescent state for future use, or applied experimentally.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>cultured cell population</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000002">

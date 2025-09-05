@@ -309,6 +309,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000057">
@@ -400,6 +408,14 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000232">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000233">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
     </owl:Class>
     
@@ -605,7 +621,24 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050687">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <oboInOwl:created_by>snadendla</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-13T03:28:50Z</oboInOwl:creation_date>

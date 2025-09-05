@@ -6,6 +6,7 @@
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:pav="http://purl.org/pav/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -32,40 +33,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
-        <obo:IAO_0000111 xml:lang="en">BFO OWL specification label</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label>BFO OWL specification label</rdfs:label>
-        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
-        <obo:IAO_0000111 xml:lang="en">BFO CLIF specification label</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
-        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label>BFO CLIF specification label</rdfs:label>
-        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
         <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
-        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
-        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
@@ -120,9 +92,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
@@ -185,7 +155,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <oboInOwl:hasDbXref>IAO:0000116</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>editor_note</oboInOwl:id>
@@ -205,7 +174,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -218,17 +186,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">alternative label</rdfs:label>
         <rdfs:label>alternative term</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
@@ -240,11 +203,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
@@ -276,15 +237,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
-        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -327,47 +280,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
-        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>has associated axiom(nl)</rdfs:label>
-        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
-        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>has associated axiom(fol)</rdfs:label>
-        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
-        <obo:IAO_0000111 xml:lang="en">has axiom id</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000600 xml:lang="en">A URI that is intended to be unique label for an axiom used for tracking change to the ontology. For an axiom expressed in different languages, each expression is given the same URI</obo:IAO_0000600>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">has axiom label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
@@ -379,12 +291,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
-        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">An alternative term used by the IEDB.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>IEDB alternative term</rdfs:label>
     </owl:AnnotationProperty>
@@ -493,7 +400,6 @@ WHERE {
   ?x mutually_spatially_disjoint_with: ?y .
 }</obo:OMO_0002000>
         <oboInOwl:hasDbXref>RO:0002171</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>mutually_spatially_disjoint_with</oboInOwl:id>
         <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
@@ -848,7 +754,6 @@ WHERE {
         <oboInOwl:shorthand>dc-contributor</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en-us">An entity responsible for making contributions to the
          content of the resource.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Contributor</rdfs:label>
         <rdfs:label xml:lang="en-us">Contributor</rdfs:label>
@@ -922,7 +827,6 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
         <oboInOwl:hasDbXref>http://purl.org/dc/terms/contributor</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dc-contributor</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>dc-contributor</oboInOwl:shorthand>
@@ -936,7 +840,6 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date">
         <oboInOwl:hasDbXref>http://purl.org/dc/terms/date</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>dcterms-date</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>dcterms-date</oboInOwl:shorthand>
@@ -958,6 +861,14 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/licence">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/pav/authoredBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/pav/authoredBy">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/pav.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -1333,7 +1244,6 @@ WHERE {
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <obo:IAO_0000111>label</obo:IAO_0000111>
         <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema.owl"/>
         <rdfs:label>label</rdfs:label>
@@ -1355,7 +1265,6 @@ WHERE {
         <oboInOwl:hasDbXref rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
         <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>seeAlso</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>seeAlso</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
@@ -1417,7 +1326,6 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction">
         <oboInOwl:hasDbXref>http://xmlns.com/foaf/0.1/depiction</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>depiction</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>depiction</oboInOwl:shorthand>
@@ -1431,14 +1339,6 @@ WHERE {
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page">
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1.owl"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- https://w3id.org/sssom/author_id -->
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/sssom/author_id">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/sssom/author.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -1587,7 +1487,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/BFO"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1596,7 +1495,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasDbXref>BFO:0000051</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>has_part</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension"/>
@@ -1686,7 +1584,6 @@ in CLO, this is a short cut relation that represents:
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000111>derives from</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">derives from</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">this cell derives from this parent cell (cell division)</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this nucleus derives from this parent nucleus (nuclear division)</obo:IAO_0000112>
@@ -28487,12 +28384,6 @@ in CLO, this is a short cut relation that represents:
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A precursor cell with a limited number of potential fates.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SANBI:mhl</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>OBSOLETE. A precursor cell with a limited number of potential fates.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SANBI:mhl</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -28522,7 +28413,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref>ZFA:0009026</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules.</rdfs:comment>
         <rdfs:comment>A connective-tissue cell of mesenchymal origin that secretes proteins and especially molecular collagen from which the extracellular fibrillar matrix of connective tissue forms.</rdfs:comment>
@@ -28663,7 +28553,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref>ZFA:0009044</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>blood cell</rdfs:label>
         <skos:prefLabel>blood cell</skos:prefLabel>
@@ -28707,7 +28596,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasRelatedSynonym>immature T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>T cell</rdfs:label>
@@ -28845,7 +28733,6 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
 (This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0001433</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009064</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
@@ -28956,12 +28843,10 @@ Despite their overarching function in the support and protection of neurons, gli
         <oboInOwl:hasDbXref>FBbt:00005144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:54536</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009073</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000125</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>neuroglial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>neuroglia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Not all glial cells develop from glioblasts, with microglia developing from the mesoderm instead. See https://github.com/obophenotype/cell-ontology/issues/1571</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -29141,7 +29026,6 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <oboInOwl:hasDbXref>MESH:D008544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>VHOG:0001679</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009091</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000148</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>melanophore</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
@@ -29230,7 +29114,6 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <oboInOwl:hasExactSynonym>endocrinocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>endocrine cell</rdfs:label>
@@ -29269,7 +29152,6 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <oboInOwl:hasDbXref>FMA:62930</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D019858</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009097</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000164</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -29320,6 +29202,12 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that secretes insulin and is located towards the center of the islets of Langerhans.</obo:IAO_0000115>
@@ -29450,7 +29338,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>CALOHA:TS-0454</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:14515</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009111</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000182</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
@@ -29781,7 +29668,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -29833,7 +29719,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.</rdfs:comment>
         <rdfs:comment>Immunologically important lymphocyte that is not thymus-dependent, is either short-lived and naive or long-lived and of memory phenotype, and resembles the bursa-derived lymphocyte of birds in that it is responsible for the production of immunoglobulins.</rdfs:comment>
@@ -29950,7 +29835,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasRelatedSynonym>interdigitating cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>veiled cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>dendritic cell</rdfs:label>
@@ -30010,7 +29894,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>nerve cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30109,7 +29992,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30177,7 +30059,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>NK cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>natural killer cell</rdfs:label>
@@ -30943,7 +30824,6 @@ The balance between cell proliferation and differentiation in embryonic cells is
         <oboInOwl:hasDbXref>FMA:82841</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0007028</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0007089</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0002321</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>embryonic cell (metazoa)</rdfs:label>
@@ -31017,7 +30897,6 @@ After the initiation of neurulation (the formation of the neural tube) neural cr
 Disorders or aberrations in the development or migration of the neural crest cells can lead to serious congenital malformations, such as neurocristopathies, including Hirschsprung disease, neuroblastoma, and neurofibromatosis.
 
 (This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
-        <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0011012</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -31294,7 +31173,24 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <!-- http://purl.obolibrary.org/obo/DOID_0050687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050687">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -38009,7 +37905,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym>brown rat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rats</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Mus norvegicus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>NCBITaxon:10116</oboInOwl:id>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -38063,7 +37958,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym>bantam</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>chicken</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>chickens</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Gallus gallus domesticus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Phasianus gallus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>NCBITaxon:9031</oboInOwl:id>
@@ -38115,7 +38009,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Tasmanian devil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Sarcophilus laniarius</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sarcophilus laniarius (Owen, 1838)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ursinus harrisii</oboInOwl:hasRelatedSynonym>
@@ -38194,7 +38087,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>human</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>NCBITaxon:9606</oboInOwl:id>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>Homo sapiens</rdfs:label>
@@ -38219,6 +38111,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <obo:IAO_0000117>PERSON:Matthew Brush</obo:IAO_0000117>
         <obo:IAO_0000118>immune cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">cultured immune cell population</rdfs:label>
     </owl:Class>
     
@@ -38251,17 +38144,26 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0100060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100060">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111>cultured cell population</obo:IAO_0000111>
         <obo:IAO_0000112>A cultured cell population applied in an experiment: &quot;293 cells expressing TrkA were serum-starved for 18 hours and then neurotrophins were added for 10 min before cell harvest.&quot;  (Lee, Ramee, et al. &quot;Regulation of cell survival by secreted proneurotrophins.&quot; Science 294.5548 (2001): 1945-1948).
 
 A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 15 day embryos are grown in dissociated cell culture and maintained in vitro for 8–12 weeks&quot; (Dichter, Marc A. &quot;Rat cortical neurons in cell culture: culture methods, cell morphology, electrophysiology, and synapse formation.&quot; Brain Research 149.2 (1978): 279-293).</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">2013-6-5 MHB: This OBI class was formerly called &apos;cell culture&apos;, but label changed and definition updated following CLO alignment efforts in spring 2013, during which the intent of this class was clarified to refer to portions of a culture or line rather than a complete cell culture or line.</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON:Matthew Brush</obo:IAO_0000117>
         <obo:IAO_0000118>cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:comment>The extent of a &apos;cultured cell population&apos; is restricted only in that all cell members must share a propagation history (ie be derived through a common lineage of passages from an initial culture). In being defined in this way, this class can be used to refer to the populations that researchers actually use in the practice of science - ie are the inputs to culturing, experimentation, and sharing. The cells in such populations will be a relatively uniform population as they have experienced similar selective pressures due to their continuous co-propagation. And this population will also have a single passage number, again owing to their common passaging history. Cultured cell populations represent only a collection of cells (ie do not include media, culture dishes, etc), and include populations of cultured unicellular organisms or cultured multicellular organism cells. They can exist under active culture, stored in a quiescent state for future use, or applied experimentally.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>cultured cell population</rdfs:label>
     </owl:Class>
     
@@ -38284,6 +38186,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000118>BAL</obo:IAO_0000118>
         <obo:IAO_0000119>GROUP: IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>bronchial alveolar lavage</rdfs:label>
     </owl:Class>
     
@@ -38293,11 +38196,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111>lymph node cell specimen</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 xml:lang="en">A cell specimen comprised of a mixed population of cells obtained by processing whole lymph node into individual cells, typically performed using a sieve. This population includes T cells, B cells, macrophages, and other cell types.</obo:IAO_0000115>
         <obo:IAO_0000117>IEDB</obo:IAO_0000117>
         <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>lymph node cell specimen</rdfs:label>
     </owl:Class>
     
@@ -38316,6 +38226,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000118>adherent cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">cultured adherent cell population</rdfs:label>
     </owl:Class>
     
@@ -38331,6 +38242,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000118>CD4- T cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">cultured CD4- T cell population</rdfs:label>
     </owl:Class>
     
@@ -38346,6 +38258,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000118>CD8- T cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">cultured CD8- T cell population</rdfs:label>
     </owl:Class>
     
@@ -38362,6 +38275,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000118>CD4-/CD8- T cell culture sample</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">cultured CD4-/CD8- T cell population</rdfs:label>
     </owl:Class>
     
@@ -38378,7 +38292,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>uterine cervix</obo:IAO_0000111>
         <obo:IAO_0000115>Lower, narrow portion of the uterus where it joins with the top end of the vagina.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -38571,7 +38484,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>pituitary gland</obo:IAO_0000111>
         <obo:IAO_0000115>The pituitary gland is an endocrine gland that secretes hormones that regulate many other glands [GO]. An endocrine gland located ventral to the diencephalon and derived from mixed neuroectodermal and non neuroectodermal origin [ZFIN].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -38741,7 +38653,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>peripheral nervous system</obo:IAO_0000111>
         <obo:IAO_0000115>A major division of the nervous system that contains nerves which connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -38994,6 +38905,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0935626"/>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/244485009"/>
         <oboInOwl:hasDbXref>AEO:0000094</oboInOwl:hasDbXref>
@@ -39167,7 +39079,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>lymph node</obo:IAO_0000111>
         <obo:IAO_0000115>Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8570"/>
@@ -39568,7 +39479,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:UBPROP_0000012>MA:0000434 has subclasses upper and lower, so it corresponds to a segment of the tract, rather than the tract as a whole</obo:UBPROP_0000012>
         <oboInOwl:hasDbXref>FMA:45660</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MA:0000434</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>respiratory tract</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>subdivision of respiratory tract</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000072</oboInOwl:id>
@@ -39669,7 +39579,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>excreted substance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>portion of excreted substance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>waste substance</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>excretion</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000174</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -39733,9 +39642,9 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000175"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>MESH:D010996</owl:annotatedTarget>
-        <sssom:author_id rdf:resource="https://orcid.org/0000-0001-9439-5346"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0001-9439-5346"/>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
-        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+        <sssom:mapping_provider rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
     </owl:Axiom>
     
 
@@ -39757,7 +39666,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>blood</obo:IAO_0000111>
         <obo:IAO_0000115>A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000232>This class excludes blood analogues, such as the insect analog of blood. See UBERON:0000179 haemolymphatic fluid.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -39769,6 +39677,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:UBPROP_0000003>Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]</obo:UBPROP_0000003>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
         <dc:contributor rdf:resource="https://github.com/tmeehan"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blood"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005767"/>
         <oboInOwl:hasDbXref>AAO:0000046</oboInOwl:hasDbXref>
@@ -39909,7 +39819,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>breast</obo:IAO_0000111>
         <obo:IAO_0000115>The upper ventral region of the torso of an organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000008>The breasts of a female primate&apos;s body contain the mammary glands, which secrete milk used to feed infants. Both men and women develop breasts from the same embryological tissues. However, at puberty female sex hormones, mainly estrogens, promote breast development, which does not happen with men. As a result women&apos;s breasts become more prominent than men&apos;s.</obo:UBPROP_0000008>
@@ -40134,7 +40043,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>bodily secretion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>exocrine gland fluid/secretion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>secreted substance</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>exocrine gland fluid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>exocrine gland fluid or secretion</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>exocrine gland secretion</oboInOwl:hasRelatedSynonym>
@@ -40194,7 +40102,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-        <obo:IAO_0000111>organism substance</obo:IAO_0000111>
         <obo:IAO_0000115>Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -40288,7 +40195,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000473">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000991"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000992"/>
-        <obo:IAO_0000111>testis</obo:IAO_0000111>
         <obo:IAO_0000115>A gonad of a male animal. A gonad produces and releases sperm.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -40454,7 +40360,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>tissue</obo:IAO_0000111>
         <obo:IAO_0000115>Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.</obo:IAO_0000115>
         <obo:IAO_0000116>changed label and definition to reflect CARO2</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -40759,9 +40664,9 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>IDOMAL:0000646</owl:annotatedTarget>
-        <sssom:author_id rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
-        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+        <sssom:mapping_provider rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
@@ -40801,7 +40706,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005409"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>stomach</obo:IAO_0000111>
         <obo:IAO_0000115>An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -40958,7 +40862,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>aorta</obo:IAO_0000111>
         <obo:IAO_0000115>The main trunk of the systemic arterial system that carries blood from the heart to all the organs and other structures of the body, bringing oxygenated blood to all parts of the body in the systemic circulation.</obo:IAO_0000115>
         <obo:IAO_0000116>This class is currently a mixed bag, encompassing (1) the entirety of the mammalian aorta together with (2) the developmental and phylogenetic homologs of its segments: the ventral aorta and dorsal aortae.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -41102,7 +41005,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>heart</obo:IAO_0000111>
         <obo:IAO_0000115>A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -41259,7 +41161,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>galen:Gracilis</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>gracilis muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>musculus gracilis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0000950</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -41313,7 +41214,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>brain</obo:IAO_0000111>
         <obo:IAO_0000115>The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].</obo:IAO_0000115>
         <obo:IAO_0000116>requires review for applicability to invertebrate structures, e.g. synganglion</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -41324,6 +41224,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:UBPROP_0000001>The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)</obo:UBPROP_0000001>
         <obo:UBPROP_0000003>(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <oboInOwl:hasDbXref rdf:resource="http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"/>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Brain"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006104"/>
@@ -41504,7 +41405,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>eye</obo:IAO_0000111>
         <obo:IAO_0000115>An organ that detects light.</obo:IAO_0000115>
         <obo:IAO_0000232>This class encompasses a variety of light-detecting structures from different phyla with no implication of homology, from the compound insect eye to the vertebrate camera-type eye (distinct classes are provided for each)</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -41711,7 +41611,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>galen:Tibia</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>shankbone</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>shinbone</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0000979</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
@@ -41827,7 +41726,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>neuronames:547</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>pons Varolii</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pons of Varolius</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>pons cerebri</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000988</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
@@ -42036,7 +41934,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000991"/>
-        <obo:IAO_0000111>ovary</obo:IAO_0000111>
         <obo:IAO_0000115>The gonad of a female organism which contains germ cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -42336,7 +42233,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>uterus</obo:IAO_0000111>
         <obo:IAO_0000115>The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -42439,7 +42335,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>adipose tissue</obo:IAO_0000111>
         <obo:IAO_0000115>Portion of connective tissue composed of adipocytes enmeshed in areolar tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -43177,7 +43072,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>Wikipedia:Hypopharynx</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>laryngeal pharynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>laryngopharynx</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>pars laryngea pharyngis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0001051</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
@@ -43256,7 +43150,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>rectum</obo:IAO_0000111>
         <obo:IAO_0000115>The terminal portion of the intestinal tube, terminating with the anus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -43347,7 +43240,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
-        <obo:IAO_0000111>urine</obo:IAO_0000111>
         <obo:IAO_0000115>Excretion that is the output of a kidney.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -43403,7 +43295,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007794"/>
-        <obo:IAO_0000111>synovial fluid</obo:IAO_0000111>
         <obo:IAO_0000115>Joint fluid is a transudate of plasma that is actively secreted by synovial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -43633,7 +43524,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>colon</obo:IAO_0000111>
         <obo:IAO_0000115>A portion of the large intestine before it becomes the rectum. In mammals, the colon is the most part of the large intestine, excluding the vermiform appendix, the rectum and the anal canal.</obo:IAO_0000115>
         <obo:IAO_0000116>Some references do not consider the caecum to be part of the colon.</obo:IAO_0000116>
         <obo:IAO_0000116>TODO - abstract this such that it legitimately covers all vertebrates</obo:IAO_0000116>
@@ -43752,7 +43642,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>urinary bladder</obo:IAO_0000111>
         <obo:IAO_0000115>Distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -43903,7 +43792,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000164"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>pancreas</obo:IAO_0000111>
         <obo:IAO_0000115>An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].</obo:IAO_0000115>
         <obo:IAO_0000115>An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -44017,9 +43905,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007794"/>
-        <obo:IAO_0000111>peritoneal fluid</obo:IAO_0000111>
         <obo:IAO_0000115>Transudate contained in the peritoneal cavity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>BTO:0001031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EMAPA:35683</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:16515</oboInOwl:hasDbXref>
@@ -44027,7 +43913,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>MESH:D001202</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Peritoneal_fluid</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ncithesaurus:Peritoneal_Fluid</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0001268</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -44047,7 +43932,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>MESH:D001202</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/LexicalMatching"/>
-        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+        <sssom:mapping_provider rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
     </owl:Axiom>
     
 
@@ -44065,7 +43950,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>pelvic muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pelvis muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pelvis muscle organ</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0001325</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -44111,10 +43995,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007779"/>
-        <obo:IAO_0000111>cerebrospinal fluid</obo:IAO_0000111>
         <obo:IAO_0000115>A clear, colorless, bodily fluid, that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord.</obo:IAO_0000115>
         <obo:IAO_0000116>many sources state the CP as sole producer of CSF, but this is disputed [DOI:10.1007/s11064-015-1581-6]</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>Portion of organism substance that is a clear fluid that occupies the subarachnoid space and the ventricular system around and inside the brain.[TAO]</obo:UBPROP_0000001>
         <obo:UBPROP_0000003>In vertebrates, at early stages of Central Nervous System (CNS) development, the architecture of the brain primordium reveals the presence of the cavity of brain vesicles, which is filled by Embryonic Cerebro-Spinal Fluid (E-CSF). (...) Rat and chick E-CSF proteomes are similar, although rat is more complex in certain groups of proteins, e.g., apolipoproteins, which may be involved in the control of neural diversity, and has soluble enzymes present, just like adult human CSF, but unlike chick E-CSF, revealing phylogenetic brain differences between these groups of vertebrates.[uncertain][VHOG]</obo:UBPROP_0000003>
         <obo:UBPROP_0000012>EHDAA2 models this as developing from CP, which is wrong</obo:UBPROP_0000012>
@@ -44139,7 +44021,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>ZFA:0001626</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>CSF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cerebral spinal fluid</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>liquor cerebrospinalis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>spinal fluid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0001359</oboInOwl:id>
@@ -44396,7 +44277,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>VHOG:0001026</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Casserio&apos;s muscle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>brachialis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>brachialis anticus muscle</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>musculus brachialis</oboInOwl:hasRelatedSynonym>
@@ -44521,7 +44401,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034944"/>
         <oboInOwl:hasDbXref>FMA:45733</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>organ neck</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0001560</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -44639,7 +44518,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004921"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>tongue</obo:IAO_0000111>
         <obo:IAO_0000115>A muscular organ in the floor of the mouth.</obo:IAO_0000115>
         <obo:IAO_0000116>in MA the tongue is part of the oral region, which in uberon is treated as the oral opening. consider revising oral opening - oral region equivalence.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -44698,6 +44576,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:label>tongue</rdfs:label>
         <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/a/a6/Tongue.agr.jpg</foaf:depicted_by>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/a/a6/Tongue.agr.jpg</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001723"/>
@@ -44794,7 +44674,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>Wikipedia:Nasopharynx</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>nasal part of pharynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rhinopharynx</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Nasenrachenraum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epipharynx</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pars nasalis pharyngis</oboInOwl:hasRelatedSynonym>
@@ -44869,9 +44748,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005409"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>oropharynx</obo:IAO_0000111>
         <obo:IAO_0000115>The portion of the pharynx that lies between the soft palate and the upper edge of the epiglottis.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>One of the three anatomic divisions of the pharynx that lies posterior to the mouth and is continuous above with the nasopharynx and below with the laryngopharynx. It extends behind the mouth from the soft palate above to the level of the hyoid bone below and contains the palatine and lingual tonsils. [TFD][VHOG]</obo:UBPROP_0000001>
         <obo:UBPROP_0000007>oropharyngeal</obo:UBPROP_0000007>
         <oboInOwl:hasDbXref>BTO:0005257</oboInOwl:hasDbXref>
@@ -44893,7 +44770,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>Wikipedia:Oropharynx</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>XAO:0004048</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>oral part of pharynx</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>mesopharynx</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pars oralis pharyngis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0001729</oboInOwl:id>
@@ -44996,6 +44872,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label>soft palate</rdfs:label>
         <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/8/81/Tonsils_diagram.jpg</foaf:depicted_by>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb</foaf:depiction>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/8/81/Tonsils_diagram.jpg</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
@@ -45411,6 +45289,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label>gingiva</rdfs:label>
         <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/2/2e/Tooth_Section.svg</foaf:depicted_by>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb</foaf:depiction>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/2/2e/Tooth_Section.svg</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
@@ -45445,9 +45325,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001836">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000456"/>
-        <obo:IAO_0000111>saliva</obo:IAO_0000111>
         <obo:IAO_0000115>A fluid produced in the oral cavity by salivary glands, typically used in predigestion, but also in other functions.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000007>salivary</obo:UBPROP_0000007>
         <obo:UBPROP_0000008>We classify a wide variety of not necessarily homologous fluids here. In humans, the saliva is a turbid and slightly viscous fluid, generally of an alkaline reaction, and is secreted by the parotid, submaxillary, and sublingual glands. In the mouth the saliva is mixed with the secretion from the buccal glands. In man and many animals, saliva is an important digestive fluid on account of the presence of the peculiar enzyme, ptyalin</obo:UBPROP_0000008>
         <oboInOwl:hasDbXref>BTO:0001202</oboInOwl:hasDbXref>
@@ -45464,7 +45342,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>Wikipedia:Saliva</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>galen:Saliva</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>salivary gland secretion</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>sailva normalis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>saliva atomaris</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>saliva molecularis</oboInOwl:hasRelatedSynonym>
@@ -45701,7 +45578,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>mucosa-associated lymphoid tissue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mucosal-associated lymphatic tissue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mucosal-associated lymphoid tissue</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0001961</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -45914,7 +45790,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001987">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005156"/>
-        <obo:IAO_0000111>placenta</obo:IAO_0000111>
         <obo:IAO_0000115>Organ of metabolic interchange between fetus and mother, partly of embryonic origin and partly of maternal origin[GO]. The fetal portion of the placenta is known as the villous chorion. The maternal portion is known as the decidua basalis. The two portions are held together by anchoring villi that are anchored to the decidua basalis by the cytotrophoblastic shell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -46002,9 +45877,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001988">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000174"/>
-        <obo:IAO_0000111>feces</obo:IAO_0000111>
         <obo:IAO_0000115>Portion of semisolid bodily waste discharged through the anus[MW,modified].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>Excretion in semisolid state processed by the intestine.[FMA]</obo:UBPROP_0000001>
         <obo:UBPROP_0000007>fecal</obo:UBPROP_0000007>
         <oboInOwl:hasBroadSynonym>excreta</oboInOwl:hasBroadSynonym>
@@ -46043,7 +45916,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasNarrowSynonym>portion of scat</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>scat</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>spraint</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>droppings</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>excrement</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ordure</oboInOwl:hasRelatedSynonym>
@@ -46166,7 +46038,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>cerebellum</obo:IAO_0000111>
         <obo:IAO_0000115>Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem. It is concerned with the coordination of movement[MESH]. A large dorsally projecting part of the brain concerned especially with the coordination of muscles and the maintenance of bodily equilibrium, situated between the brain stem and the back of the cerebrum , and formed in humans of two lateral lobes and a median lobe[BTO]. Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance[ZFA].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -46375,7 +46246,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002368"/>
-        <obo:IAO_0000111>thyroid gland</obo:IAO_0000111>
         <obo:IAO_0000115>A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin[BTO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>Either of paired structures located in the throat which develop from the ventral wall of the pharynx and excretes hormones involved in the morphological and functional changes during metamorphosis as well as influencing other tissues.[AAO]</obo:UBPROP_0000001>
@@ -46524,7 +46394,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>lung</obo:IAO_0000111>
         <obo:IAO_0000115>Respiration organ that develops as an outpocketing of the esophagus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -46746,7 +46615,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>MESH:D040521</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/LexicalMatching"/>
-        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+        <sssom:mapping_provider rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002072"/>
@@ -46908,7 +46777,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>skin of body</obo:IAO_0000111>
         <obo:IAO_0000115>The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
         <obo:IAO_0000232>consider &apos;integumentary system&apos; for invertebrates</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -46956,8 +46824,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:label>skin of body</rdfs:label>
         <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depicted_by>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-female/v1.4/assets/3d-vh-f-skin.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-male/v1.3/assets/3d-vh-m-skin.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-female/v1.5/assets/3d-vh-f-skin.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-male/v1.4/assets/3d-vh-m-skin.glb</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
@@ -46987,7 +46855,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017672"/>
-        <obo:IAO_0000111>spleen</obo:IAO_0000111>
         <obo:IAO_0000115>The organ that functions to filter blood and to store red corpuscles and platelets.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -47114,7 +46981,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>liver</obo:IAO_0000111>
         <obo:IAO_0000115>An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -48014,7 +47880,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
-        <obo:IAO_0000111>prostate gland</obo:IAO_0000111>
         <obo:IAO_0000115>The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.</obo:IAO_0000115>
         <obo:IAO_0000116>TODO - FMA treats the gland as part of the prostate - see also FMA:74119.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -48208,7 +48073,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>adrenal gland</obo:IAO_0000111>
         <obo:IAO_0000115>Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine[BTO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001>Anatomical structure which is found on the surface of the kidney and secretes various hormones including epinephrine, norephinephrine, aldosterone, corticosterone, and cortisol.[AAO]</obo:UBPROP_0000001>
@@ -48520,7 +48384,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>bone marrow</obo:IAO_0000111>
         <obo:IAO_0000115>The soft tissue that fills the cavities of bones.</obo:IAO_0000115>
         <obo:IAO_0000116>TODO - create superclass for bone marrow / head kidney. both are portions of tissue in the hematopoetic system. also consider adding as subclass of zone of bone organ for consistency with FMA. See also: Leydig and epigonal organs</obo:IAO_0000116>
         <obo:IAO_0000116>consider placement of NCIT:C53466 medullary bone</obo:IAO_0000116>
@@ -48727,6 +48590,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:UBPROP_0000012>MA also has set of connective tissues</obo:UBPROP_0000012>
         <dc:contributor rdf:resource="https://github.com/cmungall"/>
         <dc:contributor rdf:resource="https://github.com/wdahdul"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3162-7490"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0009780"/>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/361919005"/>
         <oboInOwl:hasDbXref>AAO:0000098</oboInOwl:hasDbXref>
@@ -49053,7 +48918,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>bone of extremity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bone of limb</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>free limb bone</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0002428</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -49199,8 +49063,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002495">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
         <obo:IAO_0000115>A long bone is a bone that has a shaft and 2 ends and is longer than it is wide. Long bones have a thick outside layer of compact bone and an inner medullary cavity containing bone marrow.  The ends of a long bone contain spongy bone and an epiphyseal plate or line depending on the stage of development. The epiphyseal plate is a hyaline cartilage, where new bone growth takes place, lengthening the bone prior to adulthood. Bone lengthening ceases when this cartilage is lost, leaving a remnant referred to as an epiphyseal line.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://github.com/cmungall"/>
-        <dc:contributor rdf:resource="https://github.com/wdahdul"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3162-7490"/>
         <oboInOwl:hasDbXref>BTO:0004256</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EMAPA:35503</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:7474</oboInOwl:hasDbXref>
@@ -49210,7 +49074,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>UMLS:C0222647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Long_bone</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>galen:LongBone</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>os longum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0002495</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -49407,7 +49270,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>trachea</obo:IAO_0000111>
         <obo:IAO_0000115>The trachea is the portion of the airway that attaches to the bronchi as it branches [GO:dph].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -49624,7 +49486,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>hind limb bone</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hind limb bone organ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hindlimb bone organ</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0003464</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -49723,7 +49584,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>limb muscle organ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>limb skeletal muscle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>muscle organ of limb</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0003661</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -49900,7 +49760,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>oral mucous membrane</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>oral part of viscerocranial mucosa</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tunica mucosa oris</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>buccal mucosa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mucosal lining of mouth</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>oral mucosa</oboInOwl:hasRelatedSynonym>
@@ -50017,7 +49876,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>reproductive gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>reproductive system gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>sex gland</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0003937</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -50036,9 +49894,9 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>BTO:0006162</owl:annotatedTarget>
-        <sssom:author_id rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <pav:authoredBy rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
-        <sssom:mapping_provider>https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
+        <sssom:mapping_provider rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/biopragmatics/biomappings</sssom:mapping_provider>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003937"/>
@@ -50674,31 +50532,9 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#non_informative"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#non_informative"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label>thoracic cavity element</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005178"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An organ or element that is in the thoracic cavity. Examples: lung, heart, longus colli.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005178"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>EMAPA:37273</owl:annotatedTarget>
-        <oboInOwl:source>MA:th</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005178"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>thoracic cavity organ</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MA:0000557</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -50883,7 +50719,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <obo:IAO_0000111>bodily fluid</obo:IAO_0000111>
         <obo:IAO_0000115>Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -50946,7 +50781,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>NCIT:C12505</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SCTID:16811007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C1578559</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0006956</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -50954,6 +50788,8 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label>buccal mucosa</rdfs:label>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006956"/>
@@ -51010,7 +50846,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>Wikipedia:Serous_fluid</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>serosal fluid</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>serous gland fluid</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0007794</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -51047,7 +50882,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GAID:1175</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001202</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>ascites</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ascites fluid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0007795</oboInOwl:id>
@@ -51196,7 +51030,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>XAO:0004017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0005620</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>endochondral replacement element</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0010363</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -51229,7 +51062,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000115>A bone that is part of an appendage girdle complex (i.e. any bone in a limb, fin or girdle).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EMAPA:35494</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MA:0000688</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>bone of extended limb/fin region</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>limb bone</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0010740</oboInOwl:id>
@@ -51276,7 +51108,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasExactSynonym>pelvic girdle and hind limb muscles</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>pelvic girdle or hind limb muscle</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>pelvic girdle or posterior limb muscle</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>lower limb muscle</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>muscle of lower limb</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>muscle of pelvic girdle and leg</oboInOwl:hasRelatedSynonym>
@@ -51395,15 +51226,12 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000111>umbilical cord blood</obo:IAO_0000111>
         <obo:IAO_0000115>Blood that remains in the placenta and in the attached umbilical cord after childbirth[WP].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>BTO:0004053</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-1079</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EFO:0001942</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D005312</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Cord_blood</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>cord blood</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>fetal blood</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>umbilical cord blood</oboInOwl:hasRelatedSynonym>
@@ -51540,7 +51368,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <oboInOwl:hasDbXref>VHOG:0000319</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>XAO:0000174</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0005277</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0014892</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
@@ -51563,7 +51390,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
         <obo:IAO_0000115>A hindlimb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>hindlimb bone skeletal element</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0015022</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -51592,7 +51418,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000115>A limb bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>limb bone skeletal element</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>limb bone endochondral element</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:id>UBERON:0015061</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
@@ -52064,8 +51889,43 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <obo:IAO_0000111 xml:lang="en">BFO OWL specification label</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label>BFO OWL specification label</rdfs:label>
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <obo:IAO_0000111 xml:lang="en">BFO CLIF specification label</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
+        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label>BFO CLIF specification label</rdfs:label>
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>has associated axiom(nl)</rdfs:label>
+        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>has associated axiom(fol)</rdfs:label>
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
     </rdf:Description>
     
 

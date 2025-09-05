@@ -262,6 +262,14 @@ NCBITaxon:9606	is_manufactured_by	import
 NCBITaxon:9989	Rodentia	ignore		
 OBI:0000047	processed material	ignore		
 OBI:0100026	organism	import		
+OBI:0100060	cultured cell population	import		
+OBI:0100067	bronchial alveolar lavage	import		
+OBI:1110041	lymph node cell specimen	import		
+OBI:1110043	cultured adherent cell population	import		
+OBI:1110050	cultured CD4- T cell population	import		
+OBI:1110051	cultured CD8- T cell population	import		
+OBI:1110052	cultured CD4-/CD8- T cell population	import		
+OBI:9991118	IEDB alternative term	import		
 RO:0001000	derives from	relate		
 UBERON:0000002	uterine cervix	import		
 UBERON:0000007	pituitary gland	import		
