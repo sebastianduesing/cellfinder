@@ -138,8 +138,10 @@ DOID:0080323	pancreatic squamous cell carcinoma	import
 DOID:0080525	differentiated high-grade thyroid carcinoma	import		
 DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
 DOID:0080780	acute erythroid leukemia	import		
+DOID:0081312	T-cell non-Hodgkin lymphoma	import		
 DOID:10286	prostate carcinoma	import		
 DOID:1035	aggressive NK-cell leukemia	import		
+DOID:1115	sarcoma	import		
 DOID:1240	leukemia	import		
 DOID:1485	cystic fibrosis	import		
 DOID:1520	colon carcinoma	import		
