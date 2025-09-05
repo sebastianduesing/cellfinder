@@ -368,6 +368,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
@@ -941,7 +949,15 @@ WHERE {
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/licence">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -957,6 +973,14 @@ WHERE {
     <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
         <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
         <rdfs:label>definition_citation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
+        <rdfs:isDefinedBy rdf:resource="http://www.geneontology.org/formats/oboinowl.owl"/>
     </owl:AnnotationProperty>
     
 
@@ -1342,6 +1366,14 @@ WHERE {
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
@@ -1355,6 +1387,14 @@ WHERE {
         <owl:annotatedTarget>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core.owl"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -28182,6 +28222,7 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label>cell</rdfs:label>
         <rdfs:label>cell type</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000324</rdfs:seeAlso>
+        <skos:prefLabel>cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
@@ -28209,8 +28250,11 @@ in CLO, this is a short cut relation that represents:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>A cell that is found in a natural setting, which includes multicellular organism cells &apos;in vivo&apos; (i.e. part of an organism), and unicellular organisms &apos;in environment&apos; (i.e. part of a natural environment).</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE. A cell that is found in a natural setting, which includes multicellular organism cells &apos;in vivo&apos; (i.e. part of an organism), and unicellular organisms &apos;in environment&apos; (i.e. part of a natural environment).</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/cell-ontology/issues/2124"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <oboInOwl:hasDbXref>CARO:0000013</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>cell in vivo</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
@@ -28219,7 +28263,15 @@ in CLO, this is a short cut relation that represents:
         <rdfs:comment>To accommodate unicellular organisms better, &apos;cell in vivo&apos; has been re-labeled &apos;native cell&apos; to better represent its intended meaning - that is, that it is a cell in the context of a multicellular organism or in a natural environment. &apos;Native&apos; is intended to contrast with &apos;in vitro&apos;, which refers to cells or other biological entities that have been intentionally placed in a controlled, non-natural setting for the purpose of study or manipulation. (MAH 1.12.12).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>native cell</rdfs:label>
+        <rdfs:label>obsolete native cell</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>OBSOLETE. A cell that is found in a natural setting, which includes multicellular organism cells &apos;in vivo&apos; (i.e. part of an organism), and unicellular organisms &apos;in environment&apos; (i.e. part of a natural environment).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CARO:mah</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -28267,8 +28319,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref>ZFA:0009005</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>spermatocyte</rdfs:label>
     </owl:Class>
@@ -28312,8 +28362,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>oogonium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>oocyte</rdfs:label>
     </owl:Class>
@@ -28344,6 +28392,7 @@ in CLO, this is a short cut relation that represents:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A cell that will develop into a neuron often after a migration phase.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -28354,10 +28403,9 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasExactSynonym>neuroblast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>neuroblast (sensu Vertebrata)</rdfs:label>
+        <skos:prefLabel>neuroblast (sensu Vertebrata)</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000031"/>
@@ -28391,12 +28439,11 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>This term applies to metazoan. For plant stem cells, consider using PO:0004011 ‘initial cell’ or its parent PO:0004010 ‘meristematic cell’.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>stem cell</rdfs:label>
+        <skos:prefLabel>stem cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000034"/>
@@ -28419,23 +28466,34 @@ in CLO, this is a short cut relation that represents:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <obo:IAO_0000115>A precursor cell with a limited number of potential fates.</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE. A precursor cell with a limited number of potential fates.</obo:IAO_0000115>
+        <obo:IAO_0000233>https://github.com/obophenotype/cell-ontology/issues/2922</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <oboInOwl:hasDbXref>BTO:0000125</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:84782</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>blast cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <rdfs:comment>Redundant grouping term</rdfs:comment>
         <rdfs:comment>define using PATO mulit-potent or oligopotent?</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>non-terminally differentiated cell</rdfs:label>
+        <rdfs:label>obsolete non-terminally differentiated cell</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:prefLabel>non-terminally differentiated cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A precursor cell with a limited number of potential fates.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SANBI:mhl</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>OBSOLETE. A precursor cell with a limited number of potential fates.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SANBI:mhl</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -28465,8 +28523,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules.</rdfs:comment>
         <rdfs:comment>A connective-tissue cell of mesenchymal origin that secretes proteins and especially molecular collagen from which the extracellular fibrillar matrix of connective tissue forms.</rdfs:comment>
@@ -28476,6 +28532,7 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label>fibroblast</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000496</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#fibroblast</rdfs:seeAlso>
+        <skos:prefLabel>fibroblast</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000057"/>
@@ -28508,8 +28565,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref>ZFA:0009031</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:comment>non-encoded relationships from VSAO - capable_of_producing VSAO:0000020</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>osteoblast</rdfs:label>
@@ -28562,8 +28617,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A cell that is usually found in a two-dimensional sheet with a free surface.</rdfs:comment>
         <rdfs:comment>Cell that cover the surface of the body and line its cavities.</rdfs:comment>
@@ -28572,6 +28625,7 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label>epithelial cell</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000475</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#epithelial_cell</rdfs:seeAlso>
+        <skos:prefLabel>epithelial cell</skos:prefLabel>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Epithelial_cells.svg</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
@@ -28610,10 +28664,9 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>blood cell</rdfs:label>
+        <skos:prefLabel>blood cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
@@ -28655,8 +28708,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>T cell</rdfs:label>
@@ -28696,8 +28747,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasExactSynonym>polymorphonuclear leukocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>granulocyte</rdfs:label>
@@ -28738,8 +28787,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasRelatedSynonym>tissue basophil</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Mast cells are generally integrin beta-7-negative and positive for TLR2, TLR3, TLR4, TLR5, TLR7, TLR9, C3aR, C5aR, CR3, CR4, VEGF, FGF2, and renin. They can express MHC Class I and II on their surface. Activated murine mast cells (IgE+Antigen) were capable of expressing the following co-stimulatory molecules: CD95 (Fas), CD120b, CD137 (4-1BB), CD153 (CD30L), CD154 (CD40L), GITR, ICOSL, OX40L, PD-L1, and PD-L2. Note that there was some mouse strain variation. Mast cells have also been demonstrated to produce bFGF, CCL2, CCL4, CCL5, CCL11, CCL20, CXCL2, CXCL8, CXCL10, GM-CSF, IFN-gamma, IL-1, IL-2, IL-3, IL-8, IL-10, IL-11, IL-12, IL-13, IL-16, IL-25, IL-18, MIP-1, prostaglandin D2, SCF, TGF-beta, TNF-alpha, TSLP, VEGF, and XCL1. They express the transcription factors Transcription factors AP-1, GATA1, MITF, Notch2, PIAS3, PU.1, and STAT5.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -28791,21 +28838,20 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000115>A vertebrate phagocyte with a single nucleus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Mononuclear phagocytes are immune cells that form a critical part of the body&apos;s innate immune system, the body&apos;s first line of defense against infections. Mononuclear phagocytes are characterized by the presence of a single, large nucleus. The ‘Mononuclear Phagocyte System’ nomenclature was introduced to distinguish mononuclear monocytes and macrophages from other cells with multiple nuclei. However, the cells within the mononuclear phagocyte system represent a highly heterogeneous group, all of which are able to perform highly efficient phagocytosis - engulfing and digesting microbes and cellular debris to fight infections and to maintain normal tissue homeostasis. 
+        <terms:description>Mononuclear phagocytes are immune cells that form a critical part of the body&apos;s innate immune system, the body&apos;s first line of defense against infections. Mononuclear phagocytes are characterized by the presence of a single, large nucleus. The ‘Mononuclear Phagocyte System’ nomenclature was introduced to distinguish mononuclear monocytes and macrophages from other cells with multiple nuclei. However, the cells within the mononuclear phagocyte system represent a highly heterogeneous group, all of which are able to perform highly efficient phagocytosis - engulfing and digesting microbes and cellular debris to fight infections and to maintain normal tissue homeostasis. 
 In addition to phagocytosis, mononuclear phagocytes also secrete chemical compounds to recruit other immune cells to a site of infection. These cells produce different types of signaling molecules, including cytokines, chemokines, and reactive oxygen species, triggering a cascade of responses to ensure rapid and efficient containment and neutralization of invading pathogens. These cells are also involved in antigen presentation, a process essential for stimulating an adaptive immune response. They can process and present antigens to T cells, thereby linking the innate and adaptive immune responses.
-Mononuclear phagocytes play key roles in tissue repair and remodeling. After infection or injury, these cells help in the clearance of dead cells and debris, a crucial step in the initiation of tissue remodeling and the resolution of inflammation. Overall, mononuclear phagocytes are versatile cells that have tailored their functions to meet the unique challenges of different tissues within the body. They are pivotal in homeostasis, immunity, and inflammation, making them important aspects in a range of human diseases including infection, autoimmunity, and cancer.</terms:description>
+Mononuclear phagocytes play key roles in tissue repair and remodeling. After infection or injury, these cells help in the clearance of dead cells and debris, a crucial step in the initiation of tissue remodeling and the resolution of inflammation. Overall, mononuclear phagocytes are versatile cells that have tailored their functions to meet the unique challenges of different tissues within the body. They are pivotal in homeostasis, immunity, and inflammation, making them important aspects in a range of human diseases including infection, autoimmunity, and cancer.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0001433</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>mononuclear phagocyte</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000113</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
@@ -28818,11 +28864,11 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Mononuclear phagocytes are immune cells that form a critical part of the body&apos;s innate immune system, the body&apos;s first line of defense against infections. Mononuclear phagocytes are characterized by the presence of a single, large nucleus. The ‘Mononuclear Phagocyte System’ nomenclature was introduced to distinguish mononuclear monocytes and macrophages from other cells with multiple nuclei. However, the cells within the mononuclear phagocyte system represent a highly heterogeneous group, all of which are able to perform highly efficient phagocytosis - engulfing and digesting microbes and cellular debris to fight infections and to maintain normal tissue homeostasis. 
+        <owl:annotatedTarget>Mononuclear phagocytes are immune cells that form a critical part of the body&apos;s innate immune system, the body&apos;s first line of defense against infections. Mononuclear phagocytes are characterized by the presence of a single, large nucleus. The ‘Mononuclear Phagocyte System’ nomenclature was introduced to distinguish mononuclear monocytes and macrophages from other cells with multiple nuclei. However, the cells within the mononuclear phagocyte system represent a highly heterogeneous group, all of which are able to perform highly efficient phagocytosis - engulfing and digesting microbes and cellular debris to fight infections and to maintain normal tissue homeostasis. 
 In addition to phagocytosis, mononuclear phagocytes also secrete chemical compounds to recruit other immune cells to a site of infection. These cells produce different types of signaling molecules, including cytokines, chemokines, and reactive oxygen species, triggering a cascade of responses to ensure rapid and efficient containment and neutralization of invading pathogens. These cells are also involved in antigen presentation, a process essential for stimulating an adaptive immune response. They can process and present antigens to T cells, thereby linking the innate and adaptive immune responses.
-Mononuclear phagocytes play key roles in tissue repair and remodeling. After infection or injury, these cells help in the clearance of dead cells and debris, a crucial step in the initiation of tissue remodeling and the resolution of inflammation. Overall, mononuclear phagocytes are versatile cells that have tailored their functions to meet the unique challenges of different tissues within the body. They are pivotal in homeostasis, immunity, and inflammation, making them important aspects in a range of human diseases including infection, autoimmunity, and cancer.</owl:annotatedTarget>
+Mononuclear phagocytes play key roles in tissue repair and remodeling. After infection or injury, these cells help in the clearance of dead cells and debris, a crucial step in the initiation of tissue remodeling and the resolution of inflammation. Overall, mononuclear phagocytes are versatile cells that have tailored their functions to meet the unique challenges of different tissues within the body. They are pivotal in homeostasis, immunity, and inflammation, making them important aspects in a range of human diseases including infection, autoimmunity, and cancer.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1016/j.coi.2005.11.008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1038/nri3087</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.3389/fimmu.2019.01893</oboInOwl:hasDbXref>
@@ -28832,6 +28878,12 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ZFA:0009064</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0000113</owl:annotatedTarget>
+        <rdfs:label>mononuclear phagocyte on CELLxGENE CellGuide</rdfs:label>
     </owl:Axiom>
     
 
@@ -28855,8 +28907,7 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
         <oboInOwl:hasExactSynonym>endotheliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>From FMA: 9.07.2001: Endothelial cell has always been classified as a kind of epithelial cell, specifically a squamous cell but that is not true. First, endothelial cell can either be squamous or cuboidal (e.g. high-endothelial cell) and secondly, it has different embryological derivation (mesodermal) than a true epithelial cell (ectodermal and endodermal). The basis for present classification is the fact that it comprises the outermost layer or lining of anatomical structures (location-based) but a better structural basis for the differentia is the cytoskeleton of the cell. Endothelial cell has vimentin filaments while an epithelial cell has keratin filaments. [Onard].</rdfs:comment>
         <rdfs:comment>The main type of cell found in the inside lining of blood vessels, lymph vessels, and the heart.</rdfs:comment>
@@ -28864,6 +28915,7 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
         <rdfs:label>endothelial cell</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000467</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#endothelial_cell</rdfs:seeAlso>
+        <skos:prefLabel>endothelial cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
@@ -28892,13 +28944,13 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Glial cells, also known as neuroglia or simply glia, are non-neuronal cells in the central and peripheral nervous systems that provide support and protection for neurons. They constitute approximately half of the total cells in the human brain and more than half in other parts of the nervous system. Glial cells perform several key functions including, but not limited to, maintaining homeostasis, forming the myelin sheath around the neuron axons, and providing support and nutrition to neurons.
+        <terms:description>Glial cells, also known as neuroglia or simply glia, are non-neuronal cells in the central and peripheral nervous systems that provide support and protection for neurons. They constitute approximately half of the total cells in the human brain and more than half in other parts of the nervous system. Glial cells perform several key functions including, but not limited to, maintaining homeostasis, forming the myelin sheath around the neuron axons, and providing support and nutrition to neurons.
 These different functions are performed by various glial cell types, including astrocytes, oligodendrocytes, microglia and other specialized types. Astrocytes, for example, are the most abundant glial cells and provide metabolic and nutrient support to neurons, help regulate the extracellular ion and neurotransmitter levels, and play a role in the formation and maintenance of the blood-brain barrier, contributing to the overall homeostasis and functioning of the nervous system. Additionally, astrocytes are involved in synaptic communication and participate in processes such as synaptogenesis and synaptic pruning.
 Oligodendrocytes in the central nervous system function to insulate neurons by producing a fatty substance known as myelin. The myelin sheath enhances the speed and efficiency of nerve impulse conduction along the axons. 
 Microglia, the immune cells of the central nervous system, protect neurons from pathogens and clear away dead neurons through phagocytosis, a process also known as cellular eating. They also contribute to the regulation of inflammation in response to signals of tissue damage or infection in the central nervous system by releasing cytokines and other signaling molecules that modulate the immune response.
-Despite their overarching function in the support and protection of neurons, glial cells have also been shown to play significant roles in the pathophysiology of many psychiatric and neurodegenerative diseases, such as Alzheimer’s, Parkinson’s Disease and multiple sclerosis.</terms:description>
+Despite their overarching function in the support and protection of neurons, glial cells have also been shown to play significant roles in the pathophysiology of many psychiatric and neurodegenerative diseases, such as Alzheimer’s, Parkinson’s Disease and multiple sclerosis.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0002606</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0415</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00005144</oboInOwl:hasDbXref>
@@ -28910,12 +28962,12 @@ Despite their overarching function in the support and protection of neurons, gli
         <oboInOwl:hasRelatedSynonym>neuroglia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Not all glial cells develop from glioblasts, with microglia developing from the mesoderm instead. See https://github.com/obophenotype/cell-ontology/issues/1571</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>glial cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000125</rdfs:seeAlso>
+        <skos:prefLabel>glial cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
@@ -28926,13 +28978,13 @@ Despite their overarching function in the support and protection of neurons, gli
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Glial cells, also known as neuroglia or simply glia, are non-neuronal cells in the central and peripheral nervous systems that provide support and protection for neurons. They constitute approximately half of the total cells in the human brain and more than half in other parts of the nervous system. Glial cells perform several key functions including, but not limited to, maintaining homeostasis, forming the myelin sheath around the neuron axons, and providing support and nutrition to neurons.
+        <owl:annotatedTarget>Glial cells, also known as neuroglia or simply glia, are non-neuronal cells in the central and peripheral nervous systems that provide support and protection for neurons. They constitute approximately half of the total cells in the human brain and more than half in other parts of the nervous system. Glial cells perform several key functions including, but not limited to, maintaining homeostasis, forming the myelin sheath around the neuron axons, and providing support and nutrition to neurons.
 These different functions are performed by various glial cell types, including astrocytes, oligodendrocytes, microglia and other specialized types. Astrocytes, for example, are the most abundant glial cells and provide metabolic and nutrient support to neurons, help regulate the extracellular ion and neurotransmitter levels, and play a role in the formation and maintenance of the blood-brain barrier, contributing to the overall homeostasis and functioning of the nervous system. Additionally, astrocytes are involved in synaptic communication and participate in processes such as synaptogenesis and synaptic pruning.
 Oligodendrocytes in the central nervous system function to insulate neurons by producing a fatty substance known as myelin. The myelin sheath enhances the speed and efficiency of nerve impulse conduction along the axons. 
 Microglia, the immune cells of the central nervous system, protect neurons from pathogens and clear away dead neurons through phagocytosis, a process also known as cellular eating. They also contribute to the regulation of inflammation in response to signals of tissue damage or infection in the central nervous system by releasing cytokines and other signaling molecules that modulate the immune response.
-Despite their overarching function in the support and protection of neurons, glial cells have also been shown to play significant roles in the pathophysiology of many psychiatric and neurodegenerative diseases, such as Alzheimer’s, Parkinson’s Disease and multiple sclerosis.</owl:annotatedTarget>
+Despite their overarching function in the support and protection of neurons, glial cells have also been shown to play significant roles in the pathophysiology of many psychiatric and neurodegenerative diseases, such as Alzheimer’s, Parkinson’s Disease and multiple sclerosis.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1002/glia.24343</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1038/nn1988</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1101/cshperspect.a020602</oboInOwl:hasDbXref>
@@ -28951,6 +29003,12 @@ Despite their overarching function in the support and protection of neurons, gli
         <owl:annotatedTarget>ZFA:0009073</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0000125</owl:annotatedTarget>
+        <rdfs:label>glial cell on CELLxGENE CellGuide</rdfs:label>
+    </owl:Axiom>
     
 
 
@@ -28968,8 +29026,6 @@ Despite their overarching function in the support and protection of neurons, gli
         <oboInOwl:hasExactSynonym>astrocytic glia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Astrocytes are reportedly CD68-negative, CD121a-positive, CD184-positive, CD192-positive, CRF-positive, EGFR-positive, GFAP-positive, GLUT1-positive, MBP-negative, and NGFR-positive.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -29009,8 +29065,6 @@ Despite their overarching function in the support and protection of neurons, gli
         <oboInOwl:hasRelatedSynonym>APC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:comment>Note change of name; nearly all somatic cells can present antigens to T cells via MHC Class I complexes leading to effector responses, but professional antigen presenting cells constitutively express MHC Class II as well as costimulatory molecules, and thus can initiate immune responses via T cells.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>professional antigen presenting cell</rdfs:label>
@@ -29044,17 +29098,25 @@ Despite their overarching function in the support and protection of neurons, gli
         <obo:IAO_0000115>A pigment cell is a cell that contains pigment granules.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <oboInOwl:hasDbXref>VHOG:0001678</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009090</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>chromatocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>chromatophore</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>pigment cell</rdfs:label>
+        <skos:prefLabel>pigment cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A pigment cell is a cell that contains pigment granules.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>ZFA:0009090</owl:annotatedTarget>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
     </owl:Axiom>
     
 
@@ -29068,10 +29130,10 @@ Despite their overarching function in the support and protection of neurons, gli
         <obo:IAO_0000115>A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
+        <terms:description>Melanocytes are specialized cells prevalently found in the skin, but also present in the hair follicles, eyes, inner ear, bones, heart, and brain. Their primary function is the synthesis of melanin, a pigment responsible for coloration of skin, hair, and eyes. The presence and distribution of this pigment play a crucial role in the body&apos;s defense mechanism against harmful ultraviolet radiation.
+In addition to melanin production, melanocytes also engage in a variety of other biological functions. They play a fundamental role in the immune response, owing to their ability to present antigens to T cells. Furthermore, they contribute to the maintenance of the skin&apos;s homeostasis by regulating processes such as extracellular matrix remodeling and cytokine production. A balance in melanocyte function is pivotal, as dysfunctions often result in dermatological disorders. For instance, the loss of melanocytes or reduction in their function may lead to hypopigmentation conditions such as vitiligo, whereas an abnormal increase could result in hyperpigmentation disorders or melanoma, a dangerous type of skin cancer.
 
-Melanocytes are specialized cells prevalently found in the skin, but also present in the hair follicles, eyes, inner ear, bones, heart, and brain. Their primary function is the synthesis of melanin, a pigment responsible for coloration of skin, hair, and eyes. The presence and distribution of this pigment play a crucial role in the body&apos;s defense mechanism against harmful ultraviolet radiation.
-In addition to melanin production, melanocytes also engage in a variety of other biological functions. They play a fundamental role in the immune response, owing to their ability to present antigens to T cells. Furthermore, they contribute to the maintenance of the skin&apos;s homeostasis by regulating processes such as extracellular matrix remodeling and cytokine production. A balance in melanocyte function is pivotal, as dysfunctions often result in dermatological disorders. For instance, the loss of melanocytes or reduction in their function may lead to hypopigmentation conditions such as vitiligo, whereas an abnormal increase could result in hyperpigmentation disorders or melanoma, a dangerous type of skin cancer.</terms:description>
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasAlternativeId>CL:0000572</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>BTO:0000847</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0613</oboInOwl:hasDbXref>
@@ -29084,11 +29146,10 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>melanocyte</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000148</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
@@ -29099,10 +29160,10 @@ In addition to melanin production, melanocytes also engage in a variety of other
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
+        <owl:annotatedTarget>Melanocytes are specialized cells prevalently found in the skin, but also present in the hair follicles, eyes, inner ear, bones, heart, and brain. Their primary function is the synthesis of melanin, a pigment responsible for coloration of skin, hair, and eyes. The presence and distribution of this pigment play a crucial role in the body&apos;s defense mechanism against harmful ultraviolet radiation.
+In addition to melanin production, melanocytes also engage in a variety of other biological functions. They play a fundamental role in the immune response, owing to their ability to present antigens to T cells. Furthermore, they contribute to the maintenance of the skin&apos;s homeostasis by regulating processes such as extracellular matrix remodeling and cytokine production. A balance in melanocyte function is pivotal, as dysfunctions often result in dermatological disorders. For instance, the loss of melanocytes or reduction in their function may lead to hypopigmentation conditions such as vitiligo, whereas an abnormal increase could result in hyperpigmentation disorders or melanoma, a dangerous type of skin cancer.
 
-Melanocytes are specialized cells prevalently found in the skin, but also present in the hair follicles, eyes, inner ear, bones, heart, and brain. Their primary function is the synthesis of melanin, a pigment responsible for coloration of skin, hair, and eyes. The presence and distribution of this pigment play a crucial role in the body&apos;s defense mechanism against harmful ultraviolet radiation.
-In addition to melanin production, melanocytes also engage in a variety of other biological functions. They play a fundamental role in the immune response, owing to their ability to present antigens to T cells. Furthermore, they contribute to the maintenance of the skin&apos;s homeostasis by regulating processes such as extracellular matrix remodeling and cytokine production. A balance in melanocyte function is pivotal, as dysfunctions often result in dermatological disorders. For instance, the loss of melanocytes or reduction in their function may lead to hypopigmentation conditions such as vitiligo, whereas an abnormal increase could result in hyperpigmentation disorders or melanoma, a dangerous type of skin cancer.</owl:annotatedTarget>
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1002/med.21754</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1038/nrc.2016.37</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1111/j.1751-1097.2007.00226.x</oboInOwl:hasDbXref>
@@ -29114,6 +29175,12 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ZFA:0009091</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000148"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0000148</owl:annotatedTarget>
+        <rdfs:label>melanocyte on CELLxGENE CellGuide</rdfs:label>
     </owl:Axiom>
     
 
@@ -29129,10 +29196,9 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <oboInOwl:hasDbXref>FMA:86916</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>secretory cell</rdfs:label>
+        <skos:prefLabel>secretory cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
@@ -29165,11 +29231,10 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>endocrine cell</rdfs:label>
+        <skos:prefLabel>endocrine cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000163"/>
@@ -29195,11 +29260,11 @@ In addition to melanin production, melanocytes also engage in a variety of other
         <obo:IAO_0000115>An endocrine cell that is located in the epithelium of the gastrointestinal tract or in the pancreas.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Enteroendocrine cells are a specialized subset of cells located within the epithelial lining of both the small and large intestines, as well as the stomach and pancreas. Constituting less than 1% of the total population of intestinal cells, they are differentiated from a common intestinal cell progenitor, thus sharing lineage with absorptive and goblet cells of the intestines.
+        <terms:description>Enteroendocrine cells are a specialized subset of cells located within the epithelial lining of both the small and large intestines, as well as the stomach and pancreas. Constituting less than 1% of the total population of intestinal cells, they are differentiated from a common intestinal cell progenitor, thus sharing lineage with absorptive and goblet cells of the intestines.
 The distinct characteristic feature of an enteroendocrine cell is its inherent capacity to synthesize and secrete a plethora of gut hormones such as serotonin, somatostatin, neurotensin, cholecystokinin, secretin, gastric inhibitory peptide, motilin, and glucagon-like peptide-1. Integrated within this complex network of signaling agents, these substances control various aspects of the digestive system. Each enteroendocrine cell has its unique combination of hormones to release, determined by its position along the intestinal tract. Intriguingly, these hormones not only modulate local gut function, including motility, absorption and secretion, but also potentiate distant actions on other systems such as endocrine, nervous and immune and play a role in the feeling of satiety.
-The release of these hormones from enteroendocrine cells is a highly regulated and dynamic process. The cells are equipped with sensory receptors localized on its luminal side that respond to various stimuli, including changes in nutrient composition, chemical or mechanical changes in the gut lumen, or even signals arising from commensal microbiota. This sensory input stimulates a signaling cascade within the cell, culminating in the release of specific hormones into the interstitial fluid. These hormones then make their way into the bloodstream, acting on their respective target receptors to mediate their duties. The multifunctional characteristics of enteroendocrine cells make them crucial for maintaining gut homeostasis and the overall physiological well being of the body.</terms:description>
+The release of these hormones from enteroendocrine cells is a highly regulated and dynamic process. The cells are equipped with sensory receptors localized on its luminal side that respond to various stimuli, including changes in nutrient composition, chemical or mechanical changes in the gut lumen, or even signals arising from commensal microbiota. This sensory input stimulates a signaling cascade within the cell, culminating in the release of specific hormones into the interstitial fluid. These hormones then make their way into the bloodstream, acting on their respective target receptors to mediate their duties. The multifunctional characteristics of enteroendocrine cells make them crucial for maintaining gut homeostasis and the overall physiological well being of the body.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0003865</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:62930</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D019858</oboInOwl:hasDbXref>
@@ -29207,10 +29272,9 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000164</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>enteroendocrine cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000164</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000164"/>
@@ -29222,11 +29286,11 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000164"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Enteroendocrine cells are a specialized subset of cells located within the epithelial lining of both the small and large intestines, as well as the stomach and pancreas. Constituting less than 1% of the total population of intestinal cells, they are differentiated from a common intestinal cell progenitor, thus sharing lineage with absorptive and goblet cells of the intestines.
+        <owl:annotatedTarget>Enteroendocrine cells are a specialized subset of cells located within the epithelial lining of both the small and large intestines, as well as the stomach and pancreas. Constituting less than 1% of the total population of intestinal cells, they are differentiated from a common intestinal cell progenitor, thus sharing lineage with absorptive and goblet cells of the intestines.
 The distinct characteristic feature of an enteroendocrine cell is its inherent capacity to synthesize and secrete a plethora of gut hormones such as serotonin, somatostatin, neurotensin, cholecystokinin, secretin, gastric inhibitory peptide, motilin, and glucagon-like peptide-1. Integrated within this complex network of signaling agents, these substances control various aspects of the digestive system. Each enteroendocrine cell has its unique combination of hormones to release, determined by its position along the intestinal tract. Intriguingly, these hormones not only modulate local gut function, including motility, absorption and secretion, but also potentiate distant actions on other systems such as endocrine, nervous and immune and play a role in the feeling of satiety.
-The release of these hormones from enteroendocrine cells is a highly regulated and dynamic process. The cells are equipped with sensory receptors localized on its luminal side that respond to various stimuli, including changes in nutrient composition, chemical or mechanical changes in the gut lumen, or even signals arising from commensal microbiota. This sensory input stimulates a signaling cascade within the cell, culminating in the release of specific hormones into the interstitial fluid. These hormones then make their way into the bloodstream, acting on their respective target receptors to mediate their duties. The multifunctional characteristics of enteroendocrine cells make them crucial for maintaining gut homeostasis and the overall physiological well being of the body.</owl:annotatedTarget>
+The release of these hormones from enteroendocrine cells is a highly regulated and dynamic process. The cells are equipped with sensory receptors localized on its luminal side that respond to various stimuli, including changes in nutrient composition, chemical or mechanical changes in the gut lumen, or even signals arising from commensal microbiota. This sensory input stimulates a signaling cascade within the cell, culminating in the release of specific hormones into the interstitial fluid. These hormones then make their way into the bloodstream, acting on their respective target receptors to mediate their duties. The multifunctional characteristics of enteroendocrine cells make them crucial for maintaining gut homeostasis and the overall physiological well being of the body.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1038/s41574-019-0168-8</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1111/j.1463-1326.2011.01438.x</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1196/annals.1294.001</oboInOwl:hasDbXref>
@@ -29239,6 +29303,12 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <owl:annotatedTarget>ZFA:0009097</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000164"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0000164</owl:annotatedTarget>
+        <rdfs:label>enteroendocrine cell on CELLxGENE CellGuide</rdfs:label>
+    </owl:Axiom>
     
 
 
@@ -29250,12 +29320,6 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell that secretes insulin and is located towards the center of the islets of Langerhans.</obo:IAO_0000115>
@@ -29277,11 +29341,11 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <oboInOwl:hasExactSynonym>type B enteroendocrine cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>beta cell islet</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Pancreatic beta cells are also reportedly CD284-positive. Upon activation, they upregulate their CD14 expression.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>type B pancreatic cell</rdfs:label>
+        <foaf:depiction>https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-islets-langerhans/v1.2/assets/2d-ftu-pancreas-islets-langerhans.png</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
@@ -29351,6 +29415,13 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <owl:annotatedTarget>beta cell islet</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MA:0002419</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000169"/>
+        <owl:annotatedProperty rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+        <owl:annotatedTarget>https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-islets-langerhans/v1.2/assets/2d-ftu-pancreas-islets-langerhans.png</owl:annotatedTarget>
+        <terms:licence rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <oboInOwl:hasDbXref>doi:10.48539/HBM637.SFSW.654</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -29369,12 +29440,12 @@ The release of these hormones from enteroendocrine cells is a highly regulated a
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Hepatocytes are the major cell type constituting 70-80% of the liver&apos;s cytoplasmic mass, playing crucial roles in maintaining the body&apos;s metabolic homeostasis. Dimensions of mature hepatocytes typically range from 20 to 30 μm in humans, but size may vary depending on their location within the liver lobule. Hepatocytes are characterized by high biosynthetic, enzymatic, and endocytic activity. They contain abundant mitochondria, smooth and rough endoplasmic reticulum, peroxisomes, lysosomes, and a large nucleus that is often binucleate. 
+        <terms:description>Hepatocytes are the major cell type constituting 70-80% of the liver&apos;s cytoplasmic mass, playing crucial roles in maintaining the body&apos;s metabolic homeostasis. Dimensions of mature hepatocytes typically range from 20 to 30 μm in humans, but size may vary depending on their location within the liver lobule. Hepatocytes are characterized by high biosynthetic, enzymatic, and endocytic activity. They contain abundant mitochondria, smooth and rough endoplasmic reticulum, peroxisomes, lysosomes, and a large nucleus that is often binucleate. 
 The liver consists of three zones - the periportal Zone 1, midzone 2, and pericentral Zone 3 - which have differential nutrient and oxygen status, and damage susceptibility; hepatocytes in the different zones show signifcant functional heterogeneity (&apos;hepatocyte functional zonation&apos;). Hepatocytes are involved in a multitude of critical functions including the metabolism of lipids, carbohydrates, and proteins, the synthesis of serum proteins (e.g., albumin, transferrin, and lipoproteins), the detoxification and excretion of endogenous and exogenous substances, the storage of vitamins and minerals, and the production and secretion of bile. 
 Heterocytes demonstrate a remarkable regenerative capacity, which enables the liver to recover from injury and loss of tissue mass. Notably, hepatocytes perform biotransformation with both phase I and phase II enzymes, which modify drugs, xenobiotics, and various substances for elimination from the body. Phase I enzymes, such as cytochrome P450, catalyze both oxidative and reductive reactions of many xenobiotics; many of the products of phase I enzymes are substrates for the phase II enzymes, which catalyze conjugation reactions. 
-Alterations in hepatocyte function have significant implications for overall human health and disease. Certain conditions, such as hepatitis, cirrhosis, and liver cancer, can profoundly affect hepatocyte structure and function, thereby disrupting the liver&apos;s ability to perform its vital roles within the body. As the primary site for drug metabolism, changes in hepatocyte function can also impact the effectiveness and toxicity of pharmaceuticals. The regenerative ability of hepatocytes makes them valuable cells for liver regenerative medicine and bioartificial liver support systems, and their study has provided significant insights into liver biology and disease.</terms:description>
+Alterations in hepatocyte function have significant implications for overall human health and disease. Certain conditions, such as hepatitis, cirrhosis, and liver cancer, can profoundly affect hepatocyte structure and function, thereby disrupting the liver&apos;s ability to perform its vital roles within the body. As the primary site for drug metabolism, changes in hepatocyte function can also impact the effectiveness and toxicity of pharmaceuticals. The regenerative ability of hepatocytes makes them valuable cells for liver regenerative medicine and bioartificial liver support systems, and their study has provided significant insights into liver biology and disease.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>BTO:0000575</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0454</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:14515</oboInOwl:hasDbXref>
@@ -29382,12 +29453,12 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0000182</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Hepatocytes are reportedly MHC Class I-positive and MHC Class II-positive.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>hepatocyte</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0000182</rdfs:seeAlso>
+        <foaf:depiction>https://cdn.humanatlas.io/digital-objects/2d-ftu/liver-liver-lobule/v1.3/assets/2d-ftu-liver-liver-lobule.png</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
@@ -29402,12 +29473,12 @@ Alterations in hepatocyte function have significant implications for overall hum
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Hepatocytes are the major cell type constituting 70-80% of the liver&apos;s cytoplasmic mass, playing crucial roles in maintaining the body&apos;s metabolic homeostasis. Dimensions of mature hepatocytes typically range from 20 to 30 μm in humans, but size may vary depending on their location within the liver lobule. Hepatocytes are characterized by high biosynthetic, enzymatic, and endocytic activity. They contain abundant mitochondria, smooth and rough endoplasmic reticulum, peroxisomes, lysosomes, and a large nucleus that is often binucleate. 
+        <owl:annotatedTarget>Hepatocytes are the major cell type constituting 70-80% of the liver&apos;s cytoplasmic mass, playing crucial roles in maintaining the body&apos;s metabolic homeostasis. Dimensions of mature hepatocytes typically range from 20 to 30 μm in humans, but size may vary depending on their location within the liver lobule. Hepatocytes are characterized by high biosynthetic, enzymatic, and endocytic activity. They contain abundant mitochondria, smooth and rough endoplasmic reticulum, peroxisomes, lysosomes, and a large nucleus that is often binucleate. 
 The liver consists of three zones - the periportal Zone 1, midzone 2, and pericentral Zone 3 - which have differential nutrient and oxygen status, and damage susceptibility; hepatocytes in the different zones show signifcant functional heterogeneity (&apos;hepatocyte functional zonation&apos;). Hepatocytes are involved in a multitude of critical functions including the metabolism of lipids, carbohydrates, and proteins, the synthesis of serum proteins (e.g., albumin, transferrin, and lipoproteins), the detoxification and excretion of endogenous and exogenous substances, the storage of vitamins and minerals, and the production and secretion of bile. 
 Heterocytes demonstrate a remarkable regenerative capacity, which enables the liver to recover from injury and loss of tissue mass. Notably, hepatocytes perform biotransformation with both phase I and phase II enzymes, which modify drugs, xenobiotics, and various substances for elimination from the body. Phase I enzymes, such as cytochrome P450, catalyze both oxidative and reductive reactions of many xenobiotics; many of the products of phase I enzymes are substrates for the phase II enzymes, which catalyze conjugation reactions. 
-Alterations in hepatocyte function have significant implications for overall human health and disease. Certain conditions, such as hepatitis, cirrhosis, and liver cancer, can profoundly affect hepatocyte structure and function, thereby disrupting the liver&apos;s ability to perform its vital roles within the body. As the primary site for drug metabolism, changes in hepatocyte function can also impact the effectiveness and toxicity of pharmaceuticals. The regenerative ability of hepatocytes makes them valuable cells for liver regenerative medicine and bioartificial liver support systems, and their study has provided significant insights into liver biology and disease.</owl:annotatedTarget>
+Alterations in hepatocyte function have significant implications for overall human health and disease. Certain conditions, such as hepatitis, cirrhosis, and liver cancer, can profoundly affect hepatocyte structure and function, thereby disrupting the liver&apos;s ability to perform its vital roles within the body. As the primary site for drug metabolism, changes in hepatocyte function can also impact the effectiveness and toxicity of pharmaceuticals. The regenerative ability of hepatocytes makes them valuable cells for liver regenerative medicine and bioartificial liver support systems, and their study has provided significant insights into liver biology and disease.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1016/j.biocel.2011.11.011</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1055/s-2007-1007096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1083/jcb.201903090</oboInOwl:hasDbXref>
@@ -29418,6 +29489,19 @@ Alterations in hepatocyte function have significant implications for overall hum
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ZFA:0009111</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0000182</owl:annotatedTarget>
+        <rdfs:label>hepatocyte on CELLxGENE CellGuide</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <owl:annotatedProperty rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+        <owl:annotatedTarget>https://cdn.humanatlas.io/digital-objects/2d-ftu/liver-liver-lobule/v1.3/assets/2d-ftu-liver-liver-lobule.png</owl:annotatedTarget>
+        <terms:licence rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <oboInOwl:hasDbXref>doi:10.48539/HBM889.CJPK.447</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -29442,10 +29526,10 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>myocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>muscle cell</rdfs:label>
+        <skos:prefLabel>muscle cell</skos:prefLabel>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Muscle_cells.svg</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
@@ -29478,10 +29562,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>ZFA:0009128</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>electrically active cell</rdfs:label>
+        <skos:prefLabel>electrically active cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000211"/>
@@ -29507,10 +29590,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>ZFA:0009136</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>motile cell</rdfs:label>
+        <skos:prefLabel>motile cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
@@ -29551,10 +29633,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>ectoderm cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>ectodermal cell</rdfs:label>
+        <skos:prefLabel>ectodermal cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000221"/>
@@ -29607,8 +29688,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A red blood cell. In mammals, mature erythrocytes are non-nucleated, biconcave disks containing hemoglobin whose function is to transport oxygen.</rdfs:comment>
         <rdfs:comment>Any of the hemoglobin-containing cells that carry oxygen to the tissues and are responsible for the red color of vertebrate blood.</rdfs:comment>
@@ -29616,6 +29695,7 @@ Alterations in hepatocyte function have significant implications for overall hum
         <rdfs:label>erythrocyte</rdfs:label>
         <rdfs:seeAlso>EFO_URI: http://www.ebi.ac.uk/efo/EFO_0000477</rdfs:seeAlso>
         <rdfs:seeAlso>URI: http://www.ebi.ac.uk/cellline#erythrocyte</rdfs:seeAlso>
+        <skos:prefLabel>erythrocyte</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
@@ -29643,10 +29723,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>enucleate thrombocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Platelets are reportedly CCR1-positive, CCR2-negative, CCR3-positive, CCR4-positive, CCR5-negative, CCR6-negative, CCR7-negative, CCR8-negative, CCR9-negative, CCR10-negative, CD16-positive, CD23-positive, CD32-positive, CD40-positive, CD41-positive CD42-positive, CD61-positive, CD62P-positive, CD64-positive, CD89-positive, CD102-positive, CD147-positive (activated platelets), CD154-positive (activated platelets), CD162-positive, CD209, CD282-positive, CD284-positive, CD289-positive, CD181-negative, CD182-negative, CD183-negative, CD184-positive, CLEC2-positive, GPVI-positive, JAMC-positive, PAR1-positive, PAR2-negative, PAR3-positive, PAR4-positive, TSP1-positive, and TXA2R-positive. Platelets can reportedly produce CCL2, CCL3, CCL5, CCL7, CCL17, CD40L, CXCL1, CXCL4, CXCL4L1, CXCL5, CXCL7, CXCL8, CXCL12, EGF, factor V, factor VII, factor XI, factor XIII, bFGF, histamine, IGF-1, IL-1beta, PAI-1, PDGF, plasminogen, protein S, serotonin, TGF-beta, TFPI, VEGF, and vWF.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>platelet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -29703,8 +29782,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -29757,8 +29834,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.</rdfs:comment>
         <rdfs:comment>Immunologically important lymphocyte that is not thymus-dependent, is either short-lived and naive or long-lived and of memory phenotype, and resembles the bursa-derived lymphocyte of birds in that it is responsible for the production of immunoglobulins.</rdfs:comment>
@@ -29793,10 +29868,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>MESH:D005057</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>eukaryotic cell</rdfs:label>
+        <skos:prefLabel>eukaryotic cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
@@ -29816,11 +29890,10 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>stuff accumulating cell</rdfs:label>
+        <skos:prefLabel>stuff accumulating cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000325"/>
@@ -29840,10 +29913,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>ZFA:0009190</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>electrically responsive cell</rdfs:label>
+        <skos:prefLabel>electrically responsive cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
@@ -29879,8 +29951,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasRelatedSynonym>veiled cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>dendritic cell</rdfs:label>
@@ -29909,10 +29979,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <oboInOwl:hasDbXref>ZFA:0009212</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>biogenic amine secreting cell</rdfs:label>
+        <skos:prefLabel>biogenic amine secreting cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000457"/>
@@ -29942,12 +30011,11 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>neuron</rdfs:label>
+        <skos:prefLabel>neuron</skos:prefLabel>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Neuron_cells.svg</foaf:depiction>
     </owl:Class>
     <owl:Axiom>
@@ -29988,8 +30056,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>ZFA:0009250</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30044,8 +30110,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30080,10 +30144,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>WBbt:0006796</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>germ cell</rdfs:label>
+        <skos:prefLabel>germ cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000586"/>
@@ -30115,8 +30178,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>natural killer cell</rdfs:label>
@@ -30138,45 +30199,18 @@ Alterations in hepatocyte function have significant implications for overall hum
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000624 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000624">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000791"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000625"/>
-        <obo:IAO_0000115>A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T-cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
-        <rdfs:label>CD4-positive, alpha-beta T cell</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000624"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000625">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000791"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
         <obo:IAO_0000115>A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>CD8-positive, alpha-beta T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -30217,8 +30251,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>leukocyte</rdfs:label>
@@ -30253,10 +30285,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>ZFA:0009324</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>myeloid cell</rdfs:label>
+        <skos:prefLabel>myeloid cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
@@ -30283,8 +30314,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>ZFA:0009326</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>myeloid leukocyte</rdfs:label>
     </owl:Class>
@@ -30320,8 +30349,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Matures in the bone marrow and account for &lt;1% of leukocytes in the peripheral blood, spleen, and bone marrow. Basophils are described as being CD11a-positive, CD11b-positive, CD13-positive, CD15-positive, CD18-positive, CD21-positive, CD25-positive, CD29-positive, CD35-positive, CD40-positive, CD40L-positive, CD44-positive, CD45R-negative, CD46-positive, CD49a-positive, CD49b-positive, CD49d-positive, CD55-positive, CD59-positive, CD62L-positive, CD63-positive, CD69-positive, CD90-negative, CD116-positive, CD117-negative, CD124-positive, CD125-positive, CD131-positive, CD161-positive, CD184-positive, CD191-positive, CD192-positive, CD197-positive, CD200R3-positive, CD218-positive, CD282-positive, CD284-positive, CD289-positive, CD290-positive, CD294-positive, natural killer cell receptor 2B4-positive, smad1-positive, CD3-negative, CD4-negative, CD7-negative, CD8-negative, CD14-negative, CD15-negative, CD16-negative, CD19-negative, CD20-negative, CD34-negative, CD36-negative, CD45R-negative, CD56-negative, CD57-negative, CD235a-negative, and GR1-negative. Transcription factors- GATA1-positive, PU.1-positive.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30373,8 +30400,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>neutrophil</rdfs:label>
@@ -30417,8 +30442,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasRelatedSynonym>effector B-cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Plasma cells develop in the spleen and migrate to the bone marrow. Plasma cells are also reportedly CD5-negative, CD10-negative, CD19-positive, CD20-negative, CD21-negative, CD22-negative, CD23-negative, CD24-negative, CD25-negative, CD27-positive, CD34-negative, CD38-positive, CD40-positive, CD43-positive, CD45-positive, CD48-positive, CD53-low, CD80-negative, CD81-positive, CD86-positive, CD95-positive, CD196-negative, CD229-positive, CD270-positive, CD352-positive, CD361-positive, and IgD-negative. Transcription factors: BLIMP1-positive, IRF4-positive, PAX5-negative, SpiB-negative, Ets1-negative, and XBP1-positive.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30448,30 +30471,6 @@ Alterations in hepatocyte function have significant implications for overall hum
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000791 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000791">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
-        <obo:IAO_0000115>A alpha-beta T cell that has a mature phenotype.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>mature alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>mature alpha-beta T-cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>mature alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
-        <rdfs:label>mature alpha-beta T cell</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000791"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A alpha-beta T cell that has a mature phenotype.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0781735149</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000798 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000798">
@@ -30486,10 +30485,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasRelatedSynonym>gd T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Note that gamma-delta T cells have both thymic and extrathymic differentiation pathways.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>gamma-delta T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -30518,7 +30516,7 @@ Alterations in hepatocyte function have significant implications for overall hum
     <!-- http://purl.obolibrary.org/obo/CL_0000814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000814">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000791"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
         <obo:IAO_0000115>A mature alpha-beta T cell of a distinct lineage that bears natural killer markers and a T cell receptor specific for a limited set of ligands. NK T cells have activation and regulatory roles particularly early in an immune response.</obo:IAO_0000115>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasExactSynonym>mature NK T lymphocyte</oboInOwl:hasExactSynonym>
@@ -30530,9 +30528,8 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>mature natural killer T-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mature natural killer T-lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>mature NK T cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -30556,8 +30553,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>FMA:83524</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ZFA:0009353</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>myeloblast</rdfs:label>
     </owl:Class>
@@ -30596,8 +30591,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#blood_and_immune_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>mononuclear cell</rdfs:label>
         <rdfs:label>mononuclear leukocyte</rdfs:label>
@@ -30641,8 +30634,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>thymic lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>thymocyte</rdfs:label>
     </owl:Class>
@@ -30667,8 +30658,6 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Types of B lineage lymphocytes include B cells and antibody secreting cells (plasmablasts and plasma cells).  Lymphocytes of B cell lineage can be distinguished from those of T cell lineage by their lack of CD3e (as part of the T cell receptor complex).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -30705,10 +30694,10 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasExactSynonym>hemopoietic cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>hematopoietic cell</rdfs:label>
+        <skos:prefLabel>hematopoietic cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
@@ -30793,10 +30782,9 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-07T03:32:33Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>FMA:67513</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>nucleate cell</rdfs:label>
+        <skos:prefLabel>nucleate cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
@@ -30851,10 +30839,10 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>FMA:70333</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>neural cell</rdfs:label>
+        <skos:prefLabel>neural cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
@@ -30913,10 +30901,10 @@ Alterations in hepatocyte function have significant implications for overall hum
         <oboInOwl:hasDbXref>ZFA:0009392</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#general_cell_types_upper_slim"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>connective tissue cell</rdfs:label>
+        <skos:prefLabel>connective tissue cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
@@ -30942,11 +30930,11 @@ Alterations in hepatocyte function have significant implications for overall hum
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Embryonic cells in metazoans, which include all multicellular animals, are biological units in their earliest developmental stages from conception until the organism is fully formed. 
+        <terms:description>Embryonic cells in metazoans, which include all multicellular animals, are biological units in their earliest developmental stages from conception until the organism is fully formed. 
 They are derived from a fertilized egg, which undergoes a series of cell divisions to produce a multicellular organism. During the early phases of embryonic development, these cells exhibit pluripotency, meaning they possess the potential to differentiate into a diverse array of specialized cell types that constitute different body tissues and structures. 
-The balance between cell proliferation and differentiation in embryonic cells is crucial for successful development. When cells continue to divide without differentiating, overgrowth may occur leading to conditions such as teratomas (tumors of embryonic cells). Conversely, if cell differentiation proceeds at the expense of cell proliferation, developmental anomalies could occur regarding size or mass of the organism or its parts.</terms:description>
+The balance between cell proliferation and differentiation in embryonic cells is crucial for successful development. When cells continue to divide without differentiating, overgrowth may occur leading to conditions such as teratomas (tumors of embryonic cells). Conversely, if cell differentiation proceeds at the expense of cell proliferation, developmental anomalies could occur regarding size or mass of the organism or its parts.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:created_by>tmeehan</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-09-15T03:39:21Z</oboInOwl:creation_date>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-15T03:39:21Z</oboInOwl:creation_date>
@@ -30957,10 +30945,10 @@ The balance between cell proliferation and differentiation in embryonic cells is
         <oboInOwl:hasDbXref>ZFA:0007089</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0002321</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>embryonic cell (metazoa)</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0002321</rdfs:seeAlso>
+        <skos:prefLabel>embryonic cell (metazoa)</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
@@ -30971,11 +30959,11 @@ The balance between cell proliferation and differentiation in embryonic cells is
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Embryonic cells in metazoans, which include all multicellular animals, are biological units in their earliest developmental stages from conception until the organism is fully formed. 
+        <owl:annotatedTarget>Embryonic cells in metazoans, which include all multicellular animals, are biological units in their earliest developmental stages from conception until the organism is fully formed. 
 They are derived from a fertilized egg, which undergoes a series of cell divisions to produce a multicellular organism. During the early phases of embryonic development, these cells exhibit pluripotency, meaning they possess the potential to differentiate into a diverse array of specialized cell types that constitute different body tissues and structures. 
-The balance between cell proliferation and differentiation in embryonic cells is crucial for successful development. When cells continue to divide without differentiating, overgrowth may occur leading to conditions such as teratomas (tumors of embryonic cells). Conversely, if cell differentiation proceeds at the expense of cell proliferation, developmental anomalies could occur regarding size or mass of the organism or its parts.</owl:annotatedTarget>
+The balance between cell proliferation and differentiation in embryonic cells is crucial for successful development. When cells continue to divide without differentiating, overgrowth may occur leading to conditions such as teratomas (tumors of embryonic cells). Conversely, if cell differentiation proceeds at the expense of cell proliferation, developmental anomalies could occur regarding size or mass of the organism or its parts.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1002/iub.1404</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1093/molehr/gan048</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/books/NBK9906/</oboInOwl:hasDbXref>
@@ -30985,6 +30973,12 @@ The balance between cell proliferation and differentiation in embryonic cells is
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ZFA:0007089</owl:annotatedTarget>
         <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/UnspecifiedMatching"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0002321</owl:annotatedTarget>
+        <rdfs:label>embryonic cell (metazoa) on CELLxGENE CellGuide</rdfs:label>
     </owl:Axiom>
     
 
@@ -31018,18 +31012,18 @@ The balance between cell proliferation and differentiation in embryonic cells is
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell of the neural crest. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesynchymal transition and delamination to form migratory neural crest cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <terms:description>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Neural crest cells are a group of transient and highly migratory cells that originate from the neuroectoderm during the early stages of embryonic development. They are multipotent cells with an exceptional degree of plasticity, capable of differentiating into various somatic cell types and therefore play a fundamental role in the formation of various organs and tissues, making them critical contributors to the developing embryo. 
+        <terms:description>Neural crest cells are a group of transient and highly migratory cells that originate from the neuroectoderm during the early stages of embryonic development. They are multipotent cells with an exceptional degree of plasticity, capable of differentiating into various somatic cell types and therefore play a fundamental role in the formation of various organs and tissues, making them critical contributors to the developing embryo. 
 After the initiation of neurulation (the formation of the neural tube) neural crest cells start to undergo epithelial-to-mesenchymal transition and delaminate and migrate from the dorsal neural tube to several regions throughout the embryo. They differentiate into a range of diverse cell types, such as neurons and glial cells of the peripheral nervous system, including sensory and autonomic neurons. They also contribute to the formation of adrenal glands, pigment cells in the skin (melanocytes), cardiac structures, including parts of the heart septum and major arteries, as well as bones and cartilage of the face and skull.
-Disorders or aberrations in the development or migration of the neural crest cells can lead to serious congenital malformations, such as neurocristopathies, including Hirschsprung disease, neuroblastoma, and neurofibromatosis.</terms:description>
+Disorders or aberrations in the development or migration of the neural crest cells can lead to serious congenital malformations, such as neurocristopathies, including Hirschsprung disease, neuroblastoma, and neurofibromatosis.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</terms:description>
         <oboInOwl:hasDbXref>https://cellxgene.cziscience.com/cellguide/CL_0011012</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>neural crest cell</rdfs:label>
+        <rdfs:seeAlso>https://cellxgene.cziscience.com/cellguide/CL_0011012</rdfs:seeAlso>
+        <skos:prefLabel>neural crest cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011012"/>
@@ -31041,15 +31035,21 @@ Disorders or aberrations in the development or migration of the neural crest cel
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011012"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.
-
-Neural crest cells are a group of transient and highly migratory cells that originate from the neuroectoderm during the early stages of embryonic development. They are multipotent cells with an exceptional degree of plasticity, capable of differentiating into various somatic cell types and therefore play a fundamental role in the formation of various organs and tissues, making them critical contributors to the developing embryo. 
+        <owl:annotatedTarget>Neural crest cells are a group of transient and highly migratory cells that originate from the neuroectoderm during the early stages of embryonic development. They are multipotent cells with an exceptional degree of plasticity, capable of differentiating into various somatic cell types and therefore play a fundamental role in the formation of various organs and tissues, making them critical contributors to the developing embryo. 
 After the initiation of neurulation (the formation of the neural tube) neural crest cells start to undergo epithelial-to-mesenchymal transition and delaminate and migrate from the dorsal neural tube to several regions throughout the embryo. They differentiate into a range of diverse cell types, such as neurons and glial cells of the peripheral nervous system, including sensory and autonomic neurons. They also contribute to the formation of adrenal glands, pigment cells in the skin (melanocytes), cardiac structures, including parts of the heart septum and major arteries, as well as bones and cartilage of the face and skull.
-Disorders or aberrations in the development or migration of the neural crest cells can lead to serious congenital malformations, such as neurocristopathies, including Hirschsprung disease, neuroblastoma, and neurofibromatosis.</owl:annotatedTarget>
+Disorders or aberrations in the development or migration of the neural crest cells can lead to serious congenital malformations, such as neurocristopathies, including Hirschsprung disease, neuroblastoma, and neurofibromatosis.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1002/dvg.23276</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.1242/dev.193193</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOI:10.3389/fcell.2020.00635/full</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/j.ydbio.2011.12.042</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011012"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget>https://cellxgene.cziscience.com/cellguide/CL_0011012</owl:annotatedTarget>
+        <rdfs:label>neural crest cell on CELLxGENE CellGuide</rdfs:label>
     </owl:Axiom>
     
 
@@ -31064,10 +31064,9 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <terms:contributor rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>progenitor cell</rdfs:label>
+        <skos:prefLabel>progenitor cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
@@ -31086,11 +31085,10 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <obo:IAO_0000115>A cell that, by division or terminal differentiation, can give rise to other cell types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:comment>Work is needed on GO &apos;cell differentiation&apos; before it is clear whether the equivalent class definition &apos;native cell&apos; that capable_of some &apos;cell differentiation&apos; works. Also, may want to consider merging this with non-terminally differentiated cell.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>precursor cell</rdfs:label>
+        <skos:prefLabel>precursor cell</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
@@ -31131,8 +31129,6 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CL:2000001</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#cellxgene_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>peripheral blood mononuclear cell</rdfs:label>
     </owl:Class>
@@ -31170,9 +31166,8 @@ Disorders or aberrations in the development or migration of the neural crest cel
         <terms:contributor rdf:resource="http://www.wikidata.org/entity/Q35563349"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-05T01:26:50Z</oboInOwl:creation_date>
         <oboInOwl:id>CL:2000074</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/cl#mouse_subset"/>
         <rdfs:comment>Splenocytes is a vague term that refers to any one of the different white blood cell types in the spleen. This name is seen many references as such and is not explained further, necessitating a need for this terminology.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <rdfs:label>splenocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -39148,12 +39143,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>

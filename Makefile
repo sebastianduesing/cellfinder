@@ -152,6 +152,7 @@ build/merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology
 
 .PHONY: imp
 imp:
+	make src/ontology/robot_outputs/CL_imports.owl
 	make src/ontology/robot_outputs/CLO_imports.owl
 	make src/ontology/robot_outputs/DOID_imports.owl
 	make src/ontology/robot_outputs/UBERON_imports.owl

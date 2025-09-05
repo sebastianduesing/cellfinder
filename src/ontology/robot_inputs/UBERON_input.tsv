@@ -9,6 +9,7 @@ BFO:0000050	part of	relate
 BFO:0000051	has part	relate		
 CARO:0000000	anatomical entity	ignore		
 CARO:0000006	material anatomical entity	ignore		
+CL:0000000	cell	import		
 CL:0000003	native cell	import		
 CL:0000017	GC-2spd(ts) cell	import		
 CL:0000023	oocyte	import		
@@ -32,12 +33,14 @@ CL:0000148	melanocyte	import
 CL:0000151	secretory cell	import		
 CL:0000163	endocrine cell	import		
 CL:0000164	enteroendocrine cell	import		
+CL:0000169	type B pancreatic cell	import		
 CL:0000182	hepatocyte	import		
 CL:0000187	G.8 cell	import		
 CL:0000211	electrically active cell	import		
 CL:0000219	motile cell	import		
 CL:0000221	ectodermal cell	import		
 CL:0000232	erythrocyte	import		
+CL:0000233	platelet	import		
 CL:0000235	DH82 cell	import		
 CL:0000236	B cell	import		
 CL:0000255	eukaryotic cell	import		
@@ -51,6 +54,7 @@ CL:0000576	NCTC 3749 cell	import
 CL:0000586	male germ cell	import		
 CL:0000623	natural killer cell	import		
 CL:0000624	CD4-positive, alpha-beta T cell	import		
+CL:0000625	CD8-positive, alpha-beta T cell	import		
 CL:0000738	B 95.8 cell	import		
 CL:0000763	megakaryocyte	import		
 CL:0000766	osteoclast	import		
@@ -58,6 +62,8 @@ CL:0000767	basophil	import
 CL:0000775	neutrophil	import		
 CL:0000786	plasma cell	import		
 CL:0000791	CD4-positive, alpha-beta T cell	import		
+CL:0000798	gamma-delta T cell	import		
+CL:0000814	mature NK T cell	import		
 CL:0000835	KG-1 cell	import		
 CL:0000842	mononuclear cell	import		
 CL:0000893	immature single positive thymocyte	import		
@@ -74,6 +80,7 @@ CL:0011012	neural crest cell	import
 CL:0011026	progenitor cell	import		
 CL:0011115	muscle precursor cell	import		
 CL:2000001	peripheral blood mononuclear cell	import		
+CL:2000074	splenocyte	import		
 CLO:0000001	cell line cell	import		
 CLO:0000012	immortal human T cell line cell	import		
 CLO:0000015	derives from patient having disease	relate		
