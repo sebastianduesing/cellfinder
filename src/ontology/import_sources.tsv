@@ -1,2 +1,4 @@
 Ontology	IRI
-OBI	http://purl.obolibrary.org/obo/obi-base.owl
+CL	http://purl.obolibrary.org/obo/cl/cl-base.owl
+DOID	http://purl.obolibrary.org/obo/doid/doid-base.owl
+OBI	http://purl.obolibrary.org/obo/obi/obi-base.owl
