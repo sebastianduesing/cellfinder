@@ -1,6 +1,7 @@
 import argparse
 import csv
 import os
+from owl_reader import get_term_info
 from subprocess import run
 
 
@@ -15,9 +16,16 @@ def TSV2dict(path):
         for row in reader:
             if not header_row:
                 header_row = list(row.keys())
-            id = row["Ontology"].strip()
-            for i in row:
-                output[id] = row
+            if "Ontology" in row.keys():
+                id = row["Ontology"].strip()
+            else:
+                id = row["ontology ID"].strip()
+            if id == "ID":
+                for i in row:
+                    output["robot"] = row
+            else:
+                for i in row:
+                    output[id] = row
         return output
 
 
@@ -30,11 +38,14 @@ def dict2TSV(xdict, path):
     fieldnames = [i for i in xdict[first].keys()]
     ids = []
     for key in xdict.keys():
-        ids.append(key)
+        if key != "robot":
+            ids.append(key)
     sorted_ids = sorted(ids)
     with open(path, "w", newline="\n", encoding='utf-8') as tsv:
         writer = csv.DictWriter(tsv, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
+        if "robot" in xdict.keys():
+            writer.writerow(xdict["robot"])
         for id in sorted_ids:
             writer.writerow(xdict[id])
 
@@ -91,9 +102,40 @@ def get_import_source_file(path, ontology):
     print(f"Downloaded {ontology} import source file")
 
 
+def check_input_file(ontology):
+    """
+    Check that labels in input file are up to date & replace as needed
+    """
+    input_path = os.path.join("src",
+                              "ontology",
+                              "robot_inputs",
+                              f"{ontology}_input.tsv")
+    input_dict = TSV2dict(input_path)
+    source_file = os.path.join("build", f"{ontology}_import_source.owl")
+    for id, rowdict in input_dict.items():
+        if id == "ID":
+            continue
+        try:
+            _, label, _ = get_term_info(id, source_file, listmode=True)
+        except TypeError:
+            source = id.split(":")
+            source = source[0]
+            alt_source = os.path.join("build", f"{source}_import_source.owl")
+            if not os.path.isfile(alt_source):
+                continue
+            try:
+                print(f"Checking {source} import...")
+                _, label, _ = get_term_info(id, alt_source, listmode=True)
+            except TypeError:
+                continue
+        if rowdict["label"] != label:
+            rowdict["label"] = label
+    dict2TSV(input_dict, input_path)
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("action", choices=["change", "get", "remove"],
+    parser.add_argument("action", choices=["change", "check", "get", "remove"],
                         help="What to do, e.g., change or get the source file")
     parser.add_argument("ontology",
                         help="Which ontology source file to act on, e.g., CLO")
@@ -114,6 +156,8 @@ def main():
         remove_import_source(path, args.ontology)
     if args.action == "get" or args.reload:
         get_import_source_file(path, args.ontology)
+    if args.action == "check":
+        check_input_file(args.ontology)
 
 
 if __name__ == "__main__":
