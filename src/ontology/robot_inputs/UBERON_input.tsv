@@ -10,22 +10,22 @@ BFO:0000051	has part	relate
 CARO:0000000	anatomical entity	ignore		
 CARO:0000006	material anatomical entity	ignore		
 CL:0000000	cell	import		
-CL:0000003	native cell	import		
-CL:0000017	GC-2spd(ts) cell	import		
+CL:0000003	obsolete native cell	import		
+CL:0000017	spermatocyte	import		
 CL:0000023	oocyte	import		
-CL:0000031	CHP-212 cell	import		
+CL:0000031	neuroblast (sensu Vertebrata)	import		
 CL:0000034	stem cell	import		
-CL:0000055	non-terminally differentiated cell	import		
-CL:0000057	208F cell	import		
+CL:0000055	obsolete non-terminally differentiated cell	import		
+CL:0000057	fibroblast	import		
 CL:0000062	osteoblast	import		
-CL:0000066	022HU-NSO cell	import		
-CL:0000081	707 DAP10 cell	import		
-CL:0000084	immortal human T cell line cell	import		
+CL:0000066	epithelial cell	import		
+CL:0000081	blood cell	import		
+CL:0000084	T cell	import		
 CL:0000094	granulocyte	import		
-CL:0000097	10P12 cell	import		
-CL:0000113	FeT-1C cell	import		
-CL:0000115	EOMA cell	import		
-CL:0000125	RG2 cell	import		
+CL:0000097	mast cell	import		
+CL:0000113	mononuclear phagocyte	import		
+CL:0000115	endothelial cell	import		
+CL:0000125	glial cell	import		
 CL:0000127	astrocyte	import		
 CL:0000145	professional antigen presenting cell	import		
 CL:0000147	pigment cell	import		
@@ -35,40 +35,40 @@ CL:0000163	endocrine cell	import
 CL:0000164	enteroendocrine cell	import		
 CL:0000169	type B pancreatic cell	import		
 CL:0000182	hepatocyte	import		
-CL:0000187	G.8 cell	import		
+CL:0000187	muscle cell	import		
 CL:0000211	electrically active cell	import		
 CL:0000219	motile cell	import		
 CL:0000221	ectodermal cell	import		
 CL:0000232	erythrocyte	import		
 CL:0000233	platelet	import		
-CL:0000235	DH82 cell	import		
+CL:0000235	macrophage	import		
 CL:0000236	B cell	import		
 CL:0000255	eukaryotic cell	import		
 CL:0000325	stuff accumulating cell	import		
 CL:0000393	electrically responsive cell	import		
 CL:0000451	dendritic cell	import		
 CL:0000457	biogenic amine secreting cell	import		
-CL:0000540	B35 cell	import		
-CL:0000542	A84M cell	import		
-CL:0000576	NCTC 3749 cell	import		
-CL:0000586	male germ cell	import		
+CL:0000540	neuron	import		
+CL:0000542	lymphocyte	import		
+CL:0000576	monocyte	import		
+CL:0000586	germ cell	import		
 CL:0000623	natural killer cell	import		
 CL:0000624	CD4-positive, alpha-beta T cell	import		
 CL:0000625	CD8-positive, alpha-beta T cell	import		
-CL:0000738	B 95.8 cell	import		
-CL:0000763	megakaryocyte	import		
-CL:0000766	osteoclast	import		
+CL:0000738	leukocyte	import		
+CL:0000763	myeloid cell	import		
+CL:0000766	myeloid leukocyte	import		
 CL:0000767	basophil	import		
 CL:0000775	neutrophil	import		
 CL:0000786	plasma cell	import		
-CL:0000791	CD4-positive, alpha-beta T cell	import		
+CL:0000791	mature alpha-beta T cell	import		
 CL:0000798	gamma-delta T cell	import		
 CL:0000814	mature NK T cell	import		
-CL:0000835	KG-1 cell	import		
-CL:0000842	mononuclear cell	import		
-CL:0000893	immature single positive thymocyte	import		
-CL:0000945	B cell	import		
-CL:0000988	DS19 cell	import		
+CL:0000835	myeloblast	import		
+CL:0000842	mononuclear leukocyte	import		
+CL:0000893	thymocyte	import		
+CL:0000945	lymphocyte of B lineage	import		
+CL:0000988	hematopoietic cell	import		
 CL:0001034	cell in vitro	ignore		
 CL:0001067	group 1 innate lymphoid cell	import		
 CL:0002191	granulocytopoietic cell	import		
@@ -78,7 +78,7 @@ CL:0002320	connective tissue cell	import
 CL:0002321	embryonic cell (metazoa)	import		
 CL:0011012	neural crest cell	import		
 CL:0011026	progenitor cell	import		
-CL:0011115	muscle precursor cell	import		
+CL:0011115	precursor cell	import		
 CL:2000001	peripheral blood mononuclear cell	import		
 CL:2000074	splenocyte	import		
 CLO:0000001	cell line cell	import		
@@ -260,7 +260,7 @@ NCBITaxon:9526	Catarrhini	ignore
 NCBITaxon:9528	Cercopithecinae	ignore		
 NCBITaxon:9534	Chlorocebus aethiops	import		
 NCBITaxon:9544	Macaca mulatta	import		
-NCBITaxon:9606	is_manufactured_by	import		
+NCBITaxon:9606	Homo sapiens	import		
 NCBITaxon:9989	Rodentia	ignore		
 OBI:0000047	processed material	ignore		
 OBI:0100026	organism	import		
@@ -296,15 +296,15 @@ UBERON:0000468	multicellular organism	ignore
 UBERON:0000473	testis	import		
 UBERON:0000475	organism subdivision	ignore		
 UBERON:0000479	tissue	import		
-UBERON:0000481	regional part of nervous system	ignore		
+UBERON:0000481	multi-tissue structure	ignore		
 UBERON:0000916	abdomen	import		
-UBERON:0000922	late embryo	import		
+UBERON:0000922	embryo	import		
 UBERON:0000945	stomach	import		
 UBERON:0000947	aorta	import		
 UBERON:0000948	heart	import		
 UBERON:0000950	gracilis	import		
 UBERON:0000955	brain	import		
-UBERON:0000970	compound eye	import		
+UBERON:0000970	eye	import		
 UBERON:0000977	pleura	import		
 UBERON:0000979	tibia	import		
 UBERON:0000988	pons	import		
@@ -328,7 +328,7 @@ UBERON:0001264	pancreas	import
 UBERON:0001268	peritoneal fluid	import		
 UBERON:0001325	muscle of pelvis	import		
 UBERON:0001359	cerebrospinal fluid	import		
-UBERON:0001474	carpal bone	import		
+UBERON:0001474	bone element	import		
 UBERON:0001506	brachialis muscle	import		
 UBERON:0001542	inguinal lymph node	import		
 UBERON:0001560	neck of organ	import		
@@ -358,9 +358,9 @@ UBERON:0002113	kidney	import
 UBERON:0002115	jejunum	import		
 UBERON:0002240	spinal cord	import		
 UBERON:0002367	prostate gland	import		
-UBERON:0002369	right adrenal gland	import		
+UBERON:0002369	adrenal gland	import		
 UBERON:0002370	thymus	import		
-UBERON:0002371	yellow bone marrow	import		
+UBERON:0002371	bone marrow	import		
 UBERON:0002372	tonsil	import		
 UBERON:0002384	connective tissue	import		
 UBERON:0002394	bile duct	import		
@@ -375,14 +375,14 @@ UBERON:0004120	mesoderm-derived structure	ignore
 UBERON:0004121	ectoderm-derived structure	ignore		
 UBERON:0004765	skeletal element	import		
 UBERON:0004923	organ component layer	ignore		
-UBERON:0005090	urethra muscle tissue	import		
+UBERON:0005090	muscle structure	import		
 UBERON:0005409	alimentary part of gastrointestinal system	import		
 UBERON:0006956	buccal mucosa	import		
 UBERON:0007779	transudate	import		
 UBERON:0007795	ascitic fluid	import		
 UBERON:0008337	inguinal part of abdomen	import		
 UBERON:0009856	sac	ignore		
-UBERON:0010000	directly develops from	ignore		
+UBERON:0010000	multicellular anatomical structure	ignore		
 UBERON:0010313	neural crest-derived structure	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
 UBERON:0012168	umbilical cord blood	import		
