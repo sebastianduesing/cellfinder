@@ -16,8 +16,8 @@ def TSV2dict(path):
         for row in reader:
             if not header_row:
                 header_row = list(row.keys())
-            if "Ontology" in row.keys():
-                id = row["Ontology"].strip()
+            if "ontology" in row.keys():
+                id = row["ontology"].strip()
             else:
                 id = row["ontology ID"].strip()
             if id == "ID":
@@ -59,7 +59,7 @@ def update_import_source_tsv(path, ontology, iri):
     else:
         import_source_dict = {}
     import_source_dict[ontology] = {
-        "Ontology": ontology,
+        "ontology": ontology,
         "IRI": iri
     }
     dict2TSV(import_source_dict, path)
