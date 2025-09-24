@@ -4,7 +4,7 @@ Manage files to be used as inputs in the ROBOT import workflow.
 This script automatically edits the main input file for an ontology import
 (src/ontology/robot_inputs/*_inputs.tsv).
 
-The script can take the following actions:
+The script can take the following actions on an import file:
     * IMPORT terms
     * IGNORE terms, preventing them from appearing in the resulting OWL file
     * REMOVE terms from the input file
@@ -14,65 +14,21 @@ Flags modify the behavior of these actions:
     * LIMIT (-l) imports terms as upper limits to the hierarchy
     * PARENT (-p) sets a named parent for imported terms
     * SOURCE (-s) sets a non-default file path to use as the import source
+
+Other actions can be used to choose a specific ontology file to import from:
+    * CHANGE-SOURCE sets an IRI as the source file for an import module
+    * GET-SOURCE downloads the source file for an import module
+    * REMOVE-SOURCE removes a set source file, resetting to a default of
+      http://purl.obolibrary.org/obo/<ONTOLOGY>.owl
 """
 
 
 import argparse
-import csv
 import os
 import re
+from subprocess import run
 from owl_reader import get_term_info, get_iri_from_label
-
-
-def TSV2dict(path):
-    """
-    Make a dict from a ROBOT template with ontology IDs as dict keys
-    """
-    header_row = None
-    with open(path, "r", encoding="UTF-8") as infile:
-        reader = csv.DictReader(infile, delimiter="\t")
-        output = {}
-        for row in reader:
-            if not header_row:
-                header_row = list(row.keys())
-            id = row["ontology ID"].strip()
-            if id == "":
-                continue
-            if id == "ID":
-                for i in row:
-                    output["robot"] = row
-            else:
-                for i in row:
-                    output[id] = row
-        return output
-
-
-def dict2TSV(xdict, path):
-    """
-    Make a ROBOT template from a dict input with ontology IDs as dict keys
-    """
-    rows = [i for i in xdict.keys()]
-    first = rows[0]
-    fieldnames = [i for i in xdict[first].keys()]
-    ids = []
-    if "robot" not in xdict.keys():
-        xdict["robot"] = {
-            "ontology ID": "ID",
-            "label": "",
-            "action": "",
-            "logical type": "CLASS_TYPE",
-            "parent class": "C %"
-        }
-    for key in xdict.keys():
-        if key != "robot":
-            ids.append(key)
-    sorted_ids = sorted(ids)
-    with open(path, "w", newline="\n", encoding='utf-8') as tsv:
-        writer = csv.DictWriter(tsv, fieldnames=fieldnames, delimiter="\t")
-        writer.writeheader()
-        writer.writerow(xdict["robot"])
-        for id in sorted_ids:
-            writer.writerow(xdict[id])
+from TSV_dict_converter import dict2TSV, TSV2dict
 
 
 def import_file_check(path):
@@ -464,13 +420,101 @@ def universalize(action, input_dict, path, limit, parent, source):
             dict2TSV(secondary_imports, secondary_path)
 
 
+def update_import_source_tsv(path, ontology, iri):
+    """
+    Specify an IRI of a file to be used as the import source for an ontology
+    """
+    if os.path.isfile(path):
+        import_source_dict = TSV2dict(path)
+    else:
+        import_source_dict = {}
+    import_source_dict[ontology] = {
+        "ontology": ontology,
+        "IRI": iri
+    }
+    dict2TSV(import_source_dict, path)
+    print(f"Set source for {ontology} as {iri}")
+
+
+def remove_import_source(path, ontology):
+    """
+    Remove a line in the import source file
+    """
+    if not os.path.isfile(path):
+        print(f"Didn't find {path}")
+        quit()
+    import_source_dict = TSV2dict(path)
+    if ontology in import_source_dict.keys():
+        del import_source_dict[ontology]
+        dict2TSV(import_source_dict, path)
+        print(f"Removed source for {ontology}")
+    else:
+        print(f"No source for {ontology} found in file")
+
+
+def get_import_source_file(path, ontology):
+    """
+    Download the import source file for an ontology
+    """
+    import_source_dict = TSV2dict(path)
+    if ontology not in import_source_dict.keys():
+        iri = f"http://purl.obolibrary.org/obo/{ontology.lower()}.owl"
+    else:
+        iri = import_source_dict[ontology]["IRI"]
+    file_destination = os.path.join("build", f"{ontology}_import_source.owl")
+    run([
+        "curl",
+        "-sL",
+        iri,
+        "-o",
+        file_destination
+    ])
+    print(f"Downloaded {ontology} import source file")
+
+
+def check_input_file(ontology):
+    """
+    Check that labels in input file are up to date & replace as needed
+    NOTE: This is still buggy.
+    """
+    input_path = os.path.join("src",
+                              "ontology",
+                              "robot_inputs",
+                              f"{ontology}_input.tsv")
+    input_dict = TSV2dict(input_path)
+    source_file = os.path.join("build", f"{ontology}_import_source.owl")
+    for id, rowdict in input_dict.items():
+        if id == "ID":
+            continue
+        try:
+            _, label, _ = get_term_info(id, source_file, listmode=True)
+        except TypeError:
+            source = id.split(":")
+            source = source[0]
+            alt_source = os.path.join("build", f"{source}_import_source.owl")
+            if not os.path.isfile(alt_source):
+                continue
+            try:
+                print(f"Checking {source} import...")
+                _, label, _ = get_term_info(id, alt_source, listmode=True)
+            except TypeError:
+                continue
+        if rowdict["label"] != label:
+            rowdict["label"] = label
+    dict2TSV(input_dict, input_path)
+
+
 def main():
     """
     Validate paths and take specified action(s)
     """
     parser = argparse.ArgumentParser()
     parser.add_argument("action",
-                        choices=["import", "ignore", "remove", "split"],
+                        choices=[
+                            "import", "ignore", "remove", "split",
+                            "change-source", "get-source", "remove-source",
+                            "check-labels"
+                                ],
                         help="What to do, e.g., add, ignore, or remove a term")
     parser.add_argument("ontology",
                         help="Which ontology import to edit, e.g., VO or OGMS")
@@ -478,15 +522,35 @@ def main():
                         nargs="?",
                         default=False,
                         help="An ontology CURIE/IRI/label, or a TSV or TXT")
+    parser.add_argument("--iri", "-i", default=None,
+                        help="An IRI to use as that ontology's source file")
     parser.add_argument("--limit", "-l", action="store_true",
                         help="Sets term as an upper limit to the hierarchy")
     parser.add_argument("--parent", "-p", default=False,
                         help="Sets intended parent for term, e.g., 'organ'")
-    parser.add_argument("--source", "-s", default=None,
-                        help="Path to a file to use as the source for the import")
+    parser.add_argument("--reload", "-r", action="store_true",
+                        help="Gets the new file after source IRI is changed")
     parser.add_argument("--universal", "-u", action="store_true",
                         help="Includes term in all input files")
     args = parser.parse_args()
+
+    import_sources = os.path.join("src", "ontology", "import_sources.tsv")
+    if args.action == "change-source":
+        if not args.iri:
+            print("Use --iri or -i to specify an IRI to set as the source.")
+            quit()
+        update_import_source_tsv(import_sources, args.ontology, args.iri)
+        quit()
+    if args.action == "remove-source":
+        remove_import_source(import_sources, args.ontology)
+        quit()
+    if args.action == "get-source" or args.reload:
+        get_import_source_file(import_sources, args.ontology)
+        quit()
+    if args.action == "check-labels":
+        check_input_file(args.ontology)
+        quit()
+
     path = os.path.join("src",
                         "ontology",
                         "robot_inputs",
@@ -501,14 +565,6 @@ def main():
         print("Use a text file, IRI, CURIE, or label as the third argument.")
         quit()
     source = os.path.join("build", f"{args.ontology}_import_source.owl")
-    if args.source:
-        if not os.path.isfile(args.source):
-            print(f"Didn't find the source file {args.source}.")
-            override = input(f"Proceed with {source} instead? [y/n]")
-            if override.lower() not in ["y", "yes"]:
-                quit()
-        else:
-            source = args.source
     input_dict = parse_term_input(args.term, args.ontology, source)
     if args.action == "import":
         do_import(input_dict, imports, args.limit, args.parent, source)
