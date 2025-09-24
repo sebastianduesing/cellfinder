@@ -1,5 +1,17 @@
+IMPORT_NAMES := DOID\
+ OBI\
+ UCC
+IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/robot_outputs/$(x)_imports.owl)
+
 build/%_import_source.owl:
 	curl -sL http://purl.obolibrary.org/obo/$*.owl -o $@
+
+build/UCC_import_source.owl: build/CL_import_source.owl build/CLO_import_source.owl build/UBERON_import_source.owl
+	robot merge \
+	--input $< \
+	--input $(word 2,$^) \
+	--input $(word 3,$^) \
+	--output $@
 
 build/%_parent.tsv: src/ontology/robot_inputs/%_input.tsv build/%_import_source.owl
 	python3 src/scripts/import.py split $*
@@ -47,11 +59,12 @@ icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_sour
 	--output $@
 
 
-build/merged.owl: icf.owl src/ontology/robot_outputs/cl_imports.owl src/ontology/robot_outputs/clo_imports.owl src/ontology/robot_outputs/efo_imports.owl src/ontology/robot_outputs/obi_imports.owl src/ontology/robot_outputs/uberon_imports.owl removed_terms.txt
+build/merged.owl: icf.owl $(IMPORT_FILES) removed_terms.txt
+	$(eval INPUTS := $(foreach x,$(IMPORT_FILES),--input $(x) ))
 	python3 src/scripts/clean_removed_terms.py
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
-	--inputs "src/ontology/robot_outputs/*.owl" \
+	$(INPUTS) \
 	--input icf.owl \
 	annotate \
 	--ontology-iri https://github.com/sebastianduesing/cellfinder/merged.owl \
