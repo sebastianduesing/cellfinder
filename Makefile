@@ -44,14 +44,13 @@ src/ontology/robot_outputs/%_imports.owl: build/%_import_source.owl build/%_limi
 	convert -o $@
 
 
-icf.owl: src/ontology/icf.tsv build/CLO_import_source.owl build/DOID_import_source.owl build/UBERON_import_source.owl
+icf.owl: src/ontology/icf.tsv $(IMPORT_FILES)
+	$(eval INPUTS := $(foreach x,$(IMPORT_FILES),--input $(x) ))
 	python3 src/scripts/axiom_writer.py
 	echo '' > $@
 	robot --add-prefix "ICF: http://github.com/sebastianduesing/cellfinder/icf/icf#" \
 	merge \
-	--input src/ontology/robot_outputs/CLO_imports.owl \
-	--input build/UBERON_import_source.owl \
-	--input build/DOID_import_source.owl \
+	$(INPUTS) \
 	template \
 	--template $< \
 	annotate \
@@ -75,15 +74,6 @@ build/merged.owl: icf.owl $(IMPORT_FILES) removed_terms.txt
 	reduce \
 	--reasoner ELK \
 	--output build/merged.owl
-
-
-.PHONY: imp
-imp:
-	make src/ontology/robot_outputs/CL_imports.owl
-	make src/ontology/robot_outputs/CLO_imports.owl
-	make src/ontology/robot_outputs/DOID_imports.owl
-	make src/ontology/robot_outputs/OBI_imports.owl
-	make src/ontology/robot_outputs/UBERON_imports.owl
 
 
 src/ontology/cf-edit.owl: src/ontology/cf-edit.tsv
