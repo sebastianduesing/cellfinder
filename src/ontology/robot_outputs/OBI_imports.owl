@@ -210,14 +210,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000233">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
@@ -592,14 +584,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000947 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000947">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000948 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
@@ -635,14 +619,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <!-- http://purl.obolibrary.org/obo/UBERON_0000995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000995">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001013">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     

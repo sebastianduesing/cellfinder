@@ -15,7 +15,7 @@ CL:0000017	spermatocyte	import
 CL:0000023	oocyte	import		
 CL:0000031	neuroblast (sensu Vertebrata)	import		
 CL:0000034	stem cell	import		
-CL:0000055	obsolete non-terminally differentiated cell	import		
+CL:0000055	non-terminally differentiated cell	ignore		
 CL:0000057	fibroblast	import		
 CL:0000062	osteoblast	import		
 CL:0000066	epithelial cell	import		
@@ -31,25 +31,27 @@ CL:0000145	professional antigen presenting cell	import
 CL:0000147	pigment cell	import		
 CL:0000148	melanocyte	import		
 CL:0000151	secretory cell	import		
-CL:0000163	endocrine cell	import		
-CL:0000164	enteroendocrine cell	import		
+CL:0000163	endocrine cell	ignore		
+CL:0000164	enteroendocrine cell	ignore		
 CL:0000169	type B pancreatic cell	import		
 CL:0000182	hepatocyte	import		
 CL:0000187	muscle cell	import		
-CL:0000211	electrically active cell	import		
-CL:0000219	motile cell	import		
+CL:0000211	electrically active cell	ignore		
+CL:0000219	motile cell	ignore		
 CL:0000221	ectodermal cell	import		
+CL:0000226	single nucleate cell	ignore		
 CL:0000232	erythrocyte	import		
-CL:0000233	platelet	import		
+CL:0000233	platelet	ignore		
 CL:0000235	macrophage	import		
 CL:0000236	B cell	import		
-CL:0000255	eukaryotic cell	import		
-CL:0000325	stuff accumulating cell	import		
-CL:0000393	electrically responsive cell	import		
+CL:0000255	eukaryotic cell	ignore		
+CL:0000325	stuff accumulating cell	ignore		
+CL:0000393	electrically responsive cell	ignore		
 CL:0000451	dendritic cell	import		
-CL:0000457	biogenic amine secreting cell	import		
+CL:0000457	biogenic amine secreting cell	ignore		
 CL:0000540	neuron	import		
 CL:0000542	lymphocyte	import		
+CL:0000548	animal cell	ignore		
 CL:0000576	monocyte	import		
 CL:0000586	germ cell	import		
 CL:0000623	natural killer cell	import		
@@ -67,18 +69,18 @@ CL:0000814	mature NK T cell	import
 CL:0000835	myeloblast	import		
 CL:0000842	mononuclear leukocyte	import		
 CL:0000893	thymocyte	import		
-CL:0000945	lymphocyte of B lineage	import		
+CL:0000945	lymphocyte of B lineage	ignore		
 CL:0000988	hematopoietic cell	import		
 CL:0001034	cell in vitro	ignore		
-CL:0001067	group 1 innate lymphoid cell	import		
-CL:0002191	granulocytopoietic cell	import		
-CL:0002242	nucleate cell	import		
+CL:0001067	group 1 innate lymphoid cell	ignore		
+CL:0002191	granulocytopoietic cell	ignore		
+CL:0002242	nucleate cell	ignore		
 CL:0002319	neural cell	import		
 CL:0002320	connective tissue cell	import		
-CL:0002321	embryonic cell (metazoa)	import		
+CL:0002321	embryonic cell (metazoa)	ignore		
 CL:0011012	neural crest cell	import		
 CL:0011026	progenitor cell	import		
-CL:0011115	precursor cell	import		
+CL:0011115	precursor cell	ignore		
 CL:2000001	peripheral blood mononuclear cell	import		
 CL:2000074	splenocyte	import		
 CLO:0000001	cell line cell	import		
@@ -88,20 +90,28 @@ CLO:0000019	immortal cell line cell	import
 CLO:0000020	immortal human cell line cell	import		
 CLO:0000044	immortal stem cell line cell	import		
 CLO:0000052	immortal neuroblast cell line cell	import		
+CLO:0000054	immortal non-terminally differentiated cell line cell	ignore		
 CLO:0000055	immortal osteoblast cell line cell	import		
 CLO:0000069	immortal mast cell line cell	import		
 CLO:0000076	immortal muscle cell line cell	import		
+CLO:0000093	immortal motile cell line cell	ignore		
 CLO:0000096	immortal macrophage cell line cell	import		
 CLO:0000103	immortal dendritic cell line cell	import		
+CLO:0000105	immortal myeloid leukocyte cell line cell	ignore		
 CLO:0000106	immortal monocyte cell line cell	import		
+CLO:0000107	immortal nongranular leukocyte cell line cell	ignore		
 CLO:0000119	immortal B cell line cell	import		
 CLO:0000121	immortal natural killer cell line cell	import		
+CLO:0000128	immortal animal cell line cell	ignore		
 CLO:0000129	immortal epithelial cell line cell	import		
 CLO:0000133	immortal melanocyte cell line cell	import		
 CLO:0000150	immortal myeloid cell line cell	import		
 CLO:0000154	immortal myeloblast cell line cell	import		
 CLO:0000157	immortal glial cell line cell	import		
 CLO:0000161	immortal fibroblast cell line cell	import		
+CLO:0000163	immortal stuff accumulating cell line cell	ignore		
+CLO:0000165	immortal nucleate cell line cell	ignore		
+CLO:0000166	immortal somatic cell line cell	ignore		
 CLO:0000167	has disease	relate		
 CLO:0000479	immortal human fibroblast cell line cell	import		
 CLO:0000499	immortal mouse fibroblast cell line cell	import		
@@ -150,7 +160,7 @@ DOID:10286	prostate carcinoma	import
 DOID:1035	aggressive NK-cell leukemia	import		
 DOID:1115	sarcoma	import		
 DOID:1240	leukemia	import		
-DOID:1485	cystic fibrosis	import		
+DOID:1485	cystic fibrosis	ignore		
 DOID:1520	colon carcinoma	import		
 DOID:1612	breast cancer	import		
 DOID:162	cancer	import		
@@ -274,20 +284,24 @@ RO:0001000	is_a	relate
 UBERON:0000002	uterine cervix	import		
 UBERON:0000007	pituitary gland	import		
 UBERON:0000010	peripheral nervous system	import		
-UBERON:0000014	zone of skin	import		
+UBERON:0000014	zone of skin	ignore		
+UBERON:0000025	tube	ignore		
 UBERON:0000029	lymph node	import		
 UBERON:0000042	serous membrane	ignore		
-UBERON:0000058	duct	import		
-UBERON:0000060	anatomical wall	import		
+UBERON:0000058	duct	ignore		
+UBERON:0000060	anatomical wall	ignore		
 UBERON:0000061	anatomical structure	ignore		
 UBERON:0000062	organ	import		
 UBERON:0000064	organ part	import		
+UBERON:0000072	proximo-distal subdivision of respiratory tract	ignore		
 UBERON:0000077	mixed endoderm/mesoderm-derived structure	ignore		
 UBERON:0000170	pair of lungs	import		
+UBERON:0000174	excreta	ignore		
 UBERON:0000175	pleural effusion	import		
 UBERON:0000178	blood	import		
 UBERON:0000310	breast	import		
-UBERON:0000344	mucosa	import		
+UBERON:0000344	mucosa	ignore		
+UBERON:0000456	secretion of exocrine gland	ignore		
 UBERON:0000465	material anatomical entity	ignore		
 UBERON:0000467	anatomical system	ignore		
 UBERON:0000468	multicellular organism	ignore		
@@ -295,12 +309,13 @@ UBERON:0000473	testis	import
 UBERON:0000475	organism subdivision	ignore		
 UBERON:0000479	tissue	import		
 UBERON:0000481	multi-tissue structure	ignore		
+UBERON:0000489	cavitated compound organ	ignore		
 UBERON:0000916	abdomen	import		
 UBERON:0000922	embryo	import		
 UBERON:0000945	stomach	import		
-UBERON:0000947	aorta	import		
+UBERON:0000947	aorta	ignore		
 UBERON:0000948	heart	import		
-UBERON:0000950	gracilis	import		
+UBERON:0000950	gracilis	ignore		
 UBERON:0000955	brain	import		
 UBERON:0000970	eye	import		
 UBERON:0000977	pleura	import		
@@ -309,11 +324,11 @@ UBERON:0000988	pons	import
 UBERON:0000991	gonad	import		
 UBERON:0000992	ovary	import		
 UBERON:0000995	uterus	import		
-UBERON:0001013	adipose tissue	import		
+UBERON:0001013	adipose tissue	ignore		
 UBERON:0001016	nervous system	import		
 UBERON:0001017	central nervous system	import		
 UBERON:0001043	esophagus	import		
-UBERON:0001044	saliva-secreting gland	import		
+UBERON:0001044	saliva-secreting gland	ignore		
 UBERON:0001051	hypopharynx	import		
 UBERON:0001052	rectum	import		
 UBERON:0001062	anatomical entity	ignore		
@@ -329,24 +344,27 @@ UBERON:0001359	cerebrospinal fluid	import
 UBERON:0001474	bone element	import		
 UBERON:0001506	brachialis muscle	import		
 UBERON:0001542	inguinal lymph node	import		
-UBERON:0001560	neck of organ	import		
+UBERON:0001560	neck of organ	ignore		
 UBERON:0001630	muscle organ	import		
 UBERON:0001723	tongue	import		
 UBERON:0001728	nasopharynx	import		
 UBERON:0001729	oropharynx	import		
 UBERON:0001733	soft palate	import		
 UBERON:0001737	larynx	import		
-UBERON:0001744	lymphoid tissue	import		
+UBERON:0001744	lymphoid tissue	ignore		
 UBERON:0001768	uvea	import		
 UBERON:0001828	gingiva	import		
 UBERON:0001836	saliva	import		
 UBERON:0001911	mammary gland	import		
+UBERON:0001961	mucosa-associated lymphoid tissue	ignore		
+UBERON:0001981	blood vessel	ignore		
 UBERON:0001987	placenta	import		
 UBERON:0001988	feces	import		
 UBERON:0002037	cerebellum	import		
 UBERON:0002046	thyroid gland	import		
 UBERON:0002048	lung	import		
 UBERON:0002072	hypodermis	import		
+UBERON:0002075	viscus	ignore		
 UBERON:0002097	skin of body	import		
 UBERON:0002106	spleen	import		
 UBERON:0002107	liver	import		
@@ -363,26 +381,48 @@ UBERON:0002372	tonsil	import
 UBERON:0002384	connective tissue	import		
 UBERON:0002394	bile duct	import		
 UBERON:0002405	immune system	import		
+UBERON:0002428	limb bone	ignore		
 UBERON:0002481	bone tissue	import		
+UBERON:0002495	long bone	ignore		
 UBERON:0002530	gland	import		
 UBERON:0002616	regional part of brain	ignore		
 UBERON:0003126	trachea	import		
+UBERON:0003464	hindlimb bone	ignore		
+UBERON:0003661	limb muscle	ignore		
 UBERON:0003697	abdominal wall	import		
+UBERON:0004111	anatomical conduit	ignore		
 UBERON:0004119	endoderm-derived structure	ignore		
 UBERON:0004120	mesoderm-derived structure	ignore		
 UBERON:0004121	ectoderm-derived structure	ignore		
-UBERON:0004765	skeletal element	import		
+UBERON:0004765	skeletal element	ignore		
+UBERON:0004921	subdivision of digestive tract	ignore		
 UBERON:0004923	organ component layer	ignore		
-UBERON:0005090	muscle structure	import		
-UBERON:0005409	alimentary part of gastrointestinal system	import		
+UBERON:0005090	muscle structure	ignore		
+UBERON:0005173	abdominal segment element	ignore		
+UBERON:0005177	trunk region element	ignore		
+UBERON:0005178	thoracic cavity element	ignore		
+UBERON:0005181	thoracic segment organ	ignore		
+UBERON:0005409	alimentary part of gastrointestinal system	ignore		
+UBERON:0006314	bodily fluid	ignore		
 UBERON:0006956	buccal mucosa	import		
-UBERON:0007779	transudate	import		
+UBERON:0007779	transudate	ignore		
+UBERON:0007794	secretion of serous gland	ignore		
 UBERON:0007795	ascitic fluid	import		
 UBERON:0008337	inguinal part of abdomen	import		
 UBERON:0009856	sac	ignore		
 UBERON:0010000	multicellular anatomical structure	ignore		
 UBERON:0010313	neural crest-derived structure	ignore		
 UBERON:0010314	structure with developmental contribution from neural crest	ignore		
+UBERON:0010363	endochondral element	ignore		
+UBERON:0010740	bone of appendage girdle complex	ignore		
+UBERON:0010890	pelvic complex muscle	ignore		
+UBERON:0011216	organ system subdivision	ignore		
 UBERON:0012168	umbilical cord blood	import		
+UBERON:0013522	subdivision of tube	ignore		
+UBERON:0015022	hindlimb endochondral element	ignore		
+UBERON:0015061	limb endochondral element	ignore		
 UBERON:0015212	lateral structure	ignore		
+UBERON:0017672	abdominal viscera	ignore		
+UBERON:0018707	bladder organ	ignore		
+UBERON:0034944	zone of organ	ignore		
 UBERON:0035820	peritoneal sac	import		
