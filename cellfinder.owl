@@ -2932,47 +2932,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000028 -->
-
-    <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000652"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000236"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood.</obo:IAO_0000115>
-        <obo:IAO_0000118>COLO205</obo:IAO_0000118>
-        <obo:IAO_0000118>HSC0107</obo:IAO_0000118>
-        <obo:OBI_9991118>HSC0107 cell</obo:OBI_9991118>
-        <oboInOwl:hasDbXref>CLO:0051333</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RRID:CVCL_F402</oboInOwl:hasDbXref>
-        <rdfs:label>HSC0107 cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://github.com/sebastianduesing/cellfinder/icf/icf#0000029 -->
 
     <owl:Class rdf:about="http://github.com/sebastianduesing/cellfinder/icf/icf#0000029">
