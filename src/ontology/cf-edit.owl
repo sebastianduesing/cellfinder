@@ -51,6 +51,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
@@ -145,6 +153,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001733 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001733">
@@ -177,17 +193,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0004111 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003126 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005090">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
     </owl:Class>
     
@@ -201,25 +209,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005409 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0011216 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
     </owl:Class>
 </rdf:RDF>
