@@ -12795,6 +12795,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118> IARC/BL41</obo:IAO_0000118>
         <obo:IAO_0000118>BL41</obo:IAO_0000118>
         <obo:OBI_9991118>BL-41 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0001987</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RRID:CVCL_1087</oboInOwl:hasDbXref>
         <rdfs:label>BL-41 cell</rdfs:label>
     </owl:Class>
@@ -12962,6 +12963,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>CA-46</obo:IAO_0000118>
         <obo:IAO_0000118>CA46</obo:IAO_0000118>
         <obo:OBI_9991118>CA46 cell</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>CLO:0002168</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RRID:CVCL_1101</oboInOwl:hasDbXref>
         <rdfs:label>CA46 cell</rdfs:label>
     </owl:Class>
