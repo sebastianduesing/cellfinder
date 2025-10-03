@@ -10735,7 +10735,7 @@ in CLO, this is a short cut relation that represents:
         <obo:OBI_9991118>HEK293 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>CLO:0001230</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RRID:CVCL_0045</oboInOwl:hasDbXref>
-        <rdfs:label>HEK293</rdfs:label>
+        <rdfs:label>HEK293 cell</rdfs:label>
     </owl:Class>
     
 
@@ -16263,7 +16263,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>KYSE 170</obo:IAO_0000118>
         <obo:OBI_9991118>KYSE-170 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_1358</oboInOwl:hasDbXref>
-        <rdfs:label>KYSE-170-Epithelial cell</rdfs:label>
+        <rdfs:label>KYSE-170 cell</rdfs:label>
     </owl:Class>
     
 
@@ -19798,7 +19798,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>92_1</obo:IAO_0000118>
         <obo:OBI_9991118>92-1 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_8607</oboInOwl:hasDbXref>
-        <rdfs:label>92-1 [Human uveal melanoma] cell</rdfs:label>
+        <rdfs:label>92-1 cell</rdfs:label>
     </owl:Class>
     
 
@@ -20784,7 +20784,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>M-20</obo:IAO_0000118>
         <obo:OBI_9991118>M20 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_DI51</oboInOwl:hasDbXref>
-        <rdfs:label>M20 [Human melanoma] cell</rdfs:label>
+        <rdfs:label>M20 cell</rdfs:label>
     </owl:Class>
     
 
@@ -22526,7 +22526,7 @@ in CLO, this is a short cut relation that represents:
         <obo:OBI_9991118>ME-1 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>CLO:0009847</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RRID:CVCL_2110</oboInOwl:hasDbXref>
-        <rdfs:label>ME-1 [Human leukemia] cell</rdfs:label>
+        <rdfs:label>ME-1 cell</rdfs:label>
     </owl:Class>
     
 
@@ -25241,7 +25241,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>Turin-Bologna</obo:IAO_0000118>
         <obo:OBI_9991118>TUBO cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_2A33</oboInOwl:hasDbXref>
-        <rdfs:label>TUBO [Mouse mammary tumor] cell</rdfs:label>
+        <rdfs:label>TUBO cell</rdfs:label>
     </owl:Class>
     
 
@@ -25290,7 +25290,7 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000118>AB-1</obo:IAO_0000118>
         <obo:OBI_9991118>AB1 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_4403</oboInOwl:hasDbXref>
-        <rdfs:label>AB1 [Mouse mesothelioma] cell</rdfs:label>
+        <rdfs:label>AB1 cell</rdfs:label>
     </owl:Class>
     
 
@@ -25388,7 +25388,7 @@ in CLO, this is a short cut relation that represents:
         <obo:OBI_9991118>L-M cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>CLO:0007336</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RRID:CVCL_4535</oboInOwl:hasDbXref>
-        <rdfs:label>L-M cells</rdfs:label>
+        <rdfs:label>L-M cell</rdfs:label>
     </owl:Class>
     
 
