@@ -5748,14 +5748,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006956">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
 </rdf:RDF>
 
 

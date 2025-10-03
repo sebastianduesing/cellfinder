@@ -12707,7 +12707,7 @@ in CLO, this is a short cut relation that represents:
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -12731,7 +12731,7 @@ in CLO, this is a short cut relation that represents:
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the inguinal part of abdomen of subjects with Burkitt lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with Burkitt lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118> BJA-B</obo:IAO_0000118>
         <obo:IAO_0000118> BJA-B-1</obo:IAO_0000118>
         <obo:IAO_0000118> BJA-B1</obo:IAO_0000118>
@@ -42205,24 +42205,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
     <!-- http://purl.obolibrary.org/obo/UBERON_0001542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001542">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -47395,109 +47378,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The external junctural region between the lower part of the abdomen and the thigh.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Inguinal_region"/>
-        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018246"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/243962005"/>
-        <oboInOwl:hasDbXref>BTO:0003358</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CALOHA:TS-2339</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0001397</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:24040</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GAID:27</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:A01.047.365</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D006119</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12726</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:243962005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0018246</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Inguinal_region</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:InguinalRegion</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>groin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>groin area</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>groin region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>iliac fossa viewed surgically</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>iliac region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>inguen</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>inguinal region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>iliac region</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>inguen</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>inguinal region</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0008337</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>inguinal part of abdomen</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The external junctural region between the lower part of the abdomen and the thigh.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:A01.047.365</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:C0018246</owl:annotatedTarget>
-        <oboInOwl:source>ncithesaurus:Inguinal_Region</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>groin</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:24040</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>iliac fossa viewed surgically</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:24040</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>iliac region</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:24040</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>inguen</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:TA</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>inguinal region</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:24040</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>iliac region</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>BTO:0003358</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>inguen</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>BTO:0003358</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>inguinal region</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>BTO:0003358</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 

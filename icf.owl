@@ -11260,7 +11260,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -11284,7 +11284,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the inguinal part of abdomen of subjects with Burkitt lymphoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human B cell line cell originating from the blood of subjects with Burkitt lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000118> BJA-B</obo:IAO_0000118>
         <obo:IAO_0000118> BJA-B-1</obo:IAO_0000118>
         <obo:IAO_0000118> BJA-B1</obo:IAO_0000118>
@@ -26538,12 +26538,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337"/>
     
 
 
