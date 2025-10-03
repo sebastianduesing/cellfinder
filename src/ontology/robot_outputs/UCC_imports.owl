@@ -10038,7 +10038,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11325,78 +11331,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <owl:annotatedTarget>pleural tissue</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BTO:0001791</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C12469</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
-        <obo:IAO_0000115>The major preaxial endochondral bone in the posterior zeugopod[Phenoscape].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:UBPROP_0000001>One of the two long bones of endochondral origin of the hind-epipodium; it is a straight, simple bone whose section is more or less rectangular at the ends and circular at its central portion.[AAO]</obo:UBPROP_0000001>
-        <oboInOwl:hasDbXref>AAO:0000890</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BTO:0001252</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CALOHA:TS-1048</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0003054</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:19142</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:24476</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GAID:204</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0001361</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D013977</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12800</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:182061009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0040184</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:Tibia</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>shankbone</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>shinbone</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>UBERON:0000979</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>tibia</rdfs:label>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/2/2a/Gray260.png</foaf:depiction>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The major preaxial endochondral bone in the posterior zeugopod[Phenoscape].</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PHENOSCAPE:mah</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
-        <owl:annotatedTarget>One of the two long bones of endochondral origin of the hind-epipodium; it is a straight, simple bone whose section is more or less rectangular at the ends and circular at its central portion.[AAO]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-06-20</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>AAO:0000890</oboInOwl:external_class>
-        <oboInOwl:ontology>AAO</oboInOwl:ontology>
-        <oboInOwl:source>AAO:LAP</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:C0040184</owl:annotatedTarget>
-        <oboInOwl:source>ncithesaurus:Tibia</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>shankbone</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>shinbone</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Tibia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13351,59 +13285,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014892"/>
-        <obo:IAO_0000115>Muscle (organ) which is a part of the pelvis. Examples: levator ani,.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>EMAPA:37481</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:19086</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0000534</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>muscle organ of pelvis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pelvic muscle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pelvis muscle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pelvis muscle organ</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>UBERON:0001325</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>muscle of pelvis</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Muscle (organ) which is a part of the pelvis. Examples: levator ani,.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:19086</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>EMAPA:37481</owl:annotatedTarget>
-        <oboInOwl:source>MA:th</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>muscle organ of pelvis</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>pelvic muscle</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FMA:19086</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>pelvis muscle organ</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>OBOL:automatic</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359">
@@ -13521,7 +13402,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002481"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
         <obo:IAO_0000115>Skeletal element that is composed of bone tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -13671,80 +13551,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014892"/>
-        <obo:IAO_0000115>The brachialis (brachialis anticus) is a muscle in the upper arm that flexes the elbow joint. It lies just deep of the biceps brachii, and is a synergist that assists the biceps brachii in flexing at the elbow. It makes up part of the floor of the region known as the cubital fossa. [WP,unvetted].</obo:IAO_0000115>
-        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:UBPROP_0000001>A muscle of the stylopodium, covering the distal half of the humerus and the anterior part of the elbow joint. It functions to flex the zeugopodium. [TFD][VHOG]</obo:UBPROP_0000001>
-        <oboInOwl:hasDbXref>EHDAA2:0000181</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA:8281</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:19109</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:37667</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0002271</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C53149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:244982000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0224240</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>VHOG:0001026</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Casserio&apos;s muscle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>brachialis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>brachialis anticus muscle</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>musculus brachialis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>UBERON:0001506</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>brachialis muscle</rdfs:label>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/8/87/Brachialis.png</foaf:depiction>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The brachialis (brachialis anticus) is a muscle in the upper arm that flexes the elbow joint. It lies just deep of the biceps brachii, and is a synergist that assists the biceps brachii in flexing at the elbow. It makes up part of the floor of the region known as the cubital fossa. [WP,unvetted].</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
-        <owl:annotatedTarget>A muscle of the stylopodium, covering the distal half of the humerus and the anterior part of the elbow joint. It functions to flex the zeugopodium. [TFD][VHOG]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>VHOG:0001026</oboInOwl:external_class>
-        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
-        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
-        <oboInOwl:source>http://medical-dictionary.thefreedictionary.com/brachialis</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:C0224240</owl:annotatedTarget>
-        <oboInOwl:source>ncithesaurus:Brachialis</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>brachialis</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>brachialis anticus muscle</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>musculus brachialis</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:Brachialis_muscle</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001542">
@@ -13797,101 +13603,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>UMLS:C0729596</owl:annotatedTarget>
         <oboInOwl:source>ncithesaurus:Inguinal_Lymph_Node</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <obo:UBPROP_0000001>Portion of tissue composed of contractile fibers.[TAO]</obo:UBPROP_0000001>
-        <obo:UBPROP_0000003>It seems clear that the metazoan ancestor inherited from its unicellular descendants an actin cytoskeleton and motor-proteins of the myosin superfamily. Within metazoans, these two molecules were arranged into effective contractile units, the muscles. The basic trends for muscle evolution are already expressed in the diploblastic taxa.[well established][VHOG]</obo:UBPROP_0000003>
-        <obo:UBPROP_0000007>muscular</obo:UBPROP_0000007>
-        <oboInOwl:hasBroadSynonym>muscle</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>AAO:0011066</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:32715</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:37474</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EV:0100146</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:5022</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GAID:131</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0000015</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OpenCyc:Mx4rv2kf-5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:71616004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>TAO:0005145</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>VHOG:0001245</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:0000172</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ZFA:0005145</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>galen:Muscle</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>UBERON:0001630</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#organ_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#vertebrate_core"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#organ_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>muscle organ</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Organ consisting of a tissue made up of various elongated cells that are specialized to contract and thus to produce movement and mechanical work[GO].</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GO:0007517</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
-        <owl:annotatedTarget>Portion of tissue composed of contractile fibers.[TAO]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-08-14</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>TAO:0005145</oboInOwl:external_class>
-        <oboInOwl:ontology>TAO</oboInOwl:ontology>
-        <oboInOwl:source>ZFIN:curator</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
-        <owl:annotatedTarget>It seems clear that the metazoan ancestor inherited from its unicellular descendants an actin cytoskeleton and motor-proteins of the myosin superfamily. Within metazoans, these two molecules were arranged into effective contractile units, the muscles. The basic trends for muscle evolution are already expressed in the diploblastic taxa.[well established][VHOG]</owl:annotatedTarget>
-        <oboInOwl:date_retrieved>2012-09-17</oboInOwl:date_retrieved>
-        <oboInOwl:external_class>VHOG:0001245</oboInOwl:external_class>
-        <oboInOwl:ontology>VHOG</oboInOwl:ontology>
-        <oboInOwl:source>ISBN:978-0198566694 Schmidt-Rhaesa A, The evolution of organ systems (2007) p.75</oboInOwl:source>
-        <oboInOwl:source>http://bgee.unil.ch/</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>muscle</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ZFA:0005145</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>EMAPA:37474</owl:annotatedTarget>
-        <oboInOwl:source>MA:th</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -14411,7 +14122,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The pigmented middle of the three concentric layers that make up an eye, consisting of the iris, ciliary body and choroid[WP,edited].</obo:IAO_0000115>
@@ -15804,8 +15521,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The organ that functions to filter blood and to store red corpuscles and platelets.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -15918,8 +15640,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002368"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -16172,8 +15899,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An organ that aids digestion and stores bile produced by the liver[WP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10114"/>
@@ -16329,7 +16061,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003103"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A paired organ of the urinary tract that produces urine and maintains bodily fluid homeostasis, blood pressure, pH levels, red blood cell production and skeleton mineralization.</obo:IAO_0000115>
         <obo:IAO_0000115>A paired organ of the urinary tract which has the production of urine as its primary function.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -16957,7 +16694,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002369">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002368"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -17944,6 +17686,19 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An organ that functions as a secretory or excretory organ.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MGI:csmith</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MP:0002163</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>FBbt:00100317</owl:annotatedTarget>
+        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>UMLS:C1285092</owl:annotatedTarget>
         <oboInOwl:source>ncithesaurus:Gland</oboInOwl:source>
@@ -17967,19 +17722,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasDbXref>BTO:0000522</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Gland</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003011"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An organ that functions as a secretory or excretory organ.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MGI:csmith</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MP:0002163</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>FBbt:00100317</owl:annotatedTarget>
-        <sssom:mapping_justification rdf:resource="https://w3id.org/semapv/vocab/ManualMappingCuration"/>
     </owl:Axiom>
     
 
@@ -18771,59 +18513,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000916"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An organ or element that is in the abdomen. Examples: spleen, intestine, kidney, abdominal mammary gland.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/272631008"/>
-        <oboInOwl:hasDbXref>MA:0000522</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:272631008</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>abdomen organ</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>UBERON:0005172</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#non_informative"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#human_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#mouse_subset"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#non_informative"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>abdomen element</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An organ or element that is in the abdomen. Examples: spleen, intestine, kidney, abdominal mammary gland.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>abdomen organ</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MA:0000522</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0006956 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006956">
@@ -19012,7 +18701,19 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0014892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A muscle organ that consists of skeletal muscle tissue ensheathed in epimysium, that develops from myotome and that is innervated by some somatic motor neuron. Skeletal muscles are typically attached (via a tendon) to a bone but there are exceptions (e.g. intrinsic tongue muscles).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -19483,16 +19184,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002240"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>

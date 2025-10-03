@@ -5383,14 +5383,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000979">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000991">
@@ -5490,14 +5482,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     

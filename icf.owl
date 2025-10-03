@@ -4839,7 +4839,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001506"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -7061,7 +7061,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000979"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -10585,7 +10585,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -10609,7 +10609,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the abdomen of subjects with melanoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human melanocyte cell line cell originating from the skin of subjects with melanoma.</obo:IAO_0000115>
         <obo:IAO_0000118> MZ Mel 2</obo:IAO_0000118>
         <obo:IAO_0000118> MZ-2 Mel</obo:IAO_0000118>
         <obo:IAO_0000118> MZ2-Mel</obo:IAO_0000118>
@@ -20734,7 +20734,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001325"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -21676,7 +21676,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -21700,7 +21700,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human neural crest cell line cell originating from the muscle organ of subjects with Ewing sarcoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human neural crest cell line cell originating from the muscle of subjects with Ewing sarcoma.</obo:IAO_0000115>
         <obo:IAO_0000118> RMS 1598</obo:IAO_0000118>
         <obo:IAO_0000118> RMS1598</obo:IAO_0000118>
         <obo:IAO_0000118>A-673</obo:IAO_0000118>
@@ -22339,7 +22339,7 @@
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002481"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                                                 <owl:someValuesFrom>
@@ -22363,7 +22363,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human osteoblast cell line cell originating from the bone tissue.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human osteoblast cell line cell originating from bone.</obo:IAO_0000115>
         <obo:IAO_0000118> SAOS</obo:IAO_0000118>
         <obo:IAO_0000118> SAOS 2</obo:IAO_0000118>
         <obo:IAO_0000118> SAOS2</obo:IAO_0000118>
@@ -26283,12 +26283,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000979"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000988"/>
@@ -26355,33 +26349,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001325"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001506"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001542"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001630"/>
     
 
 
@@ -26511,21 +26487,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002481 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002481"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0003697 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003697"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005172"/>
     
 
 
@@ -26538,6 +26502,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0007795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007795"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0014892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014892"/>
     
 
 

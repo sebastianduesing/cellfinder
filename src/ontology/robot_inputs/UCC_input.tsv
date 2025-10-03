@@ -160,7 +160,7 @@ DOID:0080145	childhood T-cell acute lymphoblastic leukemia	import
 DOID:0080147	lymphoblastic lymphoma	import		
 DOID:0080323	pancreatic squamous cell carcinoma	import		
 DOID:0080524	thyroid gland adenocarcinoma	import		
-DOID:0080525	differentiated high-grade thyroid carcinoma	ignore		
+DOID:0080525	differentiated thyroid gland carcinoma	ignore		
 DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
 DOID:0080780	acute erythroid leukemia	import		
 DOID:0081312	T-cell non-Hodgkin lymphoma	import		
@@ -332,7 +332,7 @@ UBERON:0000950	gracilis	ignore
 UBERON:0000955	brain	import		
 UBERON:0000970	eye	import		
 UBERON:0000977	pleura	import		
-UBERON:0000979	tibia	import		
+UBERON:0000979	tibia	ignore		
 UBERON:0000988	pons	import		
 UBERON:0000991	gonad	import		
 UBERON:0000992	ovary	import		
@@ -352,13 +352,13 @@ UBERON:0001155	colon	import
 UBERON:0001255	urinary bladder	import		
 UBERON:0001264	pancreas	import		
 UBERON:0001268	peritoneal fluid	import		
-UBERON:0001325	muscle of pelvis	import		
+UBERON:0001325	muscle of pelvis	ignore		
 UBERON:0001359	cerebrospinal fluid	import		
 UBERON:0001474	bone element	import		
-UBERON:0001506	brachialis muscle	import		
+UBERON:0001506	brachialis muscle	ignore		
 UBERON:0001542	inguinal lymph node	import		
 UBERON:0001560	neck of organ	ignore		
-UBERON:0001630	muscle organ	import		
+UBERON:0001630	muscle organ	ignore		
 UBERON:0001723	tongue	import		
 UBERON:0001728	nasopharynx	import		
 UBERON:0001729	oropharynx	import		
@@ -411,6 +411,7 @@ UBERON:0004765	skeletal element	ignore
 UBERON:0004921	subdivision of digestive tract	ignore		
 UBERON:0004923	organ component layer	ignore		
 UBERON:0005090	muscle structure	ignore		
+UBERON:0005172	abdomen element	ignore		
 UBERON:0005173	abdominal segment element	ignore		
 UBERON:0005177	trunk region element	ignore		
 UBERON:0005178	thoracic cavity element	ignore		
@@ -433,6 +434,7 @@ UBERON:0011216	organ system subdivision	ignore
 UBERON:0012069	epithelium-associated lymphoid tissue	ignore		
 UBERON:0012168	umbilical cord blood	import		
 UBERON:0013522	subdivision of tube	ignore		
+UBERON:0014892	skeletal muscle organ	import		
 UBERON:0015022	hindlimb endochondral element	ignore		
 UBERON:0015061	limb endochondral element	ignore		
 UBERON:0015212	lateral structure	ignore		
