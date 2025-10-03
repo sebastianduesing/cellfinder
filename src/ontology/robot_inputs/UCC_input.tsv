@@ -159,7 +159,8 @@ DOID:0070328	adult hepatocellular carcinoma	import
 DOID:0080145	childhood T-cell acute lymphoblastic leukemia	import		
 DOID:0080147	lymphoblastic lymphoma	import		
 DOID:0080323	pancreatic squamous cell carcinoma	import		
-DOID:0080525	differentiated high-grade thyroid carcinoma	import		
+DOID:0080524	thyroid gland adenocarcinoma	import		
+DOID:0080525	differentiated high-grade thyroid carcinoma	ignore		
 DOID:0080630	B-lymphoblastic leukemia/lymphoma	import		
 DOID:0080780	acute erythroid leukemia	import		
 DOID:0081312	T-cell non-Hodgkin lymphoma	import		

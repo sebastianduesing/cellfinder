@@ -5172,21 +5172,21 @@ Disorders or aberrations in the development or migration of the neural crest cel
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0080525 -->
+    <!-- http://purl.obolibrary.org/obo/DOID_0080524 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080525">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_28"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_299"/>
-        <obo:IAO_0000115>A thyroid gland adenocarcinoma characterized by extensive evidence of follicular cell differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A thyroid gland carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:hasDbXref>NCI:C7153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C27380</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>DOID:0080525</oboInOwl:id>
+        <oboInOwl:id>DOID:0080524</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <rdfs:label xml:lang="en">differentiated thyroid gland carcinoma</rdfs:label>
+        <rdfs:label xml:lang="en">thyroid gland adenocarcinoma</rdfs:label>
     </owl:Class>
     
 

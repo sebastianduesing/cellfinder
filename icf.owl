@@ -16672,7 +16672,7 @@
                                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                                                             <owl:Restriction>
                                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CLO_0000167"/>
-                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080525"/>
+                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080524"/>
                                                             </owl:Restriction>
                                                         </owl:intersectionOf>
                                                     </owl:Class>
@@ -16687,7 +16687,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An immortal human epithelial cell line cell originating from the thyroid gland of subjects with differentiated high-grade thyroid carcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An immortal human epithelial cell line cell originating from the thyroid gland of subjects with thyroid gland adenocarcinoma.</obo:IAO_0000115>
         <obo:IAO_0000118>TPC1</obo:IAO_0000118>
         <obo:OBI_9991118>TPC-1 cell</obo:OBI_9991118>
         <oboInOwl:hasDbXref>RRID:CVCL_6298</oboInOwl:hasDbXref>
@@ -25641,9 +25641,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0080525 -->
+    <!-- http://purl.obolibrary.org/obo/DOID_0080524 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080525"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080524"/>
     
 
 
