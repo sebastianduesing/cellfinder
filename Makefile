@@ -102,7 +102,7 @@ cellfinder.owl: build/merged.owl build/iedb_alternative_terms.owl src/ontology/c
 build/cellfinder.tsv: cellfinder.owl
 	robot export \
 	--input $< \
-	--header "ID|LABEL|comment|see also|alternative label|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part|derives from patient having disease" \
+	--header "ID|LABEL|comment|see also|alternative term|IEDB alternative term|has cross-reference|SubClass Of|Equivalent Class|definition|part of|derives from|has part|derives from patient having disease" \
 	--export $@
 
 
