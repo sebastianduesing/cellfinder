@@ -1,5 +1,6 @@
 ID	label	IEDB alternative term	logical type	parent	part of	derives from	has part	derives from patient having disease
 ID	A rdfs:label	A IEDB alternative term	CLASS_TYPE	C %	C 'part of' some %	C 'derives from' some %	C 'has part' some %	C 'derives from patient having disease' some %
+CL:0000814		NK T cell						
 OBI:0100067			subclass	tissue				
 OBI:1110041			subclass	tissue				
 NCBITaxon:9305			subclass	organism				
@@ -19,7 +20,7 @@ UBERON:0001017			subclass	tissue
 UBERON:0002037			subclass	tissue				
 UBERON:0001733			subclass	tissue				
 UBERON:0002072			subclass	tissue				
+UBERON:0002097		skin						
 UBERON:0002405			subclass	tissue				
 UBERON:0003126			subclass	tissue				
 UBERON:0005156			subclass	tissue				
-UBERON:0008337			subclass	tissue				

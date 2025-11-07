@@ -29744,6 +29744,7 @@ Alterations in hepatocyte function have significant implications for overall hum
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000814">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
         <obo:IAO_0000115>A mature alpha-beta T cell of a distinct lineage that bears natural killer markers and a T cell receptor specific for a limited set of ligands. NK T cells have activation and regulatory roles particularly early in an immune response.</obo:IAO_0000115>
+        <obo:OBI_9991118>NK T cell</obo:OBI_9991118>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasExactSynonym>mature NK T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mature NK T-cell</oboInOwl:hasExactSynonym>
@@ -43909,6 +43910,7 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <obo:IAO_0000232>consider &apos;integumentary system&apos; for invertebrates</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:OBI_9991118>skin</obo:OBI_9991118>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:UBPROP_0000012>MA uses the term skin to refer to what is called here: zone of skin</obo:UBPROP_0000012>
         <oboInOwl:hasDbXref>BTO:0001253</oboInOwl:hasDbXref>
@@ -47060,14 +47062,6 @@ MHB 3-5-13: Need to review axiom on this class in light of clarification that it
         <owl:annotatedTarget>ascites fluid</owl:annotatedTarget>
         <oboInOwl:hasDbXref>BTO:0000091</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
     
 
 

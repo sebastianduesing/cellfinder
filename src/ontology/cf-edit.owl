@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://github.com/sebastianduesing/cellfinder/cf-edit.owl#"
      xml:base="https://github.com/sebastianduesing/cellfinder/cf-edit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -13,11 +14,36 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000814">
+        <obo:OBI_9991118>NK T cell</obo:OBI_9991118>
+    </owl:Class>
     
 
 
@@ -185,6 +211,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
+        <obo:OBI_9991118>skin</obo:OBI_9991118>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002405">
@@ -204,14 +238,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0008337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
     </owl:Class>
 </rdf:RDF>
